@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Barajyq</string>
+    <string name="back">Back</string>
+    <string name="undo">Undo</string>
+
+    <!-- City -->
+    <string name="city_title">Choose your city</string>
+    <string name="city_subtitle">We\'ll show events and places there</string>
+    <string name="city_search">Search city</string>
+    <string name="city_popular">Popular</string>
+    <string name="city_all">All cities of Kazakhstan</string>
+    <string name="city_nothing">Nothing found</string>
+    <string name="city_nothing_body">Check the spelling or try another city.</string>
+
+    <!-- Sign in -->
+    <string name="signin_tagline">The best events and places in your city</string>
+    <string name="signin_feature_1">Events picked for your interests</string>
+    <string name="signin_feature_2">Museums, galleries and nature spots</string>
+    <string name="signin_feature_3">One-tap routes in 2GIS</string>
+    <string name="signin_google">Continue with Google</string>
+    <string name="signin_not_configured">Google sign-in is not configured (GOOGLE_WEB_CLIENT_ID).</string>
+    <string name="signin_cancelled">Sign-in was cancelled.</string>
+    <string name="signin_no_account">There is no Google account on this device.</string>
+    <string name="signin_error">Couldn\'t sign in. Please try again.</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">What are you into?</string>
+    <string name="onboarding_subtitle">Pick a few topics — we\'ll build your feed around them.</string>
+    <string name="onboarding_pick_one">Pick at least one</string>
+    <string name="onboarding_continue">Continue · %1$d selected</string>
+
+    <!-- Feed -->
+    <string name="tab_events">Events</string>
+    <string name="tab_places">Places</string>
+    <string name="feed_count_events">%1$d events for you</string>
+    <string name="feed_count_places">%1$d places to visit</string>
+    <string name="feed_hidden">Hidden from your feed</string>
+    <string name="route_2gis">Route</string>
+    <string name="open_listing">Tickets</string>
+    <string name="details">Details</string>
+    <string name="not_interested">Not interested</string>
+    <string name="source">Source: %1$s</string>
+    <string name="empty_title">Nothing here yet</string>
+    <string name="empty_events">No events match your interests right now. Add more topics or check back tomorrow.</string>
+    <string name="empty_places">No places match your interests. Try adding museums or outdoors.</string>
+    <string name="empty_action">Edit interests</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_general">General</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_city">City</string>
+    <string name="settings_interests">Interests</string>
+    <string name="settings_interests_hint">Changes apply instantly. Keep at least one selected.</string>
+    <string name="settings_hidden">Hidden</string>
+    <string name="settings_hidden_count">Hidden items: %1$d</string>
+    <string name="settings_restore">Restore</string>
+    <string name="settings_account">Account</string>
+    <string name="settings_sign_out">Sign out</string>
+
+    <!-- Interests -->
+    <string name="interest_concerts">Concerts</string>
+    <string name="interest_theater">Theatre / opera / ballet</string>
+    <string name="interest_exhibitions">Exhibitions / museums</string>
+    <string name="interest_cinema">Cinema</string>
+    <string name="interest_standup">Stand-up / quizzes</string>
+    <string name="interest_bars">Bars / nightlife</string>
+    <string name="interest_sport">Sport</string>
+    <string name="interest_outdoor">Runs / outdoors</string>
+    <string name="interest_it">IT / meetups</string>
+    <string name="interest_kids">Kids / workshops</string>
+    <string name="interest_festivals">Festivals / forums</string>
+    <string name="interest_free">Free events</string>
+
+    <!-- Detail -->
+    <string name="event_description">About</string>
+    <string name="place_description">About this place</string>
+    <string name="open_source">Open source</string>
+    <string name="open_tickets_source">Tickets &amp; source</string>
+    <string name="opens_in_browser">Opens %1$s in the browser</string>
+    <string name="detail_not_found">This item is no longer available.</string>
+    <string name="detail_hours">Hours</string>
+    <string name="detail_price">Price</string>
+    <string name="detail_when">When</string>
+    <string name="detail_where">Where</string>
+</resources>

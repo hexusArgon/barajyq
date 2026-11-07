@@ -1,0 +1,69 @@
+{
+  "accounts": [
+    {
+      "handle": "afishi.astana",
+      "city": "astana",
+      "kind": "afisha"
+    },
+    {
+      "handle": "standupastana",
+      "city": "astana",
+      "kind": "standup"
+    },
+    {
+      "handle": "wowquiz_astana",
+      "city": "astana",
+      "kind": "quiz"
+    },
+    {
+      "handle": "astana_opera",
+      "city": "astana",
+      "kind": "venue"
+    },
+    {
+      "handle": "astanaballet",
+      "city": "astana",
+      "kind": "venue"
+    },
+    {
+      "handle": "nationalmuseumkz",
+      "city": "astana",
+      "kind": "venue"
+    },
+    {
+      "handle": "qazaqconcert",
+      "city": "astana",
+      "kind": "venue"
+    },
+    {
+      "handle": "_qazexpocongress_",
+      "city": "astana",
+      "kind": "venue"
+    },
+    {
+      "handle": "astanaexpocom",
+      "city": "astana",
+      "kind": "venue"
+    },
+    {
+      "handle": "barys_official",
+      "city": "astana",
+      "kind": "sport"
+    },
+    {
+      "handle": "zhastar_teatry",
+      "city": "astana",
+      "kind": "venue"
+    },
+    {
+      "handle": "muzdramteatr",
+      "city": "astana",
+      "kind": "venue"
+    },
+    {
+      "handle": "gorkytheatre.kz",
+      "city": "astana",
+      "kind": "venue"
+    }
+  ]
+}

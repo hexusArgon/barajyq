@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="back">Назад</string>
+    <string name="undo">Отменить</string>
+
+    <!-- City -->
+    <string name="city_title">Выберите город</string>
+    <string name="city_subtitle">Покажем события и места этого города</string>
+    <string name="city_search">Поиск города</string>
+    <string name="city_popular">Популярные</string>
+    <string name="city_all">Все города Казахстана</string>
+    <string name="city_nothing">Ничего не найдено</string>
+    <string name="city_nothing_body">Проверьте написание или попробуйте другой город.</string>
+
+    <!-- Sign in -->
+    <string name="signin_tagline">Лучшие события и места вашего города</string>
+    <string name="signin_feature_1">События под ваши интересы</string>
+    <string name="signin_feature_2">Музеи, галереи и природа</string>
+    <string name="signin_feature_3">Маршрут в 2ГИС в одно касание</string>
+    <string name="signin_google">Войти через Google</string>
+    <string name="signin_not_configured">Вход через Google не настроен (GOOGLE_WEB_CLIENT_ID).</string>
+    <string name="signin_cancelled">Вход отменён.</string>
+    <string name="signin_no_account">На устройстве нет аккаунта Google.</string>
+    <string name="signin_error">Не удалось войти. Попробуйте ещё раз.</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">Что вам интересно?</string>
+    <string name="onboarding_subtitle">Выберите несколько тем — соберём ленту под вас.</string>
+    <string name="onboarding_pick_one">Выберите хотя бы одну</string>
+    <string name="onboarding_continue">Продолжить · выбрано %1$d</string>
+
+    <!-- Feed -->
+    <string name="tab_events">События</string>
+    <string name="tab_places">Места</string>
+    <string name="feed_count_events">Событий для вас: %1$d</string>
+    <string name="feed_count_places">Мест для посещения: %1$d</string>
+    <string name="feed_hidden">Скрыто из ленты</string>
+    <string name="route_2gis">Маршрут</string>
+    <string name="open_listing">Билеты</string>
+    <string name="details">Подробнее</string>
+    <string name="not_interested">Не интересно</string>
+    <string name="source">Источник: %1$s</string>
+    <string name="empty_title">Пока пусто</string>
+    <string name="empty_events">Сейчас нет событий по вашим интересам. Добавьте темы или загляните завтра.</string>
+    <string name="empty_places">Нет мест по вашим интересам. Попробуйте добавить музеи или природу.</string>
+    <string name="empty_action">Изменить интересы</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_general">Общие</string>
+    <string name="settings_language">Язык</string>
+    <string name="settings_city">Город</string>
+    <string name="settings_interests">Интересы</string>
+    <string name="settings_interests_hint">Изменения применяются сразу. Оставьте хотя бы одну тему.</string>
+    <string name="settings_hidden">Скрытое</string>
+    <string name="settings_hidden_count">Скрыто: %1$d</string>
+    <string name="settings_restore">Вернуть</string>
+    <string name="settings_account">Аккаунт</string>
+    <string name="settings_sign_out">Выйти</string>
+
+    <!-- Interests -->
+    <string name="interest_concerts">Концерты</string>
+    <string name="interest_theater">Театр / опера / балет</string>
+    <string name="interest_exhibitions">Выставки / музеи</string>
+    <string name="interest_cinema">Кино</string>
+    <string name="interest_standup">Стендап / квизы</string>
+    <string name="interest_bars">Бары / ночная жизнь</string>
+    <string name="interest_sport">Спорт</string>
+    <string name="interest_outdoor">Забеги / outdoor</string>
+    <string name="interest_it">IT / митапы</string>
+    <string name="interest_kids">Детям / мастер-классы</string>
+    <string name="interest_festivals">Фестивали / форумы</string>
+    <string name="interest_free">Бесплатные события</string>
+
+    <!-- Detail -->
+    <string name="event_description">Описание</string>
+    <string name="place_description">О месте</string>
+    <string name="open_source">Открыть источник</string>
+    <string name="open_tickets_source">Билеты и источник</string>
+    <string name="opens_in_browser">Откроется %1$s в браузере</string>
+    <string name="detail_not_found">Карточка больше недоступна.</string>
+    <string name="detail_hours">Часы работы</string>
+    <string name="detail_price">Цена</string>
+    <string name="detail_when">Когда</string>
+    <string name="detail_where">Где</string>
+</resources>

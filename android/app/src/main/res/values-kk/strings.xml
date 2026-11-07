@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="back">Артқа</string>
+    <string name="undo">Қайтару</string>
+
+    <string name="city_title">Қаланы таңдаңыз</string>
+    <string name="city_subtitle">Осы қаланың іс-шаралары мен орындарын көрсетеміз</string>
+    <string name="city_search">Қаланы іздеу</string>
+    <string name="city_popular">Танымал</string>
+    <string name="city_all">Қазақстанның барлық қалалары</string>
+    <string name="city_nothing">Ештеңе табылмады</string>
+    <string name="city_nothing_body">Жазылуын тексеріңіз немесе басқа қаланы іздеңіз.</string>
+
+    <string name="signin_tagline">Қалаңыздағы ең қызықты іс-шаралар мен орындар</string>
+    <string name="signin_feature_1">Қызығушылығыңызға сай іс-шаралар</string>
+    <string name="signin_feature_2">Мұражайлар, галереялар және табиғат</string>
+    <string name="signin_feature_3">2ГИС-те бір басуда маршрут</string>
+    <string name="signin_google">Google арқылы кіру</string>
+    <string name="signin_not_configured">Google арқылы кіру бапталмаған (GOOGLE_WEB_CLIENT_ID).</string>
+    <string name="signin_cancelled">Кіру тоқтатылды.</string>
+    <string name="signin_no_account">Құрылғыда Google аккаунты жоқ.</string>
+    <string name="signin_error">Кіру мүмкін болмады. Қайталап көріңіз.</string>
+
+    <string name="onboarding_title">Сізге не қызық?</string>
+    <string name="onboarding_subtitle">Бірнеше тақырып таңдаңыз — таспаңызды солар бойынша жинаймыз.</string>
+    <string name="onboarding_pick_one">Кемінде біреуін таңдаңыз</string>
+    <string name="onboarding_continue">Жалғастыру · %1$d таңдалды</string>
+
+    <string name="tab_events">Іс-шаралар</string>
+    <string name="tab_places">Орындар</string>
+    <string name="feed_count_events">Сізге арналған %1$d іс-шара</string>
+    <string name="feed_count_places">Баратын %1$d орын</string>
+    <string name="feed_hidden">Таспадан жасырылды</string>
+    <string name="route_2gis">Маршрут</string>
+    <string name="open_listing">Билеттер</string>
+    <string name="details">Толығырақ</string>
+    <string name="not_interested">Қызық емес</string>
+    <string name="source">Дереккөз: %1$s</string>
+    <string name="empty_title">Әзірге бос</string>
+    <string name="empty_events">Қазір қызығушылығыңызға сай іс-шара жоқ. Тақырып қосыңыз немесе ертең қайта кіріңіз.</string>
+    <string name="empty_places">Сай орындар табылмады. Мұражайлар немесе табиғат тақырыбын қосып көріңіз.</string>
+    <string name="empty_action">Қызығушылықтарды өзгерту</string>
+
+    <string name="settings_title">Баптаулар</string>
+    <string name="settings_general">Негізгі</string>
+    <string name="settings_language">Тіл</string>
+    <string name="settings_city">Қала</string>
+    <string name="settings_interests">Қызығушылықтар</string>
+    <string name="settings_interests_hint">Өзгерістер бірден сақталады. Кемінде біреуі таңдалуы керек.</string>
+    <string name="settings_hidden">Жасырылғандар</string>
+    <string name="settings_hidden_count">Жасырылғаны: %1$d</string>
+    <string name="settings_restore">Қалпына келтіру</string>
+    <string name="settings_account">Аккаунт</string>
+    <string name="settings_sign_out">Шығу</string>
+
+    <string name="interest_concerts">Концерттер</string>
+    <string name="interest_theater">Театр / опера / балет</string>
+    <string name="interest_exhibitions">Көрмелер / мұражайлар</string>
+    <string name="interest_cinema">Кино</string>
+    <string name="interest_standup">Стендап / квиздер</string>
+    <string name="interest_bars">Барлар / түнгі өмір</string>
+    <string name="interest_sport">Спорт</string>
+    <string name="interest_outdoor">Жүгіру / табиғат</string>
+    <string name="interest_it">IT / митаптар</string>
+    <string name="interest_kids">Балаларға / шеберлік сабақтары</string>
+    <string name="interest_festivals">Фестивальдер / форумдар</string>
+    <string name="interest_free">Тегін іс-шаралар</string>
+
+    <!-- Detail -->
+    <string name="event_description">Сипаттама</string>
+    <string name="place_description">Орын туралы</string>
+    <string name="open_source">Дереккөзді ашу</string>
+    <string name="open_tickets_source">Билеттер мен дереккөз</string>
+    <string name="opens_in_browser">%1$s браузерде ашылады</string>
+    <string name="detail_not_found">Бұл карточка енді қолжетімсіз.</string>
+    <string name="detail_hours">Жұмыс уақыты</string>
+    <string name="detail_price">Бағасы</string>
+    <string name="detail_when">Қашан</string>
+    <string name="detail_where">Қайда</string>
+</resources>

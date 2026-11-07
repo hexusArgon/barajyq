@@ -1,0 +1,883 @@
+{
+  "researchFile": "telegram-kz-niche-2026-11-07.json",
+  "researchCheckedAt": "2026-11-07T19:21:38.726475+05:00",
+  "researchCounts": {
+    "confirmed": 32,
+    "candidate": 20,
+    "rejected": 9
+  },
+  "selectedConfirmedCommunities": 32,
+  "existingPreserved": 6,
+  "newChannelEndpoints": 32,
+  "totalEndpoints": 38,
+  "notes": [
+    "Research community count differs from endpoint count: three confirmed communities already existed; three separately proven regional channel aliases added.",
+    "20 candidates and 9 rejected entries excluded. Related chats and archived Astana alias excluded."
+  ],
+  "entries": [
+    {
+      "id": "aqyldyclub",
+      "username": "aqyldyclub",
+      "name": "Умный клуб & co.",
+      "tier": "confirmed",
+      "cities": [
+        "Астана"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/aqyldyclub/2280",
+      "geography_evidence": "https://t.me/aqyldyclub/2280",
+      "limitations": "Уже подключён; последний найденный анонс — октябрь."
+    },
+    {
+      "id": "adebi_club",
+      "username": "adebi_club",
+      "name": "Adebi_Club 📚",
+      "tier": "confirmed",
+      "cities": [
+        "Астана"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/adebi_club/1519",
+      "geography_evidence": "https://t.me/adebi_club/1519",
+      "limitations": "Дату и ресторан публикуют отдельно; часть объявлений для читательниц."
+    },
+    {
+      "id": "quizplease_astana",
+      "username": "quizplease_astana",
+      "name": "Квиз, плиз! в Астане",
+      "tier": "confirmed",
+      "cities": [
+        "Астана",
+        "Уральск"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/quizplease_astana/1499",
+      "geography_evidence": "https://t.me/quizplease_astana/1499",
+      "limitations": "Астана: расписание на картинках и кодированный текст; Уральск: текстовый анонс 11 ноября. Не считать филиалы отдельными сообществами."
+    },
+    {
+      "id": "grahmirsdungeon",
+      "username": "grahmirsdungeon",
+      "name": "Grahmir’s Dungeon",
+      "tier": "confirmed",
+      "cities": [
+        "Алматы"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/grahmirsdungeon/2390",
+      "geography_evidence": "https://t.me/grahmirsdungeon/2390",
+      "limitations": "В части игр возрастные ограничения и знание сеттинга."
+    },
+    {
+      "id": "cosmosbookclubkz",
+      "username": "cosmosbookclubkz",
+      "name": "Вселенский канал КК \"Космос\"",
+      "tier": "confirmed",
+      "cities": [
+        "Астана",
+        "Алматы",
+        "Караганда"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/cosmosbookclubkz/387",
+      "geography_evidence": "https://cosmos-bc.kz/",
+      "limitations": "Книжные группы по анкете и взносу; текущий анонс доказывает Астану, остальные города — официальный сайт."
+    },
+    {
+      "id": "asmsalmaty",
+      "username": "asmsalmaty",
+      "name": "American Corner & Makerspace ALA",
+      "tier": "confirmed",
+      "cities": [
+        "Алматы",
+        "Караганда",
+        "Усть-Каменогорск"
+      ],
+      "type": "каналы сети",
+      "public_preview": true,
+      "evidence_url": "https://t.me/asmsalmaty/5127",
+      "geography_evidence": "https://t.me/asmsalmaty/5127",
+      "limitations": "Сеть объединена в одну запись. Алматы 14+ и регистрация; Караганда последний видимый пост 08.09.2026. В Астане найден только контакт, не канал."
+    },
+    {
+      "id": "book_oqy",
+      "username": "book_oqy",
+      "name": "Казахстанские страницы",
+      "tier": "confirmed",
+      "cities": [
+        "Астана",
+        "Алматы"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/book_oqy/466",
+      "geography_evidence": "https://t.me/s/book_oqy?q=Астана",
+      "limitations": "Есть литературные новости и онлайн-марафоны — отбирать очные встречи."
+    },
+    {
+      "id": "nomad_lectorium",
+      "username": "nomad_lectorium",
+      "name": "Лекторий кочевников. Алматы",
+      "tier": "confirmed",
+      "cities": [
+        "Алматы"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/nomad_lectorium/1786",
+      "geography_evidence": "https://t.me/nomad_lectorium/1786",
+      "limitations": "Не все лекции научные; темы и адрес извлекаются из текста."
+    },
+    {
+      "id": "pognali_v_pohod",
+      "username": "pognali_v_pohod",
+      "name": "Погнали в поход! Алматы",
+      "tier": "confirmed",
+      "cities": [
+        "Алматы"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/pognali_v_pohod/908",
+      "geography_evidence": "https://t.me/pognali_v_pohod/908",
+      "limitations": "Есть зарубежные маршруты и личные отчёты; последний видимый пост в августе. Нужен KZ-геофильтр. У маршрута есть требования к опыту и погранразрешению."
+    },
+    {
+      "id": "montealmaty",
+      "username": "montealmaty",
+      "name": "Monte ⛰ Походы Алматы",
+      "tier": "confirmed",
+      "cities": [
+        "Алматы"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/montealmaty/1011",
+      "geography_evidence": "https://t.me/montealmaty/1011",
+      "limitations": "Коммерческий организатор; безопасность, сложность и детские ограничения проверять для каждого маршрута."
+    },
+    {
+      "id": "pronrg_fest",
+      "username": "pronrg_fest",
+      "name": "PRO.NRG FEST 2026 - Научный фестиваль в Астане",
+      "tier": "confirmed",
+      "cities": [
+        "Астана"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/pronrg_fest/106",
+      "geography_evidence": "https://t.me/pronrg_fest/106",
+      "limitations": "Сезонный фестивальный источник, а не еженедельный клуб."
+    },
+    {
+      "id": "batylbol_almaty",
+      "username": "batylbol_almaty",
+      "name": "Батыл бол! | Алматы",
+      "tier": "confirmed",
+      "cities": [
+        "Алматы"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/batylbol_almaty/1776",
+      "geography_evidence": "https://t.me/batylbol_almaty/1776",
+      "limitations": "Нужны регистрация и выбор уровня; языки публикаций kk/ru."
+    },
+    {
+      "id": "oyorda",
+      "username": "oyorda",
+      "name": "OYORDA Live",
+      "tier": "confirmed",
+      "cities": [
+        "Астана"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/oyorda/444",
+      "geography_evidence": "https://t.me/oyorda/444",
+      "limitations": "Часть подробностей в афишах и форме; город подтверждается адресом Мәңгілік Ел 41/1."
+    },
+    {
+      "id": "dump_gallery",
+      "username": "dump_gallery",
+      "name": "101 Dump Gallery",
+      "tier": "confirmed",
+      "cities": [
+        "Алматы"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/dump_gallery/773",
+      "geography_evidence": "https://t.me/dump_gallery/770",
+      "limitations": "Отсеивать магазин/бар: интересны именно анонсы встреч."
+    },
+    {
+      "id": "jailau_artmarket",
+      "username": "jailau_artmarket",
+      "name": "ЖАЙЛАУ | Арт-маркет Алматы",
+      "tier": "confirmed",
+      "cities": [
+        "Алматы"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/jailau_artmarket/309",
+      "geography_evidence": "https://t.me/jailau_artmarket/336",
+      "limitations": "Много репостов мерча, часть афиш на картинках; нужен фильтр программы, не товаров."
+    },
+    {
+      "id": "almaty_js",
+      "username": "almaty_js",
+      "name": "AlmatyJS",
+      "tier": "confirmed",
+      "cities": [
+        "Алматы"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/almaty_js/377",
+      "geography_evidence": "https://t.me/almaty_js/383",
+      "limitations": "Последний видимый пост 28.09.2026; следующий митап ещё выбирают."
+    },
+    {
+      "id": "qazaqtech",
+      "username": "qazaqtech",
+      "name": "QazTech Meetup",
+      "tier": "confirmed",
+      "cities": [
+        "Алматы"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/qazaqtech/202",
+      "geography_evidence": "https://t.me/qazaqtech/211",
+      "limitations": "Есть фотоотчёты; техническую аудиторию и регистрацию учитывать."
+    },
+    {
+      "id": "devs_kz",
+      "username": "devs_kz",
+      "name": "Devs.kz",
+      "tier": "confirmed",
+      "cities": [
+        "Алматы"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/devs_kz/7463",
+      "geography_evidence": "https://t.me/devs_kz/7463",
+      "limitations": "Много онлайн-трансляций и отраслевых новостей; использовать только офлайн-анонсы."
+    },
+    {
+      "id": "tvkrg",
+      "username": "tvkrg",
+      "name": "Terricon Valley | IT и Бизнес | Караганда",
+      "tier": "confirmed",
+      "cities": [
+        "Караганда"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/tvkrg/2434",
+      "geography_evidence": "https://t.me/tvkrg/2434",
+      "limitations": "В том же канале есть онлайн-курсы и бизнес-акселерация; не импортировать всё."
+    },
+    {
+      "id": "blackicehackerspace",
+      "username": "blackicehackerspace",
+      "name": "Чёрный Лёд",
+      "tier": "confirmed",
+      "cities": [
+        "Алматы"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/blackicehackerspace/306",
+      "geography_evidence": "https://t.me/s/blackicehackerspace/115",
+      "limitations": "Стоимость и правила различаются; адрес в описании, Алматы подтверждён публичным источником и программой."
+    },
+    {
+      "id": "bookclubkokshe",
+      "username": "bookclubkokshe",
+      "name": "lerastory’s book club",
+      "tier": "confirmed",
+      "cities": [
+        "Кокшетау"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/bookclubkokshe/1193",
+      "geography_evidence": "https://t.me/bookclubkokshe/1193",
+      "limitations": "Адрес публикуют ближе к встрече, 10 мест и предварительная запись."
+    },
+    {
+      "id": "tophotdance",
+      "username": "tophotdance",
+      "name": "Вечеринки — сальса Алматы, бачата Алматы и кизомба Алматы. Salsa Almaty, Bachata Almaty, Kizomba Almaty. Канал Top Hot Dance.",
+      "tier": "confirmed",
+      "cities": [
+        "Алматы"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/tophotdance/6458",
+      "geography_evidence": "https://t.me/tophotdance/6458",
+      "limitations": "Посты редактируют: публикация датирована сентябрём, текст уже о ноябре. Год события не брать из datetime. Есть зарубежные фестивали — геофильтр обязателен."
+    },
+    {
+      "id": "chgkpvl",
+      "username": "chgkpvl",
+      "name": "Что? Где? Когда? в Павлодаре",
+      "tier": "confirmed",
+      "cities": [
+        "Павлодар"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/chgkpvl/492",
+      "geography_evidence": "https://t.me/chgkpvl/492",
+      "limitations": "В последнем анонсе ошибка: пост 6 ноября, в тексте «7 октября (суббота)». Не исправлять и не импортировать дату автоматически."
+    },
+    {
+      "id": "enjoytherunkz",
+      "username": "enjoytherunkz",
+      "name": "Бег с Удовольствием (Казахстан)",
+      "tier": "confirmed",
+      "cities": [
+        "Астана",
+        "Алматы"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/enjoytherunkz/1239",
+      "geography_evidence": "https://t.me/enjoytherunkz/1239",
+      "limitations": "Платные программы и донейшн, не разовые прогулки; Астана подтверждена другим анонсом."
+    },
+    {
+      "id": "tselinnycenter",
+      "username": "tselinnycenter",
+      "name": "Tselinny Center",
+      "tier": "confirmed",
+      "cities": [
+        "Алматы"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/tselinnycenter/1827",
+      "geography_evidence": "https://t.me/tselinnycenter/1820",
+      "limitations": "Культурная институция, не чат; регистрация/билеты, часть программы в каруселях."
+    },
+    {
+      "id": "sciencelyalmaty",
+      "username": "sciencelyalmaty",
+      "name": "Sciencely Almaty",
+      "tier": "confirmed",
+      "cities": [
+        "Алматы"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/sciencelyalmaty/1013",
+      "geography_evidence": "https://t.me/sciencelyalmaty/1013",
+      "limitations": "Коммерческий образовательный проект, преимущественно 5–14 лет; даты/возраст проверять."
+    },
+    {
+      "id": "everjazz_almaty",
+      "username": "everjazz_Almaty",
+      "name": "Джаз-клуб EverJazz в Алматы",
+      "tier": "confirmed",
+      "cities": [
+        "Алматы"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/everjazz_Almaty/2175",
+      "geography_evidence": "https://t.me/everjazz_Almaty/2175",
+      "limitations": "В текущем preview преимущественно концерты; участие музыкантов в джеме отдельно сверять."
+    },
+    {
+      "id": "mlcomkz",
+      "username": "mlcomkz",
+      "name": "ML community of KZ",
+      "tier": "confirmed",
+      "cities": [
+        "Астана",
+        "Алматы"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/mlcomkz/816",
+      "geography_evidence": "https://t.me/mlcomkz/816",
+      "limitations": "Часть событий только для студентов; много онлайн-обучения. Алматы — в истории митапов, приоритет конкретному месту каждого анонса."
+    },
+    {
+      "id": "overhead_club",
+      "username": "overhead_club",
+      "name": "Overhead CLUB",
+      "tier": "confirmed",
+      "cities": [
+        "Астана"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/overhead_club/415",
+      "geography_evidence": "https://t.me/overhead_club/416",
+      "limitations": "Развлекательная площадка; фильтровать типы событий, не весь клубный контент."
+    },
+    {
+      "id": "afisha_zabylirifmy_kz",
+      "username": "afisha_zabylirifmy_kz",
+      "name": "АФИША Забыли рифму в Алматы",
+      "tier": "confirmed",
+      "cities": [
+        "Алматы"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/afisha_zabylirifmy_kz/5580",
+      "geography_evidence": "https://t.me/afisha_zabylirifmy_kz/5580",
+      "limitations": "Астана: связанная афиша остановилась в мае 2023 — не считать актуальным филиалом."
+    },
+    {
+      "id": "alatheatre",
+      "username": "alatheatre",
+      "name": "Оля ведет в театр",
+      "tier": "confirmed",
+      "cities": [
+        "Алматы"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/alatheatre/2356",
+      "geography_evidence": "https://t.me/alatheatre/2356",
+      "limitations": "Второй приоритет: больше театральная афиша/критика, чем встречи клуба. Данные о бесплатности иногда добавляются правкой."
+    },
+    {
+      "id": "qazvolunteer",
+      "username": "qazvolunteer",
+      "name": "Национальный Фронт-офис волонтеров «Birgemiz»",
+      "tier": "confirmed",
+      "cities": [
+        "Казахстан",
+        "Астана"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/qazvolunteer/3457",
+      "geography_evidence": "https://t.me/qazvolunteer/3457",
+      "limitations": "Второй приоритет: национальный фронт-офис; много отчётов, конкурсов и кампаний, а не локальных открытых встреч."
+    },
+    {
+      "id": "bookclub_almaty",
+      "username": "bookclub_almaty",
+      "name": "Book Club Almaty",
+      "tier": "candidate",
+      "cities": [
+        "Алматы"
+      ],
+      "type": "канал",
+      "public_preview": false,
+      "evidence_url": "https://t.me/bookclub_almaty",
+      "geography_evidence": "https://t.me/bookclub_almaty",
+      "limitations": "Канал существует, но /s не отдаёт историю; свежие анонсы не проверены."
+    },
+    {
+      "id": "dndpavlodar",
+      "username": "dndpavlodar",
+      "name": "D&D клуб \"Кости\"",
+      "tier": "candidate",
+      "cities": [
+        "Павлодар"
+      ],
+      "type": "группа",
+      "public_preview": false,
+      "evidence_url": "https://t.me/dndpavlodar",
+      "geography_evidence": "https://t.me/dndpavlodar",
+      "limitations": "Группа без публичной истории; нет проверенной даты игры."
+    },
+    {
+      "id": "enjoyers_travel",
+      "username": "enjoyers_travel",
+      "name": "Походы в горы - Алматы",
+      "tier": "candidate",
+      "cities": [
+        "Алматы"
+      ],
+      "type": "группа",
+      "public_preview": false,
+      "evidence_url": "https://t.me/enjoyers_travel",
+      "geography_evidence": "https://t.me/enjoyers_travel",
+      "limitations": "Публичное описание есть, сообщения группы недоступны без входа."
+    },
+    {
+      "id": "kil_kitap_atyrau",
+      "username": "kil_kitap_atyrau",
+      "name": "Атырау кітап клубы",
+      "tier": "candidate",
+      "cities": [
+        "Атырау"
+      ],
+      "type": "группа",
+      "public_preview": false,
+      "evidence_url": "https://t.me/kil_kitap_atyrau",
+      "geography_evidence": "https://t.me/kil_kitap_atyrau",
+      "limitations": "Видны только название и описание, язык сообщений и даты встреч не проверены."
+    },
+    {
+      "id": "kitab_tdk",
+      "username": "kitab_tdk",
+      "name": "kitab_tdk chat",
+      "tier": "candidate",
+      "cities": [
+        "Талдыкорган"
+      ],
+      "type": "группа",
+      "public_preview": false,
+      "evidence_url": "https://t.me/kitab_tdk",
+      "geography_evidence": "https://t.me/kitab_tdk",
+      "limitations": "Нет истории и подтверждённого свежего офлайн-анонса."
+    },
+    {
+      "id": "rollmove",
+      "username": "rollmove",
+      "name": "Кинь-Двинь | Клуб настольных игр (Астана)",
+      "tier": "candidate",
+      "cities": [
+        "Астана"
+      ],
+      "type": "группа",
+      "public_preview": false,
+      "evidence_url": "https://t.me/rollmove",
+      "geography_evidence": "https://t.me/rollmove",
+      "limitations": "Группа, не открытый канал расписания; история недоступна."
+    },
+    {
+      "id": "dnd_astana",
+      "username": "dnd_astana",
+      "name": "Астана НРИ",
+      "tier": "candidate",
+      "cities": [
+        "Астана"
+      ],
+      "type": "группа",
+      "public_preview": false,
+      "evidence_url": "https://t.me/dnd_astana",
+      "geography_evidence": "https://t.me/dnd_astana",
+      "limitations": "Группа без публичных постов; даты и доступ новичков не проверены."
+    },
+    {
+      "id": "owllairastana",
+      "username": "OwlLairAstana",
+      "name": "Клуб Сычевальня",
+      "tier": "candidate",
+      "cities": [
+        "Астана"
+      ],
+      "type": "группа",
+      "public_preview": false,
+      "evidence_url": "https://t.me/OwlLairAstana",
+      "geography_evidence": "https://t.me/OwlLairAstana",
+      "limitations": "Группа без истории; актуальное расписание требует ручной проверки."
+    },
+    {
+      "id": "d13games",
+      "username": "d13games",
+      "name": "D13 Games",
+      "tier": "candidate",
+      "cities": [
+        "Шымкент"
+      ],
+      "type": "группа",
+      "public_preview": false,
+      "evidence_url": "https://t.me/d13games",
+      "geography_evidence": "https://t.me/d13games",
+      "limitations": "Публичная группа существует, истории нет."
+    },
+    {
+      "id": "shaker_aktau_chat",
+      "username": "shaker_aktau_chat",
+      "name": "Шейкер Квиз Актау Chat",
+      "tier": "candidate",
+      "cities": [
+        "Актау"
+      ],
+      "type": "группа",
+      "public_preview": false,
+      "evidence_url": "https://t.me/shaker_aktau_chat",
+      "geography_evidence": "https://t.me/shaker_aktau_chat",
+      "limitations": "Почти пустое описание, нет истории и расписания; рекомендация только к ручной проверке."
+    },
+    {
+      "id": "network_ast",
+      "username": "network_ast",
+      "name": "Network_KZ",
+      "tier": "candidate",
+      "cities": [
+        "Астана"
+      ],
+      "type": "группа",
+      "public_preview": false,
+      "evidence_url": "https://t.me/network_ast",
+      "geography_evidence": "https://t.me/network_ast",
+      "limitations": "Группа без истории; обещание в описании не доказывает ближайшую встречу."
+    },
+    {
+      "id": "bgkazakhstan",
+      "username": "bgkazakhstan",
+      "name": "Настольщики Казахстана🃏",
+      "tier": "candidate",
+      "cities": [
+        "Казахстан"
+      ],
+      "type": "группа",
+      "public_preview": false,
+      "evidence_url": "https://t.me/bgkazakhstan",
+      "geography_evidence": "https://t.me/bgkazakhstan",
+      "limitations": "Нет публичной истории и конкретного города; не использовать для автоимпорта."
+    },
+    {
+      "id": "+g6vupwjn1ci2m2qy",
+      "username": null,
+      "name": "Книжный клуб «Хунта» | Алматы",
+      "tier": "candidate",
+      "cities": [
+        "Алматы"
+      ],
+      "type": "группа по приглашению",
+      "public_preview": false,
+      "evidence_url": "https://t.me/+g6VuPwJn1cI2M2Qy",
+      "geography_evidence": "https://t.me/+g6VuPwJn1cI2M2Qy",
+      "limitations": "Нет публичной истории; старые статьи не доказательство свежей активности."
+    },
+    {
+      "id": "+f8pelcbm1am0ndc6",
+      "username": null,
+      "name": "Настолки Костанай",
+      "tier": "candidate",
+      "cities": [
+        "Костанай"
+      ],
+      "type": "группа по приглашению",
+      "public_preview": false,
+      "evidence_url": "https://t.me/+f8peLCBM1AM0NDc6",
+      "geography_evidence": "https://t.me/+f8peLCBM1AM0NDc6",
+      "limitations": "Нет публичной истории, города/тематика только в названии."
+    },
+    {
+      "id": "+libv_tzzc4njotji",
+      "username": null,
+      "name": "Настольщики Петропавловск",
+      "tier": "candidate",
+      "cities": [
+        "Петропавловск"
+      ],
+      "type": "группа по приглашению",
+      "public_preview": false,
+      "evidence_url": "https://t.me/+libV_TZZc4NjOTJi",
+      "geography_evidence": "https://t.me/+libV_TZZc4NjOTJi",
+      "limitations": "Нет публичной истории и даты; Петропавловск подтверждён названием."
+    },
+    {
+      "id": "oynazavr",
+      "username": "oynazavr",
+      "name": "Ойназавр 🦖 клуб настольных игр",
+      "tier": "candidate",
+      "cities": [
+        "Уральск"
+      ],
+      "type": "группа",
+      "public_preview": false,
+      "evidence_url": "https://t.me/oynazavr",
+      "geography_evidence": "https://tesera.ru/user/oynazavr/",
+      "limitations": "Группа без истории; Уральск подтверждён прочитанным профилем самого клуба на Tesera. Свежий анонс игры не проверен."
+    },
+    {
+      "id": "iqupkitap",
+      "username": "iqupkitap",
+      "name": "\"IqUp\" кітап клубы",
+      "tier": "candidate",
+      "cities": [
+        "Шымкент"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/iqupkitap/812",
+      "geography_evidence": "https://t.me/iqupkitap/547",
+      "limitations": "Последние найденные обсуждения — онлайн; последнее найденное очное доказательство от 06.10.2024. Доступ внешних участников в 2026 не установлен."
+    },
+    {
+      "id": "kinoklub_ps",
+      "username": "kinoklub_ps",
+      "name": "Киноклуб PS АСТАНА (Kinoklub PS)",
+      "tier": "candidate",
+      "cities": [
+        "Астана"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/kinoklub_ps/1219",
+      "geography_evidence": "https://t.me/kinoklub_ps/1219",
+      "limitations": "Канал продолжает публиковать киноновости, но свежих очных анонсов после апреля не найдено. Не считать регулярное расписание из описания действующим."
+    },
+    {
+      "id": "nomsizfestival",
+      "username": "nomsizfestival",
+      "name": "NOMSIZ Festival",
+      "tier": "candidate",
+      "cities": [
+        "Алматы"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/nomsizfestival/457",
+      "geography_evidence": "https://t.me/nomsizfestival/457",
+      "limitations": "Основная программа ноября 2026 — Ташкент. Не включать без строгой KZ-фильтрации; текст и даты части публикаций неполны."
+    },
+    {
+      "id": "aphbkz",
+      "username": "aphbkz",
+      "name": "Almaty/Astana Physics Battles 2026",
+      "tier": "candidate",
+      "cities": [
+        "Алматы",
+        "Астана"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/aphbkz/818",
+      "geography_evidence": "https://t.me/aphbkz/818",
+      "limitations": "Видны отчёты о 2025, поздравления и новости олимпиад; свежий открытый набор на офлайн 2026 не подтверждён."
+    },
+    {
+      "id": "the_placee",
+      "username": "the_placee",
+      "name": "THE PLACE",
+      "tier": "rejected",
+      "cities": [
+        "Алматы"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/the_placee/228",
+      "geography_evidence": "https://t.me/the_placee/228",
+      "limitations": "Последний видимый пост 27.03.2024 — архивный источник."
+    },
+    {
+      "id": "standup_almaty",
+      "username": "standup_almaty",
+      "name": "Стендап Афиша Алматы | Standup Almaty",
+      "tier": "rejected",
+      "cities": [
+        "Алматы"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/standup_almaty/263",
+      "geography_evidence": "https://t.me/standup_almaty/263",
+      "limitations": "Последний видимый пост 11.04.2024 — не рекомендовать как актуальный мониторинг."
+    },
+    {
+      "id": "iqbbqfest",
+      "username": "iqbbqfest",
+      "name": "Фестиваль IQ BBQ",
+      "tier": "rejected",
+      "cities": [
+        "Алматы"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/iqbbqfest/110",
+      "geography_evidence": "https://t.me/iqbbqfest/110",
+      "limitations": "Последний видимый пост 03.09.2024; продолжение не подтверждено."
+    },
+    {
+      "id": "unknownkitap",
+      "username": "unknownkitap",
+      "name": "Unknownkazak.Kitap",
+      "tier": "rejected",
+      "cities": [
+        "Казахстан"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/Unknownkitap/59",
+      "geography_evidence": "https://t.me/Unknownkitap/59",
+      "limitations": "Последний видимый пост 29.01.2025; свежие офлайн-встречи не подтверждены."
+    },
+    {
+      "id": "lectoriykz",
+      "username": "lectoriykz",
+      "name": "Лекторий.kz",
+      "tier": "rejected",
+      "cities": [
+        "Алматы"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/lectoriykz/96",
+      "geography_evidence": "https://t.me/lectoriykz/96",
+      "limitations": "Текущая лента — преимущественно коммерческие гастрольные шоу, не нишевое сообщество встреч."
+    },
+    {
+      "id": "readers_on_the_storm",
+      "username": "readers_on_the_storm",
+      "name": "Книжный клуб Цхурбаева",
+      "tier": "rejected",
+      "cities": [
+        "Не Казахстан"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/readers_on_the_storm/1067",
+      "geography_evidence": "https://t.me/readers_on_the_storm/1067",
+      "limitations": "Не Казахстан: культурный центр «Дунеон», Владикавказ. Отклонён географически."
+    },
+    {
+      "id": "mount_club",
+      "username": "mount_club",
+      "name": "Mount Club",
+      "tier": "rejected",
+      "cities": [
+        "Не Казахстан"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/mount_club/1615",
+      "geography_evidence": "https://t.me/mount_club/1615",
+      "limitations": "Основная текущая программа — Кыргызстан; публичный KZ-офлайн в просмотренном окне не подтверждён."
+    },
+    {
+      "id": "prosvetlenieclub",
+      "username": "prosvetlenieclub",
+      "name": "Фотоклуб «Просветление»",
+      "tier": "rejected",
+      "cities": [
+        "Не Казахстан"
+      ],
+      "type": "канал",
+      "public_preview": true,
+      "evidence_url": "https://t.me/prosvetlenieclub/10309",
+      "geography_evidence": "https://t.me/prosvetlenieclub/10309",
+      "limitations": "Текущие очные встречи — Новосибирск, не Казахстан."
+    },
+    {
+      "id": "hodorclub",
+      "username": "hodorclub",
+      "name": "Конченый Настольщик | Видеоблог о настольных играх",
+      "tier": "rejected",
+      "cities": [
+        "География не подтверждена"
+      ],
+      "type": "группа",
+      "public_preview": false,
+      "evidence_url": "https://t.me/hodorclub",
+      "geography_evidence": "https://t.me/hodorclub",
+      "limitations": "Текущий username ведёт на другую по названию группу-видеоблог без доказательств Алматы; не рекомендовать."
+    }
+  ]
+}

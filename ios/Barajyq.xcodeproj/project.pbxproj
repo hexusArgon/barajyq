@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26579D8734CC62574404DE0A = {
+			isa = PBXBuildFile;
+			fileRef = 93604226E202B068D4DB0FC2;
+		};
+		2A52C35FE8E93F68455E7B2B = {
+			isa = PBXBuildFile;
+			fileRef = 11FF1F8513C06C378DCDE3EB;
+		};
+		2B83367231C6B86357CEB122 = {
+			isa = PBXBuildFile;
+			fileRef = 6444F36FF7ED094F48A13942;
+		};
+		3D0F2AFE3040DB0D7EBDF8C6 = {
+			isa = PBXBuildFile;
+			fileRef = 75E079C5BFA007BCA28A0C73;
+		};
+		3DC024DAE5440C83685830C2 = {
+			isa = PBXBuildFile;
+			fileRef = B44C70F3A935FD35EB4D5E49;
+		};
+		4336FE69478C06FE5C078EA8 = {
+			isa = PBXBuildFile;
+			fileRef = D351E3224D4CEB390DD9089C;
+		};
+		4B398D45A7DAC48AD1843148 = {
+			isa = PBXBuildFile;
+			fileRef = 0BAEC21DA8DE6F530BE809CE;
+		};
+		52F7FD130936104C1250A653 = {
+			isa = PBXBuildFile;
+			fileRef = 1799300455A70B7A7B969386;
+		};
+		69298C09D71CB2D8E7FAC114 = {
+			isa = PBXBuildFile;
+			fileRef = BB3518576114DE935732CE5B;
+		};
+		89680AB20F8FE6A257BB5206 = {
+			isa = PBXBuildFile;
+			fileRef = 3C71F2861381430A0A651537;
+		};
+		8CE56C22CD5FB4E904DA6C29 = {
+			isa = PBXBuildFile;
+			fileRef = 7C0054871D802F96BAED4B1E;
+		};
+		91CE3B260C907934AE3DFED9 = {
+			isa = PBXBuildFile;
+			fileRef = 57AD206D84A52B4E467BBC49;
+		};
+		A11A09B623D2B3CCD076EBA0 = {
+			isa = PBXBuildFile;
+			fileRef = C86606757C26802B34A4B689;
+		};
+		AC2372A11A1B30106FCA185A = {
+			isa = PBXBuildFile;
+			fileRef = B3666263AC7221AA726289AB;
+		};
+		B47580969390B9AB59D57D20 = {
+			isa = PBXBuildFile;
+			fileRef = 02A5C8E1EACCDAD90EC762D1;
+		};
+		B6A6FF1342254863492B0BFC = {
+			isa = PBXBuildFile;
+			fileRef = E98FDFDCF7D4F20265A6983E;
+		};
+		BFAE41071611DDD08D514FEB = {
+			isa = PBXBuildFile;
+			fileRef = 26070C7215C9674E3AC238D4;
+		};
+		C80C53D2556FB3D8670CD3E2 = {
+			isa = PBXBuildFile;
+			fileRef = ACF15C9DD130670743ACB8C6;
+		};
+		C94CC711B45B695391152F16 = {
+			isa = PBXBuildFile;
+			fileRef = D53CAFDDE014424E8F62C985;
+		};
+		CA11A63528E85B028122913B = {
+			isa = PBXBuildFile;
+			fileRef = A3C48355704A26DD6C0BA6CC;
+		};
+		D0B4F615079F43CC75A9C61A = {
+			isa = PBXBuildFile;
+			fileRef = 2993DDA70564C67DE601C05D;
+		};
+		DA807050D261819C515B30F2 = {
+			isa = PBXBuildFile;
+			fileRef = 713BA8E7E04ADE4D02ED00C4;
+		};
+		ED496B91065EE54639AF84AD = {
+			isa = PBXBuildFile;
+			fileRef = D1D6D03B94A54DCD483AA49B;
+		};
+		F58DFFCF343E6E0FF1AE63F5 = {
+			isa = PBXBuildFile;
+			fileRef = C9A27580449BFFEE11314A66;
+		};
+		F86606991C0CE2478D94A706 = {
+			isa = PBXBuildFile;
+			productRef = 95F91EFA189DA60320F57D9F;
+		};
+		F9D60CF2BCF689E7E4DAFEE4 = {
+			isa = PBXBuildFile;
+			fileRef = D573B2356E325FB13F17A927;
+		};
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BAEC21DA8DE6F530BE809CE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = EventDetailView.swift;
+			sourceTree = "<group>";
+		};
+		0E9856DBB04557AFB14B4786 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.strings;
+			name = en;
+			path = en.lproj/InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		11FF1F8513C06C378DCDE3EB = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = FakePlacesRepository.swift;
+			sourceTree = "<group>";
+		};
+		1DCD46B98250CDEADE7174D8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.strings;
+			name = ru;
+			path = ru.lproj/InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		26070C7215C9674E3AC238D4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Links.swift;
+			sourceTree = "<group>";
+		};
+		2993DDA70564C67DE601C05D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Common.swift;
+			sourceTree = "<group>";
+		};
+		3C71F2861381430A0A651537 = {
+			isa = PBXFileReference;
+			lastKnownFileType = folder.assetcatalog;
+			path = Assets.xcassets;
+			sourceTree = "<group>";
+		};
+		3CDFC24E791BC7DD4C29ADCC = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.strings;
+			name = ru;
+			path = ru.lproj/Localizable.strings;
+			sourceTree = "<group>";
+		};
+		47BE6FDADE907909E2B57821 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.strings;
+			name = kk;
+			path = kk.lproj/InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		57AD206D84A52B4E467BBC49 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = FeedView.swift;
+			sourceTree = "<group>";
+		};
+		6444F36FF7ED094F48A13942 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = SettingsView.swift;
+			sourceTree = "<group>";
+		};
+		6F82FEE66B43DFE8AEF52398 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.xcconfig;
+			path = Google.xcconfig;
+			sourceTree = "<group>";
+		};
+		713BA8E7E04ADE4D02ED00C4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = FakeEventsRepository.swift;
+			sourceTree = "<group>";
+		};
+		75E079C5BFA007BCA28A0C73 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = LanguageView.swift;
+			sourceTree = "<group>";
+		};
+		7C0054871D802F96BAED4B1E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Translations.swift;
+			sourceTree = "<group>";
+		};
+		93604226E202B068D4DB0FC2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Descriptions.swift;
+			sourceTree = "<group>";
+		};
+		9C85DE33AE6C3F38543009A0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.strings;
+			name = en;
+			path = en.lproj/Localizable.strings;
+			sourceTree = "<group>";
+		};
+		A3C48355704A26DD6C0BA6CC = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = CitySelectView.swift;
+			sourceTree = "<group>";
+		};
+		ACF15C9DD130670743ACB8C6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = BarajyqApp.swift;
+			sourceTree = "<group>";
+		};
+		AF35899CC6ABE2E399A8DC83 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.entitlements;
+			path = Barajyq.entitlements;
+			sourceTree = "<group>";
+		};
+		B3666263AC7221AA726289AB = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Localize.swift;
+			sourceTree = "<group>";
+		};
+		B44C70F3A935FD35EB4D5E49 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Theme.swift;
+			sourceTree = "<group>";
+		};
+		BB3518576114DE935732CE5B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Models.swift;
+			sourceTree = "<group>";
+		};
+		C86606757C26802B34A4B689 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.xml;
+			path = PrivacyInfo.xcprivacy;
+			sourceTree = "<group>";
+		};
+		C9A27580449BFFEE11314A66 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = KazakhstanCities.swift;
+			sourceTree = "<group>";
+		};
+		D1D6D03B94A54DCD483AA49B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = OnboardingView.swift;
+			sourceTree = "<group>";
+		};
+		D351E3224D4CEB390DD9089C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = SignInView.swift;
+			sourceTree = "<group>";
+		};
+		D53CAFDDE014424E8F62C985 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = AuthService.swift;
+			sourceTree = "<group>";
+		};
+		D573B2356E325FB13F17A927 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = SessionStore.swift;
+			sourceTree = "<group>";
+		};
+		D74F355CF15F09A8480510A4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			path = Info.plist;
+			sourceTree = "<group>";
+		};
+		E98FDFDCF7D4F20265A6983E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = L10n.swift;
+			sourceTree = "<group>";
+		};
+		F1788D34EE58FA1F656E4232 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.strings;
+			name = kk;
+			path = kk.lproj/Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F5BF48AA40CAD7891EB709FC = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			path = Barajyq.app;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188DDD0BCF9FD45BE5533D83 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F86606991C0CE2478D94A706,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		018A6529CC39067DFBE13D21 = {
+			isa = PBXGroup;
+			children = (
+				3C71F2861381430A0A651537,
+				C86606757C26802B34A4B689,
+				D74F355CF15F09A8480510A4,
+				AF35899CC6ABE2E399A8DC83,
+				1799300455A70B7A7B969386,
+				02A5C8E1EACCDAD90EC762D1,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		137F44C301F3D4487D9488A2 = {
+			isa = PBXGroup;
+			children = (
+				F5BF48AA40CAD7891EB709FC,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A3C86271EB254F36CF2DE2D = {
+			isa = PBXGroup;
+			children = (
+				D53CAFDDE014424E8F62C985,
+				93604226E202B068D4DB0FC2,
+				713BA8E7E04ADE4D02ED00C4,
+				11FF1F8513C06C378DCDE3EB,
+				E98FDFDCF7D4F20265A6983E,
+				26070C7215C9674E3AC238D4,
+				D573B2356E325FB13F17A927,
+				7C0054871D802F96BAED4B1E,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2AB294A23C4AEA7232A4BC3F = {
+			isa = PBXGroup;
+			children = (
+				F65917308E46792F66DE3FDD,
+				EC49C607B8ABD3D83EB391F3,
+				1A3C86271EB254F36CF2DE2D,
+				D35A374EA026D80DAD22D08B,
+				018A6529CC39067DFBE13D21,
+				4FD7B80C63335AAA8DFCCFD9,
+			);
+			path = Barajyq;
+			sourceTree = "<group>";
+		};
+		4AAE9EE357ED9106F1ABF398 = {
+			isa = PBXGroup;
+			children = (
+				2AB294A23C4AEA7232A4BC3F,
+				137F44C301F3D4487D9488A2,
+			);
+			sourceTree = "<group>";
+		};
+		4FD7B80C63335AAA8DFCCFD9 = {
+			isa = PBXGroup;
+			children = (
+				A3C48355704A26DD6C0BA6CC,
+				2993DDA70564C67DE601C05D,
+				0BAEC21DA8DE6F530BE809CE,
+				57AD206D84A52B4E467BBC49,
+				75E079C5BFA007BCA28A0C73,
+				D1D6D03B94A54DCD483AA49B,
+				6444F36FF7ED094F48A13942,
+				D351E3224D4CEB390DD9089C,
+				B44C70F3A935FD35EB4D5E49,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D35A374EA026D80DAD22D08B = {
+			isa = PBXGroup;
+			children = (
+				C9A27580449BFFEE11314A66,
+				B3666263AC7221AA726289AB,
+				BB3518576114DE935732CE5B,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		EC49C607B8ABD3D83EB391F3 = {
+			isa = PBXGroup;
+			children = (
+				6F82FEE66B43DFE8AEF52398,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		F65917308E46792F66DE3FDD = {
+			isa = PBXGroup;
+			children = (
+				ACF15C9DD130670743ACB8C6,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AEFBAE01D2DFD981F7DA7D = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE61E3E2E1D2C3C20C63DD1;
+			buildPhases = (
+				70AFFA3CC10687CEED98F05A,
+				188DDD0BCF9FD45BE5533D83,
+				9F82B2C6D1A44F78A245A615,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Barajyq;
+			packageProductDependencies = (
+				95F91EFA189DA60320F57D9F,
+			);
+			productName = Barajyq;
+			productReference = F5BF48AA40CAD7891EB709FC;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					42AEFBAE01D2DFD981F7DA7D = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = F1BD16AC042ADC70C47A3592;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ru;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+				kk,
+			);
+			mainGroup = 4AAE9EE357ED9106F1ABF398;
+			packageReferences = (
+				A46A1BCE0B67C45BEC8F435B,
+			);
+			productRefGroup = 137F44C301F3D4487D9488A2;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AEFBAE01D2DFD981F7DA7D,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F82B2C6D1A44F78A245A615 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89680AB20F8FE6A257BB5206,
+				A11A09B623D2B3CCD076EBA0,
+				52F7FD130936104C1250A653,
+				B47580969390B9AB59D57D20,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70AFFA3CC10687CEED98F05A = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80C53D2556FB3D8670CD3E2,
+				C94CC711B45B695391152F16,
+				26579D8734CC62574404DE0A,
+				DA807050D261819C515B30F2,
+				2A52C35FE8E93F68455E7B2B,
+				B6A6FF1342254863492B0BFC,
+				BFAE41071611DDD08D514FEB,
+				F9D60CF2BCF689E7E4DAFEE4,
+				8CE56C22CD5FB4E904DA6C29,
+				F58DFFCF343E6E0FF1AE63F5,
+				AC2372A11A1B30106FCA185A,
+				69298C09D71CB2D8E7FAC114,
+				CA11A63528E85B028122913B,
+				D0B4F615079F43CC75A9C61A,
+				4B398D45A7DAC48AD1843148,
+				91CE3B260C907934AE3DFED9,
+				3D0F2AFE3040DB0D7EBDF8C6,
+				ED496B91065EE54639AF84AD,
+				2B83367231C6B86357CEB122,
+				4336FE69478C06FE5C078EA8,
+				3DC024DAE5440C83685830C2,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		02A5C8E1EACCDAD90EC762D1 = {
+			isa = PBXVariantGroup;
+			children = (
+				0E9856DBB04557AFB14B4786,
+				1DCD46B98250CDEADE7174D8,
+				47BE6FDADE907909E2B57821,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1799300455A70B7A7B969386 = {
+			isa = PBXVariantGroup;
+			children = (
+				9C85DE33AE6C3F38543009A0,
+				3CDFC24E791BC7DD4C29ADCC,
+				F1788D34EE58FA1F656E4232,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C3A8C1A76B6F997AEF71CE2 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Barajyq/Resources/Barajyq.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Barajyq/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks");
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+			baseConfigurationReference = 6F82FEE66B43DFE8AEF52398;
+		};
+		2D3ACE6575D4354D40AD18A5 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Barajyq/Resources/Barajyq.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Barajyq/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks");
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+			baseConfigurationReference = 6F82FEE66B43DFE8AEF52398;
+		};
+		E5B32A1093491456AEEAFF4D = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3E5ECAC281660F275E86BE3 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAE61E3E2E1D2C3C20C63DD1 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C3A8C1A76B6F997AEF71CE2,
+				2D3ACE6575D4354D40AD18A5,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1BD16AC042ADC70C47A3592 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E5ECAC281660F275E86BE3,
+				E5B32A1093491456AEEAFF4D,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A46A1BCE0B67C45BEC8F435B = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		95F91EFA189DA60320F57D9F = {
+			isa = XCSwiftPackageProductDependency;
+			package = A46A1BCE0B67C45BEC8F435B;
+			productName = GoogleSignIn;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595;
+}

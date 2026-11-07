@@ -1,0 +1,22 @@
+// Google Sign-In for iOS.
+// 1) Google Cloud Console → тот же проект, что и у Android → Credentials → Create OAuth client ID → iOS,
+//    Bundle ID = PRODUCT_BUNDLE_IDENTIFIER ниже.
+// 2) Вставьте Client ID и "iOS URL scheme" (reversed client id) сюда.
+// Android Web Client ID НЕ трогать — это отдельный клиент.
+//
+// Пример:
+// GOOGLE_IOS_CLIENT_ID = 1234567890-abcdefg.apps.googleusercontent.com
+// GOOGLE_REVERSED_CLIENT_ID = com.googleusercontent.apps.1234567890-abcdefg
+
+GOOGLE_IOS_CLIENT_ID = REPLACE-ME.apps.googleusercontent.com
+GOOGLE_REVERSED_CLIENT_ID = com.googleusercontent.apps.REPLACE-ME
+
+// Optional: Web client id (same as Android's) if a backend will verify the idToken audience.
+GOOGLE_SERVER_CLIENT_ID = REPLACE-ME-OPTIONAL
+
+// App identity
+PRODUCT_BUNDLE_IDENTIFIER = kz.astana.afisha
+MARKETING_VERSION = 1.0.0
+CURRENT_PROJECT_VERSION = 1
+// Your Apple Developer Team ID (10 chars), or pick the team in Xcode → Signing & Capabilities.
+DEVELOPMENT_TEAM =

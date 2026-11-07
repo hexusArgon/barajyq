@@ -1,0 +1,39 @@
+# Alternative to the committed Barajyq.xcodeproj: `brew install xcodegen && xcodegen generate`
+name: Barajyq
+options:
+  bundleIdPrefix: kz.astana
+  deploymentTarget:
+    iOS: "16.0"
+  developmentLanguage: ru
+packages:
+  GoogleSignIn:
+    url: https://github.com/google/GoogleSignIn-iOS
+    from: 8.0.0
+targets:
+  Barajyq:
+    type: application
+    platform: iOS
+    sources:
+      - path: Barajyq
+        excludes:
+          - "Resources/Info.plist"
+          - "Resources/Barajyq.entitlements"
+          - "Config/**"
+      - path: Barajyq/Config
+        buildPhase: none
+    configFiles:
+      Debug: Barajyq/Config/Google.xcconfig
+      Release: Barajyq/Config/Google.xcconfig
+    settings:
+      base:
+        INFOPLIST_FILE: Barajyq/Resources/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        CODE_SIGN_ENTITLEMENTS: Barajyq/Resources/Barajyq.entitlements
+        CODE_SIGN_STYLE: Automatic
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SWIFT_VERSION: "5.0"
+    dependencies:
+      - package: GoogleSignIn
+        product: GoogleSignIn

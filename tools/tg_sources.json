@@ -1,0 +1,441 @@
+{
+  "channels": [
+    {
+      "handle": "aqyldyclub",
+      "enabled": true,
+      "interest": "FESTIVALS"
+    },
+    {
+      "handle": "afisha_orsa",
+      "name": "Объявления, афиша, события - Астана.",
+      "enabled": true,
+      "interest": "FESTIVALS",
+      "allowedCities": [
+        "astana"
+      ]
+    },
+    {
+      "handle": "astana_afisha",
+      "name": "Афиша Астана",
+      "enabled": true,
+      "interest": "FESTIVALS",
+      "allowedCities": [
+        "astana"
+      ]
+    },
+    {
+      "handle": "adebi_club",
+      "name": "Adebi_Club 📚",
+      "enabled": true,
+      "interest": "FESTIVALS",
+      "allowedCities": [
+        "astana"
+      ]
+    },
+    {
+      "handle": "sxodim_astana",
+      "name": "Давай Сходим! Астана",
+      "enabled": true,
+      "interest": "FESTIVALS",
+      "allowedCities": [
+        "astana"
+      ]
+    },
+    {
+      "handle": "quizplease_astana",
+      "name": "Квиз, плиз! в Астане",
+      "enabled": true,
+      "interest": "STANDUP",
+      "allowedCities": [
+        "astana"
+      ]
+    },
+    {
+      "handle": "grahmirsdungeon",
+      "name": "Grahmir’s Dungeon",
+      "enabled": true,
+      "interest": "FESTIVALS",
+      "allowedCities": [
+        "almaty"
+      ],
+      "country": "KZ",
+      "geographyEvidence": "https://t.me/grahmirsdungeon/2390",
+      "researchId": "grahmirsdungeon"
+    },
+    {
+      "handle": "cosmosbookclubkz",
+      "name": "Вселенский канал КК \"Космос\"",
+      "enabled": true,
+      "interest": "FESTIVALS",
+      "allowedCities": [
+        "astana",
+        "almaty",
+        "karaganda"
+      ],
+      "country": "KZ",
+      "geographyEvidence": "https://cosmos-bc.kz/",
+      "researchId": "cosmosbookclubkz"
+    },
+    {
+      "handle": "asmsalmaty",
+      "name": "American Corner & Makerspace ALA",
+      "enabled": true,
+      "interest": "IT",
+      "allowedCities": [
+        "almaty"
+      ],
+      "country": "KZ",
+      "geographyEvidence": "https://t.me/asmsalmaty/5127",
+      "researchId": "asmsalmaty"
+    },
+    {
+      "handle": "book_oqy",
+      "name": "Казахстанские страницы",
+      "enabled": true,
+      "interest": "FESTIVALS",
+      "allowedCities": [
+        "astana",
+        "almaty"
+      ],
+      "country": "KZ",
+      "geographyEvidence": "https://t.me/s/book_oqy?q=Астана",
+      "researchId": "book_oqy"
+    },
+    {
+      "handle": "nomad_lectorium",
+      "name": "Лекторий кочевников. Алматы",
+      "enabled": true,
+      "interest": "FESTIVALS",
+      "allowedCities": [
+        "almaty"
+      ],
+      "country": "KZ",
+      "geographyEvidence": "https://t.me/nomad_lectorium/1786",
+      "researchId": "nomad_lectorium"
+    },
+    {
+      "handle": "pognali_v_pohod",
+      "name": "Погнали в поход! Алматы",
+      "enabled": true,
+      "interest": "OUTDOOR",
+      "allowedCities": [
+        "almaty"
+      ],
+      "country": "KZ",
+      "geographyEvidence": "https://t.me/pognali_v_pohod/908",
+      "researchId": "pognali_v_pohod"
+    },
+    {
+      "handle": "montealmaty",
+      "name": "Monte ⛰ Походы Алматы",
+      "enabled": true,
+      "interest": "OUTDOOR",
+      "allowedCities": [
+        "almaty"
+      ],
+      "country": "KZ",
+      "geographyEvidence": "https://t.me/montealmaty/1011",
+      "researchId": "montealmaty"
+    },
+    {
+      "handle": "pronrg_fest",
+      "name": "PRO.NRG FEST 2026 - Научный фестиваль в Астане",
+      "enabled": true,
+      "interest": "IT",
+      "allowedCities": [
+        "astana"
+      ],
+      "country": "KZ",
+      "geographyEvidence": "https://t.me/pronrg_fest/106",
+      "researchId": "pronrg_fest"
+    },
+    {
+      "handle": "batylbol_almaty",
+      "name": "Батыл бол! | Алматы",
+      "enabled": true,
+      "interest": "FESTIVALS",
+      "allowedCities": [
+        "almaty"
+      ],
+      "country": "KZ",
+      "geographyEvidence": "https://t.me/batylbol_almaty/1776",
+      "researchId": "batylbol_almaty"
+    },
+    {
+      "handle": "oyorda",
+      "name": "OYORDA Live",
+      "enabled": true,
+      "interest": "FESTIVALS",
+      "allowedCities": [
+        "astana"
+      ],
+      "country": "KZ",
+      "geographyEvidence": "https://t.me/oyorda/444",
+      "researchId": "oyorda"
+    },
+    {
+      "handle": "dump_gallery",
+      "name": "101 Dump Gallery",
+      "enabled": true,
+      "interest": "FESTIVALS",
+      "allowedCities": [
+        "almaty"
+      ],
+      "country": "KZ",
+      "geographyEvidence": "https://t.me/dump_gallery/770",
+      "researchId": "dump_gallery"
+    },
+    {
+      "handle": "jailau_artmarket",
+      "name": "ЖАЙЛАУ | Арт-маркет Алматы",
+      "enabled": true,
+      "interest": "IT",
+      "allowedCities": [
+        "almaty"
+      ],
+      "country": "KZ",
+      "geographyEvidence": "https://t.me/jailau_artmarket/336",
+      "researchId": "jailau_artmarket"
+    },
+    {
+      "handle": "almaty_js",
+      "name": "AlmatyJS",
+      "enabled": true,
+      "interest": "IT",
+      "allowedCities": [
+        "almaty"
+      ],
+      "country": "KZ",
+      "geographyEvidence": "https://t.me/almaty_js/383",
+      "researchId": "almaty_js"
+    },
+    {
+      "handle": "qazaqtech",
+      "name": "QazTech Meetup",
+      "enabled": true,
+      "interest": "IT",
+      "allowedCities": [
+        "almaty"
+      ],
+      "country": "KZ",
+      "geographyEvidence": "https://t.me/qazaqtech/211",
+      "researchId": "qazaqtech"
+    },
+    {
+      "handle": "devs_kz",
+      "name": "Devs.kz",
+      "enabled": true,
+      "interest": "IT",
+      "allowedCities": [
+        "almaty"
+      ],
+      "country": "KZ",
+      "geographyEvidence": "https://t.me/devs_kz/7463",
+      "researchId": "devs_kz"
+    },
+    {
+      "handle": "tvkrg",
+      "name": "Terricon Valley | IT и Бизнес | Караганда",
+      "enabled": true,
+      "interest": "IT",
+      "allowedCities": [
+        "karaganda"
+      ],
+      "country": "KZ",
+      "geographyEvidence": "https://t.me/tvkrg/2434",
+      "researchId": "tvkrg"
+    },
+    {
+      "handle": "blackicehackerspace",
+      "name": "Чёрный Лёд",
+      "enabled": true,
+      "interest": "IT",
+      "allowedCities": [
+        "almaty"
+      ],
+      "country": "KZ",
+      "geographyEvidence": "https://t.me/s/blackicehackerspace/115",
+      "researchId": "blackicehackerspace"
+    },
+    {
+      "handle": "bookclubkokshe",
+      "name": "lerastory’s book club",
+      "enabled": true,
+      "interest": "FESTIVALS",
+      "allowedCities": [
+        "kokshetau"
+      ],
+      "country": "KZ",
+      "geographyEvidence": "https://t.me/bookclubkokshe/1193",
+      "researchId": "bookclubkokshe"
+    },
+    {
+      "handle": "tophotdance",
+      "name": "Вечеринки — сальса Алматы, бачата Алматы и кизомба Алматы. Salsa Almaty, Bachata Almaty, Kizomba Almaty. Канал Top Hot Dance.",
+      "enabled": true,
+      "interest": "FESTIVALS",
+      "allowedCities": [
+        "almaty"
+      ],
+      "country": "KZ",
+      "geographyEvidence": "https://t.me/tophotdance/6458",
+      "researchId": "tophotdance"
+    },
+    {
+      "handle": "chgkpvl",
+      "name": "Что? Где? Когда? в Павлодаре",
+      "enabled": true,
+      "interest": "STANDUP",
+      "allowedCities": [
+        "pavlodar"
+      ],
+      "country": "KZ",
+      "geographyEvidence": "https://t.me/chgkpvl/492",
+      "researchId": "chgkpvl"
+    },
+    {
+      "handle": "enjoytherunkz",
+      "name": "Бег с Удовольствием (Казахстан)",
+      "enabled": true,
+      "interest": "SPORT",
+      "allowedCities": [
+        "astana",
+        "almaty"
+      ],
+      "country": "KZ",
+      "geographyEvidence": "https://t.me/enjoytherunkz/1239",
+      "researchId": "enjoytherunkz"
+    },
+    {
+      "handle": "tselinnycenter",
+      "name": "Tselinny Center",
+      "enabled": true,
+      "interest": "FESTIVALS",
+      "allowedCities": [
+        "almaty"
+      ],
+      "country": "KZ",
+      "geographyEvidence": "https://t.me/tselinnycenter/1820",
+      "researchId": "tselinnycenter"
+    },
+    {
+      "handle": "sciencelyalmaty",
+      "name": "Sciencely Almaty",
+      "enabled": true,
+      "interest": "FESTIVALS",
+      "allowedCities": [
+        "almaty"
+      ],
+      "country": "KZ",
+      "geographyEvidence": "https://t.me/sciencelyalmaty/1013",
+      "researchId": "sciencelyalmaty"
+    },
+    {
+      "handle": "everjazz_Almaty",
+      "name": "Джаз-клуб EverJazz в Алматы",
+      "enabled": true,
+      "interest": "CONCERTS",
+      "allowedCities": [
+        "almaty"
+      ],
+      "country": "KZ",
+      "geographyEvidence": "https://t.me/everjazz_Almaty/2175",
+      "researchId": "everjazz_almaty"
+    },
+    {
+      "handle": "mlcomkz",
+      "name": "ML community of KZ",
+      "enabled": true,
+      "interest": "IT",
+      "allowedCities": [
+        "astana",
+        "almaty"
+      ],
+      "country": "KZ",
+      "geographyEvidence": "https://t.me/mlcomkz/816",
+      "researchId": "mlcomkz"
+    },
+    {
+      "handle": "overhead_club",
+      "name": "Overhead CLUB",
+      "enabled": true,
+      "interest": "FESTIVALS",
+      "allowedCities": [
+        "astana"
+      ],
+      "country": "KZ",
+      "geographyEvidence": "https://t.me/overhead_club/416",
+      "researchId": "overhead_club"
+    },
+    {
+      "handle": "afisha_zabylirifmy_kz",
+      "name": "АФИША Забыли рифму в Алматы",
+      "enabled": true,
+      "interest": "FESTIVALS",
+      "allowedCities": [
+        "almaty"
+      ],
+      "country": "KZ",
+      "geographyEvidence": "https://t.me/afisha_zabylirifmy_kz/5580",
+      "researchId": "afisha_zabylirifmy_kz"
+    },
+    {
+      "handle": "alatheatre",
+      "name": "Оля ведет в театр",
+      "enabled": true,
+      "interest": "THEATER",
+      "allowedCities": [
+        "almaty"
+      ],
+      "country": "KZ",
+      "geographyEvidence": "https://t.me/alatheatre/2356",
+      "researchId": "alatheatre"
+    },
+    {
+      "handle": "qazvolunteer",
+      "name": "Национальный Фронт-офис волонтеров «Birgemiz»",
+      "enabled": true,
+      "interest": "FESTIVALS",
+      "allowedCities": [
+        "astana"
+      ],
+      "country": "KZ",
+      "geographyEvidence": "https://t.me/qazvolunteer/3457",
+      "researchId": "qazvolunteer"
+    },
+    {
+      "handle": "quizplease_uralsk1",
+      "name": "Квиз, плиз! Уральск",
+      "enabled": true,
+      "interest": "STANDUP",
+      "allowedCities": [
+        "uralsk"
+      ],
+      "country": "KZ",
+      "researchId": "quizplease_astana"
+    },
+    {
+      "handle": "ac_karaganda",
+      "name": "American Corner Karaganda",
+      "enabled": true,
+      "interest": "FESTIVALS",
+      "allowedCities": [
+        "karaganda"
+      ],
+      "country": "KZ",
+      "researchId": "asmsalmaty"
+    },
+    {
+      "handle": "american_corner_oskemen",
+      "name": "American Corner Oskemen",
+      "enabled": true,
+      "interest": "FESTIVALS",
+      "allowedCities": [
+        "ust-kamenogorsk"
+      ],
+      "country": "KZ",
+      "researchId": "asmsalmaty"
+    }
+  ],
+  "maxPages": 3
+}
