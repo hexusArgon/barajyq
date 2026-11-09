@@ -51,16 +51,30 @@ class TelegramTests(unittest.TestCase):
                 c,r=tg.classify(post(text),SOURCE,NOW)
                 self.assertEqual(r,'candidate'); self.assertEqual(c['startsAt'],'2026-11-08T19:00:00+05:00')
         self.assertIsNone(tg.classify(post(GOOD+'\nСбор в 18:30'),SOURCE,NOW)[0])
+        c,r=tg.classify(post(GOOD.replace('19:00','Сбор гостей: 18:30 | Начало: 19:00')),SOURCE,NOW)
+        self.assertEqual(r,'candidate'); self.assertEqual(c['startsAt'],'2026-11-08T19:00:00+05:00')
         self.assertIsNone(tg.classify(post(GOOD.replace('8 ноября 2026','8 ноября и 15 ноября')),SOURCE,NOW)[0])
+    def test_venue_labels_title_and_lecture_category(self):
+        self.assertEqual(tg.venue_line('📍https://go.2gis.com/x\n⭕️ Адрес: пр. Назарбаева, 36'), 'пр. Назарбаева, 36')
+        self.assertEqual(tg.venue_line('Локация: SPACES, 2 этаж'), 'SPACES, 2 этаж')
+        self.assertEqual(tg.venue_line('📍 Где: г. Алматы, Жибек-Жолы 66/1'), 'г. Алматы, Жибек-Жолы 66/1')
+        self.assertIsNone(tg.venue_line('📍:@overhead.bar'))
+        c,r=tg.classify(post('❗️❗️❗️\n#event\n'+GOOD),SOURCE,NOW)
+        self.assertEqual(c['titleRu'],'Лекция «Тест»')
+        self.assertEqual(tg.refine_interest('FESTIVALS','Лекция о документальном театре'),'FESTIVALS')
+        self.assertEqual(tg.refine_interest('FESTIVALS','Спектакль театра'),'THEATER')
     def test_city_filter_and_no_channel_city_inference(self):
         source=dict(SOURCE,allowedCities=['astana'])
         card,reason=tg.classify(post(GOOD.replace('Астана','Алматы')),source,NOW)
         self.assertIsNone(card); self.assertEqual(reason,'city_outside_source_filter_review')
         card,reason=tg.classify(post(GOOD+'\nАлматы'),source,NOW)
         self.assertIsNone(card); self.assertEqual(reason,'missing_or_multiple_cities_review')
+        # No city in the text: only a single-city channel decides; generic channels go to review.
         p=post(GOOD.replace('Астана',''))
         p['links']=['https://t.me/astana_afisha','https://instagram.com/sxodim_astana']
-        self.assertIsNone(tg.classify(p,source,NOW)[0])
+        self.assertIsNone(tg.classify(p,SOURCE,NOW)[0])
+        self.assertIsNone(tg.classify(p,dict(SOURCE,allowedCities=['astana','almaty']),NOW)[0])
+        self.assertEqual(tg.classify(p,source,NOW)[0]['cityId'],'astana')
         p['links']=['https://sxodim.com/astana/event/test']
         self.assertIsNotNone(tg.classify(p,source,NOW)[0])
 

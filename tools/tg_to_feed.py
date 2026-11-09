@@ -101,6 +101,8 @@ def scan(handle, pages):
         before = oldest
     return list(posts.values())
 
+# Event wording a post must contain (also used by the browser pre-filter, tools/browser_scan.py).
+EVENT_WORDS = r'лекци|квиз|концерт|встреч|спектак|выставк|митап|мероприяти|презентаци|дәріс|кездесу|іс-шара'
 KK_MONTHS = ['қаңтар','ақпан','наурыз','сәуір','мамыр','маусым','шілде','тамыз','қыркүйек','қазан','қараша','желтоқсан']
 YEAR_ROLLOVER_DAYS = 14
 
@@ -140,11 +142,17 @@ def event_day(text, published_at):
 def event_times(text):
     """Distinct start times; a range "19:00–21:00" counts as its start only."""
     ranged = re.sub(r'(?<!\d)([012]?\d:[0-5]\d)\s*(?:-|–|—|до)\s*[012]?\d:[0-5]\d(?!\d)', r'\1', text)
-    return {(str(int(h)),mi) for h,mi in re.findall(r'(?<!\d)([012]?\d):([0-5]\d)(?!\d)', ranged)}
+    times = {(str(int(h)),mi) for h,mi in re.findall(r'(?<!\d)([012]?\d):([0-5]\d)(?!\d)', ranged)}
+    if len(times) > 1:
+        # "Сбор: 18:30 | Начало: 19:00" — an explicit start label wins over doors/registration times.
+        start = set(re.findall(r'(?:начало|старт|басталуы|start)\w*\s*(?:в|at|:)?\s*([012]?\d):([0-5]\d)', ranged, re.I))
+        if len(start) == 1: return {(str(int(h)), mi) for h, mi in start}
+    return times
 
 # Generic channels (interest FESTIVALS) post concerts, plays, lectures… A strong keyword in the
 # announcement picks a more precise category; specific channel categories are kept as configured.
 INTEREST_KEYWORDS = [
+    ('FESTIVALS', r'лекци|дәріс|lecture'),  # talks stay in the generic category even when about theatre
     ('STANDUP', r'стендап|stand-?up|квиз|quiz'),
     ('CONCERTS', r'концерт|\bтур\b|альбом|сольн|оркестр'),
     ('THEATER', r'спектакл|постановк|\bопер[аы]\b|балет|театр|қойылым'),
@@ -159,6 +167,17 @@ def refine_interest(default, text):
     low = text.lower()
     return next((interest for interest, pattern in INTEREST_KEYWORDS if re.search(pattern, low)), default)
 
+VENUE_LABEL = r'(?:Место(?:\s+проведения)?|Адрес|Где|Локация|Площадка|Мекенжай|Өтетін\s+орны|Venue|Location|Where)'
+
+def venue_line(text):
+    """Venue from a 📍 line or a labelled line; a bare link (2GIS short URL) is not a venue."""
+    candidates = [m.strip() for m in re.findall(r'📍\ufe0f?\s*:?\s*([^\n]+)', text)]
+    candidates += [m.strip() for m in re.findall(r'(?:^|\n)[^\w\n]*' + VENUE_LABEL + r'\s*[:\-–—]\s*([^\n]+)', text, re.I)]
+    for c in candidates:
+        c = re.sub(r'^(?:' + VENUE_LABEL + r')\s*[:\-–—]\s*', '', c, flags=re.I).strip(' .')
+        if c and not re.fullmatch(r'(?:https?://|@)\S+', c): return c
+    return None
+
 def classify(post, source, now):
     text = post['text']
     low = text.lower()
@@ -172,7 +191,7 @@ def classify(post, source, now):
         return None, 'online_or_hybrid_review'
     if re.search(r'переносим|переносится|перенесен|перенесён|отменяется|отменено|отменили|как прош|вспоминаем|ауыстыр', low):
         return None, 'cancellation_or_recap_review'
-    if not re.search(r'лекци|квиз|концерт|встреч|спектак|выставк|митап|мероприяти|презентаци|дәріс|кездесу|іс-шара', low):
+    if not re.search(EVENT_WORDS, low):
         return None, 'not_event'
     # Event year: explicit in the text, otherwise taken from the POST publication date (never the
     # system clock). A date more than YEAR_ROLLOVER_DAYS before publication belongs to next year
@@ -189,13 +208,19 @@ def classify(post, source, now):
     cities = set()
     for city, pattern in CITY_PATTERNS.items():
         if re.search(pattern, low) or any(re.search(r'^https://(?:www\.)?(?:sxodim\.com|2gis\.kz)/'+city+r'/', u.lower()) for u in post['links']): cities.add(city)
+    # A channel configured for exactly one city (researched, see tg_sources_audit.json) is local:
+    # a post naming no city is about that city. Posts naming another city are still rejected below.
+    if not cities and len(source.get('allowedCities') or []) == 1: cities = set(source['allowedCities'])
     if len(cities)!=1: return None, 'missing_or_multiple_cities_review'
     if source.get('allowedCities') and next(iter(cities)) not in source['allowedCities']:
         return None, 'city_outside_source_filter_review'
-    place = re.search(r'📍\ufe0f?\s*([^\n]+)', text) or re.search(r'(?:^|\n)\s*(?:Место|Адрес|Venue|Location)\s*:\s*([^\n]+)', text, re.I)
+    place = venue_line(text)
     if not place: return None, 'missing_place_review'
     if source.get('interest') not in INTERESTS: return None, 'missing_category_review'
-    title = next((line.strip() for line in text.splitlines() if line.strip()), '')
+    # First line with real words: posts often open with "❗️❗️❗️" or hashtags.
+    title = next((line.strip() for line in text.splitlines()
+                  if not re.match(r'\s*[📅🗓⏰🕖📍⭕]', line)
+                  and len(re.findall(r'[^\W\d_]', re.sub(r'#\w+', '', line))) >= 3), '')
     if len(title)>180: return None, 'missing_short_title_review'
     url = post['sourceUrl']
     card = dict(id='tg-'+url.removeprefix('https://t.me/').replace('/','-'),
@@ -204,7 +229,7 @@ def classify(post, source, now):
                 workingHours='', lat=None, lon=None, isPlace=False)
     for lang in ('Ru','Kk','En'):
         # Schema requires all three; these are originals, NOT claimed translations.
-        card['title'+lang]=title; card['place'+lang]=place[1].strip(); card['description'+lang]=text
+        card['title'+lang]=title; card['place'+lang]=place; card['description'+lang]=text
     schedule.annotate(card, day)  # ISO start: no year resolution involved
     reason = import_reason(card)
     return (None, reason) if reason else (card, 'candidate')

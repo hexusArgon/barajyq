@@ -64,5 +64,8 @@ venv/
 # Historical distributable archive, not maintained source
 /astana-afisha-android-skeleton.tgz
 
+# Monitoring scratch (scans live in _claude/monitoring on the PC)
+/tools/scan_tmp/
+
 # Claude working folder: build script, logs, transfer archives
 /_claude/

@@ -151,3 +151,11 @@ feed/assets bytes match and every Telegram card matches feed_data canonical row.
 Eleven offline tests pass; py_compile passes. Detailed per-channel statuses,
 first/second import results and integrity checks: `tools/tg_validation_result.json`.
 No app version bump; assets are consumed by the existing FeedRepository.
+
+## Утренний мониторинг через браузер (с 2026-11-10)
+Shell на ПК не открывает t.me, поэтому каналы читает встроенный браузер Claude: `tools/browser_scan.py tg-js`
+(один вызов на все каналы, только посты новее `tools/tg_cursor.json` со словами-маркерами события), затем
+`tg-import`. Дополнительные правила: канал ровно с одним `allowedCities` локальный, и пост без города
+относится к этому городу. Явная метка «Начало/Старт» выбирает время среди нескольких («Сбор 18:30 | Начало 19:00»).
+Площадка берётся из строки 📍 или из строки с меткой (Место, Адрес, Где, Локация, Площадка, Мекенжай), голая ссылка
+площадкой не считается. Заголовок: первая строка со словами. Полный порядок работы описан в `tools/MONITORING.md`.
