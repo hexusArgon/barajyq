@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "rule": "One card = one identifiable event; schedules/roundups require separately verified extraction. Named festivals and repeated performances are not roundups merely because they span dates.",
+  "roundupTitlePatterns": [
+    "^(?:(?:главные|лучшие|интересные|предстоящие|все)\\s+)?события\\s+(?:на\\s+)?(?:месяца|недели|выходных|январ|феврал|март|апрел|ма[йя]|июн|июл|август|сентябр|октябр|ноябр|декабр)",
+    "^(?:куда\\s+сходить|чем\\s+заняться|подборка|дайджест|репертуар)\\b",
+    "^обзор\\s+(?:событий|мероприятий|афиши)\\b",
+    "^(?:афиша|расписание)\\b.*\\b(?:на\\s+|месяц|недел|выходн|январ|феврал|март|апрел|ма[йя]|июн|июл|август|сентябр|октябр|ноябр|декабр)",
+    "^выставки\\s+и\\s+мероприятия\\b",
+    "^(?:қаңтар|ақпан|наурыз|сәуір|мамыр|маусым|шілде|тамыз|қыркүйек|қазан|қараша|желтоқсан).*\\b(?:афиша|репертуар|іс-шаралар\\s+кестесі)",
+    "^(?:айлық|апталық)\\s+(?:афиша|іс-шаралар|кесте)",
+    "^(?:this\\s+(?:week|month)|what.s\\s+on|where\\s+to\\s+go|weekly\\s+roundup|monthly\\s+roundup|events\\s+(?:this|of\\s+the)\\s+(?:week|month)|(?:monthly|weekly)\\s+(?:schedule|repertoire)|repertoire\\s+for\\b)",
+    "^планы\\s+на\\s+(?:неделю|месяц|выходные)",
+    "^(?:қайда\\s+баруға|іс-шаралар\\s+кестесі)",
+    "^(?:january|february|march|april|may|june|july|august|september|october|november|december)\\s+(?:events|repertoire|schedule)\\b",
+    "\\(анонс\\s+афиши\\)",
+    "^собрали.*(?:мероприятия|события).*(?:месяц|недел)"
+  ],
+  "imageOnlyMarkers": [
+    "details are on image carousel only",
+    "details on image",
+    "no specific dates in caption"
+  ],
+  "rejectedIds": [
+    "ig-28b8ddc153",
+    "ig-e4d2af6fc0",
+    "ig-b7f7c2835a",
+    "ig-a4174bac4b",
+    "ig-d76edb9ad6",
+    "ig-e5cdf3191a",
+    "ig-caa4bc119e",
+    "ig-71027f2edd",
+    "ig-b4f3a35930"
+  ],
+  "rejectedUrls": [
+    "https://www.instagram.com/afishi.astana/p/DfVMSU5keYC/",
+    "https://www.instagram.com/astana_opera/p/DfMhcGLiCGw/",
+    "https://www.instagram.com/astana_opera/p/DfMGpLwiLBn/",
+    "https://www.instagram.com/astana_opera/p/DfG6yt4iNKq/",
+    "https://www.instagram.com/nationalmuseumkz/p/DfOtLQ_kcnf/",
+    "https://www.instagram.com/qazaqconcert/p/DfHiE6qIxkg/",
+    "https://www.instagram.com/zhastar_teatry/p/DfKVFoUxzH7/",
+    "https://www.instagram.com/gorkytheatre.kz/p/DeRbXcpDsf7/",
+    "https://www.instagram.com/gorkytheatre.kz/p/DfWsbOrO_Ts/"
+  ]
+}

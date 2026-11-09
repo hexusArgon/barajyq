@@ -77,4 +77,54 @@
     <string name="detail_price">Бағасы</string>
     <string name="detail_when">Қашан</string>
     <string name="detail_where">Қайда</string>
+
+    <!-- Feed search, filter and sort controls -->
+    <string name="tools_search">Іздеу</string>
+    <string name="tools_filters">Сүзгілер</string>
+    <string name="tools_active_filters">Сүзгілер (%1$d)</string>
+    <string name="tools_sort">Сұрыптау</string>
+    <string name="tools_current_sort">Реті: %1$s</string>
+    <string name="tools_search_events">Іс-шараларды іздеу</string>
+    <string name="tools_search_places">Орындарды іздеу</string>
+    <string name="tools_search_hint">Атауы, сипаттамасы, орны немесе мекенжайы</string>
+    <string name="tools_clear_search">Іздеуді тазарту</string>
+    <string name="tools_close_search">Іздеуді жабу</string>
+    <string name="tools_sort_original">Ұсынылғандар</string>
+    <string name="tools_sort_nearest">Алдымен жақындары</string>
+    <string name="tools_sort_name">Атауы бойынша</string>
+    <string name="tools_sort_date_hint">Күндер бойынша: бүгін, ертең, осы аптада, кейінірек. Қазір өтіп жатқан көрмелер — солардан кейін.</string>
+    <string name="tools_cancel">Бас тарту</string>
+    <string name="tools_apply">Қолдану</string>
+    <string name="tools_scope_hint">Тек сіздің қалаңыз бен қызығушылықтарыңыз. Жасырылған карточкалар қайтпайды.</string>
+    <string name="tools_categories">Санаттар</string>
+    <string name="tools_categories_hint">Таңдалмаса, барлық қолжетімді санаттар.</string>
+    <string name="tools_price">Баға / кіру</string>
+    <string name="tools_all_prices">Кез келген баға</string>
+    <string name="tools_free">Тегін</string>
+    <string name="tools_paid">Ақылы</string>
+    <string name="tools_price_unknown">Бағасы белгісіз немесе бірмәнді емес</string>
+    <string name="tools_price_hint">Дереккөзде баға көрсетілмесе, іс-шара «Тегін» де, «Ақылы» да болып саналмайды.</string>
+    <string name="tools_date">Кезең</string>
+    <string name="tools_any_date">Кез келген күн</string>
+    <string name="tools_today">Бүгін</string>
+    <string name="tools_next_7">7 күн</string>
+    <string name="tools_next_30">30 күн</string>
+    <string name="tools_date_hint">Өтіп кеткен іс-шаралар автоматты түрде жасырылады.</string>
+    <string name="tools_reset_filters">Сүзгілерді тазарту</string>
+    <string name="tools_reset_all">Іздеу мен сүзгілерді тазарту</string>
+    <string name="tools_no_results">Ештеңе табылмады</string>
+    <string name="tools_no_results_hint">Сұрауды өзгертіңіз немесе сүзгілерді тазалаңыз. Қызығушылықтарыңыз бен жасырылған карточкалар өзгермейді.</string>
+    <string name="plan_event">Жоспарлау</string>
+    <string name="calendar_unavailable">Қолжетімді күнтізбе жоқ. Күнтізбе қолданбасын орнатыңыз немесе қосыңыз.</string>
+    <string name="calendar_review">Сақтау алдында күн мен уақытты тексеріңіз. Дереккөзде уақыт болмаса, оны өзіңіз таңдаңыз.</string>
+
+    <!-- Day groups of the events list and extra date filters -->
+    <string name="tools_tomorrow">Ертең</string>
+    <string name="tools_weekend">Демалыс күндері</string>
+    <string name="section_today">Бүгін</string>
+    <string name="section_tomorrow">Ертең</string>
+    <string name="section_this_week">Осы аптада</string>
+    <string name="section_later">Кейінірек</string>
+    <string name="section_ongoing">Қазір өтуде</string>
+    <string name="section_undated">Күні нақтыланады</string>
 </resources>

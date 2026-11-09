@@ -71,6 +71,8 @@ data class EventCard(
     /** Venue coordinates for the 2GIS route deep link (null → search by address/name). */
     val lat: Double? = null,
     val lon: Double? = null,
+    /** Structured dates for filtering, sorting and hiding past events (null = unknown, events only). */
+    val schedule: EventSchedule? = null,
 ) {
     fun title(lang: AppLanguage?): String = pick(lang, titleKk, titleRu, titleEn)
     fun place(lang: AppLanguage?): String = pick(lang, placeKk, placeRu, placeEn)

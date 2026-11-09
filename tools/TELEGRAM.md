@@ -23,14 +23,22 @@ The Telegram lock prevents simultaneous Telegram importers only. Check exit code
 and `tools/tg_import_result.json.errors`; report failures, do not clear data.
 No routine has been changed by this implementation.
 
-Admission is intentionally strict: recognizable event wording, exactly one
-explicit full date WITH YEAR, one time, one city evidenced in caption/links,
-and a `📍` venue line. Russian month names, DD.MM.YYYY/DD/MM/YYYY and ISO dates
-are supported. Missing year is NEVER inferred from publication/current year.
-Recaps/cancellations, old events, ambiguous dates/multiple sessions and unsupported
+Admission rules: recognizable event wording, exactly one event day, one start
+time (a range "19:00–21:00" counts as its start), one city evidenced in
+caption/links, and a `📍`/`Место:` venue line. Supported dates: Russian and
+Kazakh month names ("22 ноября", "22 қарашада"), DD.MM, DD.MM.YYYY, ISO.
+Year (since 2026-11-10): explicit year if present, otherwise the year of the
+POST publication date (never the clock of the run); a day more than 14 days
+before publication rolls over to the next year (a December post about
+"15 января"). Posts without a publication timestamp and no explicit year go to
+review. Announcements almost never print the year, so the old "explicit year
+only" rule rejected ~400 real posts.
+Recaps/cancellations, old events, several days/sessions and unsupported
 formats go to `tools/tg_review.json` with full text, links, publication timestamp,
-post permalink and a reason. There is no automatic promotion from review.
-Future multi-date posts and Kazakh/English textual dates currently need review.
+post permalink and a reason. After a rules change, `python3 tools/tg_restage.py`
+re-classifies the staged posts offline (same duplicate checks, no network).
+Generic channels (interest FESTIVALS) get a keyword category (concert, play,
+quiz, exhibition…), see `refine_interest`.
 Cancellation messages are staged; already imported cards are not auto-deleted.
 
 Descriptions keep the complete visible source text and line breaks. Required
@@ -126,9 +134,8 @@ JSON is the app integration path for regional cards.
 Foreign-geography and online/hybrid mentions are staged conservatively, never
 published as KZ offline events. This can reject a local talk mentioning another
 country: review is safer than invented geography. Only original visible caption
-text is used, no OCR/translation or publication-year inference. Venue labels
+text is used, no OCR/translation. Venue labels
 `Место:`, `Адрес:`, `Venue:`, `Location:` are also accepted alongside 📍.
-This does not relax the requirement for an explicit full event date with year.
 Routine, package identity, OAuth, keys and app version are unchanged. Build and
 emulator installation are separate Windows tasks; the box does not perform them.
 

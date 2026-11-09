@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-07T19:28:26.960383+05:00",
+  "updatedAt": "2026-11-10T02:30:00+05:00",
   "events": [
     {
       "id": "demo-1",
@@ -23,7 +23,11 @@
       "descriptionEn": "Residents and visitors are invited to feel the atmosphere of the city at night. Expect the best panoramas and a chance to enjoy the beauty and grandeur of modern buildings in their special evening mood. The tour covers the brightest spots of the night city.\n\nPractical details:\n\n• The tour is led by a guide from our team;\n\n• The tour is in Russian;\n\n• Important: the tour runs with a minimum of 7 people.\n\n• Important: after buying a ticket, be sure to message the organisers at +7 775 334 56 65\n\nA few tips for visitors:\n\n• arrive at the meeting point early so as not to hold up the group;\n\n• don’t forget a camera or smartphone for photos;\n\n• respect local customs and rules of conduct.\n\nAge limit: 4+",
       "lat": 51.1448185,
       "lon": 71.418914,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-07",
+      "dateTo": "2027-01-30",
+      "dates": [],
+      "time": "18:30"
     },
     {
       "id": "demo-2",
@@ -46,7 +50,11 @@
       "descriptionEn": "On October 9, 2026, at 4:00 p.m., the National Museum of the Republic of Kazakhstan will host the opening of the republican joint exhibition «Otyrar–Turkistan: Medieval Irrigation and Agricultural Culture».\n\nThe exhibition offers a historical and educational space that explores the experience of our ancestors in developing and managing water systems, agricultural culture, and the interaction between humans and the environment. The exhibition materials highlight the continuity of agricultural and irrigation traditions that have evolved over the centuries in the Otyrar–Turkestan region.\n\nExhibition dates: October 9 – November 9, 2026.\n\nOrganizers:\n\nState Republican Enterprise «Otyrar State Archaeological Museum-Reserve»;\n\nState Republican Enterprise «Aziret Sultan National Historical and Cultural Museum-Reserve»;\n\nState Republican Enterprise «National Museum of the Republic of Kazakhstan».",
       "lat": 51.11811,
       "lon": 71.469488,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-10-09",
+      "dateTo": "2026-11-09",
+      "dates": [],
+      "time": "10:00"
     },
     {
       "id": "demo-3",
@@ -69,7 +77,14 @@
       "descriptionEn": "Ticket sales close 4 hours before the dinner screening starts. After that, unfortunately, no more guests can be added, because the restaurant prepares the required number of dishes and servings for each guest in advance.\n\nvkuskino brings Pottermania to Astana: the world of Harry Potter comes alive not only on screen but right on your plate, with dishes served in sync with the film’s scenes!\n\nYou’ll find yourself at Hogwarts, where every scene comes alive not just visually but in taste too.\n\nThe menu and programme include:\n\n- “Happee Birthdae Harry” — a classic English cupcake\n\n- Butterbeer — the legendary wizards’ drink\n\n- Sweets from the Hogwarts Express — chocolate frogs and treats from the trolley\n\n- Hogwarts feast — juicy chicken with an English-style side\n\n- A beautiful winged snitch (a drink, alcohol-free version available)\n\n- “Devil’s Snare” creamy pasta\n\nPlus plenty of interactive elements:\n\n- house sorting, a whirlwind of Hogwarts letters and other details that take you straight into the film.\n\nBring your friends, put on your robes and dive into a cinema experience where the magic happens not only on screen but on your plate.\n\nBefore buying a ticket, please read the attendance rules:\n\n1. Age limit:\n\nUnaccompanied attendance is allowed from age 16.\n\n2. Children aged 5–15:\n\n- admitted only with an adult legal representative (parent or guardian). Children under 5 are not admitted.\n\nIf you arrive with a child under 5, the Organiser may refuse the child entry without refunding the ticket.\n\nThe buyer agrees to read the attendance rules before purchasing a ticket.\n\nIf these rules are violated, the service is deemed not provided through the consumer’s fault and is payable in full.\n\n- paid tickets are required both for the child and for the accompanying adult\n\n3. Seating:\n\nall participants, including children and accompanying adults, must stay in the dinner area at a shared table.\n\nSeating a child separately from the accompanying adult, or a child sitting at the table without an adult, is not allowed.\n\n4. Liability:\n\nif these conditions are violated, the Organiser may refuse admission without refunding the tickets purchased.\n\nBuying a ticket automatically confirms the consumer’s agreement with these terms.\n\nThe seating plan is approximate. The Organiser will do its best to keep the table layout shown at purchase, but depending on actual attendance it may be adjusted slightly. The table stays within the chosen price zone and is never moved to a cheaper zone. If tables in the back rows are not sold, your table may turn out to be in the last row of the final layout.",
       "lat": 51.112246,
       "lon": 71.426813,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-12",
+      "dateTo": "2026-11-26",
+      "dates": [
+        "2026-11-12",
+        "2026-11-26"
+      ],
+      "time": "19:00"
     },
     {
       "id": "demo-4",
@@ -92,7 +107,11 @@
       "descriptionEn": "The exhibition is devoted to one of the most enigmatic painters of the Northern Renaissance. Hieronymus Bosch created a unique artistic world inhabited by fantastic creatures, bizarre images and complex symbols. His works, painted more than five centuries ago, still raise countless questions and interpretations. Behind the unusual scenes lie deep reflections on human nature, moral choice, temptation and the contradictions of the world.\n\nThe show invites visitors to get to know the master’s key works, explore their many-layered symbolism and look closely at details that usually go unnoticed when viewing paintings the traditional way.\n\nThe multimedia format offers a fresh look at Bosch’s complex compositions: large-scale projections unfold the artist’s fantastic worlds and create the feeling of being inside his paintings.\n\nLumiere-Hall Multimedia Museum is a project at the crossroads of art, science and modern technology, offering new ways to discover the world’s artistic heritage.\n\nAge limit: 16+",
       "lat": 51.1654821,
       "lon": 71.405472,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-10-28",
+      "dateTo": "2026-12-20",
+      "dates": [],
+      "time": "11:00"
     },
     {
       "id": "demo-5",
@@ -115,7 +134,11 @@
       "descriptionEn": "The Renaissance changed how people saw the world and the ways they came to understand it. Artists, philosophers, mathematicians and researchers sought to uncover the laws of nature by uniting art, science and philosophical thought.\n\nAt the centre of the exhibition is Albrecht Dürer (1471–1528), the outstanding master of the Northern Renaissance who studied anatomy, geometry, perspective and mathematical proportion. His work reflects a desire not only to depict the world around him but to understand the principles of how it is built.\n\nAlchemy becomes the exhibition’s metaphor, symbolising the transforming power of the human mind. Like an alchemist trying to turn metal into gold, the artist turns materials into a work of art and scientific knowledge into harmonious images. The idea of the artist changed in this era too: from a craftsman he became an independent intellectual creator.\n\nThe exhibition brings together engravings, early printed books, geometric treatises, alchemical texts and historical objects, revealing the intellectual universe of the Northern Renaissance. “Dürer. Metamorphoses of Alchemy” is a story of craft turning into art, observation into knowledge, and the artist into a thinker striving to comprehend…",
       "lat": 51.1154169,
       "lon": 71.472442,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-10-30",
+      "dateTo": "2027-01-24",
+      "dates": [],
+      "time": "10:00"
     },
     {
       "id": "demo-6",
@@ -161,7 +184,13 @@
       "descriptionEn": "2026 / 2027 Main Hall the 14th Season\n\n6 November * Friday * 7.00 p.m.\n\nBALLET EVENING\n\nGALA-BALLET\n\n&\n\nMangiliktin Tort Syry\n\n(“Four Truths – One Eternity”)\n\nOne-act ballet by S. Gumar\n\nThe performance is presented to a pre-recorded track\n\nRunning time: 1 hour 30 minutes (with one interval)\n\nPlease note that the age limit is 10+\n\nManagement reserves the right to substitute artists\n\nOn 6 November, the Astana Opera Main Hall will host a Ballet Evening featuring two parts. The first part will present a Ballet Gala bringing together outstanding pieces of classical, contemporary and national choreography. In the second part, audiences will enjoy Sultanbek Gumar’s one-act ballet Mangiliktin Tort Syry (Four Truths – One Eternity), set to music by renowned contemporary composer Khamit Shangaliyev.\n\nPART I\n\nP. Tchaikovsky. Adagio from Swan Lake. Choreography by M. Petipa.\n\nTorgyn LEBEN, Dias KURMANGAZY\n\nG. Bizet. Pas de deux from Carmen. Choreography by R. Petit.\n\nSofiya ADILKHANOVA, Akhmet KABKENOV\n\nA. Adam. Pas de deux from Giselle. Choreography by J. Coralli and J. Perrot.\n\nAlina ZYRYANOVA, Yerkin BAZARBAYEV\n\n“Mankurt”. To music by A. Raimkulova, arranged by the TURAN Ethno-Folk Ensemble. Choreography by S.Gumar.\n\nLimara AIDAROVA, Nima TOKOV\n\nP. Tchaikovsky. Pas de deux from The Nutcracker. Choreography by Yu. Grigorovich.\n\nShugyla ADEPKHAN, Yerkin RAKHMATULLAYEV, Honoured Worker of Kazakhstan\n\nGypsy Dance, to music by V. Zhelobinsky. Choreography by K. Goleizovsky.\n\nGaziza MOLDAKHMET\n\nJ. Massenet. “Thaïs” from the ballet Ma Pavlova. Choreography by R. Petit.\n\nMadina UNERBAYEVA, Arman URAZOV, Honoured Workers of Kazakhstan\n\nAstana Opera Symphony Orchestra\n\nConductor: Elmar BURIBAYEV\n\nPART II\n\nThe ballet Mangiliktin Tort Syry (Four Truths – One Eternity) is a deeply emotional choreographic parable about choice, inner strength and the search for meaning, told through the language of music and movement.\n\nThe choreographer explores five stages of a relationship that lovers pass through before attaining genuine closeness. Infatuation gives way to illusion, illusion to struggle, and struggle to acceptance. Only after passing through doubt and pain does true love emerge – not as a sudden surge of emotion, but as a conscious choice, trust and inner stillness.\n\nThis is a story of how feeling becomes a force that unites two worlds into a single eternity.\n\nROLES AND PERFORMERS\n\nInfatuation: Darya MITROFANOVA, Doskhan ZAIDIN\n\nIllusion of Love / Passion: Sofiya ADILKHANOVA, Islam KAIPBAY\n\nStruggle: Limara AIDAROVA, Amir KHVAN\n\nAcceptance: Torgyn LEBEN, Zhaksylyk SAUKYMBEKOV\n\nPRODUCTION TEAM\n\nComposer – Khamit SHANGALIYEV, Honoured Worker of Kazakhstan\n\nChoreographer – Sultanbek GUMAR\n\nCostume Designer – Dariga TAISHIKOVA, Laureate of the State Youth Prize “Daryn”\n\nLighting Designer – Mikhail YEPANCHIN\n\nTechnical Project Manager – Victor CARARE\n\nStage Managers – Altynganym AKHMETOVA, Ainur KHALELOVA\n\nArtistic Director of the Astana Opera Ballet Company – Altynai ASYLMURATOVA, People’s Artist of Russia\n\nTickets purchased at the Astana Opera are exchangeable and refundable only in cases of cancelled or postponed performances. In all other cases, no refunds and exchanges are possible.",
       "lat": 51.135628,
       "lon": 71.410828,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-06",
+      "dateTo": "2026-11-06",
+      "dates": [
+        "2026-11-06"
+      ],
+      "time": "19:00"
     },
     {
       "id": "demo-8",
@@ -184,7 +213,13 @@
       "descriptionEn": "Every month, we host open mic nights featuring both local comedians and talents from the USA, UK and other countries. On November 6th, the top English-speaking comedians will be performing at the biggest venues of the city!\n\nIt's the 29th show organised by EnglishComedyKz. Executive producer Shugyla Saginbekova has been performing stand-up in English in Kazakhstan since 2023. The US ambassador visited her first show in November 2024; since then she has built a community of 60+ English-speaking comedians in Astana!\n\nTicket Sales Schedule:\n\n• Early Bird: 5,000 KZT (Oct 20 – Nov 1)\n\n• Regular: 7,000 KZT (Nov 2 – Nov 5)\n\n• At the Door: 10,000 KZT (Nov 6)\n\n18+",
       "lat": 51.1302178,
       "lon": 71.4150697,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-06",
+      "dateTo": "2026-11-06",
+      "dates": [
+        "2026-11-06"
+      ],
+      "time": "19:30"
     },
     {
       "id": "demo-9",
@@ -207,7 +242,13 @@
       "descriptionEn": "On 6 November, rising star KI (@ki_music) gives a concert. You’ll hear two sets: the first of original songs in Kazakh — indie pop, disco/funk, R&B/soul and alternative rock — and the second of well-known covers.\n\nPaintings by artist Zarina Baikenova (@zarika_boo), who works with embroidery, metal embossing and video art, will decorate the second floor. Her works turn to memory, family history and personal experience, rethinking traditional handcraft techniques and revealing through them the link between past and present.\n\nThe ticket includes a buffet, drinks and sarqyt (a take-home treat).",
       "lat": null,
       "lon": null,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-06",
+      "dateTo": "2026-11-06",
+      "dates": [
+        "2026-11-06"
+      ],
+      "time": "19:30"
     },
     {
       "id": "demo-10",
@@ -230,7 +271,13 @@
       "descriptionEn": "2026 / 2027 Kulyash Baiseitova Chamber Hall the 14th Season\n\n7 November * Saturday * 5.00 p.m.\n\nConcert\n\nArgentine Tango\n\nTHE CONCERT IS HELD IN KAZAKH AND RUSSIAN LANGUAGES\n\nRunning time: 1 hour 30 minutes\n\nPlease note that the age limit is 10+\n\nManagement reserves the right to substitute performers and works performed\n\nThe chamber music concert “Argentine Tango” will feature works by composers from South America and sunny Spain, performed by soloists and the Astana Opera Chamber Orchestra under the baton of Ruslan Baimurzin.\n\nThe vibrant programme presents masterpieces inspired by the expressive plasticity and passionate character of tango. The concert will feature music by the legendary master of the genre, Astor Piazzolla, as well as works by renowned European composers.\n\nThe concert “Argentine Tango” will offer listeners a vivid musical journey in which every melody tells its own story of love, dreams and inspiration.\n\nPROGRAMME\n\nA. Piazzolla. The Four Seasons of Buenos Aires\n\nA. Piazzolla. Histoire du Tango for flute\n\nF. Bridge. Lament for two violas\n\nA. Piazzolla. Chau Paris\n\nPERFORMERS\n\nAisulu BAIKENOVA, Honoured Worker of Kazakhstan (violin)\n\nTolkyn KILIBAYEVA (viola)\n\nAkhmet SULTANOV (viola)\n\nAlexey KOSSYREV (flute)\n\nAlexander GEYER, laureate of international competitions (guitar)\n\nAstana Opera Chamber Orchestra\n\nConductor: Ruslan BAIMURZIN, Holder of the Order of Kurmet\n\nTickets purchased at the Astana Opera are exchangeable and refundable only in cases of cancelled or postponed performances. In all other cases, no refunds and exchanges are possible.",
       "lat": 51.135628,
       "lon": 71.410828,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-07",
+      "dateTo": "2026-11-07",
+      "dates": [
+        "2026-11-07"
+      ],
+      "time": "17:00"
     },
     {
       "id": "demo-11",
@@ -253,7 +300,13 @@
       "descriptionEn": "2026 / 2027 Palace of Peace and Reconciliation the 14th Season\n\nOpera Hall\n\n7 November * Saturday * 5.00 p.m.\n\nGala Opera\n\nA Musical Kaleidoscope\n\n(Opera, Musical and Operetta)\n\nRunning time: 1 hour 30 minutes\n\nPlease note that the age limit is 10+\n\nManagement reserves the right to substitute performers and works performed\n\nAstana Opera invites audiences to a spectacular theatrical gala opera, bringing together the theatre’s opera soloists, chorus and symphony orchestra under the baton of Honoured Worker of Kazakhstan Yerbolat Akhmedyarov.\n\nAudiences can look forward to expressive vocal performances, spectacular ensemble scenes and orchestral excerpts, in which the drama of opera gives way to the lightness and sparkling wit of operetta.\n\nThe theatrical gala opera “A Musical Kaleidoscope” will combine music and stage action, giving audiences the opportunity to hear beloved works performed by Astana Opera soloists and enjoy the diversity of the operatic genre.\n\nPROGRAMME\n\nS. Mukhamedzhanov. Scene from the opera Aisulu (Act II)\n\nYe. Rakhmadiyev. Symphonic kui Dairabay\n\nU. Giordano. Loris’s Aria from the opera Fedora\n\nG. Rossini. Finale of Act I from the opera L’italiana in Algeri\n\nP. Tchaikovsky. Robert’s Aria from the opera Iolanta\n\nJ. Massenet. Salome’s Aria from the opera Hérodiade\n\nG. Donizetti. Dulcamara’s Aria from the opera L’elisir d’amore\n\nCh. Gounod. Faust’s Cavatina from the opera Faust\n\nG. Donizetti. Malatesta and Pasquale’s Duet from the opera Don Pasquale\n\nS. Abdinurov, A. Abdinurov. Final Duet from the opera Appak, the Kipchak Daughter\n\nJ. Strauss II. Orlofsky’s Toast from the operetta Die Fledermaus\n\nF. Lehár. Hanna and Danilo’s Waltz Duet from the operetta The Merry Widow\n\nE. Kálmán. Sylva’s Aria from the operetta Sylva\n\nL. Bernstein. “Mambo” from the musical West Side Story\n\nL. Bernstein. Cunegonde’s “Glitter and Be Gay” from the operetta Candide\n\nA. L. Webber. The Phantom and Christine’s Duet from the musical The Phantom of the Opera\n\nB. Serkebayev. Julia’s Aria from the musical Julia\n\nPERFORMED BY\n\nSaltanat AKHMETOVA, Honoured Worker of Kazakhstan (soprano)\n\nBibigul ZHANUZAK, Honoured Worker of Kazakhstan (soprano)\n\nAizada KAPONOVA, Holder of the Order of Kurmet (soprano)\n\nMadina ISLAMOVA (soprano)\n\nYelena GANZHA (soprano)\n\nAssem SEMBINA (soprano)\n\nTatyana VITSINSKAYA, Honoured Worker of Kazakhstan (mezzo-soprano)\n\nMedet CHOTABAYEV, Honoured Worker of Kazakhstan (tenor)\n\nZhan TAPIN, Honoured Worker of Kazakhstan (tenor)\n\nRamzat BALAKISHIYEV (tenor)\n\nAlikhan ZEINOLLA (tenor)\n\nSayan ISSIN (tenor)\n\nNarul TOIKENOV (tenor)\n\nZhanat SHYBYKBAYEV, Honoured Worker of Kazakhstan (baritone)\n\nAltynbek ABILDA, Laureate of the State Youth Prize “Daryn\" (baritone)\n\nYerzhan SAIPOV(baritone)\n\nSultan BAKHYTZHAN (baritone)\n\nMaksat SAMATOV, Holder of the Order of Kurmet (baritone)\n\nShyngys RASYLKHAN, Laureate of the State Youth Prize “Daryn\" (bass)\n\nChorus and Symphony Orchestra of the Astana Opera House\n\nPrincipal Chorus Master: Yerzhan DAUTOV, Honoured Worker of Kazakhstan\n\nConductor: Yerbolat AKHMEDYAROV, Honoured Worker of Kazakhstan\n\nDirector: Yerenbak TOIKENOV\n\nTickets purchased at the Astana Opera are exchangeable and refundable only in cases of cancelled or postponed performances. In all other cases, no refunds and exchanges are possible.",
       "lat": 51.123119,
       "lon": 71.463523,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-07",
+      "dateTo": "2026-11-07",
+      "dates": [
+        "2026-11-07"
+      ],
+      "time": "17:00"
     },
     {
       "id": "demo-12",
@@ -276,7 +329,13 @@
       "descriptionEn": "Three comedians on one stage, three different views on life and loads of stories that are all too familiar to each of us.\n\nComedians:\n\nAmanzhan Makhmetov\n\nAlmaz Merzhakypov\n\nDamir Nurseitov\n\n“Comedians Solve Problems” is a show after which your problems won’t go anywhere. But maybe living with them will become a lot funnier.\n\nAge limit 18+\n\nFood and drinks can also be ordered at the venue",
       "lat": 51.146188,
       "lon": 71.3454928,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-07",
+      "dateTo": "2026-11-07",
+      "dates": [
+        "2026-11-07"
+      ],
+      "time": "19:00"
     },
     {
       "id": "demo-13",
@@ -299,7 +358,13 @@
       "descriptionEn": "2026 / 2027 Main Hall the 14th Season\n\n8 November * Sunday * 6.00 p.m\n\n9 November * Monday * 7.00 p.m\n\nGuest Performance of the State Theatre of Nations (Moscow)\n\nat Astana Opera\n\nStéphane Braunschweig\n\nUNCLE VANYA\n\nBased on the play of the same name by Anton Chekhov\n\nThe performance is in Russian without surtitles.\n\nRunning time: 2 hours 30 minutes (including one interval)\n\nPlease note that the age limit is 12+\n\nManagement reserves the right to substitute artists\n\nThis is the first production in Russia by Stéphane Braunschweig, director of the Paris theatre Odéon-Théâtre de l’Europe. On the stage of the Theatre of Nations, he has staged a production he had been working toward for almost 30 years – Anton Chekhov’s play Uncle Vanya. Braunschweig has around 70 productions based on the works of Brecht, Kleist, Büchner, and Ibsen to his credit, but the director has a special relationship with Chekhov.\n\n“They tell me, I am a brave man – coming to Russia with my Chekhov. It is often believed that if you invite a French director, he should stage Marivo or Moliere. But Chekhov is closer to me than Marivo. If I work abroad, I am more pleased to deal with a writer of this particular country. I have already staged The Seagull, Three Sisters, The Cherry Orchard in France. And each time I sought to move away from the traditions and conventions associated with working with this material on stage. Therefore, here again I return to Chekhov’s accurate reading, cleansed of all layers.”\n\nAccording to Braunschweig, the key to today’s production of Uncle Vanya is an environmental theme that worries the whole world. Chekhov’s character Astrov turned out to be a seer. He is keenly experiencing deforestation, as if pointing to us, his descendants, of environmental problems on a global scale.\n\n“It is important for me to enter the general environmental agenda with this performance. Climate is changing. The first time I came to Moscow in 1979, in February it was 25 degrees below zero. Today it's different. Now if it’s minus 10 in Moscow in winter, in Africa the heat is simply intolerable. The population of African countries is moving to other climatic zones, including to us in Europe, and this is already becoming a migration and economic problem. Everything is connected: ecology, economics, energy. The more we destroy the climate, the more global the resulting disaster will be. I don’t have ready-made recipes on how to rectify the situation, but I need to excite the minds, hearts, and consciousness of all mankind.”\n\nWithout changing a single word of the original text, Stéphane Braunschweig constructs an intricate puzzle of relationships between Chekhov’s characters. Throughout the play, Voynitsky, Astrov, Elena Andreevna and Sonya each in their own way lose hope, see their illusions shattered, and break free from the web of their misconceptions. “Uncle Vanya is an image of our helplessness,” says Stéphane. “Can one live when ideals have been lost? Can one rethink one’s life?” The characters in Chekhov’s play provide the answers to these questions. The answers to these questions will be given by Chekhov’s characters.\n\nThe Uncle Vanya guest performances took place at the Odéon-Théâtre in Paris, France, in January 2020. The production premiered as part of the 19th Cherry Orchard Open Arts Festival. In 2020, the production was nominated for the Zvezda Teatrala Audience Choice Award in the category “Best Production by a Foreign Director in Russia.” Viktor Verzhbitsky, who played Serebryakov, was nominated for “Best Actor.”\n\nCAST\n\nIvan Petrovich Voynitsky Evgeny MIRONOV, People’s Artist of the Russian Federation\n\nAleksandr Vladimirovich Serebryakov Viktor VERZHBITSKY, People’s Artist of the Russian Federation\n\nHelena Andreyevna Marina ALEKSANDROVA, Honoured Artist of the Russian Federation\n\nMikhail Lvovich Astrov Vladimir KOSHEVOY\n\nSofia Alexandrovna (Sonya) Nadezhda LUMPOVA\n\nMaria Vasilyevna Voynitskaya Lyudmila TROSHINA, Honoured Artist of the Russian Federation\n\nMarina Irina GORDINA\n\nIlya Ilyich Telegin Dmitriy ZHURAVLYOV\n\nPRODUCTION TEAM\n\nSet Designer Stéphane Braunschweig\n\nDramaturg Roman DOLZHANSKY\n\nAssistant Set Designer Alexandre DE DARDEL\n\nLighting Designer Marion HEWLETT\n\nCostume Consultant Anna HRUSTALYOVA\n\nStage Manager Tatyana FYODOROVA\n\nStage Manager Dmitry ANISHIN\n\nTickets purchased at the Astana Opera are exchangeable and refundable only in cases of cancelled or postponed performances. In all other cases, no refunds and exchanges are possible.",
       "lat": 51.135628,
       "lon": 71.410828,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-08",
+      "dateTo": "2026-11-08",
+      "dates": [
+        "2026-11-08"
+      ],
+      "time": "18:00"
     },
     {
       "id": "demo-14",
@@ -322,7 +387,13 @@
       "descriptionEn": "The classic game: 7 rounds, questions on all kinds of topics and lots of fun. Teams can have 2 to 9 people, and the game is open to everyone, newcomers and seasoned players alike.\n\nQuiz, Please! is a team game and a great way to spend an evening with friends in a cosy bar and get some fresh positive impressions.\n\nYou can’t prepare for the game, and the questions can be about anything: from Pokémon to the history of Ancient Rome. What’s more, any piece of information you’ve ever come across might come in handy.\n\nA huge number of people play Quiz, Please! all over the world — give it a try too.\n\nRegister your team on the website.",
       "lat": 51.1546936,
       "lon": 71.4512107,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-11",
+      "dateTo": "2026-11-11",
+      "dates": [
+        "2026-11-11"
+      ],
+      "time": "20:00"
     },
     {
       "id": "demo-15",
@@ -345,7 +416,13 @@
       "descriptionEn": "2026/2027 Kulyash Baiseitova Chamber Hall the 14th Season\n\n14 November * Saturday * 5.00 p.m.\n\nConcert\n\nFLUTE TIME\n\nRunning time: 1 hour 40 minutes\n\nPlease note that the age limit is 10+\n\nManagement reserves the right to substitute performers and works performed\n\nFLUTE TIME is a concert dedicated to one of the most recognisable timbres in the world of classical music. The flute has been part of musical culture for many centuries: its sound is associated with ancient myths, pastoral melodies and images of nature, while today it is an integral part of the symphonic and chamber repertoire.\n\nThe programme of FLUTE TIME will feature works by international and Kazakhstani composers, showcasing the flute in a variety of styles and musical images – from classical masterpieces to contemporary works. The performers will include soloists of the Astana Opera Orchestra, as well as teachers and students of the Kulyash Baiseitova Kazakh National University of Arts – musicians of different generations united by their interest in this remarkable instrument.\n\nPERFORMERS:\n\nBekbolat BAISAGATOV, Honoured Artist of Kazakhstan, Professor\n\nZhibek SAPARGALIYEVA, Honoured Worker of Kazakhstan\n\nZhanbota BALGABEKOV\n\nAlima ABEUOVA\n\nBalzhan SAPAROVA\n\nAida ABDYKADYROVA\n\nAigerim YERGALIYEVA (violin)\n\nGulnara TLEUGABYLOVA (viola)\n\nDana ABDYKADYROVA (piano)\n\nPROGRAMME:\n\nF. Martin. Ballade\n\nG. Bizet – F. Borne. Fantaisie brillante on themes from the opera Carmen\n\nJ. Hüe. Fantasie\n\nV. Tsybin. Concert Allegro No. 3 in F-sharp minor\n\nT. Albinoni. Adagio\n\nF. Doppler. Hungarian Fantasy\n\nP. I. Tchaikovsky. Lensky’s Aria from the opera Eugene Onegin\n\nC. Graupner. Concerto for Flute and Viola in D minor, GWV 725\n\nJ. S. Bach. Concerto in D minor for Two Violins and Piano, BWV 1043, 1st movement\n\nAstana Opera Symphony Orchestra\n\nConductor: Ruslan BAIMURZIN, Holder of the Order of Kurmet\n\nTickets purchased at the Astana Opera are exchangeable and refundable only in cases of cancelled or postponed performances. In all other cases, no refunds and exchanges are possible.",
       "lat": 51.135628,
       "lon": 71.410828,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-14",
+      "dateTo": "2026-11-14",
+      "dates": [
+        "2026-11-14"
+      ],
+      "time": "17:00"
     },
     {
       "id": "demo-16",
@@ -368,7 +445,13 @@
       "descriptionEn": "The large-scale FYSM practice returns to Astana.\n\n• for any fitness level\n\n• led by a team of certified FYSM instructors\n\n• special offers for participants only\n\nTicket types:\n\n• Ticket 1: Standard. Bring a mat.\n\n• Ticket 1+1: For two — come with a friend, partner or loved one. Mats required.\n\n• VIP: a branded FYSM mat as a gift + the best spot in the front row.\n\nPlaces are limited.\n\n* Registration is required\n\n* Supported by the Ministry of Sport of Kazakhstan\n\nSee you, Astana!\n\nAge limit: 7+\n\nRules for accompanying minors to be confirmed\n\nBabies and children under 7 are not admitted\n\nFree entry for children under 14",
       "lat": 51.1144637,
       "lon": 71.4115801,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-15",
+      "dateTo": "2026-11-15",
+      "dates": [
+        "2026-11-15"
+      ],
+      "time": "10:00"
     },
     {
       "id": "demo-17",
@@ -391,7 +474,13 @@
       "descriptionEn": "Tynda.music invites you to a grand concert of music by Hans Zimmer, one of the most outstanding film composers of our time.\n\nA symphony orchestra and choir will perform legendary soundtracks that have become an inseparable part of cult films around the world. Zimmer’s music has long since gone beyond the cinema screen and become an art form in its own right, able to stir the strongest emotions and immerse listeners in the atmosphere of their favourite stories.\n\nThe programme features music from:\n\nInterstellar, Inception, Pirates of the Caribbean, The Lion King, The Dark Knight, Sherlock Holmes and other famous films.\n\nThe powerful sound of the symphony orchestra, the choir, live emotion and incredible energy create a sense of total immersion in the world of big cinema. Expect a large-scale musical show full of drama, inspiration and epic melodies.\n\nAbout Tynda Music:\n\nA collective of professional musicians united by the idea of performing beloved music in a unique format. Freedom in choosing programmes, unusual venues and bold creative decisions became the foundation of a project that quickly won the hearts of audiences in Kazakhstan and beyond.\n\nDuration: 90 minutes\n\nChildren under 5 are not admitted. Children aged 5 and over need a ticket.",
       "lat": 51.1258281,
       "lon": 71.4381327,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-15",
+      "dateTo": "2026-11-15",
+      "dates": [
+        "2026-11-15"
+      ],
+      "time": "19:00"
     },
     {
       "id": "demo-18",
@@ -414,7 +503,13 @@
       "descriptionEn": "2026 / 2027 Kulyash Baiseitova Chamber Hall the 14th Season\n\n18 November * Wednesday * 7.00 p.m.\n\n“Musical Alliance” Series\n\nConcert\n\nPaganini. The Dress Code of Virtuosity\n\nTHE CONCERT IS HELD IN KAZAKH AND RUSSIAN LANGUAGES\n\nRunning time: 1 hour 55 minutes\n\nPlease note that the age limit is 10+\n\nManagement reserves the right to substitute performers and works performed\n\nThe concert series “Musical Alliance” enjoys well-deserved popularity and continues to attract the attention of classical music connoisseurs.\n\nThis concert is dedicated to the genius of Niccolò Paganini, the legendary violinist and composer whose works and very name have become a symbol of virtuosity. The orchestra’s artists will perform the complete cycle of 24 Caprices for Solo Violin, Op. 1, demonstrating outstanding technical mastery and a profound understanding of the great musician’s artistic vision.\n\nThe author of the project is Bagdat Abilkhanov, Honoured Worker of Kazakhstan. This evening promises to be a true celebration for the audience, opening a unique world of inspired creativity and virtuoso performance.\n\nPROGRAMME:\n\nN. Paganini. 24 Caprices for Solo Violin\n\nPERFORMERS:\n\nAnel SHAKIROVA\n\nYerkebulan SAPARBAYEV, Holder of the Order of Kurmet\n\nShalkar ZHELDIBAY\n\nAiya GABBASSOVA\n\nAssya NURZHIGITOVA\n\nBagdat ABILKHANOV, Honoured Worker of Kazakhstan\n\nTickets purchased at the Astana Opera are exchangeable and refundable only in cases of cancelled or postponed performances. In all other cases, no refunds and exchanges are possible",
       "lat": 51.135628,
       "lon": 71.410828,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-18",
+      "dateTo": "2026-11-18",
+      "dates": [
+        "2026-11-18"
+      ],
+      "time": "19:00"
     },
     {
       "id": "demo-19",
@@ -437,7 +532,13 @@
       "descriptionEn": "2026 / 2027 Main Hall the 14th Season\n\n26 November * Thursday * 7.00 p.m.\n\n27 November * Friday * 7.00 p.m.\n\nWORLD PREMIERE\n\n(To mark the 35th Anniversary of the Independence of the Republic of Kazakhstan)\n\nKhamit Shangaliyev\n\nTOMYRIS\n\nChoreography by Sultanbek Gumar\n\nLibretto by Yermek Amanshayev\n\nBallet in 2 acts\n\nThe performance is presented to a pre-recorded track\n\nRunning time: 1 hour 45 minutes (including one interval)\n\nPlease note that the age limit is 10+\n\nManagement reserves the right to substitute performers\n\nThe libretto for the ballet Tomyris was written by Honoured Worker of Kazakhstan Yermek Amanshayev, based on ancient legends and historical accounts of the legendary queen of the Saka-Massagetae, Tomyris, who defeated the Persian king Cyrus.\n\nThe ballet takes the audience back to the 6th century BC, to the lands of the Great Steppe. At the centre of the story are the destinies of the Massagetae queen Tomyris, her son Spargapises, and the Amazon leader Arnava.\n\nThe peaceful life of the people is disrupted by the invasion of Cyrus’s army. Sending her son at the head of the army to defend their homeland, Tomyris faces a series of tragic trials. The enemy’s treachery leads to Spargapises being captured and the deaths of many warriors. Having lost her son, the queen rallies her people for a decisive battle that will forever change the course of history.\n\nAn important role in the ballet’s dramaturgy is played by imagery rooted in the ancient beliefs of the steppe peoples: ancestral spirits, shamanic rituals, the symbolism of the Sun and Moon, and the mystical figure of Martu, embodying death and chaos.\n\nLEAD ROLES AND PERFORMERS\n\nTomyris, Queen of the Saka tribe of the Massagetae Sofiya ADILKHANOVA\n\nTorgyn LEBEN\n\nCyrus – Cyrus II, King of Persia from the Achaemenid dynasty Aidan KALZHAN\n\nZhaksylyk SAUKYMBEKOV\n\nSpargapises, son of Queen Tomyris, Doskhan ZAIDIN\n\ncommander of the Massagetae Islam KAIPBAY\n\nSpargapises, as a child Ansar BAKYTZHANULY\n\nMartu, Angel of Death Amina KISSEMBAYEVA\n\nLimara AIDAROVA\n\nAdemi ZHANABIL\n\nRustam Baghatur, husband of Tomyris Zhaksylyk SAUKYMBEKOV\n\nAmir KHVAN\n\nArnava, leader of the Amazons, Alina ZYRYANOVA\n\nbeloved of Spargapises Limara AIDAROVA\n\nThe Massagetae tribe, Shaman-Storyteller, Fool, Blessed Simpleton, War Herald, blacksmiths, merchants, townsfolk, Amazon warriors, warriors of Cyrus, warriors of Spargapises and Tomyris – ballet dancers\n\nOPERA SOLOISTS, SYMPHONY ORCHESTRA, BALLET DANCERS, EXTRAS OF THE ASTANA OPERA HOUSE\n\nPRODUCTION TEAM\n\nStage Director and Choreographer – Sultanbek GUMAR\n\nLiterary Consultant for the Dramaturgy of the Libretto – Marco MAROCCO (Italy)\n\nScenographer and Lighting Concept Designer – Yoko SEYAMA (Japan)\n\nVideo Designer – Marat SAGADINOV\n\nLighting Designer – Valentin BAKOYAN\n\nCostume Designer – Dariga TAISHIKOVA, Laureate of the State Youth Prize “Daryn”\n\nMusic Editor and Arranger – Alibek ALPIYEV\n\nAssistant Choreographers – Aibar TOKTAR, Nima TOKOV\n\nAssistant Scenographer – Mirzhan MURZAGALIYEV\n\nAssistant Costume Designer – Zhanar MOMINOVA\n\nAssistant Lighting Designer – Mikhail YEPANCHIN\n\nAssistant Video Designer – Azamat KUTTYGUZHIN\n\nTechnical Project Manager – Victor CARARE\n\nArtistic Director of the Ballet Company – Altynai ASYLMURATOVA, People’s Artist of Russia\n\nTickets purchased at the Astana Opera are exchangeable and refundable only in cases of cancelled or postponed performances. In all other cases, no refunds and exchanges are possible.",
       "lat": 51.135628,
       "lon": 71.410828,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-26",
+      "dateTo": "2026-11-26",
+      "dates": [
+        "2026-11-26"
+      ],
+      "time": "19:00"
     },
     {
       "id": "demo-20",
@@ -460,7 +561,13 @@
       "descriptionEn": "2026 / 2027 Kulyash Baiseitova Chamber Hall the 14th Season\n\n29 November * Sunday * 3.00 pm\n\nChildren’s Concert Series “A Visit to the Theatre”\n\nThe Magical World of Opera\n\nThird Concert\n\n(Getting to Know Opera Voices)\n\nTHE CONCERT IS HELD IN RUSSIAN\n\nRunning time: 1 hour\n\nPlease note that the age limit is 5+\n\nManagement reserves the right to substitute performers and works performed\n\nFor its youngest audiences, the Astana Opera House presents the concert “The Magical World of Opera”. As part of this project, leading opera soloists will introduce children to the fascinating world of vocal music.\n\nChildren will learn how opera differs from ballet and symphony, while the soloists will present various vocal types (soprano, tenor, baritone and others), performing striking operatic arias and duets.\n\nYoung audiences will discover how musical performances are created and learn about the stories behind famous operas and their characters.\n\nThis magical hour of music will give children their first introduction to classical art and the joy of live interaction with professional musicians.\n\nAlongside professional artists, the concert will also feature the chorus of the Astana Opera Children’s Studio.\n\nPERFORMED BY:\n\nOpera soloists\n\nChildren’s Chorus of the Astana Opera House\n\nHead of the Children’s Chorus: Altynganym AKHMETOVA\n\nChorus Master: Shirin AKHMEDZHANOVA\n\nPiano: Raushan BESKEMBIROVA, Honoured Worker of Kazakhstan\n\nTickets purchased at the Astana Opera are exchangeable and refundable only in cases of cancelled or postponed performances. In all other cases, no refunds and exchanges are possible",
       "lat": 51.135628,
       "lon": 71.410828,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-29",
+      "dateTo": "2026-11-29",
+      "dates": [
+        "2026-11-29"
+      ],
+      "time": "15:00"
     },
     {
       "id": "demo-21",
@@ -483,7 +590,13 @@
       "descriptionEn": "The PR room Creative Industries Forum is the capital’s main professional event, bringing together people from media, PR, advertising, design, culture, digital and other areas of the creative economy.\n\nThe forum is organised by the PR room media/PR community, which creates space for professional dialogue, sharing experience and developing new collaborations. It gathers industry leaders, experts, business and government representatives, creators and young professionals in one place.\n\nHow are the best events in Kazakhstan run? Representatives of Comic Con, Astana Concert, Freedom QJ LEAGUE, Almaty OPEN ATP 250, Mega Silk Way and others share their secrets:\n\n— Bayram Azizov, Public Relations Director, Kcell\n\n— Ruslan Zhemkov, one of the founders of Comic Con\n\n— Aigerim Abilmazhitova, PR Director, Astana Concert\n\n— Anton Lysyak, Head of Media and Marketing at Freedom QJ LEAGUE\n\n— Gulmira Zakiryanova, Head of Marketing, Tennis Federation and Almaty Open ATP 250\n\n— Azamat Abeldiyev, Creative Director, MEGA SILK WAY mall\n\nHow to grow sustainable professional communities? Advice from founders\n\n— Nina Nurambekova, CMO, Freedom Holding Corp.\n\n— Ainur Baigozha, founder of the PR room media/PR community\n\n— Yuri Dorokhov, director of DDA agency, “How to build a volunteer community and not fall out with it”\n\n— Karla Nur, founder of the “28 Stitches” club\n\nSpecial sessions on film, music, YouTube promotion, marketing and PR\n\n— Zhandos Kusain, director, screenwriter, cultural figure of Kazakhstan, director of “Koshshygulov. Chocolate Factory”\n\n— Ainur Niyazova, actress, director, musician\n\n— Nauat Aituganova, PR Director, Tolqyn Film Fund\n\n— Zangar Boztayev, director of Genesis CSP, the only official YouTube partner in Central Asia\n\n— Meruert Zhakiyanova, documentary director, producer at Euronews Kazakhstan\n\n— Andrey Chebotarev, financial analyst\n\n— Daniyar Serikov, mining and metallurgy industry columnist",
       "lat": 51.1415516,
       "lon": 71.393616,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-12-05",
+      "dateTo": "2026-12-05",
+      "dates": [
+        "2026-12-05"
+      ],
+      "time": "11:00"
     },
     {
       "id": "demo-22",
@@ -506,7 +619,13 @@
       "descriptionEn": "2026 / 2027 Main Hall the 14th Season\n\n5 December * Saturday * 5.00 p.m.\n\n6 December * Sunday * 5.00 p.m.\n\nGiacomo Puccini\n\nTurandot\n\nOpera in 3 acts\n\nPerformed in Italian\n\n(with synchronized Kazakh and Russian supertitles)\n\nRunning time: 2 hours 40 minutes (including two intervals)\n\nPlease note that the age limit is 10+\n\nManagement reserves the right to substitute artists\n\nA poem by the 12th-century Persian classical poet Nizami, which lies at the heart of the libretto of the opera, was included in the 18th century European collections of Persian fairy tales, from where the Italian playwright Carlo Gozzi took it for his “fairy tale for the theatre”. Libretto by Giuseppe Adami and Renato Simoni.\n\nThe plot is intriguing: Princess Turandot, a fatal beauty, makes her suitors to solve three riddles. The prettiest of women’s hand in marriage is promised to the one who happens to find the right answers, any wrong answer results in immediate death. Prince Calaf decides to win Turandot’s heart at any cost...\n\nThe intrigue will be revealed by the director Davide Livermore, who has forged his outstanding 22-year career both on the main stages of Europe and at smaller theatres in his native country Italy, during which time he has been stage director, stage designer, costume and lighting designer, singer, dancer, actor, scriptwriter and teacher. He has worked together with artists such as Luciano Pavarotti, Plácido Domingo, José Carreras, Mirella Freni, and with many renowned directors including Luca Ronconi, Andrei Tarkovsky and Zhang Yimou, as well as with the world star maestro Zubin Mehta.\n\nCAST TO BE ANNOUNCED LATER\n\nCHORUS, CHILDREN'S CHOIR, EXTRAS AND ORCHESTRA OF THE ASTANA OPERA HOUSE\n\nPRODUCTION TEAM\n\nMusic Director and Conductor: Alan Buribayev, Honoured Worker of Kazakhstan, Laureate of the State Prize of the Republic of Kazakhstan\n\nStage Director: Davide Livermore\n\nDirector’s Assistant: Gulsara Meirambekova\n\nAssistant Stage Director: Yerenbak Toikenov\n\nSet Designers: Sofia Tasmagambetova, Honoured Worker of Kazakhstan,\n\nPavel Dragunov, Honoured Worker of Kazakhstan\n\nOpera Company Director: Talgat Mussabayev, Honoured Worker of Kazakhstan\n\nPrincipal Chorus Master: Yerzhan Dautov, Honoured Worker of Kazakhstan\n\nLighting Designer: Vincenzo Raponi\n\nProjection Designer: Carlo Camorali (D-wok Company)\n\nTechnical Project Manager: Victor Carare\n\nHead of Children’s Choir: Altynganym Akhmetova\n\nStage Managers: Altynganym Akhmetova, Ainur Khalelova\n\nTickets purchased at the Astana Opera are exchangeable and refundable only in cases of cancelled or postponed performances. In all other cases, no refunds and exchanges are possible.",
       "lat": 51.135628,
       "lon": 71.410828,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-12-05",
+      "dateTo": "2026-12-05",
+      "dates": [
+        "2026-12-05"
+      ],
+      "time": "17:00"
     },
     {
       "id": "demo-23",
@@ -529,7 +648,11 @@
       "descriptionEn": "Wonderland Astana is a winter city festival and amusement park in the centre of the capital. This New Year attraction is designed as a space for families and friends to have fun, relax and enjoy the holiday atmosphere.\n\nFor two months guests can enjoy a laser-lit skating rink, a 12-metre snow slide, holiday carousels, a reindeer train, cosy food courts and workshops. The festival’s highlight is Father Frost’s House, where everyone can make a wish and step into a fairy tale.",
       "lat": null,
       "lon": null,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-12-06",
+      "dateTo": "2027-01-27",
+      "dates": [],
+      "time": null
     },
     {
       "id": "demo-24",
@@ -552,7 +675,13 @@
       "descriptionEn": "2026 / 2027 Palace of Peace and Reconciliation the 14th Season\n\nOpera Hall\n\n13 December * Sunday * 3.00 p.m.\n\n“Classical Music for Children” Cycle\n\nChildren’s Choreographic Production\n\nPictures at an Exhibition\n\nto music by M. Mussorgsky\n\n(in Russian)\n\nRunning time: 50 minutes\n\nPlease note that the age limit is 5+\n\nManagement reserves the right to substitute performers\n\nFor young audiences, the Astana Opera House, in collaboration with the Nutcracker Ballet School in Astana, presents one of the brightest and most distinctive works of the classical repertoire – Modest Mussorgsky’s cycle Pictures at an Exhibition.\n\nOriginally conceived as a piano suite, it represents a musical journey through an imaginary art gallery, where each piece is an independent musical image inspired by works of the artist Viktor Hartmann.\n\nPerformed by the Astana Opera Chamber Orchestra, Mussorgsky’s music will come alive in the stage space, while its artistic images and “pictures” will be embodied on stage by young ballerinas. This synthesis of music and dance will help young audiences become more closely acquainted with classical music, develop imaginative thinking, and gain a deeper understanding of the composer’s intention.\n\nFor several years, the theatre’s creative team has maintained a fruitful collaboration with the Nutcracker Ballet School. Their joint repertoire includes vibrant children’s projects such as Camille Saint-Saëns’ zoological fantasy The Carnival of the Animals, the concert “The Mystery of the Old Piano”, and other programmes beloved by young audiences and their parents.\n\nPERFORMERS:\n\nASTANA OPERA CHAMBER ENSEMBLE\n\nConductor: Ruslan BAIMURZIN, Holder of the Order of Kurmet\n\nPupils of the Nutcracker Ballet School in Astana (Head: Maya AMELICHEVA)\n\nPresenter: musicologist Saule MAULETOVA\n\nTickets purchased at the Astana Opera are exchangeable and refundable only in cases of cancelled or postponed performances. In all other cases, no refunds and exchanges are possible.",
       "lat": 51.123119,
       "lon": 71.463523,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-12-13",
+      "dateTo": "2026-12-13",
+      "dates": [
+        "2026-12-13"
+      ],
+      "time": "15:00"
     },
     {
       "id": "demo-25",
@@ -575,7 +704,13 @@
       "descriptionEn": "2026/ 2027 Kulyash Baiseitova Chamber Hall the 14th Season\n\n16 December * Wednesday * 5.00 p.m.\n\nFestive Concert\n\nTauyelsizdik Tolgauy\n\nCommemorating the 35th Anniversary of the Independence of the Republic of Kazakhstan\n\nTHE CONCERT IS HELD IN KAZAKH LANGUAGE\n\nRunning time: 1 hour 30 minutes\n\nPlease note that the age limit is 10+\n\nManagement reserves the right to substitute performers and works performed\n\nOn 16 December, the Kulyash Baiseitova Chamber Hall at Astana Opera will host the festive concert “Tauyelsizdik Tolgauy”, dedicated to the Independence Day of the Republic of Kazakhstan.\n\nThe audience can look forward to a rich programme featuring popular arias and duets from masterpieces of world classical music, chamber works by outstanding Kazakhstani and international composers, as well as beloved songs by renowned Kazakhstani songwriters. United by a love of the Motherland and pride in their native land, these works will strike a chord with audiences.\n\nThe concert will feature opera soloists and orchestra musicians who were born in the year Kazakhstan gained its independence.\n\nTickets purchased at the Astana Opera are exchangeable and refundable only in cases of cancelled or postponed performances. In all other cases, no refunds and exchanges are possible.",
       "lat": 51.135628,
       "lon": 71.410828,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-12-16",
+      "dateTo": "2026-12-16",
+      "dates": [
+        "2026-12-16"
+      ],
+      "time": "17:00"
     },
     {
       "id": "demo-26",
@@ -598,7 +733,13 @@
       "descriptionEn": "The main idea of Multi Fest is to create a space where young creators and creative entrepreneurs can show their work, find their audience, share experience and get recognition for their contribution to contemporary creative culture. Much of the community is made up of artists, merch makers and people from the creative industries.\n\nFestival programme:\n\n- a fair of original goods and creative work;\n\n- artists’ alley;\n\n- a table with official merch of the festival mascot;\n\n- an on-stage cosplay contest;\n\n- a quiz, quests and stamp quests;\n\n- music performances;\n\n- themed photo zones;\n\n- creative workshops;\n\n- a trading-card swap table;\n\n- meet-ups with well-known cosplayers;\n\n- a swap zone;\n\n- a food court.\n\nWell-known Astana cosplayers and merch makers are also expected to take part, broadening the event’s reach and attracting a wider audience.\n\nAge limit: 12+\n\nID or a birth certificate must be shown at the entrance to confirm age",
       "lat": 51.1597896,
       "lon": 71.4122247,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-12-20",
+      "dateTo": "2026-12-20",
+      "dates": [
+        "2026-12-20"
+      ],
+      "time": "10:00"
     },
     {
       "id": "demo-27",
@@ -621,7 +762,13 @@
       "descriptionEn": "2026 / 2027 Main Hall the 14th Season\n\n25 December * Friday * 7.00 p.m.\n\n26 December * Saturday * 12.00 p.m. / 5.00 p.m.\n\n27 December * Sunday * 12.00 p.m. / 5.00 p.m.\n\n29 December * Tuesday * 7.00 p.m.\n\n30 December * Wednesday * 7.00 p.m.\n\n31 December * Thursday * 5.00 p.m.\n\nP. I. Tchaikovsky\n\nTHE NUTCRACKER\n\nBallet in 2 acts\n\nRunning time: 2 hours 15 minutes (including one interval)\n\nPlease note that the age limit is 10+\n\nThe matinee performances on December 26 and 27 at 12:00 – 5+\n\nThe Theatre reserves the right to change the cast\n\nImportant: The performances starting at 12:00 (December 26 and 27) are a shortened one-act version of the ballet. They are intended primarily for children, with an age restriction of 5+. Ticket prices for these performances are lower than for the evening performances.\n\nThe New Year’s fairy tale, which has long become a symbol of the approaching holiday season, has for many years adorned the festivities and created a special atmosphere. It is hard to imagine the New Year celebrations without Pyotr Tchaikovsky’s genius ballet The Nutcracker, which evokes a sense of magic and anticipation of miracles.\n\nThis year, the Astana Opera has prepared a truly magnificent pre-holiday gift for its audience — a production of this enchanting ballet. Both children and adults will be able to enjoy the captivating music, exquisite sets, and the artistry of the performers, immersing themselves in the festive spirit.\n\nThe performances will begin on 25 December and run through to New Year’s Eve — 31 December, giving every guest unforgettable emotions and a magical New Year mood.\n\nChoreographer: Yuri GRIGOROVICH, People’s Artist of the USSR, State Prize Laureate\n\nSet Designer: Simon VIRSALADZE, People’s Artist of the USSR, State Prize Laureate\n\nCAST TO BE ANNOUNCED LATER\n\nCORPS DE BALLET, ORCHESTRA, CHORUS AND\n\nCHILDREN’S CHORUS OF THE ASTANA OPERA HOUSE\n\nTickets purchased at the Astana Opera are exchangeable and refundable only in cases of cancelled or postponed performances. In all other cases, no refunds and exchanges are possible.",
       "lat": 51.135628,
       "lon": 71.410828,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-12-25",
+      "dateTo": "2026-12-25",
+      "dates": [
+        "2026-12-25"
+      ],
+      "time": "19:00"
     },
     {
       "id": "demo-28",
@@ -644,7 +791,13 @@
       "descriptionEn": "The Tynda.music project invites you to a unique concert devoted to music from the legendary Harry Potter film universe, performed by the Tynda.music chamber orchestra in an unforgettable atmosphere.\n\nThe magical world brought to the screen continues to win hearts and inspire millions around the globe. Its music has become the symbol of a fairy-tale world where wizards and Muggles, heroes and villains, fantastic beasts and vivid characters come alive to the enchanting sound of the orchestra.\n\nThis evening promises total immersion in an atmosphere of wonder and magic. The symphony orchestra will play the main themes that carry you into a world of sorcery and adventure.\n\nAbout tynda.music: a collective of professional musicians inspired by the idea of playing beloved music in unusual venues. The freedom to choose programmes, unexpected locations and a flexible format have brought together musicians with bold creative ideas.\n\nAge limit 5+. Children under 5 are not admitted; children aged 5 and over need a ticket.\n\nThe organiser reserves the right to change the programme.",
       "lat": 51.1258281,
       "lon": 71.4381327,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-12-25",
+      "dateTo": "2026-12-25",
+      "dates": [
+        "2026-12-25"
+      ],
+      "time": "19:30"
     },
     {
       "id": "demo-29",
@@ -667,7 +820,13 @@
       "descriptionEn": "What do you do if the elevator gets stuck and you’re locked in with a stranger? The award-winning comedy “Two in an Elevator”, honoured for best male performance, has its own answer!\n\nTwo very different men on their way to congratulate their ladies on 8 March get stuck in an elevator. Harmless chat about who bought what as a gift begins, a bottle of tequila cements the budding friendship and loosens their tongues, and the conversation ends in quite unexpected revelations.\n\n“A brilliant production, hilarious dialogue, a great atmosphere” — that’s how audiences describe this light, funny comedy with an unusual ending. It lets you relax, see yourself in these stories, and lets women watch from the side and find out what men really think about.\n\nCome as a couple or with friends to laugh your heart out with talented stage and screen actors Igor Lifanov and Denis Matrosov.\n\nDirector Igor Kasilov turns Olga Stepnova’s play into a festive comedy.\n\nRunning time: 2 hours with an interval\n\nAge limit: 16+",
       "lat": 51.1716997,
       "lon": 71.4275105,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2027-01-30",
+      "dateTo": "2027-01-30",
+      "dates": [
+        "2027-01-30"
+      ],
+      "time": "19:30"
     },
     {
       "id": "almaty-1",
@@ -690,7 +849,11 @@
       "descriptionEn": "A major exhibition opens of original graphic works by Marc Chagall, one of the key artists of the 20th century, who created his own artistic language unlike any other. In his world reality merges with dreams, love with memory, the earthly with the eternal, and familiar stories turn into poetic images full of colour and symbols.\n\nAt the heart of the exhibition is one of Chagall’s most important graphic cycles, in which his unique artistic language shines especially brightly. He began this work back in the 1930s, immersing himself deeply in ancient texts and reimagining them through his own artistic vision.\n\nA special part of the show is 24 works from the famous “Jerusalem Windows” cycle, linked to the monumental stained-glass windows Chagall created for a synagogue in Jerusalem. Vivid colour, symbolic imagery and free-flowing forms make these one of the master’s most recognisable series.\n\nTogether these works reveal Chagall’s inimitable world — recognisable, poetic and still emotionally powerful decades later.",
       "lat": null,
       "lon": null,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-10-23",
+      "dateTo": "2026-12-01",
+      "dates": [],
+      "time": "11:00"
     },
     {
       "id": "almaty-2",
@@ -713,7 +876,11 @@
       "descriptionEn": "Improv workshops take place every Tuesday.\n\nThe Improv workshop is two hours of practice with no lectures and no theory.\n\nNothing to be afraid of — it’s all done through games.\n\nThe workshop is made up of many exercises and techniques aimed at developing communication skills.\n\nYou’ll level up: improvisation, public speaking, humour, focus, memory, speech and vocabulary, creativity.\n\nIt’s for anyone who works with people, sells or negotiates, and for those who run a blog and want to be more engaging.\n\nHosts: Dmitry Doronin and Max Ostrovsky.\n\nAge limit: 18+",
       "lat": 43.2338323,
       "lon": 76.8917486,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-10",
+      "dateTo": "2026-11-24",
+      "dates": [],
+      "time": "19:30"
     },
     {
       "id": "almaty-3",
@@ -736,7 +903,13 @@
       "descriptionEn": "On 7 November Almaty Arena hosts Vanya Dmitrienko’s first solo concert in Kazakhstan.\n\nOne of the brightest artists of the new generation, Vanya Dmitrienko shot to fame after releasing the track “Venera-Yupiter”. From then on his career took off rapidly, and his name became one of the most prominent in today’s music industry.\n\nHe made the Forbes “30 Under 30” list in 2023 in the Music category and was named “Artist of the Year” by Yandex Music. His tracks consistently top the charts, gather millions of plays and become the soundtrack for millions of listeners.\n\nHe performs at the biggest concert venues and festivals, and his shows draw huge audiences, confirming the strong interest in his work.\n\n“Venera-Yupiter”, “Lego”, “Sila prityazheniya” and other hits will be performed live on the Almaty Arena stage.\n\nVanya Dmitrienko’s first solo concert in Kazakhstan is a long-awaited event: live sound, powerful energy and a meeting with an artist whose songs have become the voice of a whole generation.",
       "lat": 43.2637615,
       "lon": 76.8175483,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-07",
+      "dateTo": "2026-11-07",
+      "dates": [
+        "2026-11-07"
+      ],
+      "time": "20:00"
     },
     {
       "id": "almaty-4",
@@ -759,7 +932,13 @@
       "descriptionEn": "Flavi Fest turns 4!\n\nFlavi Fest is an anime and geek festival with a dazzling cosplay contest, themed photo zones, fun games, interactive activities, quizzes, meet-ups with like-minded people and lots of other nice surprises.\n\nCome and celebrate the day surrounded by your favourite fandoms and good vibes!\n\nFree entry for children aged 6 and under, pensioners and people with disabilities.",
       "lat": 43.2482196,
       "lon": 76.9065871,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-08",
+      "dateTo": "2026-11-08",
+      "dates": [
+        "2026-11-08"
+      ],
+      "time": "12:00"
     },
     {
       "id": "almaty-5",
@@ -782,7 +961,13 @@
       "descriptionEn": "Frank Sinatra is, without exaggeration, the most famous jazz vocalist of the 20th century. He made history with his inimitable timbre and became a jazz icon on the popular stage. Sinatra is also remembered as one of the leading exponents of crooning, the soft “purring” style of singing — crooners sang almost under their breath, sensually and even intimately.\n\nThis evening you’ll hear Frank’s beloved and iconic songs — Cheek To Cheek, Fly With Me, The Lady Is a Tramp, New York New York, I’ve Got the World on a String, The Way You Look Tonight, Young at Heart, I Thought About You and many more — performed by Yan Tomingas and the club’s residents.\n\nYan Tomingas is a musician, singer and actor (the film “The Scheme” featuring him was named best in its category at the Berlinale). Perhaps that’s why Sinatra’s phrasing and style suit him so well. His velvety voice and crisp articulation make Yan one of Almaty’s notable jazz singers. He’ll be joined on stage by the EverJazz residents.\n\nCome and hear Sinatra’s great jazz — music everyone understands, young and old — this evening at EverJazz!",
       "lat": 43.237646593137434,
       "lon": 76.91295735614774,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-08",
+      "dateTo": "2026-11-08",
+      "dates": [
+        "2026-11-08"
+      ],
+      "time": "18:00"
     },
     {
       "id": "almaty-6",
@@ -805,7 +990,13 @@
       "descriptionEn": "Kamal is a rapper and artist of the new wave of Kazakh hip-hop!\n\nThis young, talented performer recently blew up the internet with his track “Hustle Hard”, which racked up millions of views and won over listeners around the world! Originally from Kazakhstan, Kamal has already caught the attention of fans and industry professionals alike with his sincerity, powerful delivery and unique style. His music is more than words and beats — it’s energy that carries the spirit of persistence, ambition and belief in success.\n\nDon’t miss the chance to see Kamal live — this concert promises to be a real event of the year! Get ready for a powerful show full of drive, emotion and unforgettable moments. Kamal isn’t just music; it’s a whole story he tells through his tracks.\n\nHurry to get tickets to an event that is sure to stay with you as one of the most vivid musical experiences of the year!\n\nAge limit: 16+",
       "lat": 43.2382112,
       "lon": 76.9148685,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-08",
+      "dateTo": "2026-11-08",
+      "dates": [
+        "2026-11-08"
+      ],
+      "time": "20:00"
     },
     {
       "id": "almaty-7",
@@ -828,7 +1019,13 @@
       "descriptionEn": "Gennady Khazanov brings an evening of stories to Almaty!\n\nThis is not just a concert or just a meeting with an artist. It’s a journey along the roads of memory — funny, touching, unexpected and at times very personal. Khazanov will share stories from his life: childhood and youth, the stage and backstage, encounters with great people and events that stayed with him forever.\n\nExpect his trademark humour, subtle self-irony, surprising confessions and memories where laughter sits next to reflection and funny tales alternate with moments that make you think.\n\nA special part of the evening is unique video from the artist’s personal archive: rare footage, excerpts of performances and TV recordings that reveal not only the famous performer but a man with a remarkable, eventful life.\n\nIt will be a sincere conversation with the audience in which the past comes alive in stories, images and smiles. An evening that will be funny, touching and interesting — and, above all, real.\n\nSpend this evening with Gennady Khazanov.",
       "lat": null,
       "lon": null,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-14",
+      "dateTo": "2026-11-14",
+      "dates": [
+        "2026-11-14"
+      ],
+      "time": "20:00"
     },
     {
       "id": "almaty-8",
@@ -851,7 +1048,13 @@
       "descriptionEn": "Kreator in Almaty for the first time, November 2026!\n\nSpecial guest: Overkill!\n\nThrash metal legends Kreator are extending their huge world tour in support of “Krushers Of The World” with a special run of shows in November 2026 in Georgia, Greece and other countries — including an exclusive Almaty show on 18 November at Bakshasaray.\n\nThese dates mark Kreator’s historic Almaty debut; the band has never played here before.\n\nSpecial guests are Overkill, the legendary American thrash veterans, visiting Kazakhstan for the first time.\n\nDon’t miss it: after years of conquering Europe’s biggest festivals and arenas, these shows are a bold step into new territory for Kreator and Overkill. Their trademark mix of thrash classics and crushing new material promises to reignite the fire in fans’ hearts!",
       "lat": 43.223631,
       "lon": 76.9063385,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-18",
+      "dateTo": "2026-11-18",
+      "dates": [
+        "2026-11-18"
+      ],
+      "time": "19:00"
     },
     {
       "id": "almaty-9",
@@ -874,7 +1077,13 @@
       "descriptionEn": "A legendary production! The comedy “Close People” from Moscow’s Modern Entreprise Theatre is a bright, witty and at the same time touching story about human relationships, set within a single hotel room.\n\nDirector Alexei Kiryushchenko offers an unusual theatrical structure: two completely different stories play out in the same set. What unites them is the main thing — love, with all its contradictions, hopes, disappointments and searches for happiness.\n\nOn stage are well-known, much-loved actors Elena Valyushkina, Nikolai Dobrynin and Asya Borisova. Their characters live through stories with room for passion, infidelity, delicate lyricism and self-irony. The action is set in St Petersburg, and the music gives the play a special atmosphere — songs and dances to the familiar voice of Frank Sinatra, evoking light nostalgia and romance.\n\n“Close People” is a comedy of situations with sharp, pointed dialogue that’s easy to remember and quote. Yet behind the lightness lies a deep conversation about how hard it is to be together, understand each other and not lose yourself in a relationship. The play offers lively emotions, smiles and a reason to reflect on what matters most — closeness between people.\n\nRunning time: 2 h 20 min with an interval\n\nAge limit: 16+",
       "lat": 43.2523472,
       "lon": 76.9311702,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-12-06",
+      "dateTo": "2026-12-06",
+      "dates": [
+        "2026-12-06"
+      ],
+      "time": "19:00"
     },
     {
       "id": "almaty-10",
@@ -897,7 +1106,13 @@
       "descriptionEn": "The Nutcracker — a fairy tale coming to life on an Almaty stage\n\nOn the eve of the New Year, Concordia Theatre invites you to the most magical ballet in the world — Pyotr Ilyich Tchaikovsky’s The Nutcracker.\n\nThis is more than a show — it’s a fairy tale come to life on stage. A world where toys become heroes, snowflakes whirl in a magical dance and the dearest dreams come true. Together with Marie and the Nutcracker, the audience sets off on an amazing journey through the wonders, adventures and magic of Christmas night.\n\nTchaikovsky’s spellbinding music, superb choreography, lavish costumes and fairy-tale sets create the atmosphere of a true winter holiday filled with warmth, light and the anticipation of a New Year miracle.\n\nFor children The Nutcracker is a wonderful story of magic, courage and marvels. For adults it’s a chance to feel the holiday spirit again, return to childhood memories and believe that miracles really exist.\n\nFor more than a hundred years this legendary ballet has united generations, remaining the main symbol of Christmas and New Year in many countries.",
       "lat": 43.2523472,
       "lon": 76.9311702,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-12-12",
+      "dateTo": "2026-12-12",
+      "dates": [
+        "2026-12-12"
+      ],
+      "time": "19:00"
     },
     {
       "id": "shymkent-1",
@@ -920,7 +1135,13 @@
       "descriptionEn": "Ludovico Einaudi Tribute performed by the Tynda Music chamber ensemble\n\nImmerse yourself in an atmosphere of inspiration, harmony and cinematic magic!\n\nLudovico Einaudi’s music is the soundtrack to moments when the heart speaks louder than words. You’ll hear live performances of his best-known pieces, including music from the legendary film “The Intouchables”, and discover them anew in the hands of Tynda Music’s virtuosos\n\nWhy go:\n\nFeel the music literally come alive in the hall and fill the space with emotion.\n\nGet a sense of reset — you’ll leave the concert feeling calm and inspired.\n\nIt’s a unique chance to hear Einaudi live rather than in headphones, played by an ensemble that has won over halls around the world.\n\nAbout Tynda Music:\n\nA collective of professional musicians inspired by the idea of playing beloved music in unusual venues.\n\nThe freedom to choose programmes, unexpected locations and a flexible format have brought together musicians with bold creative ideas.\n\nDuration: 90 minutes\n\nChildren under 5 are not admitted. From age 5, a separate ticket is required.",
       "lat": null,
       "lon": null,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-13",
+      "dateTo": "2026-11-13",
+      "dates": [
+        "2026-11-13"
+      ],
+      "time": "18:30"
     },
     {
       "id": "shymkent-2",
@@ -943,7 +1164,13 @@
       "descriptionEn": "“Saving Kammerjunker Pushkin”\n\nThe story of a heroic deed that never happened\n\nThis is the story of Mikhail Pitunin, whose life paradoxically becomes a mirror image of the great genius’s fate. Can you cheat destiny and save someone who died long before you were born? And who really needs saving?\n\nDirector: Alyona Butakova\n\nCast:\n\nMikhail Pitunin — Shukhrat Yuldashev\n\nAlexander Sergeyevich Pushkin — Zhan Kamalov",
       "lat": 42.3360828,
       "lon": 69.6183982,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-14",
+      "dateTo": "2026-11-14",
+      "dates": [
+        "2026-11-14"
+      ],
+      "time": "19:00"
     },
     {
       "id": "shymkent-3",
@@ -966,7 +1193,13 @@
       "descriptionEn": "GRADUATION SHOW, cohort 4 | Year 1\n\nThe play “The Dream”\n\nDo you remember what you dreamed of as a child? And when did you last let yourself really dream?\n\nThe first year has come to an end, and the theatre invites you to a special performance — “The Dream”, based on the students’ real stories!\n\nThis time they share what is most precious to them: their wishes, hopes, unfulfilled dreams and what keeps them moving forward.\n\nRunning time: 1 h 30 min\n\nAge limit 12+",
       "lat": 42.3360828,
       "lon": 69.6183982,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-15",
+      "dateTo": "2026-11-15",
+      "dates": [
+        "2026-11-15"
+      ],
+      "time": "19:00"
     },
     {
       "id": "shymkent-4",
@@ -989,7 +1222,13 @@
       "descriptionEn": "Popular Kazakh stage comedian, actor and showman Tursynbek Kabatov meets his audience.\n\nThe evening features Kabatov’s best jokes, entertaining stories from life, fresh humour and a special programme designed to lift your spirits. His distinctive humour and down-to-earth themes will put every member of the audience in a good mood.\n\nBe part of a memorable evening full of genuine laughter and share unforgettable emotions with your family and friends!",
       "lat": null,
       "lon": null,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-15",
+      "dateTo": "2026-11-15",
+      "dates": [
+        "2026-11-15"
+      ],
+      "time": "19:30"
     },
     {
       "id": "shymkent-5",
@@ -1012,7 +1251,13 @@
       "descriptionEn": "A one-man show, dramedy.\n\nSome things are hard to talk about. A young man talks about things you have probably never thought about. The theme of death from a simple, human point of view.\n\nDirector and actor: Maxim Butakov.\n\nThe performance is followed by a discussion with the actor and director.\n\nAge limit: 16+",
       "lat": 42.3360828,
       "lon": 69.6183982,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-21",
+      "dateTo": "2026-11-21",
+      "dates": [
+        "2026-11-21"
+      ],
+      "time": "19:00"
     },
     {
       "id": "shymkent-6",
@@ -1035,7 +1280,13 @@
       "descriptionEn": "UPD: the event has been moved to 22 November\n\nLUCAVEROS — a concert with a strong delivery and a modern sound.\n\nThe one-hour programme features well-known hits as well as the artist’s new material. A vivid performance and connection with the audience make it feel like a real event.\n\nLUCAVEROS is a concert you don’t just listen to — you feel it.\n\nAge limit: 16+",
       "lat": 42.3275515,
       "lon": 69.5941251,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-22",
+      "dateTo": "2026-11-22",
+      "dates": [
+        "2026-11-22"
+      ],
+      "time": "19:00"
     },
     {
       "id": "shymkent-7",
@@ -1058,7 +1309,13 @@
       "descriptionEn": "This is a stand-up show made of stories!\n\nIt consists entirely of complete stories from Taras’s life, in which he nearly died, was happy, ran away, fought, shook with fear and had the time of his life.\n\nBut all these stories have one thing in common — each of them is pure rock’n’roll!\n\nAge limit: 18+",
       "lat": 42.3360828,
       "lon": 69.6183982,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-28",
+      "dateTo": "2026-11-28",
+      "dates": [
+        "2026-11-28"
+      ],
+      "time": "19:00"
     },
     {
       "id": "shymkent-8",
@@ -1081,38 +1338,21 @@
       "descriptionEn": "The Nutcracker — a magical New Year fairy tale in Shymkent!\n\nOn 15 December at 19:00, on the stage of the Zh. Shanin City Kazakh Drama Theatre, residents and visitors of Shymkent can see one of the most famous ballets in history — Pyotr Ilyich Tchaikovsky’s The Nutcracker.\n\nThe Nutcracker is more than a ballet. It’s a real journey into the world of Christmas magic, where toys come alive, good triumphs over evil and the dearest dreams come true.\n\nTogether with young Marie and the brave Nutcracker, the audience sets off on a fairy-tale adventure full of wonders, magical transformations and unforgettable encounters. Tchaikovsky’s spellbinding music, graceful classical choreography, splendid costumes and colourful sets create the atmosphere of a true winter holiday.\n\nFor children it’s a wonderful story about courage, kindness and believing in miracles. For adults it’s a chance to feel the magic of the winter holidays again, sink into warm childhood memories and enjoy one of the greatest works of world ballet.\n\nFor more than a hundred years The Nutcracker has remained the main symbol of Christmas and New Year, uniting generations of audiences worldwide. It delights children and adults alike, bringing heartfelt emotion and a festive mood.",
       "lat": 42.3160063,
       "lon": 69.5862796,
-      "isPlace": false
-    },
-    {
-      "id": "ig-28b8ddc153",
-      "cityId": "astana",
-      "interest": "FESTIVALS",
-      "titleRu": "Главные события ноября в Астане",
-      "titleKk": "Главные события ноября в Астане",
-      "titleEn": "Главные события ноября в Астане",
-      "startsAt": "",
-      "placeRu": "afishi.astana",
-      "placeKk": "afishi.astana",
-      "placeEn": "afishi.astana",
-      "address": "Астана",
-      "price": null,
-      "sourceUrl": "https://www.instagram.com/afishi.astana/p/DfVMSU5keYC/",
-      "sourceName": "Instagram @afishi.astana",
-      "workingHours": "",
-      "descriptionRu": "Главные события ноября в Астане 🍂\n\nСобрали самые интересные мероприятия месяца. Сохраняйте, чтобы ничего не пропустить 📝 (details are on image carousel only)",
-      "descriptionKk": "Главные события ноября в Астане 🍂\n\nСобрали самые интересные мероприятия месяца. Сохраняйте, чтобы ничего не пропустить 📝 (details are on image carousel only)",
-      "descriptionEn": "Главные события ноября в Астане 🍂\n\nСобрали самые интересные мероприятия месяца. Сохраняйте, чтобы ничего не пропустить 📝 (details are on image carousel only)",
-      "lat": null,
-      "lon": null,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-12-15",
+      "dateTo": "2026-12-15",
+      "dates": [
+        "2026-12-15"
+      ],
+      "time": "19:00"
     },
     {
       "id": "ig-fb4a1adb78",
       "cityId": "astana",
       "interest": "STANDUP",
       "titleRu": "🎤 Проверочный концерт🎤",
-      "titleKk": "🎤 Проверочный концерт🎤",
-      "titleEn": "🎤 Проверочный концерт🎤",
+      "titleKk": "🎤 Сынақ концерті 🎤",
+      "titleEn": "🎤 Stand-up try-out show 🎤",
       "startsAt": "15 ноя, 19:00",
       "placeRu": "Carlin Comedy Bar",
       "placeKk": "Carlin Comedy Bar",
@@ -1123,19 +1363,25 @@
       "sourceName": "Instagram @standupastana",
       "workingHours": "",
       "descriptionRu": "🎤 Проверочный концерт🎤\n\nНа проверочном концерте комики пробуют новый материал и оттачивают шутки, ориентируясь на честную реакцию зрителей\n\n📅 15 ноября | воскресенье\n📍 Carlin Comedy Bar | Сыганак, 22/1\n⏰ Сбор: 18:00 | Начало: 19:00\n\nПриобретайте билеты на сайте Ticketon, пройдя по ссылке в шапке профиля!",
-      "descriptionKk": "🎤 Проверочный концерт🎤\n\nНа проверочном концерте комики пробуют новый материал и оттачивают шутки, ориентируясь на честную реакцию зрителей\n\n📅 15 ноября | воскресенье\n📍 Carlin Comedy Bar | Сыганак, 22/1\n⏰ Сбор: 18:00 | Начало: 19:00\n\nПриобретайте билеты на сайте Ticketon, пройдя по ссылке в шапке профиля!",
-      "descriptionEn": "🎤 Проверочный концерт🎤\n\nНа проверочном концерте комики пробуют новый материал и оттачивают шутки, ориентируясь на честную реакцию зрителей\n\n📅 15 ноября | воскресенье\n📍 Carlin Comedy Bar | Сыганак, 22/1\n⏰ Сбор: 18:00 | Начало: 19:00\n\nПриобретайте билеты на сайте Ticketon, пройдя по ссылке в шапке профиля!",
+      "descriptionKk": "🎤 Сынақ концерті 🎤\n\nСынақ концертінде комиктер жаңа материалды сынап, көрерменнің шынайы реакциясына қарап әзілдерін шыңдайды\n\n📅 15 қараша | жексенбі\n📍 Carlin Comedy Bar | Сығанақ к-сі, 22/1\n⏰ Жиналу: 18:00 | Басталуы: 19:00\n\nБилеттерді профиль сипаттамасындағы сілтеме арқылы Ticketon сайтынан алыңыз!",
+      "descriptionEn": "🎤 Stand-up try-out show 🎤\n\nAt a try-out show comedians test new material and polish their jokes on the audience's honest reaction\n\n📅 15 November | Sunday\n📍 Carlin Comedy Bar | 22/1 Syganak St\n⏰ Doors: 18:00 | Start: 19:00\n\nTickets on Ticketon — link in the profile bio!",
       "lat": null,
       "lon": null,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-15",
+      "dateTo": "2026-11-15",
+      "dates": [
+        "2026-11-15"
+      ],
+      "time": "19:00"
     },
     {
       "id": "ig-e64e245ac5",
       "cityId": "astana",
       "interest": "STANDUP",
       "titleRu": "🎤 Проверочный концерт🎤",
-      "titleKk": "🎤 Проверочный концерт🎤",
-      "titleEn": "🎤 Проверочный концерт🎤",
+      "titleKk": "🎤 Сынақ концерті 🎤",
+      "titleEn": "🎤 Stand-up try-out show 🎤",
       "startsAt": "13 ноя, 19:00",
       "placeRu": "Carlin Comedy Bar",
       "placeKk": "Carlin Comedy Bar",
@@ -1146,19 +1392,25 @@
       "sourceName": "Instagram @standupastana",
       "workingHours": "",
       "descriptionRu": "🎤 Проверочный концерт🎤\n\nНа проверочном концерте комики пробуют новый материал и оттачивают шутки, ориентируясь на честную реакцию зрителей\n\n📅 13 ноября | пятница\n📍 Carlin Comedy Bar | Сыганак, 22/1\n⏰ Сбор: 18:00 | Начало: 19:00\n\nПриобретайте билеты на сайте Ticketon, пройдя по ссылке в шапке профиля!",
-      "descriptionKk": "🎤 Проверочный концерт🎤\n\nНа проверочном концерте комики пробуют новый материал и оттачивают шутки, ориентируясь на честную реакцию зрителей\n\n📅 13 ноября | пятница\n📍 Carlin Comedy Bar | Сыганак, 22/1\n⏰ Сбор: 18:00 | Начало: 19:00\n\nПриобретайте билеты на сайте Ticketon, пройдя по ссылке в шапке профиля!",
-      "descriptionEn": "🎤 Проверочный концерт🎤\n\nНа проверочном концерте комики пробуют новый материал и оттачивают шутки, ориентируясь на честную реакцию зрителей\n\n📅 13 ноября | пятница\n📍 Carlin Comedy Bar | Сыганак, 22/1\n⏰ Сбор: 18:00 | Начало: 19:00\n\nПриобретайте билеты на сайте Ticketon, пройдя по ссылке в шапке профиля!",
+      "descriptionKk": "🎤 Сынақ концерті 🎤\n\nСынақ концертінде комиктер жаңа материалды сынап, көрерменнің шынайы реакциясына қарап әзілдерін шыңдайды\n\n📅 13 қараша | жұма\n📍 Carlin Comedy Bar | Сығанақ к-сі, 22/1\n⏰ Жиналу: 18:00 | Басталуы: 19:00\n\nБилеттерді профиль сипаттамасындағы сілтеме арқылы Ticketon сайтынан алыңыз!",
+      "descriptionEn": "🎤 Stand-up try-out show 🎤\n\nAt a try-out show comedians test new material and polish their jokes on the audience's honest reaction\n\n📅 13 November | Friday\n📍 Carlin Comedy Bar | 22/1 Syganak St\n⏰ Doors: 18:00 | Start: 19:00\n\nTickets on Ticketon — link in the profile bio!",
       "lat": null,
       "lon": null,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-13",
+      "dateTo": "2026-11-13",
+      "dates": [
+        "2026-11-13"
+      ],
+      "time": "19:00"
     },
     {
       "id": "ig-a8f2305edf",
       "cityId": "astana",
       "interest": "STANDUP",
       "titleRu": "🎤 Проверочный концерт🎤",
-      "titleKk": "🎤 Проверочный концерт🎤",
-      "titleEn": "🎤 Проверочный концерт🎤",
+      "titleKk": "🎤 Сынақ концерті 🎤",
+      "titleEn": "🎤 Stand-up try-out show 🎤",
       "startsAt": "12 ноя, 19:00",
       "placeRu": "Carlin Comedy Bar",
       "placeKk": "Carlin Comedy Bar",
@@ -1169,19 +1421,25 @@
       "sourceName": "Instagram @standupastana",
       "workingHours": "",
       "descriptionRu": "🎤 Проверочный концерт🎤\n\nНа проверочном концерте комики пробуют новый материал и оттачивают шутки, ориентируясь на честную реакцию зрителей\n\n📅 12 ноября | четверг\n📍 Carlin Comedy Bar | Сыганак, 22/1\n⏰ Сбор: 18:00 | Начало: 19:00\n\nПриобретайте билеты на сайте Ticketon, пройдя по ссылке в шапке профиля!",
-      "descriptionKk": "🎤 Проверочный концерт🎤\n\nНа проверочном концерте комики пробуют новый материал и оттачивают шутки, ориентируясь на честную реакцию зрителей\n\n📅 12 ноября | четверг\n📍 Carlin Comedy Bar | Сыганак, 22/1\n⏰ Сбор: 18:00 | Начало: 19:00\n\nПриобретайте билеты на сайте Ticketon, пройдя по ссылке в шапке профиля!",
-      "descriptionEn": "🎤 Проверочный концерт🎤\n\nНа проверочном концерте комики пробуют новый материал и оттачивают шутки, ориентируясь на честную реакцию зрителей\n\n📅 12 ноября | четверг\n📍 Carlin Comedy Bar | Сыганак, 22/1\n⏰ Сбор: 18:00 | Начало: 19:00\n\nПриобретайте билеты на сайте Ticketon, пройдя по ссылке в шапке профиля!",
+      "descriptionKk": "🎤 Сынақ концерті 🎤\n\nСынақ концертінде комиктер жаңа материалды сынап, көрерменнің шынайы реакциясына қарап әзілдерін шыңдайды\n\n📅 12 қараша | бейсенбі\n📍 Carlin Comedy Bar | Сығанақ к-сі, 22/1\n⏰ Жиналу: 18:00 | Басталуы: 19:00\n\nБилеттерді профиль сипаттамасындағы сілтеме арқылы Ticketon сайтынан алыңыз!",
+      "descriptionEn": "🎤 Stand-up try-out show 🎤\n\nAt a try-out show comedians test new material and polish their jokes on the audience's honest reaction\n\n📅 12 November | Thursday\n📍 Carlin Comedy Bar | 22/1 Syganak St\n⏰ Doors: 18:00 | Start: 19:00\n\nTickets on Ticketon — link in the profile bio!",
       "lat": null,
       "lon": null,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-12",
+      "dateTo": "2026-11-12",
+      "dates": [
+        "2026-11-12"
+      ],
+      "time": "19:00"
     },
     {
       "id": "ig-b23f942242",
       "cityId": "astana",
       "interest": "STANDUP",
       "titleRu": "Проверочный концерт Максата Сыдыкова 🎤",
-      "titleKk": "Проверочный концерт Максата Сыдыкова 🎤",
-      "titleEn": "Проверочный концерт Максата Сыдыкова 🎤",
+      "titleKk": "Мақсат Сыдықовтың сынақ концерті 🎤",
+      "titleEn": "Maksat Sydykov: stand-up try-out 🎤",
       "startsAt": "28 ноя, 21:45",
       "placeRu": "Carlin Comedy Bar",
       "placeKk": "Carlin Comedy Bar",
@@ -1192,11 +1450,17 @@
       "sourceName": "Instagram @standupastana",
       "workingHours": "",
       "descriptionRu": "Проверочный концерт Максата Сыдыкова 🎤\n\n📅 28 ноября | суббота\n📍 Carlin Comedy Bar | Сыганак, 22/1\n⏰ Сбор: 21:15 | Начало: 21:45\n\nПриобретайте билеты на сайте Ticketon, пройдя по ссылке в шапке профиля!",
-      "descriptionKk": "Проверочный концерт Максата Сыдыкова 🎤\n\n📅 28 ноября | суббота\n📍 Carlin Comedy Bar | Сыганак, 22/1\n⏰ Сбор: 21:15 | Начало: 21:45\n\nПриобретайте билеты на сайте Ticketon, пройдя по ссылке в шапке профиля!",
-      "descriptionEn": "Проверочный концерт Максата Сыдыкова 🎤\n\n📅 28 ноября | суббота\n📍 Carlin Comedy Bar | Сыганак, 22/1\n⏰ Сбор: 21:15 | Начало: 21:45\n\nПриобретайте билеты на сайте Ticketon, пройдя по ссылке в шапке профиля!",
+      "descriptionKk": "Мақсат Сыдықовтың сынақ концерті 🎤\n\n📅 28 қараша | сенбі\n📍 Carlin Comedy Bar | Сығанақ к-сі, 22/1\n⏰ Жиналу: 21:15 | Басталуы: 21:45\n\nБилеттерді профиль сипаттамасындағы сілтеме арқылы Ticketon сайтынан алыңыз!",
+      "descriptionEn": "Maksat Sydykov: stand-up try-out 🎤\n\n📅 28 November | Saturday\n📍 Carlin Comedy Bar | 22/1 Syganak St\n⏰ Doors: 21:15 | Start: 21:45\n\nTickets on Ticketon — link in the profile bio!",
       "lat": null,
       "lon": null,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-28",
+      "dateTo": "2026-11-28",
+      "dates": [
+        "2026-11-28"
+      ],
+      "time": "21:45"
     },
     {
       "id": "ig-f830774bc9",
@@ -1219,15 +1483,21 @@
       "descriptionEn": "КИНО, МУЗЫКА И СЕРИАЛЫ — 100 ВОПРОСОВ\n\n100 вопросов: фильмы, песни, сериалы; тема «солнце» и «Чёрный тур».\n📅 6 ноября (пятница)\n⏰ 20:00\n📍 Garage Music Bar, ул. Кравцова, 6\n💵 3500 тг с человека\n👥 Команда: от 2 до 12 человек\n📲 Регистрация: astana.wowquiz.ru (caption truncated, full text long)",
       "lat": null,
       "lon": null,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-06",
+      "dateTo": "2026-11-06",
+      "dates": [
+        "2026-11-06"
+      ],
+      "time": "20:00"
     },
     {
       "id": "ig-e46c05e840",
       "cityId": "astana",
       "interest": "STANDUP",
       "titleRu": "УГАДАЙ МЕЛОДИЮ — РЕТРОДИСКОТЕКА! 80-е, 90-е и 00-е",
-      "titleKk": "УГАДАЙ МЕЛОДИЮ — РЕТРОДИСКОТЕКА! 80-е, 90-е и 00-е",
-      "titleEn": "УГАДАЙ МЕЛОДИЮ — РЕТРОДИСКОТЕКА! 80-е, 90-е и 00-е",
+      "titleKk": "ӘУЕНДІ ТАП — РЕТРОДИСКОТЕКА! 80-, 90- және 2000-жылдар",
+      "titleEn": "GUESS THE TUNE — RETRO DISCO! 80s, 90s & 00s",
       "startsAt": "13 ноя, 20:00",
       "placeRu": "Garage Music Bar",
       "placeKk": "Garage Music Bar",
@@ -1237,20 +1507,26 @@
       "sourceUrl": "https://www.instagram.com/wowquiz_astana/p/De9c7mIiG95/",
       "sourceName": "Instagram @wowquiz_astana",
       "workingHours": "",
-      "descriptionRu": "УГАДАЙ МЕЛОДИЮ — РЕТРОДИСКОТЕКА! 80-е, 90-е и 00-е\n\nХиты 80-х, 90-х и 2000-х: Modern Talking, Ласковый май, Ace of Base и др.\n📅 13 ноября (пятница)\n⏰ 20:00\n📍 Garage Music Bar, ул. Кравцова, 6\n💵 3500 тг с человека\n👥 Команда: от 2 до 12 человек\n📲 Регистрация: astana.wowquiz.ru (caption truncated, full text long)",
-      "descriptionKk": "УГАДАЙ МЕЛОДИЮ — РЕТРОДИСКОТЕКА! 80-е, 90-е и 00-е\n\nХиты 80-х, 90-х и 2000-х: Modern Talking, Ласковый май, Ace of Base и др.\n📅 13 ноября (пятница)\n⏰ 20:00\n📍 Garage Music Bar, ул. Кравцова, 6\n💵 3500 тг с человека\n👥 Команда: от 2 до 12 человек\n📲 Регистрация: astana.wowquiz.ru (caption truncated, full text long)",
-      "descriptionEn": "УГАДАЙ МЕЛОДИЮ — РЕТРОДИСКОТЕКА! 80-е, 90-е и 00-е\n\nХиты 80-х, 90-х и 2000-х: Modern Talking, Ласковый май, Ace of Base и др.\n📅 13 ноября (пятница)\n⏰ 20:00\n📍 Garage Music Bar, ул. Кравцова, 6\n💵 3500 тг с человека\n👥 Команда: от 2 до 12 человек\n📲 Регистрация: astana.wowquiz.ru (caption truncated, full text long)",
+      "descriptionRu": "УГАДАЙ МЕЛОДИЮ — РЕТРОДИСКОТЕКА! 80-е, 90-е и 00-е\n\nХиты 80-х, 90-х и 2000-х: Modern Talking, Ласковый май, Ace of Base и др.\n📅 13 ноября (пятница)\n⏰ 20:00\n📍 Garage Music Bar, ул. Кравцова, 6\n💵 3500 тг с человека\n👥 Команда: от 2 до 12 человек\n📲 Регистрация: astana.wowquiz.ru",
+      "descriptionKk": "ӘУЕНДІ ТАП — РЕТРОДИСКОТЕКА! 80-, 90- және 2000-жылдар\n\n80-, 90- және 2000-жылдардың хиттері: Modern Talking, «Ласковый май», Ace of Base және т.б.\n📅 13 қараша (жұма)\n⏰ 20:00\n📍 Garage Music Bar, Кравцов к-сі, 6\n💵 Бір адамға 3500 тг\n👥 Команда: 2-ден 12 адамға дейін\n📲 Тіркелу: astana.wowquiz.ru",
+      "descriptionEn": "GUESS THE TUNE — RETRO DISCO! 80s, 90s & 00s\n\nHits of the 80s, 90s and 2000s: Modern Talking, Laskovy May, Ace of Base and more.\n📅 13 November (Friday)\n⏰ 20:00\n📍 Garage Music Bar, 6 Kravtsov St\n💵 3,500 KZT per person\n👥 Teams of 2 to 12\n📲 Registration: astana.wowquiz.ru",
       "lat": null,
       "lon": null,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-13",
+      "dateTo": "2026-11-13",
+      "dates": [
+        "2026-11-13"
+      ],
+      "time": "20:00"
     },
     {
       "id": "ig-25690af769",
       "cityId": "astana",
       "interest": "STANDUP",
       "titleRu": "УГАДАЙ. ОБО ВСЁМ. 100 ВОПРОСОВ!",
-      "titleKk": "УГАДАЙ. ОБО ВСЁМ. 100 ВОПРОСОВ!",
-      "titleEn": "УГАДАЙ. ОБО ВСЁМ. 100 ВОПРОСОВ!",
+      "titleKk": "ТАП. БӘРІ ТУРАЛЫ. 100 СҰРАҚ!",
+      "titleEn": "GUESS. ABOUT EVERYTHING. 100 QUESTIONS!",
       "startsAt": "14 ноя, 17:00",
       "placeRu": "Garage Music Bar",
       "placeKk": "Garage Music Bar",
@@ -1260,81 +1536,18 @@
       "sourceUrl": "https://www.instagram.com/wowquiz_astana/p/De9cjufiJcJ/",
       "sourceName": "Instagram @wowquiz_astana",
       "workingHours": "",
-      "descriptionRu": "УГАДАЙ. ОБО ВСЁМ. 100 ВОПРОСОВ!\n\nИгра «Обо всём — 100 вопросов»: слова на «Р», 2010 год, мужское/женское.\n📅 14 ноября (суббота)\n⏰ 17:00\n📍 Garage Music Bar, ул. Кравцова, 6\n💵 3500 тг с человека\n👥 Команда: от 2 до 12 человек\n📲 Регистрация: astana.wowquiz.ru (caption truncated, full text long)",
-      "descriptionKk": "УГАДАЙ. ОБО ВСЁМ. 100 ВОПРОСОВ!\n\nИгра «Обо всём — 100 вопросов»: слова на «Р», 2010 год, мужское/женское.\n📅 14 ноября (суббота)\n⏰ 17:00\n📍 Garage Music Bar, ул. Кравцова, 6\n💵 3500 тг с человека\n👥 Команда: от 2 до 12 человек\n📲 Регистрация: astana.wowquiz.ru (caption truncated, full text long)",
-      "descriptionEn": "УГАДАЙ. ОБО ВСЁМ. 100 ВОПРОСОВ!\n\nИгра «Обо всём — 100 вопросов»: слова на «Р», 2010 год, мужское/женское.\n📅 14 ноября (суббота)\n⏰ 17:00\n📍 Garage Music Bar, ул. Кравцова, 6\n💵 3500 тг с человека\n👥 Команда: от 2 до 12 человек\n📲 Регистрация: astana.wowquiz.ru (caption truncated, full text long)",
+      "descriptionRu": "УГАДАЙ. ОБО ВСЁМ. 100 ВОПРОСОВ!\n\nИгра «Обо всём — 100 вопросов»: слова на «Р», 2010 год, мужское/женское.\n📅 14 ноября (суббота)\n⏰ 17:00\n📍 Garage Music Bar, ул. Кравцова, 6\n💵 3500 тг с человека\n👥 Команда: от 2 до 12 человек\n📲 Регистрация: astana.wowquiz.ru",
+      "descriptionKk": "ТАП. БӘРІ ТУРАЛЫ. 100 СҰРАҚ!\n\n«Бәрі туралы — 100 сұрақ» ойыны: «Р» әрпінен басталатын сөздер, 2010 жыл, ерлер мен әйелдер туралы.\n📅 14 қараша (сенбі)\n⏰ 17:00\n📍 Garage Music Bar, Кравцов к-сі, 6\n💵 Бір адамға 3500 тг\n👥 Команда: 2-ден 12 адамға дейін\n📲 Тіркелу: astana.wowquiz.ru",
+      "descriptionEn": "GUESS. ABOUT EVERYTHING. 100 QUESTIONS!\n\nThe “About everything — 100 questions” game: words starting with “R”, the year 2010, men vs women.\n📅 14 November (Saturday)\n⏰ 17:00\n📍 Garage Music Bar, 6 Kravtsov St\n💵 3,500 KZT per person\n👥 Teams of 2 to 12\n📲 Registration: astana.wowquiz.ru",
       "lat": null,
       "lon": null,
-      "isPlace": false
-    },
-    {
-      "id": "ig-e4d2af6fc0",
-      "cityId": "astana",
-      "interest": "THEATER",
-      "titleRu": "Афиша Большого зала на ноябрь",
-      "titleKk": "Афиша Большого зала на ноябрь",
-      "titleEn": "Афиша Большого зала на ноябрь",
-      "startsAt": "2026-11-06 (multiple dates)",
-      "placeRu": "Астана Опера",
-      "placeKk": "Астана Опера",
-      "placeEn": "Астана Опера",
-      "address": "Кунаева 1",
-      "price": null,
-      "sourceUrl": "https://www.instagram.com/astana_opera/p/DfMhcGLiCGw/",
-      "sourceName": "Instagram @astana_opera",
-      "workingHours": "",
-      "descriptionRu": "Афиша Большого зала на ноябрь\n\n6 ноября – ВЕЧЕР БАЛЕТА ГАЛА-БАЛЕТ & одноактный балет С.Гумара «Четыре истины – одна вечность»\n8 и 9 ноября – Гастроли Государственного Театра Наций. «ДЯДЯ ВАНЯ» Стефана Брауншвейга\n11 и 12 ноября – Гастроли Театра Наций. «ТАРТЮФ» Мольера\n26 и 27 ноября – Мировая премьера балета «ТОМИРИС» Хамита Шангалиева\n\n🎟️Билеты astanaopera.kz и ticketon.kz\n📍Кунаева, 1\n+7 (7172) 70-96-00",
-      "descriptionKk": "Афиша Большого зала на ноябрь\n\n6 ноября – ВЕЧЕР БАЛЕТА ГАЛА-БАЛЕТ & одноактный балет С.Гумара «Четыре истины – одна вечность»\n8 и 9 ноября – Гастроли Государственного Театра Наций. «ДЯДЯ ВАНЯ» Стефана Брауншвейга\n11 и 12 ноября – Гастроли Театра Наций. «ТАРТЮФ» Мольера\n26 и 27 ноября – Мировая премьера балета «ТОМИРИС» Хамита Шангалиева\n\n🎟️Билеты astanaopera.kz и ticketon.kz\n📍Кунаева, 1\n+7 (7172) 70-96-00",
-      "descriptionEn": "Афиша Большого зала на ноябрь\n\n6 ноября – ВЕЧЕР БАЛЕТА ГАЛА-БАЛЕТ & одноактный балет С.Гумара «Четыре истины – одна вечность»\n8 и 9 ноября – Гастроли Государственного Театра Наций. «ДЯДЯ ВАНЯ» Стефана Брауншвейга\n11 и 12 ноября – Гастроли Театра Наций. «ТАРТЮФ» Мольера\n26 и 27 ноября – Мировая премьера балета «ТОМИРИС» Хамита Шангалиева\n\n🎟️Билеты astanaopera.kz и ticketon.kz\n📍Кунаева, 1\n+7 (7172) 70-96-00",
-      "lat": null,
-      "lon": null,
-      "isPlace": false
-    },
-    {
-      "id": "ig-b7f7c2835a",
-      "cityId": "astana",
-      "interest": "CONCERTS",
-      "titleRu": "Афиша Камерного зала им. Куляш Байсеитовой на ноябрь",
-      "titleKk": "Афиша Камерного зала им. Куляш Байсеитовой на ноябрь",
-      "titleEn": "Афиша Камерного зала им. Куляш Байсеитовой на ноябрь",
-      "startsAt": "2026-11-07 (multiple dates)",
-      "placeRu": "Астана Опера",
-      "placeKk": "Астана Опера",
-      "placeEn": "Астана Опера",
-      "address": "Камерный зал, Кунаева 1",
-      "price": null,
-      "sourceUrl": "https://www.instagram.com/astana_opera/p/DfMGpLwiLBn/",
-      "sourceName": "Instagram @astana_opera",
-      "workingHours": "",
-      "descriptionRu": "7 ноября – концерт «Аргентинское танго»\n14 ноября – «FLUTE TIME»\n18 ноября – «Паганини. Дресс-код виртуозности»\n21 и 22 ноября – Театр «Piccolo». Опера «ТАЙНЫЙ БРАК» Чимарозы\n28 ноября – хоровой концерт «ҮШ ӘЛЕМ – БІР ӘУЕН»\n29 ноября – «Волшебный мир оперы» (детский цикл)\n🎟️ astanaopera.kz, ticketon.kz\n📍Кунаева, 1",
-      "descriptionKk": "7 ноября – концерт «Аргентинское танго»\n14 ноября – «FLUTE TIME»\n18 ноября – «Паганини. Дресс-код виртуозности»\n21 и 22 ноября – Театр «Piccolo». Опера «ТАЙНЫЙ БРАК» Чимарозы\n28 ноября – хоровой концерт «ҮШ ӘЛЕМ – БІР ӘУЕН»\n29 ноября – «Волшебный мир оперы» (детский цикл)\n🎟️ astanaopera.kz, ticketon.kz\n📍Кунаева, 1",
-      "descriptionEn": "7 ноября – концерт «Аргентинское танго»\n14 ноября – «FLUTE TIME»\n18 ноября – «Паганини. Дресс-код виртуозности»\n21 и 22 ноября – Театр «Piccolo». Опера «ТАЙНЫЙ БРАК» Чимарозы\n28 ноября – хоровой концерт «ҮШ ӘЛЕМ – БІР ӘУЕН»\n29 ноября – «Волшебный мир оперы» (детский цикл)\n🎟️ astanaopera.kz, ticketon.kz\n📍Кунаева, 1",
-      "lat": null,
-      "lon": null,
-      "isPlace": false
-    },
-    {
-      "id": "ig-a4174bac4b",
-      "cityId": "astana",
-      "interest": "CONCERTS",
-      "titleRu": "Афиша Дворца Мира и Согласия на ноябрь",
-      "titleKk": "Афиша Дворца Мира и Согласия на ноябрь",
-      "titleEn": "Афиша Дворца Мира и Согласия на ноябрь",
-      "startsAt": "2026-11-07 (multiple dates)",
-      "placeRu": "Дворец Мира и Согласия",
-      "placeKk": "Дворец Мира и Согласия",
-      "placeEn": "Дворец Мира и Согласия",
-      "address": "Тауелсиздик 57",
-      "price": null,
-      "sourceUrl": "https://www.instagram.com/astana_opera/p/DfG6yt4iNKq/",
-      "sourceName": "Instagram @astana_opera",
-      "workingHours": "",
-      "descriptionRu": "1 ноября – детская лекция-концерт «В мире музыки»\n7 ноября – Гала-опера «Музыкальный калейдоскоп»\n15 ноября – опера «Алеко» Рахманинова\n📍Дворец Мира и Согласия (пр. Тауелсиздик, 57)\n🎟️ astanaopera.kz, ticketon.kz",
-      "descriptionKk": "1 ноября – детская лекция-концерт «В мире музыки»\n7 ноября – Гала-опера «Музыкальный калейдоскоп»\n15 ноября – опера «Алеко» Рахманинова\n📍Дворец Мира и Согласия (пр. Тауелсиздик, 57)\n🎟️ astanaopera.kz, ticketon.kz",
-      "descriptionEn": "1 ноября – детская лекция-концерт «В мире музыки»\n7 ноября – Гала-опера «Музыкальный калейдоскоп»\n15 ноября – опера «Алеко» Рахманинова\n📍Дворец Мира и Согласия (пр. Тауелсиздик, 57)\n🎟️ astanaopera.kz, ticketon.kz",
-      "lat": null,
-      "lon": null,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-14",
+      "dateTo": "2026-11-14",
+      "dates": [
+        "2026-11-14"
+      ],
+      "time": "17:00"
     },
     {
       "id": "ig-b19b156acd",
@@ -1357,7 +1570,13 @@
       "descriptionEn": "6 ноября в Большом зале театра «Астана Опера» состоится Вечер балета в двух отделениях: Гала-балет и одноактный балет Султанбека Гумара «Мәңгіліктің төрт сыры» («Четыре истины – одна вечность») на музыку Хамита Шангалиева. Билеты: astanaopera.kz, ticketon.kz",
       "lat": null,
       "lon": null,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-06",
+      "dateTo": "2026-11-06",
+      "dates": [
+        "2026-11-06"
+      ],
+      "time": null
     },
     {
       "id": "ig-e2155c9e30",
@@ -1380,214 +1599,179 @@
       "descriptionEn": "7 қарашада Бейбітшілік және келісім сарайында өтетін Гала-операда опера солистері, хоры мен симфониялық оркестрі өнер көрсетеді (дирижер Ерболат Ахмедьяров, хормейстер Ержан Дәуітов). Билеттер astanaopera.kz, ticketon.kz",
       "lat": null,
       "lon": null,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-07",
+      "dateTo": "2026-11-07",
+      "dates": [
+        "2026-11-07"
+      ],
+      "time": null
     },
     {
       "id": "ig-f339481a43",
       "cityId": "astana",
       "interest": "THEATER",
-      "titleRu": "Bolero X / 13-14 ноября",
-      "titleKk": "Bolero X / 13-14 ноября",
-      "titleEn": "Bolero X / 13-14 ноября",
-      "startsAt": "13 ноя",
+      "titleRu": "Bolero X / 13–14 ноября",
+      "titleKk": "Bolero X / 13–14 қараша",
+      "titleEn": "Bolero X / 13–14 November",
+      "startsAt": "13–14 ноя",
       "placeRu": "Астана Балет",
-      "placeKk": "Астана Балет",
-      "placeEn": "Астана Балет",
+      "placeKk": "Астана Балет театры",
+      "placeEn": "Astana Ballet Theatre",
       "address": "Астана",
       "price": null,
       "sourceUrl": "https://www.instagram.com/astanaballet/p/DfXFsJZDsdK/",
       "sourceName": "Instagram @astanaballet",
       "workingHours": "",
-      "descriptionRu": "Bolero X / 13-14 қараша. Билеттер: Ticketon.kz",
-      "descriptionKk": "Bolero X / 13-14 қараша. Билеттер: Ticketon.kz",
-      "descriptionEn": "Bolero X / 13-14 қараша. Билеттер: Ticketon.kz",
+      "descriptionRu": "Bolero X / 13–14 ноября. Билеты: Ticketon.kz",
+      "descriptionKk": "Bolero X / 13–14 қараша. Билеттер: Ticketon.kz",
+      "descriptionEn": "Bolero X / 13–14 November. Tickets: Ticketon.kz",
       "lat": null,
       "lon": null,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-13",
+      "dateTo": "2026-11-14",
+      "dates": [],
+      "time": null
     },
     {
       "id": "ig-6deba215d0",
       "cityId": "astana",
       "interest": "THEATER",
-      "titleRu": "LOVE. FEAR. LOSS | 13-14 ноября",
-      "titleKk": "LOVE. FEAR. LOSS | 13-14 ноября",
-      "titleEn": "LOVE. FEAR. LOSS | 13-14 ноября",
-      "startsAt": "13 ноя",
+      "titleRu": "LOVE. FEAR. LOSS | 13–14 ноября",
+      "titleKk": "LOVE. FEAR. LOSS | 13–14 қараша",
+      "titleEn": "LOVE. FEAR. LOSS | 13–14 November",
+      "startsAt": "13–14 ноя",
       "placeRu": "Астана Балет",
-      "placeKk": "Астана Балет",
-      "placeEn": "Астана Балет",
+      "placeKk": "Астана Балет театры",
+      "placeEn": "Astana Ballet Theatre",
       "address": "Астана",
       "price": null,
       "sourceUrl": "https://www.instagram.com/astanaballet/reel/DfWH82mPEiX/",
       "sourceName": "Instagram @astanaballet",
       "workingHours": "",
       "descriptionRu": "Спектакль, вдохновлённый жизнью и творчеством Эдит Пиаф. Билеты: Ticketon.kz",
-      "descriptionKk": "Спектакль, вдохновлённый жизнью и творчеством Эдит Пиаф. Билеты: Ticketon.kz",
-      "descriptionEn": "Спектакль, вдохновлённый жизнью и творчеством Эдит Пиаф. Билеты: Ticketon.kz",
+      "descriptionKk": "Эдит Пиафтың өмірі мен шығармашылығынан шабыт алған қойылым. Билеттер: Ticketon.kz",
+      "descriptionEn": "A performance inspired by the life and work of Édith Piaf. Tickets: Ticketon.kz",
       "lat": null,
       "lon": null,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-13",
+      "dateTo": "2026-11-14",
+      "dates": [],
+      "time": null
     },
     {
       "id": "ig-4b0128409e",
       "cityId": "astana",
       "interest": "THEATER",
-      "titleRu": "Падшие ангелы | 13-14 ноября",
-      "titleKk": "Падшие ангелы | 13-14 ноября",
-      "titleEn": "Падшие ангелы | 13-14 ноября",
-      "startsAt": "13 ноя",
+      "titleRu": "Падшие ангелы | 13–14 ноября",
+      "titleKk": "«Құлаған періштелер» | 13–14 қараша",
+      "titleEn": "Falling Angels | 13–14 November",
+      "startsAt": "13–14 ноя",
       "placeRu": "Астана Балет",
-      "placeKk": "Астана Балет",
-      "placeEn": "Астана Балет",
+      "placeKk": "Астана Балет театры",
+      "placeEn": "Astana Ballet Theatre",
       "address": "Астана",
       "price": null,
       "sourceUrl": "https://www.instagram.com/astanaballet/p/Dd_-AK7Ov4q/",
       "sourceName": "Instagram @astanaballet",
       "workingHours": "",
       "descriptionRu": "Падшие ангелы | 13-14 ноября. Постановка Иржи Килиана, музыка Стива Райха (Drumming). Билеты: astanaballet.com",
-      "descriptionKk": "Падшие ангелы | 13-14 ноября. Постановка Иржи Килиана, музыка Стива Райха (Drumming). Билеты: astanaballet.com",
-      "descriptionEn": "Падшие ангелы | 13-14 ноября. Постановка Иржи Килиана, музыка Стива Райха (Drumming). Билеты: astanaballet.com",
+      "descriptionKk": "«Құлаған періштелер» | 13–14 қараша. Қоюшысы — Иржи Килиан, музыкасы — Стив Райх (Drumming). Билеттер: astanaballet.com",
+      "descriptionEn": "Falling Angels | 13–14 November. Choreography by Jiří Kylián, music by Steve Reich (Drumming). Tickets: astanaballet.com",
       "lat": null,
       "lon": null,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-13",
+      "dateTo": "2026-11-14",
+      "dates": [],
+      "time": null
     },
     {
       "id": "ig-a7b0e6f559",
       "cityId": "astana",
       "interest": "THEATER",
-      "titleRu": "Щелкунчик (декабрь)",
-      "titleKk": "Щелкунчик (декабрь)",
-      "titleEn": "Щелкунчик (декабрь)",
-      "startsAt": "19 дек",
+      "titleRu": "Щелкунчик",
+      "titleKk": "«Щелкунчик»",
+      "titleEn": "The Nutcracker",
+      "startsAt": "19 дек – 31 дек",
       "placeRu": "Астана Балет",
-      "placeKk": "Астана Балет",
-      "placeEn": "Астана Балет",
+      "placeKk": "Астана Балет театры",
+      "placeEn": "Astana Ballet Theatre",
       "address": "Астана",
       "price": null,
       "sourceUrl": "https://www.instagram.com/astanaballet/p/DfWxJnHDqW4/",
       "sourceName": "Instagram @astanaballet",
       "workingHours": "",
       "descriptionRu": "Две версии: детская 50 мин — 19, 20, 22, 23 декабря; полная 133 мин с оркестром — 22, 23, 24, 25, 28, 31 декабря. Билеты: Ticketon.kz",
-      "descriptionKk": "Две версии: детская 50 мин — 19, 20, 22, 23 декабря; полная 133 мин с оркестром — 22, 23, 24, 25, 28, 31 декабря. Билеты: Ticketon.kz",
-      "descriptionEn": "Две версии: детская 50 мин — 19, 20, 22, 23 декабря; полная 133 мин с оркестром — 22, 23, 24, 25, 28, 31 декабря. Билеты: Ticketon.kz",
+      "descriptionKk": "Екі нұсқа: балаларға арналған 50 минуттық — 19, 20, 22, 23 желтоқсан; оркестрмен толық 133 минуттық — 22, 23, 24, 25, 28, 31 желтоқсан. Билеттер: Ticketon.kz",
+      "descriptionEn": "Two versions: a 50-minute version for children — 19, 20, 22, 23 December; the full 133-minute version with orchestra — 22, 23, 24, 25, 28, 31 December. Tickets: Ticketon.kz",
       "lat": null,
       "lon": null,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-12-19",
+      "dateTo": "2026-12-31",
+      "dates": [],
+      "time": null
     },
     {
       "id": "ig-78a62b74e1",
       "cityId": "astana",
       "interest": "CONCERTS",
       "titleRu": "«Ұлы дала мұрасы» — концерт ко Дню Независимости, 15 декабря",
-      "titleKk": "«Ұлы дала мұрасы» — концерт ко Дню Независимости, 15 декабря",
-      "titleEn": "«Ұлы дала мұрасы» — концерт ко Дню Независимости, 15 декабря",
+      "titleKk": "«Ұлы дала мұрасы» — Тәуелсіздік күніне арналған концерт, 15 желтоқсан",
+      "titleEn": "“Ұлы дала мұрасы” (Legacy of the Great Steppe) — Independence Day concert, 15 December",
       "startsAt": "15 дек",
       "placeRu": "Астана Балет",
-      "placeKk": "Астана Балет",
-      "placeEn": "Астана Балет",
+      "placeKk": "Астана Балет театры",
+      "placeEn": "Astana Ballet Theatre",
       "address": "Астана",
       "price": null,
       "sourceUrl": "https://www.instagram.com/astanaballet/reel/DfWclFvv2at/",
       "sourceName": "Instagram @astanaballet",
       "workingHours": "",
-      "descriptionRu": "Халық билері концерттік бағдарламасы (хореография Айгүл Тати). 15 желтоқсан. Билеттер: Ticketon.kz",
+      "descriptionRu": "Концертная программа народных танцев (хореография Айгуль Тати). 15 декабря. Билеты: Ticketon.kz",
       "descriptionKk": "Халық билері концерттік бағдарламасы (хореография Айгүл Тати). 15 желтоқсан. Билеттер: Ticketon.kz",
-      "descriptionEn": "Халық билері концерттік бағдарламасы (хореография Айгүл Тати). 15 желтоқсан. Билеттер: Ticketon.kz",
+      "descriptionEn": "A folk dance concert programme (choreography by Aigul Tati). 15 December. Tickets: Ticketon.kz",
       "lat": null,
       "lon": null,
-      "isPlace": false
-    },
-    {
-      "id": "ig-d76edb9ad6",
-      "cityId": "astana",
-      "interest": "EXHIBITIONS",
-      "titleRu": "Выставки и мероприятия ноября",
-      "titleKk": "Выставки и мероприятия ноября",
-      "titleEn": "Выставки и мероприятия ноября",
-      "startsAt": "",
-      "placeRu": "Национальный музей РК, Астана",
-      "placeKk": "Национальный музей РК, Астана",
-      "placeEn": "Национальный музей РК, Астана",
-      "address": "Астана",
-      "price": null,
-      "sourceUrl": "https://www.instagram.com/nationalmuseumkz/p/DfOtLQ_kcnf/",
-      "sourceName": "Instagram @nationalmuseumkz",
-      "workingHours": "",
-      "descriptionRu": "Келушілер назарына қараша айындағы көрмелер мен іс-шараларды ұсынамыз! / Представляем вашему вниманию выставки и мероприятия ноября! (details on image)",
-      "descriptionKk": "Келушілер назарына қараша айындағы көрмелер мен іс-шараларды ұсынамыз! / Представляем вашему вниманию выставки и мероприятия ноября! (details on image)",
-      "descriptionEn": "Келушілер назарына қараша айындағы көрмелер мен іс-шараларды ұсынамыз! / Представляем вашему вниманию выставки и мероприятия ноября! (details on image)",
-      "lat": null,
-      "lon": null,
-      "isPlace": false
-    },
-    {
-      "id": "ig-e5cdf3191a",
-      "cityId": "astana",
-      "interest": "CONCERTS",
-      "titleRu": "Қараша афишасы — Қазақконцерт",
-      "titleKk": "Қараша афишасы — Қазақконцерт",
-      "titleEn": "Қараша афишасы — Қазақконцерт",
-      "startsAt": "",
-      "placeRu": "QAZAQCONCERT",
-      "placeKk": "QAZAQCONCERT",
-      "placeEn": "QAZAQCONCERT",
-      "address": "Мәңгілік Ел 10/1",
-      "price": null,
-      "sourceUrl": "https://www.instagram.com/qazaqconcert/p/DfHiE6qIxkg/",
-      "sourceName": "Instagram @qazaqconcert",
-      "workingHours": "",
-      "descriptionRu": "Қараша айында «Қазақконцерт» сахнасында концерттік бағдарламалар мен қойылымдар. 📍 QAZAQCONCERT | Мәңгілік Ел, 10/1. 🎟️ Ticketon.kz (no specific dates in caption)",
-      "descriptionKk": "Қараша айында «Қазақконцерт» сахнасында концерттік бағдарламалар мен қойылымдар. 📍 QAZAQCONCERT | Мәңгілік Ел, 10/1. 🎟️ Ticketon.kz (no specific dates in caption)",
-      "descriptionEn": "Қараша айында «Қазақконцерт» сахнасында концерттік бағдарламалар мен қойылымдар. 📍 QAZAQCONCERT | Мәңгілік Ел, 10/1. 🎟️ Ticketon.kz (no specific dates in caption)",
-      "lat": null,
-      "lon": null,
-      "isPlace": false
-    },
-    {
-      "id": "ig-caa4bc119e",
-      "cityId": "astana",
-      "interest": "THEATER",
-      "titleRu": "Репертуар на ноябрь — Жастар театры",
-      "titleKk": "Репертуар на ноябрь — Жастар театры",
-      "titleEn": "Репертуар на ноябрь — Жастар театры",
-      "startsAt": "",
-      "placeRu": "Жастар театры",
-      "placeKk": "Жастар театры",
-      "placeEn": "Жастар театры",
-      "address": "І. Есенберлин к-сі, 10",
-      "price": null,
-      "sourceUrl": "https://www.instagram.com/zhastar_teatry/p/DfKVFoUxzH7/",
-      "sourceName": "Instagram @zhastar_teatry",
-      "workingHours": "",
-      "descriptionRu": "Қымбатты көрермен! Астана қаласы әкімдігінің ЖАСТАР ТЕАТРЫ ҚАРАША айының репертуарын ұсынады! 📍 І. Есенберлин көшесі, 10. 🎟️ Билеттер — TICKETON.KZ сайтында",
-      "descriptionKk": "Қымбатты көрермен! Астана қаласы әкімдігінің ЖАСТАР ТЕАТРЫ ҚАРАША айының репертуарын ұсынады! 📍 І. Есенберлин көшесі, 10. 🎟️ Билеттер — TICKETON.KZ сайтында",
-      "descriptionEn": "Қымбатты көрермен! Астана қаласы әкімдігінің ЖАСТАР ТЕАТРЫ ҚАРАША айының репертуарын ұсынады! 📍 І. Есенберлин көшесі, 10. 🎟️ Билеттер — TICKETON.KZ сайтында",
-      "lat": null,
-      "lon": null,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-12-15",
+      "dateTo": "2026-12-15",
+      "dates": [
+        "2026-12-15"
+      ],
+      "time": null
     },
     {
       "id": "ig-59447133bd",
       "cityId": "astana",
       "interest": "THEATER",
-      "titleRu": "«Пранк махаббат» — перенос на 24 қараша",
-      "titleKk": "«Пранк махаббат» — перенос на 24 қараша",
-      "titleEn": "«Пранк махаббат» — перенос на 24 қараша",
+      "titleRu": "«Пранк махаббат» — перенесён на 24 ноября",
+      "titleKk": "«Пранк махаббат» — 24 қарашаға ауыстырылды",
+      "titleEn": "“Prank Mahabbat” — moved to 24 November",
       "startsAt": "24 ноя, 19:00",
-      "placeRu": "Жастар театры, Астана",
+      "placeRu": "Театр «Жастар», Астана",
       "placeKk": "Жастар театры, Астана",
-      "placeEn": "Жастар театры, Астана",
+      "placeEn": "Zhastar Theatre, Astana",
       "address": "Астана",
       "price": null,
       "sourceUrl": "https://www.instagram.com/zhastar_teatry/p/DfFEOt3RXsg/",
       "sourceName": "Instagram @zhastar_teatry",
       "workingHours": "",
-      "descriptionRu": "31 қазан күні 19:00-ге жоспарланған «Пранк махаббат» қойылымы 24 қараша күні сағат 19:00-ге ауыстырылды. Билеттер әрекет етеді (Ticketon).",
+      "descriptionRu": "Спектакль «Пранк махаббат», запланированный на 31 октября в 19:00, перенесён на 24 ноября, 19:00. Купленные билеты действительны (Ticketon).",
       "descriptionKk": "31 қазан күні 19:00-ге жоспарланған «Пранк махаббат» қойылымы 24 қараша күні сағат 19:00-ге ауыстырылды. Билеттер әрекет етеді (Ticketon).",
-      "descriptionEn": "31 қазан күні 19:00-ге жоспарланған «Пранк махаббат» қойылымы 24 қараша күні сағат 19:00-ге ауыстырылды. Билеттер әрекет етеді (Ticketon).",
+      "descriptionEn": "The play “Prank Mahabbat”, originally scheduled for 31 October at 19:00, has been moved to 24 November at 19:00. Purchased tickets remain valid (Ticketon).",
       "lat": null,
       "lon": null,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-24",
+      "dateTo": "2026-11-24",
+      "dates": [
+        "2026-11-24"
+      ],
+      "time": "19:00"
     },
     {
       "id": "ig-b37a285761",
@@ -1610,58 +1794,18 @@
       "descriptionEn": "«НЕЗАВИСИМЫЕ» — документальная драма Олега Федоренко, основанная на реальных историях людей, столкнувшихся с наркотической зависимостью. Уже завтра, 6 ноября, в 19:00. Государственный академический русский театр драмы имени М. Горького. Билеты — по ссылке в профиле театра.",
       "lat": null,
       "lon": null,
-      "isPlace": false
-    },
-    {
-      "id": "ig-71027f2edd",
-      "cityId": "astana",
-      "interest": "THEATER",
-      "titleRu": "Репертуар на ноябрь",
-      "titleKk": "Репертуар на ноябрь",
-      "titleEn": "Репертуар на ноябрь",
-      "startsAt": "",
-      "placeRu": "Театр Горького",
-      "placeKk": "Театр Горького",
-      "placeEn": "Театр Горького",
-      "address": "ул. Желтоксан, 11",
-      "price": null,
-      "sourceUrl": "https://www.instagram.com/gorkytheatre.kz/p/DeRbXcpDsf7/",
-      "sourceName": "Instagram @gorkytheatre.kz",
-      "workingHours": "",
-      "descriptionRu": "Представляем репертуар на ноябрь. Спектакли для взрослых и детей, премьеры. Билеты в кассе театра (ул. Желтоксан, 11), Ticketon.kz",
-      "descriptionKk": "Представляем репертуар на ноябрь. Спектакли для взрослых и детей, премьеры. Билеты в кассе театра (ул. Желтоксан, 11), Ticketon.kz",
-      "descriptionEn": "Представляем репертуар на ноябрь. Спектакли для взрослых и детей, премьеры. Билеты в кассе театра (ул. Желтоксан, 11), Ticketon.kz",
-      "lat": null,
-      "lon": null,
-      "isPlace": false
-    },
-    {
-      "id": "ig-b4f3a35930",
-      "cityId": "astana",
-      "interest": "THEATER",
-      "titleRu": "Новогодние сказки (анонс афиши)",
-      "titleKk": "Новогодние сказки (анонс афиши)",
-      "titleEn": "Новогодние сказки (анонс афиши)",
-      "startsAt": "",
-      "placeRu": "Театр Горького, Астана",
-      "placeKk": "Театр Горького, Астана",
-      "placeEn": "Театр Горького, Астана",
-      "address": "Астана",
-      "price": null,
-      "sourceUrl": "https://www.instagram.com/gorkytheatre.kz/p/DfWsbOrO_Ts/",
-      "sourceName": "Instagram @gorkytheatre.kz",
-      "workingHours": "",
-      "descriptionRu": "Новый год всё ближе... Спешите приобрести билеты в кассе театра и на сайте Тикетон!",
-      "descriptionKk": "Новый год всё ближе... Спешите приобрести билеты в кассе театра и на сайте Тикетон!",
-      "descriptionEn": "Новый год всё ближе... Спешите приобрести билеты в кассе театра и на сайте Тикетон!",
-      "lat": null,
-      "lon": null,
-      "isPlace": false
+      "isPlace": false,
+      "dateFrom": "2026-11-06",
+      "dateTo": "2026-11-06",
+      "dates": [
+        "2026-11-06"
+      ],
+      "time": "19:00"
     },
     {
       "id": "tg-afisha_orsa-2598",
       "cityId": "astana",
-      "interest": "FESTIVALS",
+      "interest": "CONCERTS",
       "startsAt": "2026-11-13T20:00:00+05:00",
       "address": "",
       "price": null,
@@ -1672,14 +1816,252 @@
       "lon": null,
       "isPlace": false,
       "titleRu": "ANI LORAK в Астане!",
-      "placeRu": "г.Астана, Конгресс-Центр",
+      "placeRu": "Конгресс-центр, Астана",
       "descriptionRu": "ANI LORAK в Астане!\n\nДата: 13 ноября в 20:00\nМесто: г.Астана, Конгресс-Центр\nБилеты на сайте: zakazbiletov.kz\n\nАни Лорак представляет «AУРА» — новое грандиозное шоу, которое станет событием года!\n\n13 ноября 2026 года в Конгресс-Центре состоится премьера, о которой уже говорит вся страна — Ани Лорак представит своё новое масштабное шоу «AУРА». Это не просто концерт, а рождение новой эпохи в творчестве артистки. После легендарных программ «Каролина» и «ДИВА», каждая из которых переписала историю отечественного шоу-бизнеса, Ани Лорак возвращается с проектом, где музыка, театр и технологии соединяются в одно целое — в живую, пульсирующую ауру искусства.",
-      "titleKk": "ANI LORAK в Астане!",
-      "placeKk": "г.Астана, Конгресс-Центр",
+      "titleKk": "ANI LORAK Астанада!",
+      "placeKk": "Астана қ., Конгресс-орталық",
       "descriptionKk": "ANI LORAK в Астане!\n\nДата: 13 ноября в 20:00\nМесто: г.Астана, Конгресс-Центр\nБилеты на сайте: zakazbiletov.kz\n\nАни Лорак представляет «AУРА» — новое грандиозное шоу, которое станет событием года!\n\n13 ноября 2026 года в Конгресс-Центре состоится премьера, о которой уже говорит вся страна — Ани Лорак представит своё новое масштабное шоу «AУРА». Это не просто концерт, а рождение новой эпохи в творчестве артистки. После легендарных программ «Каролина» и «ДИВА», каждая из которых переписала историю отечественного шоу-бизнеса, Ани Лорак возвращается с проектом, где музыка, театр и технологии соединяются в одно целое — в живую, пульсирующую ауру искусства.",
-      "titleEn": "ANI LORAK в Астане!",
-      "placeEn": "г.Астана, Конгресс-Центр",
-      "descriptionEn": "ANI LORAK в Астане!\n\nДата: 13 ноября в 20:00\nМесто: г.Астана, Конгресс-Центр\nБилеты на сайте: zakazbiletov.kz\n\nАни Лорак представляет «AУРА» — новое грандиозное шоу, которое станет событием года!\n\n13 ноября 2026 года в Конгресс-Центре состоится премьера, о которой уже говорит вся страна — Ани Лорак представит своё новое масштабное шоу «AУРА». Это не просто концерт, а рождение новой эпохи в творчестве артистки. После легендарных программ «Каролина» и «ДИВА», каждая из которых переписала историю отечественного шоу-бизнеса, Ани Лорак возвращается с проектом, где музыка, театр и технологии соединяются в одно целое — в живую, пульсирующую ауру искусства."
+      "titleEn": "ANI LORAK in Astana!",
+      "placeEn": "Congress Center, Astana",
+      "descriptionEn": "ANI LORAK в Астане!\n\nДата: 13 ноября в 20:00\nМесто: г.Астана, Конгресс-Центр\nБилеты на сайте: zakazbiletov.kz\n\nАни Лорак представляет «AУРА» — новое грандиозное шоу, которое станет событием года!\n\n13 ноября 2026 года в Конгресс-Центре состоится премьера, о которой уже говорит вся страна — Ани Лорак представит своё новое масштабное шоу «AУРА». Это не просто концерт, а рождение новой эпохи в творчестве артистки. После легендарных программ «Каролина» и «ДИВА», каждая из которых переписала историю отечественного шоу-бизнеса, Ани Лорак возвращается с проектом, где музыка, театр и технологии соединяются в одно целое — в живую, пульсирующую ауру искусства.",
+      "dateFrom": "2026-11-13",
+      "dateTo": "2026-11-13",
+      "dates": [
+        "2026-11-13"
+      ],
+      "time": "20:00"
+    },
+    {
+      "id": "tg-afisha_orsa-2620",
+      "cityId": "astana",
+      "interest": "CONCERTS",
+      "startsAt": "2027-04-23T19:30:00+05:00",
+      "address": "",
+      "price": null,
+      "sourceUrl": "https://t.me/afisha_orsa/2620",
+      "sourceName": "Telegram @afisha_orsa",
+      "workingHours": "",
+      "lat": null,
+      "lon": null,
+      "isPlace": false,
+      "titleRu": "Анжелика Варум и Леонид Агутин в Астане!",
+      "placeRu": "ЦКЗ «Qazaqstan», пр. Мәңгілік ел, 10/1",
+      "descriptionRu": "Анжелика Варум и Леонид Агутин в Астане!\n\nДата: 23 апреля в 19:30\nМесто: г.Астана,  пр. Мәңгілік ел, 10/1, ЦКЗ QAZAQSTAN\nБилеты на сайте ticketon.kz\n\nДве яркие звезды постсоветской эстрады — Анжелика Варум и Леонид Агутин — приезжают с большим концертом! Этот вечер станет встречей с дуэтом, давно ставшим настоящим символом гармонии. Утончённая Анжелика Варум и харизматичный Леонид Агутин вместе создают подлинную магию, в которой царят музыка и любовь. В программе концерта — их главные хиты: «Я тебя люблю», «С тобой», «Музыка», «Не уходи», «Скрипка-лира», «Один на один» и другие любимые песни.",
+      "titleKk": "Анжелика Варум мен Леонид Агутин Астанада!",
+      "placeKk": "«Qazaqstan» ОКЗ, Мәңгілік ел даңғ., 10/1",
+      "descriptionKk": "Анжелика Варум и Леонид Агутин в Астане!\n\nДата: 23 апреля в 19:30\nМесто: г.Астана,  пр. Мәңгілік ел, 10/1, ЦКЗ QAZAQSTAN\nБилеты на сайте ticketon.kz\n\nДве яркие звезды постсоветской эстрады — Анжелика Варум и Леонид Агутин — приезжают с большим концертом! Этот вечер станет встречей с дуэтом, давно ставшим настоящим символом гармонии. Утончённая Анжелика Варум и харизматичный Леонид Агутин вместе создают подлинную магию, в которой царят музыка и любовь. В программе концерта — их главные хиты: «Я тебя люблю», «С тобой», «Музыка», «Не уходи», «Скрипка-лира», «Один на один» и другие любимые песни.",
+      "titleEn": "Angelica Varum & Leonid Agutin in Astana!",
+      "placeEn": "Qazaqstan Central Concert Hall, 10/1 Mangilik El Ave",
+      "descriptionEn": "Анжелика Варум и Леонид Агутин в Астане!\n\nДата: 23 апреля в 19:30\nМесто: г.Астана,  пр. Мәңгілік ел, 10/1, ЦКЗ QAZAQSTAN\nБилеты на сайте ticketon.kz\n\nДве яркие звезды постсоветской эстрады — Анжелика Варум и Леонид Агутин — приезжают с большим концертом! Этот вечер станет встречей с дуэтом, давно ставшим настоящим символом гармонии. Утончённая Анжелика Варум и харизматичный Леонид Агутин вместе создают подлинную магию, в которой царят музыка и любовь. В программе концерта — их главные хиты: «Я тебя люблю», «С тобой», «Музыка», «Не уходи», «Скрипка-лира», «Один на один» и другие любимые песни.",
+      "dateFrom": "2027-04-23",
+      "dateTo": "2027-04-23",
+      "dates": [
+        "2027-04-23"
+      ],
+      "time": "19:30"
+    },
+    {
+      "id": "tg-afisha_orsa-2629",
+      "cityId": "astana",
+      "interest": "CONCERTS",
+      "startsAt": "2026-11-20T20:00:00+05:00",
+      "address": "",
+      "price": null,
+      "sourceUrl": "https://t.me/afisha_orsa/2629",
+      "sourceName": "Telegram @afisha_orsa",
+      "workingHours": "",
+      "lat": null,
+      "lon": null,
+      "isPlace": false,
+      "titleRu": "Точка Nemo в Астане!",
+      "placeRu": "Overhead Club, ул. Женис, 36/1",
+      "descriptionRu": "Точка Nemo в Астане!\n\nДата: 20 ноября в 20:00\nМесто: г.Астана, ул. Женис, 36/1, Overhead Club\nБилеты на showmarket.kz\n\nКогда музыка становится чем-то большим, чем просто звуком… ❤️‍🔥\n\n20 ноября Точка Nemo приглашает Астану на концерт-презентацию альбома «Обычные люди».\n\nОт мощного гитарного рока до проникновенных баллад. От танцев до мурашек по коже.\n\nВозможно, именно в этот вечер ты откроешь для себя новую любимую группу.",
+      "titleKk": "«Точка Nemo» Астанада!",
+      "placeKk": "Overhead Club, Жеңіс к-сі, 36/1",
+      "descriptionKk": "Точка Nemo в Астане!\n\nДата: 20 ноября в 20:00\nМесто: г.Астана, ул. Женис, 36/1, Overhead Club\nБилеты на showmarket.kz\n\nКогда музыка становится чем-то большим, чем просто звуком… ❤️‍🔥\n\n20 ноября Точка Nemo приглашает Астану на концерт-презентацию альбома «Обычные люди».\n\nОт мощного гитарного рока до проникновенных баллад. От танцев до мурашек по коже.\n\nВозможно, именно в этот вечер ты откроешь для себя новую любимую группу.",
+      "titleEn": "Tochka Nemo in Astana!",
+      "placeEn": "Overhead Club, 36/1 Zhenis St",
+      "descriptionEn": "Точка Nemo в Астане!\n\nДата: 20 ноября в 20:00\nМесто: г.Астана, ул. Женис, 36/1, Overhead Club\nБилеты на showmarket.kz\n\nКогда музыка становится чем-то большим, чем просто звуком… ❤️‍🔥\n\n20 ноября Точка Nemo приглашает Астану на концерт-презентацию альбома «Обычные люди».\n\nОт мощного гитарного рока до проникновенных баллад. От танцев до мурашек по коже.\n\nВозможно, именно в этот вечер ты откроешь для себя новую любимую группу.",
+      "dateFrom": "2026-11-20",
+      "dateTo": "2026-11-20",
+      "dates": [
+        "2026-11-20"
+      ],
+      "time": "20:00"
+    },
+    {
+      "id": "tg-afisha_orsa-2631",
+      "cityId": "astana",
+      "interest": "CONCERTS",
+      "startsAt": "2026-11-22T19:00:00+05:00",
+      "address": "",
+      "price": null,
+      "sourceUrl": "https://t.me/afisha_orsa/2631",
+      "sourceName": "Telegram @afisha_orsa",
+      "workingHours": "",
+      "lat": null,
+      "lon": null,
+      "isPlace": false,
+      "titleRu": "Sary Birthday Fest в Астане!",
+      "placeRu": "Harat’s Expo, Астана",
+      "descriptionRu": "Sary Birthday Fest в Астане!\n\nДата: 22 ноября в 19:00\nМесто: г.Астана, Harat’s Expo\nБилеты на сайте zakazbiletov.kz\n\nВы ждали их! sary возвращаются на сцену — и празднуют своё пятилетие!\n\nГруппа «sary» — молодая и амбициозная группа из Астаны, исполняющая собственные треки в жанре Q-Rock.\n\nВ Harat’s Expo музыканты соберут друзей и слушателей, чтобы вместе отметить пять лет музыки, эмоций и любимых песен!\n\nВ этот вечер к празднику присоединятся ZAQ, Sana Sezim, Ontogyzoneki и Stellar Kosh. И ещё один сюрприз — секретный гость, имя которого пока останется в тайне!\n\nПять лет sary! Один большой праздник! Ждём тебя на концерте!",
+      "titleKk": "Sary Birthday Fest Астанада!",
+      "placeKk": "Harat’s Expo, Астана",
+      "descriptionKk": "Sary Birthday Fest в Астане!\n\nДата: 22 ноября в 19:00\nМесто: г.Астана, Harat’s Expo\nБилеты на сайте zakazbiletov.kz\n\nВы ждали их! sary возвращаются на сцену — и празднуют своё пятилетие!\n\nГруппа «sary» — молодая и амбициозная группа из Астаны, исполняющая собственные треки в жанре Q-Rock.\n\nВ Harat’s Expo музыканты соберут друзей и слушателей, чтобы вместе отметить пять лет музыки, эмоций и любимых песен!\n\nВ этот вечер к празднику присоединятся ZAQ, Sana Sezim, Ontogyzoneki и Stellar Kosh. И ещё один сюрприз — секретный гость, имя которого пока останется в тайне!\n\nПять лет sary! Один большой праздник! Ждём тебя на концерте!",
+      "titleEn": "Sary Birthday Fest in Astana!",
+      "placeEn": "Harat’s Expo, Astana",
+      "descriptionEn": "Sary Birthday Fest в Астане!\n\nДата: 22 ноября в 19:00\nМесто: г.Астана, Harat’s Expo\nБилеты на сайте zakazbiletov.kz\n\nВы ждали их! sary возвращаются на сцену — и празднуют своё пятилетие!\n\nГруппа «sary» — молодая и амбициозная группа из Астаны, исполняющая собственные треки в жанре Q-Rock.\n\nВ Harat’s Expo музыканты соберут друзей и слушателей, чтобы вместе отметить пять лет музыки, эмоций и любимых песен!\n\nВ этот вечер к празднику присоединятся ZAQ, Sana Sezim, Ontogyzoneki и Stellar Kosh. И ещё один сюрприз — секретный гость, имя которого пока останется в тайне!\n\nПять лет sary! Один большой праздник! Ждём тебя на концерте!",
+      "dateFrom": "2026-11-22",
+      "dateTo": "2026-11-22",
+      "dates": [
+        "2026-11-22"
+      ],
+      "time": "19:00"
+    },
+    {
+      "id": "tg-afisha_orsa-2590",
+      "cityId": "astana",
+      "interest": "CONCERTS",
+      "startsAt": "2027-04-15T20:00:00+05:00",
+      "address": "",
+      "price": null,
+      "sourceUrl": "https://t.me/afisha_orsa/2590",
+      "sourceName": "Telegram @afisha_orsa",
+      "workingHours": "",
+      "lat": null,
+      "lon": null,
+      "isPlace": false,
+      "titleRu": "Баста в Астане!",
+      "placeRu": "Конгресс-центр, Астана",
+      "descriptionRu": "Баста в Астане!\n\nДата: 15 апреля в 20:00\nМесто: г.Астана, Конгресс-Центр\nБилеты на topbilet.kz\n\n«Сансара», «Моя игра», «Выпускной» и другие песни, которые мы знаем наизусть. Встречаем Басту в Астане!",
+      "titleKk": "Баста Астанада!",
+      "placeKk": "Астана қ., Конгресс-орталық",
+      "descriptionKk": "Баста в Астане!\n\nДата: 15 апреля в 20:00\nМесто: г.Астана, Конгресс-Центр\nБилеты на topbilet.kz\n\n«Сансара», «Моя игра», «Выпускной» и другие песни, которые мы знаем наизусть. Встречаем Басту в Астане!",
+      "titleEn": "Basta in Astana!",
+      "placeEn": "Congress Center, Astana",
+      "descriptionEn": "Баста в Астане!\n\nДата: 15 апреля в 20:00\nМесто: г.Астана, Конгресс-Центр\nБилеты на topbilet.kz\n\n«Сансара», «Моя игра», «Выпускной» и другие песни, которые мы знаем наизусть. Встречаем Басту в Астане!",
+      "dateFrom": "2027-04-15",
+      "dateTo": "2027-04-15",
+      "dates": [
+        "2027-04-15"
+      ],
+      "time": "20:00"
+    },
+    {
+      "id": "tg-afisha_orsa-2576",
+      "cityId": "astana",
+      "interest": "CONCERTS",
+      "startsAt": "2026-12-11T20:00:00+05:00",
+      "address": "",
+      "price": null,
+      "sourceUrl": "https://t.me/afisha_orsa/2576",
+      "sourceName": "Telegram @afisha_orsa",
+      "workingHours": "",
+      "lat": null,
+      "lon": null,
+      "isPlace": false,
+      "titleRu": "Платина в Астане!",
+      "placeRu": "Nova, ул. Достык, 3",
+      "descriptionRu": "Платина в Астане!\n\nДата: 11 декабря в 20:00\nМесто: г.Астана, ул.Достык 3, Nova\nБилеты уже в продаже, эксклюзивно на Topbilet.kz.\n\nПлатина возвращается в Казахстан!\n\nОдин из главных артистов современной рэп-сцены снова с нами. Главные хиты, фирменный звук и два больших концерта этой зимой.",
+      "titleKk": "Платина Астанада!",
+      "placeKk": "Nova, Достық к-сі, 3",
+      "descriptionKk": "Платина в Астане!\n\nДата: 11 декабря в 20:00\nМесто: г.Астана, ул.Достык 3, Nova\nБилеты уже в продаже, эксклюзивно на Topbilet.kz.\n\nПлатина возвращается в Казахстан!\n\nОдин из главных артистов современной рэп-сцены снова с нами. Главные хиты, фирменный звук и два больших концерта этой зимой.",
+      "titleEn": "Platina in Astana!",
+      "placeEn": "Nova, 3 Dostyk St",
+      "descriptionEn": "Платина в Астане!\n\nДата: 11 декабря в 20:00\nМесто: г.Астана, ул.Достык 3, Nova\nБилеты уже в продаже, эксклюзивно на Topbilet.kz.\n\nПлатина возвращается в Казахстан!\n\nОдин из главных артистов современной рэп-сцены снова с нами. Главные хиты, фирменный звук и два больших концерта этой зимой.",
+      "dateFrom": "2026-12-11",
+      "dateTo": "2026-12-11",
+      "dates": [
+        "2026-12-11"
+      ],
+      "time": "20:00"
+    },
+    {
+      "id": "tg-afisha_orsa-2578",
+      "cityId": "astana",
+      "interest": "CONCERTS",
+      "startsAt": "2026-11-12T20:00:00+05:00",
+      "address": "",
+      "price": null,
+      "sourceUrl": "https://t.me/afisha_orsa/2578",
+      "sourceName": "Telegram @afisha_orsa",
+      "workingHours": "",
+      "lat": null,
+      "lon": null,
+      "isPlace": false,
+      "titleRu": "JONY в Астане!",
+      "placeRu": "Дворец единоборств им. Ж. Ушкемпирова",
+      "descriptionRu": "JONY в Астане!\n\nДата: 12 ноября в 20:00\nМесто: г.Астана, Дворец единоборств им. Ж. Ушкемпирова\nБилеты доступны в приложении Freedom SuperApp и на сайте Тicketon.kz\n\nОдин из самых популярных исполнителей современной сцены JONY выступит в Казахстане с большой концертной программой.\n\nВ программе — любимые хиты «Комета», «Аллея», «Титры», «Ты беспощадна» и другие песни.",
+      "titleKk": "JONY Астанада!",
+      "placeKk": "Ж. Үшкемпіров атындағы Жекпе-жек сарайы",
+      "descriptionKk": "JONY в Астане!\n\nДата: 12 ноября в 20:00\nМесто: г.Астана, Дворец единоборств им. Ж. Ушкемпирова\nБилеты доступны в приложении Freedom SuperApp и на сайте Тicketon.kz\n\nОдин из самых популярных исполнителей современной сцены JONY выступит в Казахстане с большой концертной программой.\n\nВ программе — любимые хиты «Комета», «Аллея», «Титры», «Ты беспощадна» и другие песни.",
+      "titleEn": "JONY in Astana!",
+      "placeEn": "Zh. Ushkempirov Martial Arts Palace",
+      "descriptionEn": "JONY в Астане!\n\nДата: 12 ноября в 20:00\nМесто: г.Астана, Дворец единоборств им. Ж. Ушкемпирова\nБилеты доступны в приложении Freedom SuperApp и на сайте Тicketon.kz\n\nОдин из самых популярных исполнителей современной сцены JONY выступит в Казахстане с большой концертной программой.\n\nВ программе — любимые хиты «Комета», «Аллея», «Титры», «Ты беспощадна» и другие песни.",
+      "dateFrom": "2026-11-12",
+      "dateTo": "2026-11-12",
+      "dates": [
+        "2026-11-12"
+      ],
+      "time": "20:00"
+    },
+    {
+      "id": "tg-book_oqy-466",
+      "cityId": "astana",
+      "interest": "FESTIVALS",
+      "startsAt": "2026-11-28T14:00:00+05:00",
+      "address": "",
+      "price": null,
+      "sourceUrl": "https://t.me/book_oqy/466",
+      "sourceName": "Telegram @book_oqy",
+      "workingHours": "",
+      "lat": null,
+      "lon": null,
+      "isPlace": false,
+      "titleRu": "Юбилейная 20-я встреча книжного клуба «Казахстанские страницы»",
+      "placeRu": "Пространство «Внутри книги»",
+      "descriptionRu": "📚💜 Юбилейная 20-я встреча книжного клуба «Казахстанские страницы»!\n\nВ ноябре мы познакомимся с писательницей Дианой Байдаулетовой и обсудим её сборник рассказов «Птичий щебет»! 🐦\n\n✨ Диана Байдаулетова – писательница, журналист и PR-специалист из Астаны. Окончила КазНУ имени аль-Фараби, а также магистерскую программу по глобальным коммуникациям и международной журналистике в Свободном университете Берлина и СПбГУ.\n\nПишет прозу, хоррор, комедию, стихи и сценарии на русском и английском языках. Её рассказы публиковались в Aina Stories, DARKER и «Кладбищенских историях».\n\n📖 «Птичий щебет» – сборник рассказов на стыке психологической прозы, сатиры и цифрового реализма.\n\n💫 Почему стоит прочитать книгу?\n🔸 Необычное сочетание психологической прозы, хоррора, сатиры и цифрового реализма.\n🔸 Почти в каждом рассказе присутствуют элементы автофикшена – личный опыт и наблюдения автора переплетаются с художественным вымыслом.\n🔸 Интересная история создания: первоначально Диана собиралась составить сборник на английском языке, но благодаря писательскому сообществу в Астане накопила материал для книги на русском.\n\n✨ Автор будет с нами!\n\nНа встрече поговорим с Дианой о её рассказах, символизме птиц, границах между реальностью и вымыслом, литературных экспериментах и сложностях начинающего писателя. Узнаем, почему писательские голоса напоминают автору птичий щебет, как идеи попадают в её «сундук сокровищ» и над какими произведениями она работает сейчас.\n\n💜 А для модератора книжного клуба «Казахстанские страницы» эта встреча будет особенно важной!\n\nЭлина выступала бета-ридером «Птичьего щебета», поэтому нашему проекту очень хочется обсудить книгу уже с читателями, услышать ваши впечатления и поговорить о том, как история меняется от первых рукописей до опубликованного произведения.\n\n📚 Где прочитать книгу?\nУчастникам книжного клуба будет предоставлен электронный файл книги для ознакомления перед встречей.\nА бумажный экземпляр «Птичьего щебета» можно будет приобрести на встрече! 💜\n\n📅 28 ноября, 14:00\n📍 Место проведения - пространство «Внутри книги»\n💜 Стоимость участия – 2 500 тенге.\n✉️ Для регистрации пишите @wow_bambi\n\n«Казахстанские страницы» – проект книжного блогера Элины Петровой, посвящённый современной казахстанской литературе.\n\nЧитаем и встречаемся на «Казахстанских страницах»! 📚✨\n\n#КС_авторы #КС_афиша",
+      "titleKk": "«Казахстанские страницы» кітап клубының мерейтойлық 20-кездесуі",
+      "placeKk": "«Внутри книги» кеңістігі",
+      "descriptionKk": "📚💜 Юбилейная 20-я встреча книжного клуба «Казахстанские страницы»!\n\nВ ноябре мы познакомимся с писательницей Дианой Байдаулетовой и обсудим её сборник рассказов «Птичий щебет»! 🐦\n\n✨ Диана Байдаулетова – писательница, журналист и PR-специалист из Астаны. Окончила КазНУ имени аль-Фараби, а также магистерскую программу по глобальным коммуникациям и международной журналистике в Свободном университете Берлина и СПбГУ.\n\nПишет прозу, хоррор, комедию, стихи и сценарии на русском и английском языках. Её рассказы публиковались в Aina Stories, DARKER и «Кладбищенских историях».\n\n📖 «Птичий щебет» – сборник рассказов на стыке психологической прозы, сатиры и цифрового реализма.\n\n💫 Почему стоит прочитать книгу?\n🔸 Необычное сочетание психологической прозы, хоррора, сатиры и цифрового реализма.\n🔸 Почти в каждом рассказе присутствуют элементы автофикшена – личный опыт и наблюдения автора переплетаются с художественным вымыслом.\n🔸 Интересная история создания: первоначально Диана собиралась составить сборник на английском языке, но благодаря писательскому сообществу в Астане накопила материал для книги на русском.\n\n✨ Автор будет с нами!\n\nНа встрече поговорим с Дианой о её рассказах, символизме птиц, границах между реальностью и вымыслом, литературных экспериментах и сложностях начинающего писателя. Узнаем, почему писательские голоса напоминают автору птичий щебет, как идеи попадают в её «сундук сокровищ» и над какими произведениями она работает сейчас.\n\n💜 А для модератора книжного клуба «Казахстанские страницы» эта встреча будет особенно важной!\n\nЭлина выступала бета-ридером «Птичьего щебета», поэтому нашему проекту очень хочется обсудить книгу уже с читателями, услышать ваши впечатления и поговорить о том, как история меняется от первых рукописей до опубликованного произведения.\n\n📚 Где прочитать книгу?\nУчастникам книжного клуба будет предоставлен электронный файл книги для ознакомления перед встречей.\nА бумажный экземпляр «Птичьего щебета» можно будет приобрести на встрече! 💜\n\n📅 28 ноября, 14:00\n📍 Место проведения - пространство «Внутри книги»\n💜 Стоимость участия – 2 500 тенге.\n✉️ Для регистрации пишите @wow_bambi\n\n«Казахстанские страницы» – проект книжного блогера Элины Петровой, посвящённый современной казахстанской литературе.\n\nЧитаем и встречаемся на «Казахстанских страницах»! 📚✨\n\n#КС_авторы #КС_афиша",
+      "titleEn": "20th anniversary meeting of the “Kazakhstan Pages” book club",
+      "placeEn": "“Vnutri Knigi” space",
+      "descriptionEn": "📚💜 Юбилейная 20-я встреча книжного клуба «Казахстанские страницы»!\n\nВ ноябре мы познакомимся с писательницей Дианой Байдаулетовой и обсудим её сборник рассказов «Птичий щебет»! 🐦\n\n✨ Диана Байдаулетова – писательница, журналист и PR-специалист из Астаны. Окончила КазНУ имени аль-Фараби, а также магистерскую программу по глобальным коммуникациям и международной журналистике в Свободном университете Берлина и СПбГУ.\n\nПишет прозу, хоррор, комедию, стихи и сценарии на русском и английском языках. Её рассказы публиковались в Aina Stories, DARKER и «Кладбищенских историях».\n\n📖 «Птичий щебет» – сборник рассказов на стыке психологической прозы, сатиры и цифрового реализма.\n\n💫 Почему стоит прочитать книгу?\n🔸 Необычное сочетание психологической прозы, хоррора, сатиры и цифрового реализма.\n🔸 Почти в каждом рассказе присутствуют элементы автофикшена – личный опыт и наблюдения автора переплетаются с художественным вымыслом.\n🔸 Интересная история создания: первоначально Диана собиралась составить сборник на английском языке, но благодаря писательскому сообществу в Астане накопила материал для книги на русском.\n\n✨ Автор будет с нами!\n\nНа встрече поговорим с Дианой о её рассказах, символизме птиц, границах между реальностью и вымыслом, литературных экспериментах и сложностях начинающего писателя. Узнаем, почему писательские голоса напоминают автору птичий щебет, как идеи попадают в её «сундук сокровищ» и над какими произведениями она работает сейчас.\n\n💜 А для модератора книжного клуба «Казахстанские страницы» эта встреча будет особенно важной!\n\nЭлина выступала бета-ридером «Птичьего щебета», поэтому нашему проекту очень хочется обсудить книгу уже с читателями, услышать ваши впечатления и поговорить о том, как история меняется от первых рукописей до опубликованного произведения.\n\n📚 Где прочитать книгу?\nУчастникам книжного клуба будет предоставлен электронный файл книги для ознакомления перед встречей.\nА бумажный экземпляр «Птичьего щебета» можно будет приобрести на встрече! 💜\n\n📅 28 ноября, 14:00\n📍 Место проведения - пространство «Внутри книги»\n💜 Стоимость участия – 2 500 тенге.\n✉️ Для регистрации пишите @wow_bambi\n\n«Казахстанские страницы» – проект книжного блогера Элины Петровой, посвящённый современной казахстанской литературе.\n\nЧитаем и встречаемся на «Казахстанских страницах»! 📚✨\n\n#КС_авторы #КС_афиша",
+      "dateFrom": "2026-11-28",
+      "dateTo": "2026-11-28",
+      "dates": [
+        "2026-11-28"
+      ],
+      "time": "14:00"
+    },
+    {
+      "id": "tg-batylbol_almaty-1776",
+      "cityId": "almaty",
+      "interest": "FESTIVALS",
+      "startsAt": "2026-11-10T19:00:00+05:00",
+      "address": "",
+      "price": null,
+      "sourceUrl": "https://t.me/batylbol_almaty/1776",
+      "sourceName": "Telegram @batylbol_almaty",
+      "workingHours": "",
+      "lat": null,
+      "lon": null,
+      "isPlace": false,
+      "titleRu": "Разговорный клуб Алматы",
+      "placeRu": "КИМЭП, пр. Абая, 2/1",
+      "descriptionRu": "💬 Разговорный клуб Алматы: что будет на следующей встрече\n\n🔹 Группа уровня B (средний уровень)\n🗓 вт 10.11 19:00 · 📍 пр. Абая 2/1 (КИМЭП)\nБеседа: «Көршілер»\nОбщество, культура и традиции\nВопросы для беседы:\n1. Көршілеріңізбен қаншалықты жақын араласасыз?\n2. Есіңізде қалған қызық көршіңіз болды ма, қандай адам еді?\n3. Көршілермен қандай жағдайда көмектесіп немесе көмек алып көрдіңіз?\n4. Көршілер арасында дау-дамай болғанда қалай шешкен жөн деп ойлайсыз?\n5. Бұрынғы заманда көршілермен қарым-қатынас қазіргіден несімен ерекшеленген деп ойлайсыз?\n6. Идеалды көршіңіз қандай болар еді?\n7. Жаңа үйге көшкенде көршілермен танысуды маңызды деп есептейсіз бе?\n\n🔹 Группа уровня C — Еркін сөйлейтін (продвинутый уровень)\n🗓 вт 10.11 19:00 · 📍 пр. Абая 2/1 (КИМЭП)\nБеседа: «Актерлік өнер»\nРазвлечения и творчество\nВопросы для беседы:\n1. Жақсы актерді қалай анықтауға болады?\n2. Табиғи талант пен кәсіби дайындықтың - қайсысы маңыздырақ?\n3. Актерлік өнерге қызыққан кезіңіз болды ма?\n4. Егер киноға түсу мүмкіндігі болса, кіммен бірге ойнауды қалар едіңіз?\n5. Сізге ең ұнайтын актер кім және неге?\n6. Кімнің рөлдері сізді ең көп таңғалдырады?\n7. Бір актерді трагедияда елестетіп, комедияда елестете алмайтын кезіңіз болды ма?\n8. Кей актерге тек «жағымсыз», «жағымды» рөлдер жарасады деп ойлайсыз ба?\n\nПодготовьтесь заранее: подумайте над ответами и выпишите слова, которые понадобятся, — так на встрече будет легче говорить. 🙌\n\n📅 План встреч на неделю вперёд вы можете увидеть в своём личном кабинете по ссылке: batylbol.kz/test/lk/\n(Вы должны быть зарегистрированы на «Разговорный клуб Алматы».)",
+      "titleKk": "Алматы сөйлесу клубы",
+      "placeKk": "КИМЭП, Абай даңғ., 2/1",
+      "descriptionKk": "💬 Разговорный клуб Алматы: что будет на следующей встрече\n\n🔹 Группа уровня B (средний уровень)\n🗓 вт 10.11 19:00 · 📍 пр. Абая 2/1 (КИМЭП)\nБеседа: «Көршілер»\nОбщество, культура и традиции\nВопросы для беседы:\n1. Көршілеріңізбен қаншалықты жақын араласасыз?\n2. Есіңізде қалған қызық көршіңіз болды ма, қандай адам еді?\n3. Көршілермен қандай жағдайда көмектесіп немесе көмек алып көрдіңіз?\n4. Көршілер арасында дау-дамай болғанда қалай шешкен жөн деп ойлайсыз?\n5. Бұрынғы заманда көршілермен қарым-қатынас қазіргіден несімен ерекшеленген деп ойлайсыз?\n6. Идеалды көршіңіз қандай болар еді?\n7. Жаңа үйге көшкенде көршілермен танысуды маңызды деп есептейсіз бе?\n\n🔹 Группа уровня C — Еркін сөйлейтін (продвинутый уровень)\n🗓 вт 10.11 19:00 · 📍 пр. Абая 2/1 (КИМЭП)\nБеседа: «Актерлік өнер»\nРазвлечения и творчество\nВопросы для беседы:\n1. Жақсы актерді қалай анықтауға болады?\n2. Табиғи талант пен кәсіби дайындықтың - қайсысы маңыздырақ?\n3. Актерлік өнерге қызыққан кезіңіз болды ма?\n4. Егер киноға түсу мүмкіндігі болса, кіммен бірге ойнауды қалар едіңіз?\n5. Сізге ең ұнайтын актер кім және неге?\n6. Кімнің рөлдері сізді ең көп таңғалдырады?\n7. Бір актерді трагедияда елестетіп, комедияда елестете алмайтын кезіңіз болды ма?\n8. Кей актерге тек «жағымсыз», «жағымды» рөлдер жарасады деп ойлайсыз ба?\n\nПодготовьтесь заранее: подумайте над ответами и выпишите слова, которые понадобятся, — так на встрече будет легче говорить. 🙌\n\n📅 План встреч на неделю вперёд вы можете увидеть в своём личном кабинете по ссылке: batylbol.kz/test/lk/\n(Вы должны быть зарегистрированы на «Разговорный клуб Алматы».)",
+      "titleEn": "Almaty Speaking Club",
+      "placeEn": "KIMEP, 2/1 Abay Ave",
+      "descriptionEn": "💬 Разговорный клуб Алматы: что будет на следующей встрече\n\n🔹 Группа уровня B (средний уровень)\n🗓 вт 10.11 19:00 · 📍 пр. Абая 2/1 (КИМЭП)\nБеседа: «Көршілер»\nОбщество, культура и традиции\nВопросы для беседы:\n1. Көршілеріңізбен қаншалықты жақын араласасыз?\n2. Есіңізде қалған қызық көршіңіз болды ма, қандай адам еді?\n3. Көршілермен қандай жағдайда көмектесіп немесе көмек алып көрдіңіз?\n4. Көршілер арасында дау-дамай болғанда қалай шешкен жөн деп ойлайсыз?\n5. Бұрынғы заманда көршілермен қарым-қатынас қазіргіден несімен ерекшеленген деп ойлайсыз?\n6. Идеалды көршіңіз қандай болар еді?\n7. Жаңа үйге көшкенде көршілермен танысуды маңызды деп есептейсіз бе?\n\n🔹 Группа уровня C — Еркін сөйлейтін (продвинутый уровень)\n🗓 вт 10.11 19:00 · 📍 пр. Абая 2/1 (КИМЭП)\nБеседа: «Актерлік өнер»\nРазвлечения и творчество\nВопросы для беседы:\n1. Жақсы актерді қалай анықтауға болады?\n2. Табиғи талант пен кәсіби дайындықтың - қайсысы маңыздырақ?\n3. Актерлік өнерге қызыққан кезіңіз болды ма?\n4. Егер киноға түсу мүмкіндігі болса, кіммен бірге ойнауды қалар едіңіз?\n5. Сізге ең ұнайтын актер кім және неге?\n6. Кімнің рөлдері сізді ең көп таңғалдырады?\n7. Бір актерді трагедияда елестетіп, комедияда елестете алмайтын кезіңіз болды ма?\n8. Кей актерге тек «жағымсыз», «жағымды» рөлдер жарасады деп ойлайсыз ба?\n\nПодготовьтесь заранее: подумайте над ответами и выпишите слова, которые понадобятся, — так на встрече будет легче говорить. 🙌\n\n📅 План встреч на неделю вперёд вы можете увидеть в своём личном кабинете по ссылке: batylbol.kz/test/lk/\n(Вы должны быть зарегистрированы на «Разговорный клуб Алматы».)",
+      "dateFrom": "2026-11-10",
+      "dateTo": "2026-11-10",
+      "dates": [
+        "2026-11-10"
+      ],
+      "time": "19:00"
     }
   ],
   "places": [

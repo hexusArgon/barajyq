@@ -27,11 +27,31 @@ class TelegramTests(unittest.TestCase):
         self.assertEqual(c['descriptionKk'],GOOD); self.assertEqual(c['startsAt'],'2026-11-08T19:00:00+05:00')
         self.assertEqual(c['address'],''); self.assertIsNone(c['price'])
     def test_reject_uncertainty(self):
-        for text in [GOOD.replace(' 2026',''),GOOD.replace('2026','2025'),GOOD.replace('Астана',''),
+        for text in [GOOD.replace('2026','2025'),GOOD.replace('Астана',''),
                      GOOD.replace('19:00',''),GOOD.replace('📍',''),GOOD+'\n9 ноября 2026',
                      'Вспоминаем, как прошла '+GOOD,GOOD+'\nПереносим лекцию',GOOD.replace('8 ноября','31 ноября')]:
             with self.subTest(text=text): self.assertIsNone(tg.classify(post(text),SOURCE,NOW)[0])
         self.assertEqual(tg.classify(post('Пост про английские слова'),SOURCE,NOW)[1],'not_event')
+    def test_year_comes_from_publication_date_not_clock(self):
+        no_year=GOOD.replace(' 2026','')
+        c,r=tg.classify(post(no_year),SOURCE,NOW)
+        self.assertEqual(r,'candidate'); self.assertEqual(c['startsAt'],'2026-11-08T19:00:00+05:00')
+        p=post(no_year); p['publishedAt']=None
+        self.assertEqual(tg.classify(p,SOURCE,NOW)[1],'missing_year_without_publication_date_review')
+        # An old post about "8 ноября" is last year's event, not a future one.
+        p=post(no_year); p['publishedAt']='2025-11-01T10:00:00+00:00'
+        self.assertEqual(tg.classify(p,SOURCE,NOW)[1],'past')
+        # December post about January rolls over to next year.
+        p=post(no_year.replace('8 ноября','15 января')); p['publishedAt']='2026-12-20T10:00:00+00:00'
+        self.assertEqual(tg.classify(p,SOURCE,NOW)[0]['startsAt'],'2027-01-15T19:00:00+05:00')
+    def test_kazakh_months_short_dates_and_time_ranges(self):
+        for text in [GOOD.replace('8 ноября 2026','8 қарашада'),GOOD.replace('8 ноября 2026','08.11'),
+                     GOOD.replace('19:00','19:00–21:00'),GOOD+'\n8 ноября (суббота)']:
+            with self.subTest(text=text):
+                c,r=tg.classify(post(text),SOURCE,NOW)
+                self.assertEqual(r,'candidate'); self.assertEqual(c['startsAt'],'2026-11-08T19:00:00+05:00')
+        self.assertIsNone(tg.classify(post(GOOD+'\nСбор в 18:30'),SOURCE,NOW)[0])
+        self.assertIsNone(tg.classify(post(GOOD.replace('8 ноября 2026','8 ноября и 15 ноября')),SOURCE,NOW)[0])
     def test_city_filter_and_no_channel_city_inference(self):
         source=dict(SOURCE,allowedCities=['astana'])
         card,reason=tg.classify(post(GOOD.replace('Астана','Алматы')),source,NOW)

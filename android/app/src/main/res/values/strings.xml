@@ -84,4 +84,54 @@
     <string name="detail_price">Price</string>
     <string name="detail_when">When</string>
     <string name="detail_where">Where</string>
+
+    <!-- Feed search, filter and sort controls -->
+    <string name="tools_search">Search</string>
+    <string name="tools_filters">Filters</string>
+    <string name="tools_active_filters">Filters (%1$d)</string>
+    <string name="tools_sort">Sort</string>
+    <string name="tools_current_sort">Order: %1$s</string>
+    <string name="tools_search_events">Search events</string>
+    <string name="tools_search_places">Search places</string>
+    <string name="tools_search_hint">Title, description, venue or address</string>
+    <string name="tools_clear_search">Clear search</string>
+    <string name="tools_close_search">Close search</string>
+    <string name="tools_sort_original">Recommended</string>
+    <string name="tools_sort_nearest">Soonest first</string>
+    <string name="tools_sort_name">By name</string>
+    <string name="tools_sort_date_hint">Grouped by day: today, tomorrow, this week, later. Exhibitions that are already on come after them.</string>
+    <string name="tools_cancel">Cancel</string>
+    <string name="tools_apply">Apply</string>
+    <string name="tools_scope_hint">Your city and interests only. Hidden cards stay hidden.</string>
+    <string name="tools_categories">Categories</string>
+    <string name="tools_categories_hint">No selection means all available categories.</string>
+    <string name="tools_price">Price / admission</string>
+    <string name="tools_all_prices">Any price</string>
+    <string name="tools_free">Free</string>
+    <string name="tools_paid">Paid</string>
+    <string name="tools_price_unknown">Unknown or ambiguous price</string>
+    <string name="tools_price_hint">If the source gives no price, the event is in neither “Free” nor “Paid”.</string>
+    <string name="tools_date">Date range</string>
+    <string name="tools_any_date">Any date</string>
+    <string name="tools_today">Today</string>
+    <string name="tools_next_7">7 days</string>
+    <string name="tools_next_30">30 days</string>
+    <string name="tools_date_hint">Past events are hidden automatically.</string>
+    <string name="tools_reset_filters">Reset filters</string>
+    <string name="tools_reset_all">Reset search and filters</string>
+    <string name="tools_no_results">Nothing found</string>
+    <string name="tools_no_results_hint">Change your search or reset filters. Your interests and hidden cards will not change.</string>
+    <string name="plan_event">Plan</string>
+    <string name="calendar_unavailable">No calendar editor is available. Install or enable a calendar app.</string>
+    <string name="calendar_review">Check the date and time before saving. If the source has no time, pick it yourself.</string>
+
+    <!-- Day groups of the events list and extra date filters -->
+    <string name="tools_tomorrow">Tomorrow</string>
+    <string name="tools_weekend">Weekend</string>
+    <string name="section_today">Today</string>
+    <string name="section_tomorrow">Tomorrow</string>
+    <string name="section_this_week">This week</string>
+    <string name="section_later">Later</string>
+    <string name="section_ongoing">On now</string>
+    <string name="section_undated">Date to be announced</string>
 </resources>

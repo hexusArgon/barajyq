@@ -4,6 +4,7 @@ import android.content.Context
 import kz.astana.afisha.BuildConfig
 import kz.astana.afisha.domain.City
 import kz.astana.afisha.domain.EventCard
+import kz.astana.afisha.domain.EventSchedule
 import kz.astana.afisha.domain.Interest
 import kz.astana.afisha.domain.UserProfile
 import kotlinx.coroutines.Dispatchers
@@ -15,11 +16,16 @@ import org.json.JSONObject
 import java.io.File
 import java.net.HttpURLConnection
 import java.net.URL
+import java.time.OffsetDateTime
 import java.util.concurrent.atomic.AtomicReference
 
 /**
- * Loads events/places from bundled assets/events.json, optional remote JSON feed
- * (BuildConfig.EVENTS_FEED_URL), and a disk cache. Remote items override bundled by id.
+ * Loads events/places from bundled assets/events.json and the optional remote JSON feed
+ * (BuildConfig.EVENTS_FEED_URL). Remote items override bundled ones by id.
+ *
+ * The disk cache stores only the last successful REMOTE payload (offline start). It is ignored when
+ * the bundled feed of a newer app version is fresher, so an app update always shows its own data
+ * (older versions cached the merged bundled feed, which hid every data fix shipped in an update).
  */
 object FeedRepository {
     private val mutex = Mutex()
@@ -32,16 +38,21 @@ object FeedRepository {
         val source: String,
     )
 
-    fun peek(): ParsedFeed? = cache.get()
+    fun peek(): ParsedFeed? = cache.get()?.let(::sanitize)
+
+    private fun sanitize(feed: ParsedFeed) = feed.copy(
+        events = EventContentPolicy.clean(feed.events),
+        places = EventContentPolicy.clean(feed.places),
+    )
 
     suspend fun ensureLoaded(context: Context): ParsedFeed = mutex.withLock {
-        cache.get()?.let { return it }
+        cache.get()?.let { return sanitize(it) }
         val app = context.applicationContext
         val bundled = readAsset(app) ?: ParsedFeed(emptyList(), emptyList(), null, "empty")
-        val cachedDisk = readDisk(app)
         val remote = fetchRemote()
-        val merged = merge(bundled, cachedDisk, remote)
-        writeDisk(app, merged)
+        if (remote != null) writeDisk(app, remote)
+        val cachedRemote = if (remote == null) readDisk(app)?.takeIf { isNewer(it, bundled) } else null
+        val merged = merge(bundled, cachedRemote, remote)
         cache.set(merged)
         merged
     }
@@ -50,18 +61,26 @@ object FeedRepository {
         val app = context.applicationContext
         val bundled = readAsset(app) ?: ParsedFeed(emptyList(), emptyList(), null, "empty")
         val remote = fetchRemote()
-        val merged = merge(bundled, null, remote)
-        writeDisk(app, merged)
+        if (remote != null) writeDisk(app, remote)
+        val merged = merge(bundled, if (remote == null) readDisk(app)?.takeIf { isNewer(it, bundled) } else null, remote)
         cache.set(merged)
         merged
     }
 
+    /** Remote cache wins only when its `updatedAt` is strictly later than the bundled feed's. */
+    private fun isNewer(candidate: ParsedFeed, bundled: ParsedFeed): Boolean {
+        fun stamp(f: ParsedFeed) = f.updatedAt?.let { runCatching { OffsetDateTime.parse(it).toInstant() }.getOrNull() }
+        val a = stamp(candidate) ?: return false
+        val b = stamp(bundled) ?: return true
+        return a > b
+    }
+
     fun forCity(feed: ParsedFeed, city: City, places: Boolean): List<EventCard> {
-        val base = if (places) feed.places else feed.events
+        val base = EventContentPolicy.clean(if (places) feed.places else feed.events)
         val cityItems = base.filter { it.cityId == city.id }
         if (cityItems.isNotEmpty()) return cityItems
         // Fallback to Fake* templates for cities without feed rows.
-        return if (places) FakePlacesRepository.forCity(city) else FakeEventsRepository.forCity(city)
+        return EventContentPolicy.clean(if (places) FakePlacesRepository.forCity(city) else FakeEventsRepository.forCity(city))
     }
 
     fun forProfile(feed: ParsedFeed, profile: UserProfile, city: City, places: Boolean, hidden: Set<String>): List<EventCard> =
@@ -84,8 +103,8 @@ object FeedRepository {
             else -> "assets"
         }
         return ParsedFeed(
-            events = ev.values.toList(),
-            places = pl.values.toList(),
+            events = EventContentPolicy.clean(ev.values.toList()),
+            places = EventContentPolicy.clean(pl.values.toList()),
             updatedAt = remote?.updatedAt ?: disk?.updatedAt ?: bundled.updatedAt,
             source = source,
         )
@@ -95,7 +114,10 @@ object FeedRepository {
         context.assets.open("events.json").bufferedReader().use { parse(it.readText(), "assets") }
     }.getOrNull()
 
-    private fun diskFile(context: Context) = File(context.filesDir, "events_feed.json")
+    // v2: remote-only cache. The v1 file ("events_feed.json") held a merged bundled copy and is deleted.
+    private fun diskFile(context: Context) = File(context.filesDir, "events_feed_remote.json").also {
+        File(context.filesDir, "events_feed.json").takeIf { old -> old.exists() }?.delete()
+    }
 
     private fun readDisk(context: Context): ParsedFeed? = runCatching {
         val f = diskFile(context)
@@ -104,7 +126,7 @@ object FeedRepository {
     }.getOrNull()
 
     private fun writeDisk(context: Context, feed: ParsedFeed) {
-        // Persist last successful remote/bundled merge as JSON array envelope for next cold start.
+        // Persist the last successful remote payload for the next offline cold start.
         runCatching {
             val root = JSONObject()
             root.put("version", 1)
@@ -144,7 +166,7 @@ object FeedRepository {
             val o = optJSONObject(i) ?: continue
             out += fromJson(o)
         }
-        return out
+        return EventContentPolicy.clean(out)
     }
 
     private fun fromJson(o: JSONObject): EventCard {
@@ -162,7 +184,7 @@ object FeedRepository {
             placeEn = o.optString("placeEn"),
             address = o.optString("address"),
             interest = interest,
-            price = o.optString("price").ifBlank { null },
+            price = if (o.isNull("price")) null else EventContentPolicy.normalizePrice(o.optString("price")),
             whyMatches = "Интерес: ${interest.labelRu.lowercase()}",
             sourceUrl = o.optString("sourceUrl"),
             sourceName = o.optString("sourceName"),
@@ -173,8 +195,19 @@ object FeedRepository {
             descriptionEn = o.optString("descriptionEn"),
             lat = o.optDoubleOrNull("lat"),
             lon = o.optDoubleOrNull("lon"),
+            schedule = scheduleOf(o),
         )
     }
+
+    private fun scheduleOf(o: JSONObject): EventSchedule? {
+        if (o.optBoolean("isPlace", false)) return null
+        val dates = o.optJSONArray("dates")?.let { a -> (0 until a.length()).mapNotNull { a.optString(it).ifBlank { null } } }.orEmpty()
+        return EventSchedule.of(o.optStringOrNull("dateFrom"), o.optStringOrNull("dateTo"), dates, o.optStringOrNull("time"))
+            ?: EventSchedule.fromIso(o.optString("startsAt"))
+    }
+
+    private fun JSONObject.optStringOrNull(key: String): String? =
+        if (!has(key) || isNull(key)) null else optString(key).ifBlank { null }
 
     private fun toJson(e: EventCard): JSONObject = JSONObject().apply {
         put("id", e.id)
@@ -194,6 +227,11 @@ object FeedRepository {
         put("isPlace", e.isPlace)
         if (e.lat != null) put("lat", e.lat) else put("lat", JSONObject.NULL)
         if (e.lon != null) put("lon", e.lon) else put("lon", JSONObject.NULL)
+        e.schedule?.let { sc ->
+            put("dateFrom", sc.from.toString()); put("dateTo", sc.to.toString())
+            put("dates", JSONArray(sc.dates.map { it.toString() }))
+            put("time", sc.time?.toString() ?: JSONObject.NULL)
+        }
     }
 
     private fun JSONObject.optDoubleOrNull(key: String): Double? {

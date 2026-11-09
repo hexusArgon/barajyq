@@ -45,7 +45,6 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -54,6 +53,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
+import kz.astana.afisha.ui.calendar.openCalendarEditor
 import kz.astana.afisha.R
 import kz.astana.afisha.data.FeedRepository
 import kz.astana.afisha.data.SessionStore
@@ -93,6 +93,13 @@ fun EventDetailScreen(eventId: String, onBack: () -> Unit, onHidden: (String) ->
                         stringResource(if (event?.isPlace == true) R.string.place_description else R.string.event_description),
                         maxLines = 1, overflow = TextOverflow.Ellipsis,
                     )
+                },
+                actions = {
+                    event?.let { item ->
+                        IconButton(onClick = { SessionStore.hideEvent(item.id); onHidden(item.id) }) {
+                            Icon(Icons.Filled.VisibilityOff, stringResource(R.string.not_interested))
+                        }
+                    }
                 },
                 navigationIcon = {
                     IconButton(onClick = onBack) {
@@ -139,8 +146,9 @@ fun EventDetailScreen(eventId: String, onBack: () -> Unit, onHidden: (String) ->
             // Facts: when / where / hours / price
             ElevatedCard(Modifier.fillMaxWidth(), shape = MaterialTheme.shapes.large) {
                 Column(Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                    if (!e.isPlace && e.startsAt.isNotBlank()) {
-                        InfoLine(Icons.Filled.Event, Localize.date(e.startsAt, lang), emphasize = true)
+                    val whenText = if (e.isPlace) "" else Localize.eventWhen(e, lang)
+                    if (whenText.isNotBlank()) {
+                        InfoLine(Icons.Filled.Event, whenText, emphasize = true)
                     }
                     InfoLine(Icons.Filled.Place, e.place(lang),
                         secondary = e.address.takeIf { it.isNotBlank() && it != e.placeRu })
@@ -188,14 +196,11 @@ fun EventDetailScreen(eventId: String, onBack: () -> Unit, onHidden: (String) ->
                 modifier = Modifier.padding(start = 4.dp),
             )
             OutlinedButton(
-                onClick = {
-                    SessionStore.hideEvent(e.id)
-                    onHidden(e.id)
-                },
+                onClick = { openCalendarEditor(context, e, lang) },
                 modifier = Modifier.fillMaxWidth().height(48.dp), shape = MaterialTheme.shapes.medium,
             ) {
-                Icon(Icons.Filled.VisibilityOff, null, Modifier.size(18.dp))
-                Text(stringResource(R.string.not_interested), Modifier.padding(start = 6.dp))
+                Icon(Icons.Filled.Event, null, Modifier.size(18.dp))
+                Text(stringResource(R.string.plan_event), Modifier.padding(start = 6.dp))
             }
             Spacer(Modifier.height(8.dp))
         }

@@ -83,4 +83,54 @@
     <string name="detail_price">Цена</string>
     <string name="detail_when">Когда</string>
     <string name="detail_where">Где</string>
+
+    <!-- Feed search, filter and sort controls -->
+    <string name="tools_search">Поиск</string>
+    <string name="tools_filters">Фильтры</string>
+    <string name="tools_active_filters">Фильтры (%1$d)</string>
+    <string name="tools_sort">Сортировка</string>
+    <string name="tools_current_sort">Порядок: %1$s</string>
+    <string name="tools_search_events">Поиск событий</string>
+    <string name="tools_search_places">Поиск мест</string>
+    <string name="tools_search_hint">Название, описание, место или адрес</string>
+    <string name="tools_clear_search">Очистить поиск</string>
+    <string name="tools_close_search">Закрыть поиск</string>
+    <string name="tools_sort_original">Рекомендуемые</string>
+    <string name="tools_sort_nearest">Сначала ближайшие</string>
+    <string name="tools_sort_name">По названию</string>
+    <string name="tools_sort_date_hint">По дням: сегодня, завтра, на этой неделе, позже. Выставки, которые уже идут, — после них.</string>
+    <string name="tools_cancel">Отмена</string>
+    <string name="tools_apply">Применить</string>
+    <string name="tools_scope_hint">Только ваш город и интересы. Скрытые карточки не вернутся.</string>
+    <string name="tools_categories">Категории</string>
+    <string name="tools_categories_hint">Без выбора — все доступные категории.</string>
+    <string name="tools_price">Цена / вход</string>
+    <string name="tools_all_prices">Любая цена</string>
+    <string name="tools_free">Бесплатно</string>
+    <string name="tools_paid">Платно</string>
+    <string name="tools_price_unknown">Цена не указана или неоднозначна</string>
+    <string name="tools_price_hint">Если цена в источнике не указана, событие не попадает ни в «Бесплатно», ни в «Платно».</string>
+    <string name="tools_date">Период</string>
+    <string name="tools_any_date">Любая дата</string>
+    <string name="tools_today">Сегодня</string>
+    <string name="tools_next_7">7 дней</string>
+    <string name="tools_next_30">30 дней</string>
+    <string name="tools_date_hint">Прошедшие события скрываются автоматически.</string>
+    <string name="tools_reset_filters">Сбросить фильтры</string>
+    <string name="tools_reset_all">Сбросить поиск и фильтры</string>
+    <string name="tools_no_results">Ничего не найдено</string>
+    <string name="tools_no_results_hint">Измените запрос или сбросьте фильтры. Ваши интересы и скрытые карточки останутся без изменений.</string>
+    <string name="plan_event">Запланировать</string>
+    <string name="calendar_unavailable">Нет доступного календаря. Установите или включите приложение календаря.</string>
+    <string name="calendar_review">Проверьте дату и время перед сохранением. Если в источнике нет времени, выберите его сами.</string>
+
+    <!-- Day groups of the events list and extra date filters -->
+    <string name="tools_tomorrow">Завтра</string>
+    <string name="tools_weekend">Выходные</string>
+    <string name="section_today">Сегодня</string>
+    <string name="section_tomorrow">Завтра</string>
+    <string name="section_this_week">На этой неделе</string>
+    <string name="section_later">Позже</string>
+    <string name="section_ongoing">Идут сейчас</string>
+    <string name="section_undated">Дата уточняется</string>
 </resources>

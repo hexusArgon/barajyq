@@ -13,6 +13,8 @@ import tempfile
 import time
 import urllib.request
 from bs4 import BeautifulSoup
+from event_policy import roundup_reason, import_reason
+import schedule
 
 ROOT = Path(__file__).resolve().parents[1]
 ZONE = dt.timezone(dt.timedelta(hours=5))
@@ -99,10 +101,70 @@ def scan(handle, pages):
         before = oldest
     return list(posts.values())
 
+KK_MONTHS = ['қаңтар','ақпан','наурыз','сәуір','мамыр','маусым','шілде','тамыз','қыркүйек','қазан','қараша','желтоқсан']
+YEAR_ROLLOVER_DAYS = 14
+
+def published_date(stamp):
+    if not stamp: return None
+    try: return dt.datetime.fromisoformat(stamp.replace('Z','+00:00')).astimezone(ZONE).date()
+    except ValueError: return None
+
+def event_day(text, published_at):
+    """Exactly one distinct event day. Returns (date, None) or (None, review_reason)."""
+    low = text.lower()
+    found = []  # (day, month, year|None)
+    found += [(d,m,y) for d,m,y in re.findall(r'(?<![\d.])(\d{1,2})[./](\d{1,2})[./](20\d{2})(?![\d.])', text)]
+    found += [(d,m,y) for y,m,d in re.findall(r'(?<!\d)(20\d{2})-(\d{2})-(\d{2})(?!\d)', text)]
+    found += [(d,MONTHS.index(m)+1,y or None) for d,m,y in re.findall(
+        r'(?<!\d)(\d{1,2})\s+('+'|'.join(MONTHS)+r')(?:\s+(20\d{2}))?(?!\d)', low)]
+    found += [(d,KK_MONTHS.index(m)+1,y or None) for d,m,y in re.findall(
+        r'(?<!\d)(\d{1,2})\s+('+'|'.join(KK_MONTHS)+r')[а-яәіңғүұқөһ]*(?:\s+(20\d{2}))?(?!\d)', low)]
+    # Short numeric "22.11" only when it cannot be a time, price or part of a full date.
+    found += [(d,m,None) for d,m in re.findall(r'(?<![\d.:,])(\d{1,2})\.(\d{1,2})(?![\d.:]|,\d)', text)
+              if 1 <= int(m) <= 12 and 1 <= int(d) <= 31]
+    if not found: return None, 'missing_or_multiple_explicit_dates_review'
+    pub = published_date(published_at)
+    days = set()
+    for d,m,y in found:
+        try:
+            if y: days.add(dt.date(int(y),int(m),int(d))); continue
+            if pub is None: return None, 'missing_year_without_publication_date_review'
+            day = dt.date(pub.year,int(m),int(d))
+            if day < pub - dt.timedelta(days=YEAR_ROLLOVER_DAYS): day = dt.date(pub.year+1,int(m),int(d))
+            days.add(day)
+        except ValueError:
+            return None, 'invalid_date_review'
+    if len(days) != 1: return None, 'missing_or_multiple_explicit_dates_review'
+    return next(iter(days)), None
+
+def event_times(text):
+    """Distinct start times; a range "19:00–21:00" counts as its start only."""
+    ranged = re.sub(r'(?<!\d)([012]?\d:[0-5]\d)\s*(?:-|–|—|до)\s*[012]?\d:[0-5]\d(?!\d)', r'\1', text)
+    return {(str(int(h)),mi) for h,mi in re.findall(r'(?<!\d)([012]?\d):([0-5]\d)(?!\d)', ranged)}
+
+# Generic channels (interest FESTIVALS) post concerts, plays, lectures… A strong keyword in the
+# announcement picks a more precise category; specific channel categories are kept as configured.
+INTEREST_KEYWORDS = [
+    ('STANDUP', r'стендап|stand-?up|квиз|quiz'),
+    ('CONCERTS', r'концерт|\bтур\b|альбом|сольн|оркестр'),
+    ('THEATER', r'спектакл|постановк|\bопер[аы]\b|балет|театр|қойылым'),
+    ('EXHIBITIONS', r'выставк|экспозиц|көрме'),
+    ('CINEMA', r'кинопоказ|кино-?вечер|показ фильма'),
+    ('IT', r'митап|meetup|хакатон|hackathon'),
+    ('OUTDOOR', r'забег|поход\b|трекинг|хайкинг'),
+]
+
+def refine_interest(default, text):
+    if default != 'FESTIVALS': return default
+    low = text.lower()
+    return next((interest for interest, pattern in INTEREST_KEYWORDS if re.search(pattern, low)), default)
+
 def classify(post, source, now):
     text = post['text']
     low = text.lower()
     if not text: return None, 'media_only'
+    reason = roundup_reason(text.splitlines()[0], text)
+    if reason: return None, reason
     # Conservative exclusion: foreign itineraries / online announcements need review.
     if re.search(r'\b(?:москв[аеуы]|петербург[ае]?|росси[яию]|бишкек[ае]?|кыргызстан|ташкент[ае]?|узбекистан|грузи[яию]|тбилиси|турци[яию]|стамбул[ае]?|дубай|дубае|дубаи|dubai|russia|georgia|kyrgyzstan|uzbekistan|turkey)\b', low):
         return None, 'foreign_geography_review'
@@ -112,17 +174,13 @@ def classify(post, source, now):
         return None, 'cancellation_or_recap_review'
     if not re.search(r'лекци|квиз|концерт|встреч|спектак|выставк|митап|мероприяти|презентаци|дәріс|кездесу|іс-шара', low):
         return None, 'not_event'
-    # Never use publication year, system year or channel city as event facts.
-    dates = re.findall(r'(?<!\d)(\d{1,2})[./](\d{1,2})[./](20\d{2})(?!\d)', text)
-    dates += [(d,str(MONTHS.index(m)+1),y) for d,m,y in re.findall(
-        r'(?<!\d)(\d{1,2})\s+('+'|'.join(MONTHS)+r')\s+(20\d{2})(?!\d)', low)]
-    dates += [(d,m,y) for y,m,d in re.findall(r'(?<!\d)(20\d{2})-(\d{2})-(\d{2})(?!\d)', text)]
-    if len(set(dates)) != 1: return None, 'missing_or_multiple_explicit_dates_review'
-    try:
-        d,m,y = dates[0]; day = dt.date(int(y),int(m),int(d))
-    except ValueError: return None, 'invalid_date_review'
+    # Event year: explicit in the text, otherwise taken from the POST publication date (never the
+    # system clock). A date more than YEAR_ROLLOVER_DAYS before publication belongs to next year
+    # (a December post about "15 января"). Channel city is never used as an event fact.
+    day, reason = event_day(text, post.get('publishedAt'))
+    if reason: return None, reason
     if day < now.date(): return None, 'past'
-    times = set(re.findall(r'(?<!\d)([012]?\d):([0-5]\d)(?!\d)', text))
+    times = event_times(text)
     if len(times) != 1: return None, 'missing_or_multiple_times_review'
     hour, minute = next(iter(times))
     if int(hour)>23: return None, 'invalid_time_review'
@@ -141,13 +199,15 @@ def classify(post, source, now):
     if len(title)>180: return None, 'missing_short_title_review'
     url = post['sourceUrl']
     card = dict(id='tg-'+url.removeprefix('https://t.me/').replace('/','-'),
-                cityId=next(iter(cities)), interest=source['interest'], startsAt=start.isoformat(),
+                cityId=next(iter(cities)), interest=refine_interest(source['interest'], text), startsAt=start.isoformat(),
                 address='', price=None, sourceUrl=url, sourceName='Telegram @'+source['handle'],
                 workingHours='', lat=None, lon=None, isPlace=False)
     for lang in ('Ru','Kk','En'):
         # Schema requires all three; these are originals, NOT claimed translations.
         card['title'+lang]=title; card['place'+lang]=place[1].strip(); card['description'+lang]=text
-    return card, 'candidate'
+    schedule.annotate(card, day)  # ISO start: no year resolution involved
+    reason = import_reason(card)
+    return (None, reason) if reason else (card, 'candidate')
 
 def norm(s): return re.sub(r'[^\w]+','',s.casefold())
 

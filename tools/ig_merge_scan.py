@@ -2,6 +2,8 @@
 """Merge browser IG scan JSON into feed/events.json and android assets."""
 from __future__ import annotations
 import json, hashlib, pathlib, datetime, sys, re
+from event_policy import import_reason
+import schedule
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 FEED = ROOT / 'feed' / 'events.json'
@@ -58,7 +60,7 @@ def main(scan_path: str):
             if eid in existing_ids or post_url in existing_urls:
                 continue
             place = (p.get('place') or handle).strip()
-            starts = (p.get('startsAt') or p.get('approxDate') or '').strip()
+            starts = (p.get('startsAt') or '').strip()
             card = {
                 'id': eid,
                 'cityId': meta.get('city', 'astana'),
@@ -82,6 +84,18 @@ def main(scan_path: str):
                 'lon': None,
                 'isPlace': False,
             }
+            # Year of a display date ("13 ноя") is resolved against the post date, else the scan day.
+            published = (p.get('publishedAt') or scan.get('scannedAt') or '')[:10]
+            try: reference = datetime.date.fromisoformat(published)
+            except ValueError: reference = datetime.date.today()
+            schedule.annotate(card, reference)
+            reason = import_reason(card)
+            if reason:
+                print('review/skip', reason, title, file=sys.stderr)
+                continue
+            if '/p/' not in post_url and '/reel/' not in post_url:
+                print('review/skip missing concrete post permalink', title, file=sys.stderr)
+                continue
             feed['events'].append(card)
             existing_ids.add(eid)
             existing_urls.add(post_url)
@@ -92,7 +106,7 @@ def main(scan_path: str):
     ASSETS.write_bytes(FEED.read_bytes())
     out = {'added': added, 'total': len(feed['events']), 'updatedAt': feed['updatedAt']}
     print(json.dumps(out, ensure_ascii=False, indent=2))
-    pathlib.Path('/workspace/astana-afisha/tools/ig_merge_result.json').write_text(
+    (ROOT / 'tools/ig_merge_result.json').write_text(
         json.dumps(out, ensure_ascii=False, indent=2), encoding='utf-8')
 
 if __name__ == '__main__':

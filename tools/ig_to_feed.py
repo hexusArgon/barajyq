@@ -11,6 +11,7 @@ Run: python3 tools/ig_to_feed.py
 """
 from __future__ import annotations
 import json, re, hashlib, pathlib, urllib.request, datetime
+from event_policy import import_reason
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 FEED = ROOT / 'feed' / 'events.json'
 SOURCES = ROOT / 'tools' / 'ig_sources.json'
@@ -93,6 +94,12 @@ def main():
                 'lon': None,
                 'isPlace': False,
             }
+            # Mirror snippets have neither verified event date/venue nor a post permalink.
+            # Keep them out of the feed; enrich via a verified scan before import.
+            reason = import_reason(card)
+            if reason:
+                print('  review/skip', reason, p['title'])
+                continue
             feed['events'].append(card)
             existing.add(card['id']); existing.add(card['sourceUrl'])
             added += 1
