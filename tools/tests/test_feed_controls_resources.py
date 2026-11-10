@@ -21,11 +21,11 @@ class FeedControlsResourceTests(unittest.TestCase):
         screen = (UI / 'FeedScreen.kt').read_text()
         self.assertIn('bottomBar = {', screen)
         self.assertIn('Column(Modifier.navigationBarsPadding())', screen)
-        self.assertEqual(screen.count('Modifier.weight(1f)) { tab ='), 2)
+        self.assertEqual(screen.count('Modifier.weight(1f)) { tab ='), 3)  # events, places, saved
         self.assertIn('role = Role.Tab', screen)
         self.assertIn('heightIn(min = 48.dp)', screen)
         self.assertNotIn('PrimaryTabRow(', screen)
-        section = screen[screen.index('private fun BottomSection'):screen.index('@OptIn(ExperimentalLayoutApi::class)', screen.index('private fun BottomSection'))]
+        section = screen[screen.index('private fun BottomSection'):screen.index('internal fun InfoLine', screen.index('private fun BottomSection'))]
         self.assertLess(section.index('Icon(icon'), section.index('Text(label'))
         self.assertIn('Row(Modifier.fillMaxWidth()', section)
         self.assertIn('Modifier.fillMaxSize().padding(pad)', screen)
@@ -36,9 +36,9 @@ class FeedControlsResourceTests(unittest.TestCase):
         self.assertIn('statusBarsPadding().heightIn(min = 48.dp)', screen)
         self.assertIn('contentPadding = PaddingValues(16.dp, 0.dp, 16.dp, 32.dp)', screen)
         self.assertIn('Modifier.padding(start = 4.dp, bottom = 4.dp)', screen)
-        self.assertIn('padding(top = if (index == 0) 0.dp else 16.dp)', screen)
+        self.assertIn('padding(top = if (index == 0) 0.dp else 12.dp)', screen)
         self.assertIn('Column(Modifier.navigationBarsPadding())', screen)
-        self.assertIn('selectableGroup().padding(horizontal = 12.dp)', screen)
+        self.assertIn('selectableGroup().padding(horizontal = 8.dp)', screen)
         self.assertNotIn('padding(horizontal = 16.dp, vertical = 4.dp)', tools)
 
     def test_complete_ru_kk_en_tool_strings(self):
@@ -55,7 +55,7 @@ class FeedControlsResourceTests(unittest.TestCase):
         for text in ['var eventOptions by rememberSaveable(stateSaver = QueryOptionsSaver)',
                      'var placeOptions by rememberSaveable(stateSaver = QueryOptionsSaver)',
                      'FeedRepository.forProfile','it.interest !in p.exclusions','FeedQuery.apply(baseItems',
-                     'if (tab == 0) eventOptions = next else placeOptions = next','R.string.tools_no_results','R.string.tools_reset_all']:
+                     'if (tab == 1) placeOptions = next else eventOptions = next','R.string.tools_no_results','R.string.tools_reset_all']:
             self.assertIn(text,screen)
         self.assertNotIn('SessionStore.setInterests',screen)
         self.assertNotIn('SessionStore.clear',screen)

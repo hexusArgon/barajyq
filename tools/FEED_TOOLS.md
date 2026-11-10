@@ -131,3 +131,9 @@ card is "Date TBA" and is excluded from day filters. The sections above about
 The Android disk cache now stores only the last REMOTE payload and is ignored
 when the bundled feed is newer, so app updates always show their own data.
 
+
+## Covers (0.4.0, 2026-11-11)
+Optional `imageUrl` per card (https only): og:image of the source page (sxodim, nmrk, Wikipedia) or the
+post photo from the Telegram preview (`tg-js` returns it as `image`, the importer stores it).
+Instagram CDN links are signed and expire within days, so Instagram cards get no URL; the app draws a
+category gradient with an icon when the URL is missing or fails to load (Coil).

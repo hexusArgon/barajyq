@@ -127,4 +127,16 @@
     <string name="section_later">Кейінірек</string>
     <string name="section_ongoing">Қазір өтуде</string>
     <string name="section_undated">Күні нақтыланады</string>
+
+    <!-- 0.4.0: saved tab, day strip -->
+    <string name="tab_saved">Сақталғандар</string>
+    <string name="save">Сақтау</string>
+    <string name="unsave">Сақталғандардан алып тастау</string>
+    <string name="day_all">Барлық күн</string>
+    <string name="saved_count">Сақталды: %1$d</string>
+    <string name="saved_empty_title">Әзірге ештеңе сақталмаған</string>
+    <string name="saved_empty_body">Іс-шараның немесе орынның бетбелгісін басыңыз — ол осында пайда болады.</string>
+    <string name="empty_day_title">Бұл күні ештеңе жоқ</string>
+    <string name="empty_day_body">Таңдалған күнге іс-шара әзірге жоқ. Басқа күнді таңдаңыз немесе барлығын көрсетіңіз.</string>
+    <string name="show_all_days">Барлық күнді көрсету</string>
 </resources>

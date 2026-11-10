@@ -55,7 +55,7 @@ class FeedQueryTest {
     @Test fun nearestSortIsStableAndMissingDatesLast() {
         val source=listOf(card("unknown-a",date="9 ноя"),card("late",date="2026-11-10"),card("a",date="2026-11-09T18:00:00+05:00"),card("b",date="2026-11-09T18:00:00+05:00"),card("evening",date="2026-11-09T20:00:00+05:00"),card("past",date="2026-11-07"),card("unknown-b",date=""))
         // "past" (2026-11-07) is expired and never shown; undated cards stay, last.
-        assertEquals(listOf("a","b","evening","late","unknown-a","unknown-b"),run(source,FeedQueryOptions(sort=FeedSort.NEAREST)).map{it.id})
+        assertEquals(listOf("unknown-a","unknown-b","a","b","evening","late"),run(source,FeedQueryOptions(sort=FeedSort.NEAREST)).map{it.id})
         assertEquals(source.map{it.id}-"past",run(source).map{it.id})
     }
     @Test fun nameSortUsesLocaleAndStableTies() {
@@ -127,9 +127,10 @@ class FeedQueryTest {
             scheduled("today", sched("2026-11-08")),
             scheduled("run-starts-later", sched("2026-11-12", "2026-11-14")))
         val sorted = run(source, FeedQueryOptions(sort = FeedSort.NEAREST))
-        assertEquals(listOf("today", "tomorrow-early", "tomorrow-late", "run-starts-later", "later",
-            "run-closing-soon", "run-closing-late", "undated-iso-less"), sorted.map { it.id })
-        assertEquals(listOf(DaySection.TODAY, DaySection.TOMORROW, DaySection.LATER, DaySection.ONGOING, DaySection.UNDATED),
+        // Order asked by the product: "On now" first, then "Date TBA", then the days.
+        assertEquals(listOf("run-closing-soon", "run-closing-late", "undated-iso-less", "today", "tomorrow-early",
+            "tomorrow-late", "run-starts-later", "later"), sorted.map { it.id })
+        assertEquals(listOf(DaySection.ONGOING, DaySection.UNDATED, DaySection.TODAY, DaySection.TOMORROW, DaySection.LATER),
             FeedQuery.sections(sorted, today).map { it.first })
         val monday = d("2026-11-09")
         assertEquals(DaySection.THIS_WEEK, FeedQuery.section(scheduled("x", sched("2026-11-15")), monday))
@@ -172,5 +173,30 @@ class FeedQueryTest {
         // Nothing else left → the original text, never an empty preview.
         assertEquals("Bolero X / 13–14 ноября. Билеты", previewText("Bolero X / 13–14 ноября. Билеты", "Bolero X / 13–14 ноября"))
         assertEquals("Жителей приглашают", previewText("Жителей приглашают", "Экскурсия"))
+    }
+    @Test fun dayStripPicksOneDayAndSurvivesSaving() {
+        val source = listOf(
+            scheduled("thu", sched("2026-11-12", time = "19:00")),
+            scheduled("run", sched("2026-11-01", "2026-11-30")),
+            scheduled("multi", sched("2026-11-10", "2026-11-20", listOf("2026-11-10", "2026-11-20"))),
+            card("undated", date = "скоро"))
+        val thu = d("2026-11-12")
+        assertEquals(setOf("thu", "run"), run(source, FeedQueryOptions(day = thu)).map { it.id }.toSet())
+        assertTrue(FeedQueryOptions(day = thu).isNarrowed)
+        assertEquals(0, FeedQueryOptions(day = thu).filterCount)
+        assertNull(FeedQueryOptions(day = thu).resetFilters().day)
+        assertEquals(thu, FeedQueryOptions.decode(FeedQueryOptions(day = thu, sort = FeedSort.NEAREST).encode()).day)
+        // Old 5-field state (0.3.0) still restores.
+        assertEquals(FeedSort.NEAREST, FeedQueryOptions.decode(listOf("", "", "ALL", "ANY", "NEAREST")).sort)
+    }
+
+    @Test fun savedTabKeepsCityDropsExpiredAndPutsPlacesLast() {
+        val place = card("place").copy(isPlace = true, startsAt = "")
+        val source = listOf(
+            scheduled("later", sched("2026-11-20")), scheduled("soon", sched("2026-11-09")),
+            scheduled("past", sched("2026-11-01")), place,
+            scheduled("other-city", sched("2026-11-10")).copy(cityId = "almaty"), scheduled("not-saved", sched("2026-11-10")))
+        val saved = setOf("later", "soon", "past", "place", "other-city")
+        assertEquals(listOf("soon", "later", "place"), FeedQuery.saved(source, saved, "astana", today).map { it.id })
     }
 }

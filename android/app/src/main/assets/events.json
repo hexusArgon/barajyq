@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-10T03:22:24.483928+05:00",
+  "updatedAt": "2026-11-10T13:55:25.151909+05:00",
   "events": [
     {
       "id": "demo-1",
@@ -27,7 +27,8 @@
       "dateFrom": "2026-11-07",
       "dateTo": "2027-01-30",
       "dates": [],
-      "time": "18:30"
+      "time": "18:30",
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/09/25/optimized/eccab25fa20ca6054aad6b011855309b_1522x570-q-85.jpg"
     },
     {
       "id": "demo-2",
@@ -54,7 +55,8 @@
       "dateFrom": "2026-10-09",
       "dateTo": "2026-11-09",
       "dates": [],
-      "time": "10:00"
+      "time": "10:00",
+      "imageUrl": "https://www.nmrk.kz/upload/iblock/46b/6dcuq937a5l9wma16egvcndw5j7rt9pp.jpeg"
     },
     {
       "id": "demo-3",
@@ -84,7 +86,8 @@
         "2026-11-12",
         "2026-11-26"
       ],
-      "time": "19:00"
+      "time": "19:00",
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/04/16/optimized/a29e5bfe5616269132ce2f9d6f1bd644_1522x570-q-85.jpg"
     },
     {
       "id": "demo-4",
@@ -111,7 +114,8 @@
       "dateFrom": "2026-10-28",
       "dateTo": "2026-12-20",
       "dates": [],
-      "time": "11:00"
+      "time": "11:00",
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/10/22/optimized/ee17d4276e8f8f3899784ac846de200e_1522x570-q-85.jpg"
     },
     {
       "id": "demo-5",
@@ -138,7 +142,8 @@
       "dateFrom": "2026-10-30",
       "dateTo": "2027-01-24",
       "dates": [],
-      "time": "10:00"
+      "time": "10:00",
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/10/30/optimized/07243c4f6364200f7a1c464137c080b0_1522x570-q-85.jpg"
     },
     {
       "id": "demo-6",
@@ -161,7 +166,8 @@
       "descriptionEn": "What weapons did the warriors of the Golden Horde use? What did their armor look like? What made nomadic military strategy unique?\n\nWe invite you to an exclusive themed tour, «Golden Centaurs: Arms and Armor of the Golden Horde Warriors».\n\nThrough rare artifacts and interactive displays in the Golden Horde Hall, you will discover the military traditions of nomadic warfare, examine authentic weapons and armor up close, and journey back to an era that shaped world history.\n\nThe tour will be led by Amir Dosanov – Junior Research Fellow at the museum, historian, and holder of an MA degree.\n\nWe look forward to welcoming you to the National Museum!",
       "lat": 51.11811,
       "lon": 71.469488,
-      "isPlace": false
+      "isPlace": false,
+      "imageUrl": "https://www.nmrk.kz/upload/iblock/b86/ma8b7gs8vjrvj8m25mkdyyx145ufhx9c.jpeg"
     },
     {
       "id": "demo-7",
@@ -219,7 +225,8 @@
       "dates": [
         "2026-11-06"
       ],
-      "time": "19:30"
+      "time": "19:30",
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/10/19/optimized/0ff693db9c6907972fe93092995acea4_1522x570-q-85.jpg"
     },
     {
       "id": "demo-9",
@@ -248,7 +255,8 @@
       "dates": [
         "2026-11-06"
       ],
-      "time": "19:30"
+      "time": "19:30",
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/10/27/optimized/aa23f2a6de38312ed32d6ca083db5a5a_1522x570-q-85.jpg"
     },
     {
       "id": "demo-10",
@@ -335,7 +343,8 @@
       "dates": [
         "2026-11-07"
       ],
-      "time": "19:00"
+      "time": "19:00",
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/09/09/optimized/e1e2c82ac4bd7e0ec6e06b078e343ef5_1522x570-q-85.jpg"
     },
     {
       "id": "demo-13",
@@ -393,7 +402,8 @@
       "dates": [
         "2026-11-11"
       ],
-      "time": "20:00"
+      "time": "20:00",
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/11/03/optimized/7569b56734f65dd642b80be3d6f4246b_1522x570-q-85.jpg"
     },
     {
       "id": "demo-15",
@@ -480,7 +490,8 @@
       "dates": [
         "2026-11-15"
       ],
-      "time": "19:00"
+      "time": "19:00",
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/10/15/optimized/930797301edd2ecaccde11aada8c4c95_1522x570-q-85.jpg"
     },
     {
       "id": "demo-18",
@@ -596,7 +607,8 @@
       "dates": [
         "2026-12-05"
       ],
-      "time": "11:00"
+      "time": "11:00",
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/09/19/optimized/318852867aaa4f3ea96712c720a31dc3_1522x570-q-85.jpg"
     },
     {
       "id": "demo-22",
@@ -652,7 +664,8 @@
       "dateFrom": "2026-12-06",
       "dateTo": "2027-01-27",
       "dates": [],
-      "time": null
+      "time": null,
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/06/24/optimized/c46a0d27de3c4f58b66c8fef497f64fe_1522x570-q-85.jpg"
     },
     {
       "id": "demo-24",
@@ -739,7 +752,8 @@
       "dates": [
         "2026-12-20"
       ],
-      "time": "10:00"
+      "time": "10:00",
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/10/07/optimized/81597e7b0c7a3393e1734957fabfbf0b_1522x570-q-85.jpg"
     },
     {
       "id": "demo-27",
@@ -797,7 +811,8 @@
       "dates": [
         "2026-12-25"
       ],
-      "time": "19:30"
+      "time": "19:30",
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/10/28/optimized/9e3db3ad7596b6e049a3ea1d933b3d41_1522x570-q-85.jpg"
     },
     {
       "id": "demo-29",
@@ -826,7 +841,8 @@
       "dates": [
         "2027-01-30"
       ],
-      "time": "19:30"
+      "time": "19:30",
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/11/03/optimized/91da241d9275baf774e88bae3671bf0c_1522x570-q-85.jpg"
     },
     {
       "id": "almaty-1",
@@ -853,7 +869,8 @@
       "dateFrom": "2026-10-23",
       "dateTo": "2026-12-01",
       "dates": [],
-      "time": "11:00"
+      "time": "11:00",
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/09/29/optimized/ebf694a0571f8590f41c80f9c80f6c36_1522x570-q-85.jpg"
     },
     {
       "id": "almaty-2",
@@ -880,7 +897,8 @@
       "dateFrom": "2026-11-10",
       "dateTo": "2026-11-24",
       "dates": [],
-      "time": "19:30"
+      "time": "19:30",
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/05/06/optimized/f63b04b508ffb002377feab6aa328d6b_1522x570-q-85.jpg"
     },
     {
       "id": "almaty-3",
@@ -909,7 +927,8 @@
       "dates": [
         "2026-11-07"
       ],
-      "time": "20:00"
+      "time": "20:00",
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/06/23/optimized/cfed007529cea7accb3bee01387476b8_1522x570-q-85.jpg"
     },
     {
       "id": "almaty-4",
@@ -938,7 +957,8 @@
       "dates": [
         "2026-11-08"
       ],
-      "time": "12:00"
+      "time": "12:00",
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/07/30/optimized/827106e1afe6b60a4275e8c845058a61_1522x570-q-85.jpg"
     },
     {
       "id": "almaty-5",
@@ -967,7 +987,8 @@
       "dates": [
         "2026-11-08"
       ],
-      "time": "18:00"
+      "time": "18:00",
+      "imageUrl": "https://sxodim.com/uploads/posts/2025/10/29/optimized/ad0cebf0d885181495807f1aba5653e7_1522x570-q-85.jpg"
     },
     {
       "id": "almaty-6",
@@ -996,7 +1017,8 @@
       "dates": [
         "2026-11-08"
       ],
-      "time": "20:00"
+      "time": "20:00",
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/10/09/optimized/05cc6ca4555a8f1ddc3a0495549ca74b_1522x570-q-85.jpg"
     },
     {
       "id": "almaty-7",
@@ -1025,7 +1047,8 @@
       "dates": [
         "2026-11-14"
       ],
-      "time": "20:00"
+      "time": "20:00",
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/10/17/optimized/899a2119a722e4549df9e3527ccf0df2_1522x570-q-85.jpg"
     },
     {
       "id": "almaty-8",
@@ -1054,7 +1077,8 @@
       "dates": [
         "2026-11-18"
       ],
-      "time": "19:00"
+      "time": "19:00",
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/07/29/optimized/333118eb34b15212605b59fcc240163d_1522x570-q-85.jpg"
     },
     {
       "id": "almaty-9",
@@ -1083,7 +1107,8 @@
       "dates": [
         "2026-12-06"
       ],
-      "time": "19:00"
+      "time": "19:00",
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/10/19/optimized/8ce098ad9ded4d3537aa26e61f36d668_1522x570-q-85.jpg"
     },
     {
       "id": "almaty-10",
@@ -1112,7 +1137,8 @@
       "dates": [
         "2026-12-12"
       ],
-      "time": "19:00"
+      "time": "19:00",
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/09/04/optimized/41f94ab578dbe57962c3739bac16faca_1522x570-q-85.jpg"
     },
     {
       "id": "shymkent-1",
@@ -1141,7 +1167,8 @@
       "dates": [
         "2026-11-13"
       ],
-      "time": "18:30"
+      "time": "18:30",
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/09/29/optimized/41250b241a831381539ba35d3df335f6_1522x570-q-85.jpg"
     },
     {
       "id": "shymkent-2",
@@ -1170,7 +1197,8 @@
       "dates": [
         "2026-11-14"
       ],
-      "time": "19:00"
+      "time": "19:00",
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/10/27/optimized/0817d174ba4b9ca5341ccdbd843ec15a_1522x570-q-85.jpg"
     },
     {
       "id": "shymkent-3",
@@ -1199,7 +1227,8 @@
       "dates": [
         "2026-11-15"
       ],
-      "time": "19:00"
+      "time": "19:00",
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/10/27/optimized/79100d734beb0c53d74a933d608bcdc2_1522x570-q-85.jpg"
     },
     {
       "id": "shymkent-4",
@@ -1228,7 +1257,8 @@
       "dates": [
         "2026-11-15"
       ],
-      "time": "19:30"
+      "time": "19:30",
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/09/07/optimized/03a8f35bfebc148caca75e6ecbdf83b1_1522x570-q-85.jpg"
     },
     {
       "id": "shymkent-5",
@@ -1257,7 +1287,8 @@
       "dates": [
         "2026-11-21"
       ],
-      "time": "19:00"
+      "time": "19:00",
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/10/28/optimized/cd2d5d0c92e84de601f786b14c77b361_1522x570-q-85.jpg"
     },
     {
       "id": "shymkent-6",
@@ -1286,7 +1317,8 @@
       "dates": [
         "2026-11-22"
       ],
-      "time": "19:00"
+      "time": "19:00",
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/07/08/optimized/ece0ed8a7eddbc61404a949f15016622_1522x570-q-85.jpg"
     },
     {
       "id": "shymkent-7",
@@ -1315,7 +1347,8 @@
       "dates": [
         "2026-11-28"
       ],
-      "time": "19:00"
+      "time": "19:00",
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/10/27/optimized/be9439bb6bef02e851c6c63a706de244_1522x570-q-85.jpg"
     },
     {
       "id": "shymkent-8",
@@ -1344,7 +1377,8 @@
       "dates": [
         "2026-12-15"
       ],
-      "time": "19:00"
+      "time": "19:00",
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/09/04/optimized/7eb387009951df72fc0802552f58fb48_1522x570-q-85.jpg"
     },
     {
       "id": "ig-fb4a1adb78",
@@ -1858,7 +1892,8 @@
       "dates": [
         "2027-04-23"
       ],
-      "time": "19:30"
+      "time": "19:30",
+      "imageUrl": "https://cdn4.telesco.pe/file/Sd095ERqgKO-LPLyM7u5uw9xtIhdgUiJWYYkQPrB_s3OYjqL0tfueqmcEHeE4At58auSQv8sRCY4uIc8S88nAF2dXe1QJVfM8lys7YDpBba2murfu-PtxBDx9JE-Ok6NFezc1J0Ef29REQPfdViZ7V-bRnj7sMTKvf1HB8D7VSsOyYF-NcfkaJPF75aQHJD2lJbt9T3qOg5xZc2rp2cR4MdPW7jDOlbJNs-9qte-C6CJFQsN9iPi1nS96m0tebEG-8BRnL1ETFm1HG9wDHBy1sF-Lv2trl2gq4-2_ZaFwgPQ-CWdcM6muNGGbf9ud5DmlLhyhvXj3p8ddv3zHqcfhA.jpg"
     },
     {
       "id": "tg-afisha_orsa-2629",
@@ -1887,7 +1922,8 @@
       "dates": [
         "2026-11-20"
       ],
-      "time": "20:00"
+      "time": "20:00",
+      "imageUrl": "https://cdn4.telesco.pe/file/d_sH9RxGaMlo8K-PsGSTau9vvXd7l81CFEWwHDi3HvBpAvdrpUlLgLQcFON8Ema96ULURdsxZ2PEh36xRLaW6Xig_Rza16njwbbnvusY0glBbm7WDo1Ska7WBgiH-OtcnSSaRUtsPN5RxKUfiq5BmlVZGrB0CQYGFeorElj79JqvMWl8S-vPRvBklcC3vDfgGCWmObbUwFnikfWTzOMVFFVy2jwsfjbagTCA4uSUlKBNrxal3Evjg7RJQb3NQ2pVQuYhQ0YBF5uZ8vPxOuxTVxRzgqZXabJ7ltIY4d-y89eOplms3mt8mvTVlBAQpM1tN4nFahtDpb-K3xGZ1f92Cw.jpg"
     },
     {
       "id": "tg-afisha_orsa-2631",
@@ -1916,7 +1952,8 @@
       "dates": [
         "2026-11-22"
       ],
-      "time": "19:00"
+      "time": "19:00",
+      "imageUrl": "https://cdn4.telesco.pe/file/OGF_iMrytDuKSnEIVV4fE4daEfHS28977yF6z7EWxDCMCcdEl4b-6_kbkUIECbbkseobfI4uWHWHtWNqeWI_1HuFhyHtGQGcr_2rjM7g9CpJUyN3B7dLIErcoAHdauOEwcPvzsm8-4GNOMl1-PuqcGnbeSMiWki-if4vNYjKVTtx5IH4IUG_S2FgbEoENEO9KRc4Rvu6mM3A__tX-Pln9x0_5RQ8H4FnAz_UyssDG4LcALTOmpRSZEHNBz4dub68TCaaVggXWQsn76H8cWXm24-7QFyDjxyafWBmBh0DOaHSK8Im3mzaVI73TIdadxrz8lSw7dwFCzCwKyZ676JH7g.jpg"
     },
     {
       "id": "tg-afisha_orsa-2590",
@@ -1945,7 +1982,8 @@
       "dates": [
         "2027-04-15"
       ],
-      "time": "20:00"
+      "time": "20:00",
+      "imageUrl": "https://cdn4.telesco.pe/file/UhXo9EpPOo7HTsZP4WAB1mROocLgTo5D4JvgOGS36sNSWkcXttFJHdTAfBhO-R1rlX-OrNitZra2cJgCtDJWFQpDgHJWOUhnVknAKU0Kknt0bJ7upMK1YOEOBpgS6dFmxgs05mhawO4qX93i3w8RQZNK4e-dx3fR7avcH3KK2gLCpDplUH7mVJVPXZ_eebNyW0qGWA_FzKvrIzoErTInwX84Fp8EIVVcsRPBZUcyc6lTELDhjROMVoQiGZZVjv7EY5VWMXpzNx2uovGV0uAMJTb_v1jFN3ULMOWPN-EE5_RrrKRB_PDgtQ__5gRzQZh5CQHAeHlLyiWlJk7FEJWuGw.jpg"
     },
     {
       "id": "tg-afisha_orsa-2576",
@@ -1974,7 +2012,8 @@
       "dates": [
         "2026-12-11"
       ],
-      "time": "20:00"
+      "time": "20:00",
+      "imageUrl": "https://cdn4.telesco.pe/file/IofdLh8btOthzUMSoR53irV4Eh4-QYGGmMDBavcWQ9dbL86ieKbReUFKHheu95CkS-492attNcggFFh6r6ZV8DfxpsDriRuR66s74l_hLKp8cmEKLXToySFmLzz0AMvlDpyNj7Tb2PYMWiUz5lr8IDRr2aMlUk3FuAyUHj3Ag90Q5mao-yCCS2NY51C34hc6PxXtaS6yH_mbXJPRyMuxyRaIhqc848aFgs1HjkBE1aozAeSS7-6baA8nJMYPtTjYYQhi22OZq5BzESkn1BDkfySX35c5IYQwUV1cFcN0GX86dzvi8EroA2U5_9-DVdX2D00GEf0uQi2_0Tb7nSHZYQ.jpg"
     },
     {
       "id": "tg-afisha_orsa-2578",
@@ -2003,7 +2042,8 @@
       "dates": [
         "2026-11-12"
       ],
-      "time": "20:00"
+      "time": "20:00",
+      "imageUrl": "https://cdn4.telesco.pe/file/MTmQzE3UvUltfNjlWlRoJ1mak5915-G7olXEbSrnSXrSSDyM8cyEu3E8IzYZ9hWuvjdrPgIe4fL91RJZEJV82AAeS6spTVmgRxD_MPHSmqwIgMAVP4CijQp672S8WBOdMiI1GcmMv8KIVdM5NSUoGRw1To4o7tWS9ZNWTyzVFk4dyROnR9fF_bROqjD4-EpT1eikSWMYwT43SUZs8ocUu9bMb6xHcxZeSCQvz_a4TzWCe8XL3FGp52e1pOPtiBV12xSukuXEp937AWDYXKp80JqxiWSFL_yySyhWH-wikWfPGDZJfsx_OE8TlBac6vaBmngkTd9rvb_RzK7u4Mbm9w.jpg"
     },
     {
       "id": "tg-book_oqy-466",
@@ -2032,7 +2072,8 @@
       "dates": [
         "2026-11-28"
       ],
-      "time": "14:00"
+      "time": "14:00",
+      "imageUrl": "https://cdn4.telesco.pe/file/CWhvG1Sf_hxxyN8Lm31dQDKGH14zzLThyeog5VXeMGpxL-Gda0-hE14-Hqil1sszAIRSfer4K90wst-NT0k-ImCn6pKc6Zqvmc4ELP-fmY0q3IVEaaa2u6Yhlqnhqj-O9FcTH8kQmGrVVnbpNyRZ8f__rInhE3FwWZ-VyKPIEteyBmsFdyLZCu8mbA7ZK8OfDESu1LYtmCnwXQRUH-uPCO8KXYtLyuUcmcvjzoI7oMxTFbof4xU7vJQbjXwbhUy_OXVnGtp22aE9Co6TaoNQ5w34uQHIaDyQMMITPIEYPBqYHCAKPOOz0BnVyN69JurLOyMHTQyZGiZ75HBq1j8zlg.jpg"
     },
     {
       "id": "tg-batylbol_almaty-1776",
@@ -2090,7 +2131,8 @@
       "dates": [
         "2026-11-15"
       ],
-      "time": "16:00"
+      "time": "16:00",
+      "imageUrl": "https://cdn4.telesco.pe/file/TPBDMiRGlkwp-1DqcTOlbgrqokw6FJadowrwB_kwtNLmf0FLiVcwNdc9rJUIVPk68YecDduMgqNrqjoByL_0jtueTH1CutPmL75JlWGHcDJbsSwapzX5jXyCFaNeRQdhfhkfFbvkygUh-VXLVGRK-ikRnBWmPagT2BPJxclILnupyfA4_jH3Jqb2Nnl6WgFEkH5s0ZrrGK69TZz2ExjpQbCpULnOGU5G4wqJdHEqBP2oudI586kdF29xoyWufxIwLlt14yOKpM6iusv5ZWjb_oVM8-rzP3mq2GR9FYkiZNVZfkEUFBgDFZbvTiEcSBFjRAvKOKlLhxJk22Y18oFrFA.jpg"
     },
     {
       "id": "tg-nomad_lectorium-1792",
@@ -2119,7 +2161,8 @@
       "dates": [
         "2026-11-11"
       ],
-      "time": "19:30"
+      "time": "19:30",
+      "imageUrl": "https://cdn4.telesco.pe/file/byOo78ZMX2EM-AlRRjs4VSpfhkT_V93hl_LZrqWpJABT3W3wS87aM3gOmOPYUnTEt7kERcxKYCnIWfoyhi2kwMEcZqyG_zC1Yk1_SlLauYLmvfy72_1atM2cImILgzbL_9qNO2RtJqu-wG-ln7HdhUZWRZtF4oXVkOE3fWWelZdzeUDsHcMkVTaxEEx2TOp41tEt3Hu9jAQ02mlrraExHNsbHsn1OLUYZT9PyS6bB7aowY-aTrc5qsbttcD9pWZZaWm4-XLG3OQnrDAd4Ewmgp7TrN_CyLNoAoZnfgf4WnycboP9DIWqXvkbeenTXpsvD-utkxrQps-m6hSJWFjLRA.jpg"
     },
     {
       "address": "",
@@ -2148,7 +2191,8 @@
       "dates": [
         "2026-11-19"
       ],
-      "time": "19:00"
+      "time": "19:00",
+      "imageUrl": "https://cdn4.telesco.pe/file/o3IhYWV-DbpZoTQ2CgZH7yMezh-Y3X2-NssybmG1WeJ_nQ3JHbinZXLQeNE4VlTdPUCmVqOdo0BomyIl82UEbzlGDnK2j-ETJcMdeY9lcrLT9nRlKaRuGQZsAwMMGL4o78OxhN9vBkM08Qk_8TTiJ7ZFyXbmbC7gkLIN0BuodY7NAFM9dwVjPtKHvEVnN2q6ztprRWS-97ULsFe7SlVXB8A1w90RLneFEIq0Gs1lw030O9PWvBJVWyYC4V5JZAl8Rpomm5QpmAyQbbqPhmRqY0Z88YAqhxwl0yXJQnHujo_WHNkCaR9Fjou8-3uLRc4GJi4GqdNyUDSuwS25PycLbA.jpg"
     },
     {
       "address": "",
@@ -2177,7 +2221,8 @@
       "dates": [
         "2026-11-11"
       ],
-      "time": "20:00"
+      "time": "20:00",
+      "imageUrl": "https://cdn4.telesco.pe/file/QZqswmwc4qm6slUD80fwFNKx2Ifi3qhBZ_AuGAwxBbMZ3B6s75rHfVH8vIL8ddI70VGW5R5qCNVyBx0qUwKlnE7-jnv6KK6IJb2rkq4izzpUtgdSrFHvcV5dfRBD22P2BTcH-5-vg6dm-LpIUuaDSCn7AsR-9qVa52a92LCSWbgsE7vPio6b_h5AcseOfMol55feBetOFbXa85XWTOo-aN8CF_Fx68OTwWPCkDmE0_utjQyi3K3F-RLmUosYVqsLlXUmbGiwn9lP_jbdYVnaXn-AfS7r0APLk-PigXiZCLQ9jRIgXJ4uOJQbHeFZ1ZaQoy1DBJBG3o-XQDa7q16Vyg.jpg"
     },
     {
       "address": "",
@@ -2206,7 +2251,8 @@
       "dates": [
         "2026-11-11"
       ],
-      "time": "20:00"
+      "time": "20:00",
+      "imageUrl": "https://cdn4.telesco.pe/file/p6kBedJZ_kwtTvJ3TWhH8T8G3LZyBHpGkEGcVPgF1_2bMPrQAbDomUABjWFHWw--AtkZ786Ro0lWZsDwAvcMCMm2lAyse0qUdMGp4vZnFmeuOcBGUxLZBnZuSUtOSX_RmFSx6OIhaGr6HNkk7P25RBB9lIJ-3kIEJiFppqqeBFf-HDFHXVRcpFFwVJYbd6FgZ-mZDJHDW-DsNXhft77TERFxt4JwHx36OZyAoIE4HzVMZ5lNs6sPY7eoj0RiBRD0UwgbZijsstf9tmvu3k-3eatywfLm4jIL5OhHXctnqhm16ur_J0TTPAZMxdnr61SyYMz6QADpyEuoNFB6lOyG0w.jpg"
     },
     {
       "address": "",
@@ -2235,7 +2281,8 @@
       "dates": [
         "2026-11-12"
       ],
-      "time": null
+      "time": null,
+      "imageUrl": "https://cdn4.telesco.pe/file/Roe1lljRZ7jR7ccopi_eVuVOiDwUCTI-ELJugH6L5cKSDGTH0XN6IyPZ2xfCxKICz7E61UCZp7vu1_fkF2MtUhxH5aX2crTEFiR9N91DMgTiYWfLY6srVatZ4wsbBTUZdr4qiKp2OBxHzwvMgzeJTsu7o0zMrEc7cEDQoiQmwZv0V8bOO0WlDxaNK8oMmLnyK8PgwhHPCDFDz52XFzFqBsDGCv7uQVFUDyZ1gwiOPuvRcL_XU5rbP_1KluW2sxqVM-4O9D2a8HgFEjWskHn5Qvx3DYagiMqpf2BOZA2G7duc3POqYBVeUFeSyHfA-cx45O1eHW1lftWgzxm0xEruhg.jpg"
     },
     {
       "address": "",
@@ -2264,7 +2311,8 @@
       "dates": [
         "2026-11-14"
       ],
-      "time": "12:00"
+      "time": "12:00",
+      "imageUrl": "https://cdn4.telesco.pe/file/kTd1IqqrjC1CN_Uc_nUHAaLCAwx1SMx2EepOJkk70WzFEFWnGBdIDD7ke7hjEqNLGOZuw1UaUsN-7rwKRludtoKc_OCtSrw0UL4IurL7GApSU9Ys0mX8_T8GK7hW8uef0MjG8mAiZB_lnjI_thmQQfrJ9RTAmF3lW9sCPQYUID-eL-If7mQS_0u9T10X6Ln3AD42NjLK41tRX8yZDDVy4rN9SgFe8CpNEHHSweRUr2xGxIIXc0Wkr5oMfE4XyoFYo0rIhz487MKUCMffnQ12Ag-7Y11p9t3a9N3cq-fnmfWeNcnl8BpmxevtdJJHjmgZe4NDxbti86Pb6qzrdPR29A.jpg"
     },
     {
       "id": "ig-30d1b8b374",
@@ -2356,6 +2404,473 @@
         "2027-01-16"
       ],
       "time": null
+    },
+    {
+      "id": "ig-8f2949a5e7",
+      "cityId": "astana",
+      "interest": "STANDUP",
+      "titleRu": "Очень доброе шоу Славы Клочкова",
+      "titleKk": "Слава Клочковтың «Өте мейірімді шоуы»",
+      "titleEn": "Slava Klochkov's Very Kind Show",
+      "startsAt": "10 ноя, 21:45",
+      "placeRu": "Carlin Stand Up Bar, Гейдара Алиева, 1",
+      "placeKk": "Carlin Stand Up Bar, Гейдар Әлиев к-сі, 1",
+      "placeEn": "Carlin Stand Up Bar, 1 Heydar Aliyev St",
+      "address": "Астана",
+      "price": null,
+      "sourceUrl": "https://www.instagram.com/standupastana/p/Dfel-nwuafW/",
+      "sourceName": "Instagram @standupastana",
+      "workingHours": "",
+      "descriptionRu": "Очень доброе шоу Славы Клочкова 🥰\n\nМесто, где обсуждают только хорошие новости. Зрители делятся своими радостями, а комики — самыми забавными и неожиданными новостями со всего мира. Никакого негатива 😌\n\n📅 10 ноября | вторник \n📍 Carlin Stand Up Bar | Гейдара Алиева, 1\n⏰ Сбор: 21:15 | Начало: 21:45\n\nПриобретайте билеты на сайте Ticketon, пройдя по ссылке в шапке профиля!☝️",
+      "descriptionKk": "Очень доброе шоу Славы Клочкова 🥰\n\nМесто, где обсуждают только хорошие новости. Зрители делятся своими радостями, а комики — самыми забавными и неожиданными новостями со всего мира. Никакого негатива 😌\n\n📅 10 ноября | вторник \n📍 Carlin Stand Up Bar | Гейдара Алиева, 1\n⏰ Сбор: 21:15 | Начало: 21:45\n\nПриобретайте билеты на сайте Ticketon, пройдя по ссылке в шапке профиля!☝️",
+      "descriptionEn": "Очень доброе шоу Славы Клочкова 🥰\n\nМесто, где обсуждают только хорошие новости. Зрители делятся своими радостями, а комики — самыми забавными и неожиданными новостями со всего мира. Никакого негатива 😌\n\n📅 10 ноября | вторник \n📍 Carlin Stand Up Bar | Гейдара Алиева, 1\n⏰ Сбор: 21:15 | Начало: 21:45\n\nПриобретайте билеты на сайте Ticketon, пройдя по ссылке в шапке профиля!☝️",
+      "lat": null,
+      "lon": null,
+      "isPlace": false,
+      "dateFrom": "2026-11-10",
+      "dateTo": "2026-11-10",
+      "dates": [
+        "2026-11-10"
+      ],
+      "time": "21:45"
+    },
+    {
+      "id": "ig-c19d00fa60",
+      "cityId": "astana",
+      "interest": "STANDUP",
+      "titleRu": "Шоу «Отмазки»",
+      "titleKk": "«Отмазки» шоуы",
+      "titleEn": "“Otmazki” (Excuses) Show",
+      "startsAt": "10 ноя, 19:00",
+      "placeRu": "Carlin Stand Up Bar, Гейдара Алиева, 1",
+      "placeKk": "Carlin Stand Up Bar, Гейдар Әлиев к-сі, 1",
+      "placeEn": "Carlin Stand Up Bar, 1 Heydar Aliyev St",
+      "address": "Астана",
+      "price": null,
+      "sourceUrl": "https://www.instagram.com/standupastana/p/DezLXXwo-NP/",
+      "sourceName": "Instagram @standupastana",
+      "workingHours": "",
+      "descriptionRu": "Шоу «Отмазки» 🔥\n\nМужчины с жизненным опытом знают, как выкрутиться из любой ситуации и убедительно объяснить даже самый абсурдный провал.\nТолько импровизация, жизненные отмазки и талант нести чушь.\n\n📅 10 ноября | вторник \n📍 Carlin Stand Up Bar | Гейдара Алиева, 1\n⏰ Сбор гостей: 18:00 | Начало: 19:00\n\nПриобретайте билеты на сайте Ticketon, пройдя по ссылке в шапке профиля!☝️",
+      "descriptionKk": "Шоу «Отмазки» 🔥\n\nМужчины с жизненным опытом знают, как выкрутиться из любой ситуации и убедительно объяснить даже самый абсурдный провал.\nТолько импровизация, жизненные отмазки и талант нести чушь.\n\n📅 10 ноября | вторник \n📍 Carlin Stand Up Bar | Гейдара Алиева, 1\n⏰ Сбор гостей: 18:00 | Начало: 19:00\n\nПриобретайте билеты на сайте Ticketon, пройдя по ссылке в шапке профиля!☝️",
+      "descriptionEn": "Шоу «Отмазки» 🔥\n\nМужчины с жизненным опытом знают, как выкрутиться из любой ситуации и убедительно объяснить даже самый абсурдный провал.\nТолько импровизация, жизненные отмазки и талант нести чушь.\n\n📅 10 ноября | вторник \n📍 Carlin Stand Up Bar | Гейдара Алиева, 1\n⏰ Сбор гостей: 18:00 | Начало: 19:00\n\nПриобретайте билеты на сайте Ticketon, пройдя по ссылке в шапке профиля!☝️",
+      "lat": null,
+      "lon": null,
+      "isPlace": false,
+      "dateFrom": "2026-11-10",
+      "dateTo": "2026-11-10",
+      "dates": [
+        "2026-11-10"
+      ],
+      "time": "19:00"
+    },
+    {
+      "id": "ig-85172d30f1",
+      "cityId": "astana",
+      "interest": "STANDUP",
+      "titleRu": "Сольный стендап-концерт Адиля Абдигапара",
+      "titleKk": "Әділ Әбдіғапардың жеке стендап-концерті",
+      "titleEn": "Adil Abdigapar Solo Stand-up Show",
+      "startsAt": "13 ноя, 21:45",
+      "placeRu": "Carlin Comedy Bar, Сыганак, 22/1",
+      "placeKk": "Carlin Comedy Bar, Сығанақ к-сі, 22/1",
+      "placeEn": "Carlin Comedy Bar, 22/1 Syganak St",
+      "address": "Астана",
+      "price": null,
+      "sourceUrl": "https://www.instagram.com/standupastana/reel/Dfhfq-ZOSOm/",
+      "sourceName": "Instagram @standupastana",
+      "workingHours": "",
+      "descriptionRu": "Сольный стендап концерт Адиля Абдигапара 🔥 \n\n📅 13 ноября | пятница \n📍 Carlin Comedy Bar | Сыганак, 22/1\n⏰ Сбор 21:15 | Начало: 21:45\n\nПриобретайте билеты на сайте Ticketon, пройдя по ссылке в шапке профиля!☝️",
+      "descriptionKk": "Сольный стендап концерт Адиля Абдигапара 🔥 \n\n📅 13 ноября | пятница \n📍 Carlin Comedy Bar | Сыганак, 22/1\n⏰ Сбор 21:15 | Начало: 21:45\n\nПриобретайте билеты на сайте Ticketon, пройдя по ссылке в шапке профиля!☝️",
+      "descriptionEn": "Сольный стендап концерт Адиля Абдигапара 🔥 \n\n📅 13 ноября | пятница \n📍 Carlin Comedy Bar | Сыганак, 22/1\n⏰ Сбор 21:15 | Начало: 21:45\n\nПриобретайте билеты на сайте Ticketon, пройдя по ссылке в шапке профиля!☝️",
+      "lat": null,
+      "lon": null,
+      "isPlace": false,
+      "dateFrom": "2026-11-13",
+      "dateTo": "2026-11-13",
+      "dates": [
+        "2026-11-13"
+      ],
+      "time": "21:45"
+    },
+    {
+      "id": "ig-7a2ef10f2a",
+      "cityId": "astana",
+      "interest": "STANDUP",
+      "titleRu": "Стендап-концерт от Stand Up Astana",
+      "titleKk": "Stand Up Astana стендап-концерті",
+      "titleEn": "Stand Up Astana Comedy Show",
+      "startsAt": "14 ноя, 21:00",
+      "placeRu": "Garage Music Bar, Кравцова, 6",
+      "placeKk": "Garage Music Bar, Кравцов к-сі, 6",
+      "placeEn": "Garage Music Bar, 6 Kravtsov St",
+      "address": "Астана",
+      "price": null,
+      "sourceUrl": "https://www.instagram.com/standupastana/p/DfcCy9FO6gL/",
+      "sourceName": "Instagram @standupastana",
+      "workingHours": "",
+      "descriptionRu": "Стендап-концерт от Stand Up Astana 🎤\n\nПросто вечер смеха, где комики дарят шутки в самом смешном и проверенном виде\n\n📅 14 ноября | суббота \n📍 Garage Music Bar | Кравцова, 6\n⏰ Сбор: 20:30 | Начало: 21:00\n\nПриобретайте билеты на сайте Ticketon, пройдя по ссылке в шапке профиля!☝️",
+      "descriptionKk": "Стендап-концерт от Stand Up Astana 🎤\n\nПросто вечер смеха, где комики дарят шутки в самом смешном и проверенном виде\n\n📅 14 ноября | суббота \n📍 Garage Music Bar | Кравцова, 6\n⏰ Сбор: 20:30 | Начало: 21:00\n\nПриобретайте билеты на сайте Ticketon, пройдя по ссылке в шапке профиля!☝️",
+      "descriptionEn": "Стендап-концерт от Stand Up Astana 🎤\n\nПросто вечер смеха, где комики дарят шутки в самом смешном и проверенном виде\n\n📅 14 ноября | суббота \n📍 Garage Music Bar | Кравцова, 6\n⏰ Сбор: 20:30 | Начало: 21:00\n\nПриобретайте билеты на сайте Ticketon, пройдя по ссылке в шапке профиля!☝️",
+      "lat": null,
+      "lon": null,
+      "isPlace": false,
+      "dateFrom": "2026-11-14",
+      "dateTo": "2026-11-14",
+      "dates": [
+        "2026-11-14"
+      ],
+      "time": "21:00"
+    },
+    {
+      "id": "ig-c2d56b25b6",
+      "cityId": "astana",
+      "interest": "STANDUP",
+      "titleRu": "Шоу «Конфликты»",
+      "titleKk": "«Конфликты» шоуы",
+      "titleEn": "“Conflicts” Show",
+      "startsAt": "15 ноя, 21:45",
+      "placeRu": "Carlin Comedy Bar, Сыганак, 22/1",
+      "placeKk": "Carlin Comedy Bar, Сығанақ к-сі, 22/1",
+      "placeEn": "Carlin Comedy Bar, 22/1 Syganak St",
+      "address": "Астана",
+      "price": null,
+      "sourceUrl": "https://www.instagram.com/standupastana/p/DfcCZmTu7I8/",
+      "sourceName": "Instagram @standupastana",
+      "workingHours": "",
+      "descriptionRu": "Шоу \"Конфликты\" 🎤\n\n📅 15 ноября | воскресенье \n📍 Carlin Comedy Bar | Сыганак, 22/1\n⏰ Сбор: 21:15 | Начало: 21:45\n\nПриобретайте билеты на сайте Ticketon.kz, пройдя по ссылке в шапке профиля!☝️",
+      "descriptionKk": "Шоу \"Конфликты\" 🎤\n\n📅 15 ноября | воскресенье \n📍 Carlin Comedy Bar | Сыганак, 22/1\n⏰ Сбор: 21:15 | Начало: 21:45\n\nПриобретайте билеты на сайте Ticketon.kz, пройдя по ссылке в шапке профиля!☝️",
+      "descriptionEn": "Шоу \"Конфликты\" 🎤\n\n📅 15 ноября | воскресенье \n📍 Carlin Comedy Bar | Сыганак, 22/1\n⏰ Сбор: 21:15 | Начало: 21:45\n\nПриобретайте билеты на сайте Ticketon.kz, пройдя по ссылке в шапке профиля!☝️",
+      "lat": null,
+      "lon": null,
+      "isPlace": false,
+      "dateFrom": "2026-11-15",
+      "dateTo": "2026-11-15",
+      "dates": [
+        "2026-11-15"
+      ],
+      "time": "21:45"
+    },
+    {
+      "id": "ig-00bfc211c1",
+      "cityId": "astana",
+      "interest": "STANDUP",
+      "titleRu": "Шоу «Ищу друга»",
+      "titleKk": "«Дос іздеймін» шоуы",
+      "titleEn": "“Looking for a Friend” Show",
+      "startsAt": "19 ноя, 21:45",
+      "placeRu": "Carlin Comedy Bar, Сыганак, 22/1",
+      "placeKk": "Carlin Comedy Bar, Сығанақ к-сі, 22/1",
+      "placeEn": "Carlin Comedy Bar, 22/1 Syganak St",
+      "address": "Астана",
+      "price": null,
+      "sourceUrl": "https://www.instagram.com/standupastana/p/DfcCo6guEs4/",
+      "sourceName": "Instagram @standupastana",
+      "workingHours": "",
+      "descriptionRu": "Шоу \"Ищу друга\" 🤩\n\nЮмористическое дейтинг-шоу, где ищут не любовь, а настоящую дружбу 🤝🏼\n\n📅 19 ноября | четверг \n📍 Carlin Comedy Bar | Сыганак, 22/1\n⏰ Сбор: 21:15 | Начало: 21:45\n\nПриобретайте билеты на сайте Ticketon, пройдя по ссылке в шапке профиля!☝️",
+      "descriptionKk": "Шоу \"Ищу друга\" 🤩\n\nЮмористическое дейтинг-шоу, где ищут не любовь, а настоящую дружбу 🤝🏼\n\n📅 19 ноября | четверг \n📍 Carlin Comedy Bar | Сыганак, 22/1\n⏰ Сбор: 21:15 | Начало: 21:45\n\nПриобретайте билеты на сайте Ticketon, пройдя по ссылке в шапке профиля!☝️",
+      "descriptionEn": "Шоу \"Ищу друга\" 🤩\n\nЮмористическое дейтинг-шоу, где ищут не любовь, а настоящую дружбу 🤝🏼\n\n📅 19 ноября | четверг \n📍 Carlin Comedy Bar | Сыганак, 22/1\n⏰ Сбор: 21:15 | Начало: 21:45\n\nПриобретайте билеты на сайте Ticketon, пройдя по ссылке в шапке профиля!☝️",
+      "lat": null,
+      "lon": null,
+      "isPlace": false,
+      "dateFrom": "2026-11-19",
+      "dateTo": "2026-11-19",
+      "dates": [
+        "2026-11-19"
+      ],
+      "time": "21:45"
+    },
+    {
+      "id": "ig-d0ab77417a",
+      "cityId": "astana",
+      "interest": "THEATER",
+      "titleRu": "«Тартюф» — гастроли Театра Наций",
+      "titleKk": "«Тартюф» — Ұлттар театрының гастролі",
+      "titleEn": "Tartuffe — Theatre of Nations on Tour",
+      "startsAt": "11 ноя, 12 ноя",
+      "placeRu": "Астана Опера, Главная сцена",
+      "placeKk": "Астана Опера, Бас сахна",
+      "placeEn": "Astana Opera, Main Stage",
+      "address": "Астана",
+      "price": null,
+      "sourceUrl": "https://www.instagram.com/astana_opera/reel/Dfb6VAcIAFi/",
+      "sourceName": "Instagram @astana_opera",
+      "workingHours": "",
+      "descriptionRu": "Ұлт театрының жұлдыздары Астанада бір сахнада!⭐️\n\n11 және 12 қарашада «Астана Опера» театрының Бас сахнасында Жан-Батист Мольердің «Тартюф» спектаклі ұсынылады.\n\nРежиссер Евгений Писарев 1664 жылы жазылған классикалық комедияға жаңаша көзқарас ұсынып, оқиғаны қазіргі Францияға көшіреді. Спектакльде Ұлт театрының жетекші әртістері, соның ішінде Игорь Гордин, Аня Чиповская, Сергей Волков және басқа да танымал актерлер өнер көрсетеді.\n\nСергей Самойленконың жаңа аудармасы мен ирониялық интонация спектакльді бүгінгі күнмен үндестіре түседі. Театрдың «Хрустальная Турандот» сыйлығына ие болған қойылым Мольердің ұлы дәстүрімен байланысын сақтай отырып, көрерменге классикалық шығарманы жаңа қырынан ұсынады.\n\n🎟 Билеттерді astanaopera.kz және ticketon.kz сайттарынан сатып алуға болады.",
+      "descriptionKk": "Ұлт театрының жұлдыздары Астанада бір сахнада!⭐️\n\n11 және 12 қарашада «Астана Опера» театрының Бас сахнасында Жан-Батист Мольердің «Тартюф» спектаклі ұсынылады.\n\nРежиссер Евгений Писарев 1664 жылы жазылған классикалық комедияға жаңаша көзқарас ұсынып, оқиғаны қазіргі Францияға көшіреді. Спектакльде Ұлт театрының жетекші әртістері, соның ішінде Игорь Гордин, Аня Чиповская, Сергей Волков және басқа да танымал актерлер өнер көрсетеді.\n\nСергей Самойленконың жаңа аудармасы мен ирониялық интонация спектакльді бүгінгі күнмен үндестіре түседі. Театрдың «Хрустальная Турандот» сыйлығына ие болған қойылым Мольердің ұлы дәстүрімен байланысын сақтай отырып, көрерменге классикалық шығарманы жаңа қырынан ұсынады.\n\n🎟 Билеттерді astanaopera.kz және ticketon.kz сайттарынан сатып алуға болады.",
+      "descriptionEn": "Ұлт театрының жұлдыздары Астанада бір сахнада!⭐️\n\n11 және 12 қарашада «Астана Опера» театрының Бас сахнасында Жан-Батист Мольердің «Тартюф» спектаклі ұсынылады.\n\nРежиссер Евгений Писарев 1664 жылы жазылған классикалық комедияға жаңаша көзқарас ұсынып, оқиғаны қазіргі Францияға көшіреді. Спектакльде Ұлт театрының жетекші әртістері, соның ішінде Игорь Гордин, Аня Чиповская, Сергей Волков және басқа да танымал актерлер өнер көрсетеді.\n\nСергей Самойленконың жаңа аудармасы мен ирониялық интонация спектакльді бүгінгі күнмен үндестіре түседі. Театрдың «Хрустальная Турандот» сыйлығына ие болған қойылым Мольердің ұлы дәстүрімен байланысын сақтай отырып, көрерменге классикалық шығарманы жаңа қырынан ұсынады.\n\n🎟 Билеттерді astanaopera.kz және ticketon.kz сайттарынан сатып алуға болады.",
+      "lat": null,
+      "lon": null,
+      "isPlace": false,
+      "dateFrom": "2026-11-11",
+      "dateTo": "2026-11-12",
+      "dates": [
+        "2026-11-11",
+        "2026-11-12"
+      ],
+      "time": null
+    },
+    {
+      "id": "ig-e3b4f578d6",
+      "cityId": "astana",
+      "interest": "EXHIBITIONS",
+      "titleRu": "Открытие выставки «QYZĞALDAQ MEKENI»",
+      "titleKk": "«QYZĞALDAQ MEKENI» көрмесінің ашылуы",
+      "titleEn": "Opening of the “QYZĞALDAQ MEKENI” Exhibition",
+      "startsAt": "10 ноя, 16:00",
+      "placeRu": "Национальный музей РК, пр. Тауелсиздик, 54",
+      "placeKk": "ҚР Ұлттық музейі, Тәуелсіздік даңғ., 54",
+      "placeEn": "National Museum of Kazakhstan, 54 Tauelsizdik Ave",
+      "address": "Астана",
+      "price": null,
+      "sourceUrl": "https://www.instagram.com/nationalmuseumkz/p/Dfi-C3KMR23/",
+      "sourceName": "Instagram @nationalmuseumkz",
+      "workingHours": "",
+      "descriptionRu": "📣📣📣2026 жылдың 10 қараша күні сағат 16:00-де Қазақстан Республикасы Ұлттық музейінде ҚР Еңбек сіңірген өнер қайраткері, ҚР Суретшілер одағының мүшесі Қазахбай Әжібекұлының Қазақстан Республикасы Тәуелсіздігінің 35 жылдығына арналған «QYZĞALDAQ MEKENI» көрмесінің ашылуы өтеді.\n\n📣📣📣10 ноября 2026 года в 16:00 в Национальном музее Республики Казахстан состоится открытие выставки «QYZĞALDAQ MEKENI», приуроченной к 35-летию Независимости Республики Казахстан. Автор выставки – заслуженный деятель искусств Республики Казахстан, член Союза художников РК Казахбай Ажибекулы.",
+      "descriptionKk": "📣📣📣2026 жылдың 10 қараша күні сағат 16:00-де Қазақстан Республикасы Ұлттық музейінде ҚР Еңбек сіңірген өнер қайраткері, ҚР Суретшілер одағының мүшесі Қазахбай Әжібекұлының Қазақстан Республикасы Тәуелсіздігінің 35 жылдығына арналған «QYZĞALDAQ MEKENI» көрмесінің ашылуы өтеді.\n\n📣📣📣10 ноября 2026 года в 16:00 в Национальном музее Республики Казахстан состоится открытие выставки «QYZĞALDAQ MEKENI», приуроченной к 35-летию Независимости Республики Казахстан. Автор выставки – заслуженный деятель искусств Республики Казахстан, член Союза художников РК Казахбай Ажибекулы.",
+      "descriptionEn": "📣📣📣2026 жылдың 10 қараша күні сағат 16:00-де Қазақстан Республикасы Ұлттық музейінде ҚР Еңбек сіңірген өнер қайраткері, ҚР Суретшілер одағының мүшесі Қазахбай Әжібекұлының Қазақстан Республикасы Тәуелсіздігінің 35 жылдығына арналған «QYZĞALDAQ MEKENI» көрмесінің ашылуы өтеді.\n\n📣📣📣10 ноября 2026 года в 16:00 в Национальном музее Республики Казахстан состоится открытие выставки «QYZĞALDAQ MEKENI», приуроченной к 35-летию Независимости Республики Казахстан. Автор выставки – заслуженный деятель искусств Республики Казахстан, член Союза художников РК Казахбай Ажибекулы.",
+      "lat": null,
+      "lon": null,
+      "isPlace": false,
+      "dateFrom": "2026-11-10",
+      "dateTo": "2026-11-10",
+      "dates": [
+        "2026-11-10"
+      ],
+      "time": "16:00"
+    },
+    {
+      "id": "ig-0cac15d65a",
+      "cityId": "astana",
+      "interest": "CONCERTS",
+      "titleRu": "Концерт «Алғашқы саундтрек»",
+      "titleKk": "«Алғашқы саундтрек» концерті",
+      "titleEn": "“The First Soundtrack” Concert",
+      "startsAt": "11 ноя, 19:00",
+      "placeRu": "Qazaqconcert, Мангилик Ел, 10/1",
+      "placeKk": "Qazaqconcert, Мәңгілік Ел, 10/1",
+      "placeEn": "Qazaqconcert, 10/1 Mangilik El Ave",
+      "address": "Астана",
+      "price": null,
+      "sourceUrl": "https://www.instagram.com/qazaqconcert/reel/DfjUfglJjZe/",
+      "sourceName": "Instagram @qazaqconcert",
+      "workingHours": "",
+      "descriptionRu": "🎬✨ «Алғашқы саундтрек» — қазақстан киносының тарихы басталған музыка ✨🎼\n\nСіздерді 1938 жылы экранға шыққан «Амангелді» фильміне жазылған, қазақ киносы тарихындағы тұңғыш саундтрекке арналған ерекше концертке шақырамыз. 🎞️\n\n🎻 Симфониялық оркестрдің орындауында көрнекті қазақстандық композиторлар Ахмет Жұбанов пен Латиф Хамидидің туындылары шырқалады.\n\n🎼 Композитор әрі дирижёр Мират Кадыров Санкт-Петербургке арнайы барып, тарихи ноталарды зерттеп, түпнұсқасын қалпына келтіру жұмыстарына атсалысты. Архивтен табылған музыкалық мұра енді қайтадан сахнада жаңғырады.\n\n🌟 Бұл кеш — ұлттық киноның бастауына саяхат, ұлы композиторларға құрмет және қазақ киномузыкасының баға жетпес мұрасымен қауышу мүмкіндігі.\n\n🎶 Өнер тарихының бір бөлшегіне айналған музыканы жанды симфониялық орындауда тыңдаңыздар!\n\n📅 11.11 | 19:00\n📍 QAZAQCONCERT | Мәңгілік Ел, 10/1 🎫",
+      "descriptionKk": "🎬✨ «Алғашқы саундтрек» — қазақстан киносының тарихы басталған музыка ✨🎼\n\nСіздерді 1938 жылы экранға шыққан «Амангелді» фильміне жазылған, қазақ киносы тарихындағы тұңғыш саундтрекке арналған ерекше концертке шақырамыз. 🎞️\n\n🎻 Симфониялық оркестрдің орындауында көрнекті қазақстандық композиторлар Ахмет Жұбанов пен Латиф Хамидидің туындылары шырқалады.\n\n🎼 Композитор әрі дирижёр Мират Кадыров Санкт-Петербургке арнайы барып, тарихи ноталарды зерттеп, түпнұсқасын қалпына келтіру жұмыстарына атсалысты. Архивтен табылған музыкалық мұра енді қайтадан сахнада жаңғырады.\n\n🌟 Бұл кеш — ұлттық киноның бастауына саяхат, ұлы композиторларға құрмет және қазақ киномузыкасының баға жетпес мұрасымен қауышу мүмкіндігі.\n\n🎶 Өнер тарихының бір бөлшегіне айналған музыканы жанды симфониялық орындауда тыңдаңыздар!\n\n📅 11.11 | 19:00\n📍 QAZAQCONCERT | Мәңгілік Ел, 10/1 🎫",
+      "descriptionEn": "🎬✨ «Алғашқы саундтрек» — қазақстан киносының тарихы басталған музыка ✨🎼\n\nСіздерді 1938 жылы экранға шыққан «Амангелді» фильміне жазылған, қазақ киносы тарихындағы тұңғыш саундтрекке арналған ерекше концертке шақырамыз. 🎞️\n\n🎻 Симфониялық оркестрдің орындауында көрнекті қазақстандық композиторлар Ахмет Жұбанов пен Латиф Хамидидің туындылары шырқалады.\n\n🎼 Композитор әрі дирижёр Мират Кадыров Санкт-Петербургке арнайы барып, тарихи ноталарды зерттеп, түпнұсқасын қалпына келтіру жұмыстарына атсалысты. Архивтен табылған музыкалық мұра енді қайтадан сахнада жаңғырады.\n\n🌟 Бұл кеш — ұлттық киноның бастауына саяхат, ұлы композиторларға құрмет және қазақ киномузыкасының баға жетпес мұрасымен қауышу мүмкіндігі.\n\n🎶 Өнер тарихының бір бөлшегіне айналған музыканы жанды симфониялық орындауда тыңдаңыздар!\n\n📅 11.11 | 19:00\n📍 QAZAQCONCERT | Мәңгілік Ел, 10/1 🎫",
+      "lat": null,
+      "lon": null,
+      "isPlace": false,
+      "dateFrom": "2026-11-11",
+      "dateTo": "2026-11-11",
+      "dates": [
+        "2026-11-11"
+      ],
+      "time": "19:00"
+    },
+    {
+      "id": "ig-591800326a",
+      "cityId": "astana",
+      "interest": "CONCERTS",
+      "titleRu": "«Ғажайып хор-концерт» театра Astana Musical",
+      "titleKk": "Astana Musical театрының «Ғажайып хор-концерті»",
+      "titleEn": "“Wonderful Choir Concert” by Astana Musical",
+      "startsAt": "14 ноя, 18:00",
+      "placeRu": "Qazaqconcert, Мангилик Ел, 10/1",
+      "placeKk": "Qazaqconcert, Мәңгілік Ел, 10/1",
+      "placeEn": "Qazaqconcert, 10/1 Mangilik El Ave",
+      "address": "Астана",
+      "price": null,
+      "sourceUrl": "https://www.instagram.com/qazaqconcert/reel/DfhQXOII5kQ/",
+      "sourceName": "Instagram @qazaqconcert",
+      "workingHours": "",
+      "descriptionRu": "🎭 «Ғажайып хор-концерт» — ерекше музыкалық кешке шақырамыз!\n\n🎶 Көрермендерді ерекше музыкалық кеш – ASTANA MUSICAL мемлекеттік театрының «Ғажайып хор-концерт» атты театрландырылған шоуы күтуде.\n\n✨ Бұл концерт жанды сезім мен көркем сахна өнерін бағалайтын әр адамға нағыз сыйлық болмақ. Әр шығарма шағын театрлық көрініске айналады: жанды вокал, пластика, би мен актерлік шеберлік мәнерлі әрі есте қаларлық ерекше леп туғызады.\n\n🎼 Кеш бағдарламасында қазақ халық әндері мен ретро-шығармалардың, сондай-ақ Майкл Джексон, Фредди Меркьюри және Пол Маккартни сынды әлемге әйгілі орындаушылар әндерінің тосын хорлық нұсқалары орындалады.\n\n🌟 Жарқын театрлық қойылым мен сахналық мәнерлілік концертке жеңіл, шабыт сыйлайтын әрі сезімге толы ерекше көңіл күй дарытады.\n\n💫 «Ғажайып хор-концерт» – музыкаға, сұлулық пен жылулыққа толы, көрермендерге ұмытылмас әсер сыйлайтын кеш. Осы ерекше концерттен қапы қалмай, өздеріңізге және жақындарыңызға жарқын сезім сыйлаңыздар!\n\n🕕 14.11 | 18:00\n🏛 QAZAQCONCERT | Мәңгілік Ел 10/1\n🎟 Билеттер: Ticketon.kz",
+      "descriptionKk": "🎭 «Ғажайып хор-концерт» — ерекше музыкалық кешке шақырамыз!\n\n🎶 Көрермендерді ерекше музыкалық кеш – ASTANA MUSICAL мемлекеттік театрының «Ғажайып хор-концерт» атты театрландырылған шоуы күтуде.\n\n✨ Бұл концерт жанды сезім мен көркем сахна өнерін бағалайтын әр адамға нағыз сыйлық болмақ. Әр шығарма шағын театрлық көрініске айналады: жанды вокал, пластика, би мен актерлік шеберлік мәнерлі әрі есте қаларлық ерекше леп туғызады.\n\n🎼 Кеш бағдарламасында қазақ халық әндері мен ретро-шығармалардың, сондай-ақ Майкл Джексон, Фредди Меркьюри және Пол Маккартни сынды әлемге әйгілі орындаушылар әндерінің тосын хорлық нұсқалары орындалады.\n\n🌟 Жарқын театрлық қойылым мен сахналық мәнерлілік концертке жеңіл, шабыт сыйлайтын әрі сезімге толы ерекше көңіл күй дарытады.\n\n💫 «Ғажайып хор-концерт» – музыкаға, сұлулық пен жылулыққа толы, көрермендерге ұмытылмас әсер сыйлайтын кеш. Осы ерекше концерттен қапы қалмай, өздеріңізге және жақындарыңызға жарқын сезім сыйлаңыздар!\n\n🕕 14.11 | 18:00\n🏛 QAZAQCONCERT | Мәңгілік Ел 10/1\n🎟 Билеттер: Ticketon.kz",
+      "descriptionEn": "🎭 «Ғажайып хор-концерт» — ерекше музыкалық кешке шақырамыз!\n\n🎶 Көрермендерді ерекше музыкалық кеш – ASTANA MUSICAL мемлекеттік театрының «Ғажайып хор-концерт» атты театрландырылған шоуы күтуде.\n\n✨ Бұл концерт жанды сезім мен көркем сахна өнерін бағалайтын әр адамға нағыз сыйлық болмақ. Әр шығарма шағын театрлық көрініске айналады: жанды вокал, пластика, би мен актерлік шеберлік мәнерлі әрі есте қаларлық ерекше леп туғызады.\n\n🎼 Кеш бағдарламасында қазақ халық әндері мен ретро-шығармалардың, сондай-ақ Майкл Джексон, Фредди Меркьюри және Пол Маккартни сынды әлемге әйгілі орындаушылар әндерінің тосын хорлық нұсқалары орындалады.\n\n🌟 Жарқын театрлық қойылым мен сахналық мәнерлілік концертке жеңіл, шабыт сыйлайтын әрі сезімге толы ерекше көңіл күй дарытады.\n\n💫 «Ғажайып хор-концерт» – музыкаға, сұлулық пен жылулыққа толы, көрермендерге ұмытылмас әсер сыйлайтын кеш. Осы ерекше концерттен қапы қалмай, өздеріңізге және жақындарыңызға жарқын сезім сыйлаңыздар!\n\n🕕 14.11 | 18:00\n🏛 QAZAQCONCERT | Мәңгілік Ел 10/1\n🎟 Билеттер: Ticketon.kz",
+      "lat": null,
+      "lon": null,
+      "isPlace": false,
+      "dateFrom": "2026-11-14",
+      "dateTo": "2026-11-14",
+      "dates": [
+        "2026-11-14"
+      ],
+      "time": "18:00"
+    },
+    {
+      "id": "ig-2f7835dc2a",
+      "cityId": "astana",
+      "interest": "THEATER",
+      "titleRu": "«Іздеп таптым сені»",
+      "titleKk": "«Іздеп таптым сені»",
+      "titleEn": "“I Searched and Found You”",
+      "startsAt": "11 ноя, 19:00, 12 ноя, 19:00",
+      "placeRu": "Театр «Жастар», ул. Есенберлина, 10",
+      "placeKk": "«Жастар» театры, І. Есенберлин к-сі, 10",
+      "placeEn": "Zhastar Theatre, 10 Yesenberlin St",
+      "address": "Астана",
+      "price": null,
+      "sourceUrl": "https://www.instagram.com/zhastar_teatry/reel/DfcJexkRTdS/",
+      "sourceName": "Instagram @zhastar_teatry",
+      "workingHours": "",
+      "descriptionRu": "Іздеп таптым сені | 11-12 қараша 19:00\n\n🏛️Жастар театры | Астана |  І.Есенберлин көшесі , 10\n💌 БИЛЕТТЕР TICKETON.KZ САЙТЫНДА",
+      "descriptionKk": "Іздеп таптым сені | 11-12 қараша 19:00\n\n🏛️Жастар театры | Астана |  І.Есенберлин көшесі , 10\n💌 БИЛЕТТЕР TICKETON.KZ САЙТЫНДА",
+      "descriptionEn": "Іздеп таптым сені | 11-12 қараша 19:00\n\n🏛️Жастар театры | Астана |  І.Есенберлин көшесі , 10\n💌 БИЛЕТТЕР TICKETON.KZ САЙТЫНДА",
+      "lat": null,
+      "lon": null,
+      "isPlace": false,
+      "dateFrom": "2026-11-11",
+      "dateTo": "2026-11-12",
+      "dates": [
+        "2026-11-11",
+        "2026-11-12"
+      ],
+      "time": "19:00"
+    },
+    {
+      "id": "ig-f25877dca9",
+      "cityId": "astana",
+      "interest": "THEATER",
+      "titleRu": "Драма «Мағазин»",
+      "titleKk": "«Мағазин» драмасы",
+      "titleEn": "“Magazin” Drama",
+      "startsAt": "13 ноя, 19:00",
+      "placeRu": "Театр «Жастар», ул. Есенберлина, 10",
+      "placeKk": "«Жастар» театры, І. Есенберлин к-сі, 10",
+      "placeEn": "Zhastar Theatre, 10 Yesenberlin St",
+      "address": "Астана",
+      "price": null,
+      "sourceUrl": "https://www.instagram.com/arts_stage_theatre/p/DfcWf9Es8Hl/",
+      "sourceName": "Instagram @zhastar_teatry",
+      "workingHours": "",
+      "descriptionRu": "«МАҒАЗИН» СПЕКТАКЛІ АСТАНА ҚАЛАСЫНДА! \n\n«Мағазин» драмасы \n\n📍 13 қараша — Астана\n«Жастар» театры\nМекен-жайы: Есенберлин көшесі 10\n🕖 19:00 | 16+\n\nАвторы: Олжас Жанайдаров \nРежиссері: Ұлан Болатбек \nПродюсер: Шынаргүл Қабышева \nҚоюшы суретші: Айнұр Есболатова \n\n🎟️ Билеттерді @arts_stage_theatre парақшасындағы сілтемеден ала-аласыз",
+      "descriptionKk": "«МАҒАЗИН» СПЕКТАКЛІ АСТАНА ҚАЛАСЫНДА! \n\n«Мағазин» драмасы \n\n📍 13 қараша — Астана\n«Жастар» театры\nМекен-жайы: Есенберлин көшесі 10\n🕖 19:00 | 16+\n\nАвторы: Олжас Жанайдаров \nРежиссері: Ұлан Болатбек \nПродюсер: Шынаргүл Қабышева \nҚоюшы суретші: Айнұр Есболатова \n\n🎟️ Билеттерді @arts_stage_theatre парақшасындағы сілтемеден ала-аласыз",
+      "descriptionEn": "«МАҒАЗИН» СПЕКТАКЛІ АСТАНА ҚАЛАСЫНДА! \n\n«Мағазин» драмасы \n\n📍 13 қараша — Астана\n«Жастар» театры\nМекен-жайы: Есенберлин көшесі 10\n🕖 19:00 | 16+\n\nАвторы: Олжас Жанайдаров \nРежиссері: Ұлан Болатбек \nПродюсер: Шынаргүл Қабышева \nҚоюшы суретші: Айнұр Есболатова \n\n🎟️ Билеттерді @arts_stage_theatre парақшасындағы сілтемеден ала-аласыз",
+      "lat": null,
+      "lon": null,
+      "isPlace": false,
+      "dateFrom": "2026-11-13",
+      "dateTo": "2026-11-13",
+      "dates": [
+        "2026-11-13"
+      ],
+      "time": "19:00"
+    },
+    {
+      "id": "ig-724c2d369a",
+      "cityId": "astana",
+      "interest": "THEATER",
+      "titleRu": "Премьера «Ғашықтар күні»",
+      "titleKk": "«Ғашықтар күні» премьерасы",
+      "titleEn": "Premiere: “Valentine's Day”",
+      "startsAt": "19 ноя, 19:00, 20 ноя, 19:00",
+      "placeRu": "Театр «Жастар», ул. Есенберлина, 10",
+      "placeKk": "«Жастар» театры, І. Есенберлин к-сі, 10",
+      "placeEn": "Zhastar Theatre, 10 Yesenberlin St",
+      "address": "Астана",
+      "price": null,
+      "sourceUrl": "https://www.instagram.com/zhastar_teatry/reel/Dfhir0nxrnE/",
+      "sourceName": "Instagram @zhastar_teatry",
+      "workingHours": "",
+      "descriptionRu": "💌ПРЕМЬЕРА💌 \n\nМахаббатқа мінсіз адам керек пе, әлде мінсіз сәтті күтпейтін батыл жүрек пе?\nБір кеште тоғысқан үш жігіт пен үш қыздың кездесуі күлкіге құрылған ойыннан басталып, адам жанының күрделі иірімдеріне жетелейді.\n\n❤️“ҒАШЫҚТАР КҮНІ”❤️\nҚойылым режиссері - Дәурен Серғазин @dauren_sergazin \n\n🗓️19-20 ҚАРАША | 19:00\n🏛️Жастар театры | І.Есенберлин көшесі 10\n \n#ЖастарТеатры #Премьера #ҒашықтарКүні",
+      "descriptionKk": "💌ПРЕМЬЕРА💌 \n\nМахаббатқа мінсіз адам керек пе, әлде мінсіз сәтті күтпейтін батыл жүрек пе?\nБір кеште тоғысқан үш жігіт пен үш қыздың кездесуі күлкіге құрылған ойыннан басталып, адам жанының күрделі иірімдеріне жетелейді.\n\n❤️“ҒАШЫҚТАР КҮНІ”❤️\nҚойылым режиссері - Дәурен Серғазин @dauren_sergazin \n\n🗓️19-20 ҚАРАША | 19:00\n🏛️Жастар театры | І.Есенберлин көшесі 10\n \n#ЖастарТеатры #Премьера #ҒашықтарКүні",
+      "descriptionEn": "💌ПРЕМЬЕРА💌 \n\nМахаббатқа мінсіз адам керек пе, әлде мінсіз сәтті күтпейтін батыл жүрек пе?\nБір кеште тоғысқан үш жігіт пен үш қыздың кездесуі күлкіге құрылған ойыннан басталып, адам жанының күрделі иірімдеріне жетелейді.\n\n❤️“ҒАШЫҚТАР КҮНІ”❤️\nҚойылым режиссері - Дәурен Серғазин @dauren_sergazin \n\n🗓️19-20 ҚАРАША | 19:00\n🏛️Жастар театры | І.Есенберлин көшесі 10\n \n#ЖастарТеатры #Премьера #ҒашықтарКүні",
+      "lat": null,
+      "lon": null,
+      "isPlace": false,
+      "dateFrom": "2026-11-19",
+      "dateTo": "2026-11-20",
+      "dates": [
+        "2026-11-19",
+        "2026-11-20"
+      ],
+      "time": "19:00"
+    },
+    {
+      "id": "ig-6b7f32a08f",
+      "cityId": "astana",
+      "interest": "THEATER",
+      "titleRu": "Мелодрама «Смешанные чувства»",
+      "titleKk": "«Аралас сезімдер» мелодрамасы",
+      "titleEn": "“Mixed Feelings” Melodrama",
+      "startsAt": "13 ноя, 19:00",
+      "placeRu": "Театр им. М. Горького",
+      "placeKk": "М. Горький атындағы театр",
+      "placeEn": "M. Gorky Theatre",
+      "address": "Астана",
+      "price": null,
+      "sourceUrl": "https://www.instagram.com/gorkytheatre.kz/reel/DfZajpnOpQO/",
+      "sourceName": "Instagram @gorkytheatre.kz",
+      "workingHours": "",
+      "descriptionRu": "А разве для любви бывает слишком поздно? ❤️\n\n«Смешанные чувства» — мелодрама о двух людях, которые, пережив потери, неожиданно находят друг в друге нечто большее, чем просто утешение. О страхе одиночества, надежде, нежности и смелости снова открыть сердце.\n\nТонкая, трогательная и местами ироничная история, которая напомнит: жизнь не заканчивается на одной главе. Иногда самое интересное только начинается!\n\n🎭 «Смешанные чувства»\n📅 13 ноября\n🕖 19:00\n\nПриглашаем вас провести этот вечер в театре ГАРДТ им. М. Горького!\n\nПриходите за эмоциями, улыбками и, возможно, ответом на вопрос: а вдруг любовь действительно не знает возраста?\n\nЖдём вас! ❤️",
+      "descriptionKk": "А разве для любви бывает слишком поздно? ❤️\n\n«Смешанные чувства» — мелодрама о двух людях, которые, пережив потери, неожиданно находят друг в друге нечто большее, чем просто утешение. О страхе одиночества, надежде, нежности и смелости снова открыть сердце.\n\nТонкая, трогательная и местами ироничная история, которая напомнит: жизнь не заканчивается на одной главе. Иногда самое интересное только начинается!\n\n🎭 «Смешанные чувства»\n📅 13 ноября\n🕖 19:00\n\nПриглашаем вас провести этот вечер в театре ГАРДТ им. М. Горького!\n\nПриходите за эмоциями, улыбками и, возможно, ответом на вопрос: а вдруг любовь действительно не знает возраста?\n\nЖдём вас! ❤️",
+      "descriptionEn": "А разве для любви бывает слишком поздно? ❤️\n\n«Смешанные чувства» — мелодрама о двух людях, которые, пережив потери, неожиданно находят друг в друге нечто большее, чем просто утешение. О страхе одиночества, надежде, нежности и смелости снова открыть сердце.\n\nТонкая, трогательная и местами ироничная история, которая напомнит: жизнь не заканчивается на одной главе. Иногда самое интересное только начинается!\n\n🎭 «Смешанные чувства»\n📅 13 ноября\n🕖 19:00\n\nПриглашаем вас провести этот вечер в театре ГАРДТ им. М. Горького!\n\nПриходите за эмоциями, улыбками и, возможно, ответом на вопрос: а вдруг любовь действительно не знает возраста?\n\nЖдём вас! ❤️",
+      "lat": null,
+      "lon": null,
+      "isPlace": false,
+      "dateFrom": "2026-11-13",
+      "dateTo": "2026-11-13",
+      "dates": [
+        "2026-11-13"
+      ],
+      "time": "19:00"
+    },
+    {
+      "id": "ig-46ae64d4dc",
+      "cityId": "astana",
+      "interest": "THEATER",
+      "titleRu": "«Человек из Подольска»",
+      "titleKk": "«Подольскіден келген адам»",
+      "titleEn": "“The Man from Podolsk”",
+      "startsAt": "15 ноя, 18:00",
+      "placeRu": "Театр им. М. Горького, ул. Желтоксан, 13",
+      "placeKk": "М. Горький атындағы театр, Желтоқсан к-сі, 13",
+      "placeEn": "M. Gorky Theatre, 13 Zheltoksan St",
+      "address": "Астана",
+      "price": null,
+      "sourceUrl": "https://www.instagram.com/gorkytheatre.kz/reel/DfZw239ukWy/",
+      "sourceName": "Instagram @gorkytheatre.kz",
+      "workingHours": "",
+      "descriptionRu": "А что, если театр — это тоже терапия?\n\n«Человек из Подольска» — яркая премьера прошлого сезона, интеллектуальная провокация и сеанс коллективной терапии в жанре оптимистического абсурда!\n\nОстроумная современная драматургия, тонкая ирония, неожиданные повороты и философия, которая остаётся со зрителем после финала.\n\nПостановка Олега Федоренко по пьесе Дмитрия Данилова. А сценография Алексея Говязина вошла в экспозицию выставки театральных художников «Итоги сезона №63».\n\nГотовы к театральному эксперименту, который заставит взглянуть на привычный мир иначе?\n\nЖдём вас 15 ноября в 18:00!\n\n📍 ГАРДТ им. М. Горького, ул. Желтоксан, 13.\n\n🎟 Билеты можно приобрести в кассе театра и онлайн.\n\n18+",
+      "descriptionKk": "А что, если театр — это тоже терапия?\n\n«Человек из Подольска» — яркая премьера прошлого сезона, интеллектуальная провокация и сеанс коллективной терапии в жанре оптимистического абсурда!\n\nОстроумная современная драматургия, тонкая ирония, неожиданные повороты и философия, которая остаётся со зрителем после финала.\n\nПостановка Олега Федоренко по пьесе Дмитрия Данилова. А сценография Алексея Говязина вошла в экспозицию выставки театральных художников «Итоги сезона №63».\n\nГотовы к театральному эксперименту, который заставит взглянуть на привычный мир иначе?\n\nЖдём вас 15 ноября в 18:00!\n\n📍 ГАРДТ им. М. Горького, ул. Желтоксан, 13.\n\n🎟 Билеты можно приобрести в кассе театра и онлайн.\n\n18+",
+      "descriptionEn": "А что, если театр — это тоже терапия?\n\n«Человек из Подольска» — яркая премьера прошлого сезона, интеллектуальная провокация и сеанс коллективной терапии в жанре оптимистического абсурда!\n\nОстроумная современная драматургия, тонкая ирония, неожиданные повороты и философия, которая остаётся со зрителем после финала.\n\nПостановка Олега Федоренко по пьесе Дмитрия Данилова. А сценография Алексея Говязина вошла в экспозицию выставки театральных художников «Итоги сезона №63».\n\nГотовы к театральному эксперименту, который заставит взглянуть на привычный мир иначе?\n\nЖдём вас 15 ноября в 18:00!\n\n📍 ГАРДТ им. М. Горького, ул. Желтоксан, 13.\n\n🎟 Билеты можно приобрести в кассе театра и онлайн.\n\n18+",
+      "lat": null,
+      "lon": null,
+      "isPlace": false,
+      "dateFrom": "2026-11-15",
+      "dateTo": "2026-11-15",
+      "dates": [
+        "2026-11-15"
+      ],
+      "time": "18:00"
+    },
+    {
+      "id": "ig-7518e68820",
+      "cityId": "astana",
+      "interest": "THEATER",
+      "titleRu": "«Гедда Габлер»",
+      "titleKk": "«Гедда Габлер»",
+      "titleEn": "“Hedda Gabler”",
+      "startsAt": "20 ноя, 19:00",
+      "placeRu": "Театр им. М. Горького, ул. Желтоксан, 13",
+      "placeKk": "М. Горький атындағы театр, Желтоқсан к-сі, 13",
+      "placeEn": "M. Gorky Theatre, 13 Zheltoksan St",
+      "address": "Астана",
+      "price": null,
+      "sourceUrl": "https://www.instagram.com/gorkytheatre.kz/reel/Dfbw3FUuznJ/",
+      "sourceName": "Instagram @gorkytheatre.kz",
+      "workingHours": "",
+      "descriptionRu": "Свобода — это всегда выбор. Но какой ценой?\n\nОна умна, красива, горда. Она не хочет жить по чужим правилам — но сможет ли вырваться из ловушки, которую создала сама жизнь?\n\n🎭 «Гедда Габлер» — пронзительная драма о свободе, одиночестве и внутреннем бунте, который невозможно заглушить.\n\nПриходите на встречу с одной из самых загадочных героинь мировой драматургии.\n\n📅 20 ноября | 19:00\n📍 Театр Горького, ул. Желтоксан, 13\n\n🎟️ Билеты в кассе театра и на сайте Тикетон",
+      "descriptionKk": "Свобода — это всегда выбор. Но какой ценой?\n\nОна умна, красива, горда. Она не хочет жить по чужим правилам — но сможет ли вырваться из ловушки, которую создала сама жизнь?\n\n🎭 «Гедда Габлер» — пронзительная драма о свободе, одиночестве и внутреннем бунте, который невозможно заглушить.\n\nПриходите на встречу с одной из самых загадочных героинь мировой драматургии.\n\n📅 20 ноября | 19:00\n📍 Театр Горького, ул. Желтоксан, 13\n\n🎟️ Билеты в кассе театра и на сайте Тикетон",
+      "descriptionEn": "Свобода — это всегда выбор. Но какой ценой?\n\nОна умна, красива, горда. Она не хочет жить по чужим правилам — но сможет ли вырваться из ловушки, которую создала сама жизнь?\n\n🎭 «Гедда Габлер» — пронзительная драма о свободе, одиночестве и внутреннем бунте, который невозможно заглушить.\n\nПриходите на встречу с одной из самых загадочных героинь мировой драматургии.\n\n📅 20 ноября | 19:00\n📍 Театр Горького, ул. Желтоксан, 13\n\n🎟️ Билеты в кассе театра и на сайте Тикетон",
+      "lat": null,
+      "lon": null,
+      "isPlace": false,
+      "dateFrom": "2026-11-20",
+      "dateTo": "2026-11-20",
+      "dates": [
+        "2026-11-20"
+      ],
+      "time": "19:00"
     }
   ],
   "places": [
@@ -2380,7 +2895,8 @@
       "descriptionEn": "The museum stands on the country’s main square, Independence Square, blending harmoniously into a single architectural ensemble with the Kazakh Eli monument, the Palace of Independence, the Palace of Peace and Reconciliation, the Hazrat Sultan Mosque and the National University of Arts.\n\nThe National Museum of the Republic of Kazakhstan includes the following halls: the Astana Hall, the Hall of Independent Kazakhstan, the Gold Halls, the Hall of Ancient and Medieval History, the History Hall, the Ethnography Hall and the Contemporary Art Halls. Research into the national heritage is carried out by the museum’s research institute. There are also spaces for a children’s museum, a children’s creativity centre, two exhibition halls, restoration workshops, laboratories, professional storage, a research library with a reading room, a conference hall and souvenir kiosks.\n\nThe museum develops many kinds of tours — overview and thematic, philosophical, and special programmes in the form of interactive sessions and game-based tours. The National Museum aims to be a modern intellectual institution of culture, a place to analyse, compare, reflect on, discuss, voice opinions about and evaluate the historical and cultural heritage of Kazakhstan. A modern museum is always an open dialogue with the visitor, and everything here is designed to make guests active participants in a conversation with history.\n\nPrices:\n\nTariff 1: museum visit without the Gold Halls\n\n* The ticket covers all permanent exhibition halls and temporary exhibitions according to the tariffs (except the Gold Halls and foreign exhibitions).\n\n* Children under 7 — free\n\n* School, student and pensioner tariffs require supporting documents.\n\n• Adult 1,000 KZT\n\n• Student 700 KZT\n\n• School pupil 500 KZT\n\n• Pensioner 500 KZT\n\n• Foreign citizens 1,000 KZT\n\nTariff 2: museum visit with the Gold Halls\n\n* The ticket covers all permanent exhibition halls, temporary exhibitions and the Gold Halls according to the tariffs (except foreign exhibitions).\n\n* Children under 7 — free\n\n* School, student and pensioner tariffs require supporting documents.\n\n• Adult 2,000 KZT;\n\n• Student 1,400 KZT;\n\n• School pupil 1,000 KZT;\n\n• Pensioner 1,000 KZT.\n\n• Foreign citizens 2,000 KZT\n\nTariff 3: museum and one foreign exhibition, without the Gold Halls.\n\n* The ticket covers all permanent exhibition halls, temporary exhibitions and one foreign exhibition according to the tariffs (except the Gold Halls).\n\n* Children under 7 — free\n\n* School, student and pensioner tariffs require supporting documents.\n\n• Adult 3,000 KZT;\n\n• Student 2,700 KZT;\n\n• School pupil 1,500 KZT;\n\n• Pensioner 1,500 KZT.\n\n• Foreign citizens 3,000 KZT\n\nTariff 4: museum, one foreign exhibition and the Gold Halls\n\n* The ticket covers all permanent exhibition halls, temporary exhibitions, one foreign exhibition and the Gold Halls.\n\n* Children under 7 — free\n\n* School, student and pensioner tariffs require supporting documents.\n\n• Adult 4,000 KZT;\n\n• Student 3,700 KZT;\n\n• School pupil 2,000 KZT;\n\n• Pensioner 2,000 KZT.\n\n• Foreign citizens 4,000 KZT\n\nConcessions:\n\n• WWII veterans, people with Group I–II disabilities and their companions, children from orphanages, members of large families (under 18, including parents), military personnel (cadets) — free entry\n\n• People with Group III disabilities (including tickets to foreign exhibitions) — 50% discount",
       "lat": 51.11811,
       "lon": 71.469488,
-      "isPlace": true
+      "isPlace": true,
+      "imageUrl": "https://sxodim.com/uploads/posts/2023/04/21/optimized/edc3c09413224f8df5f4090916911d2a_1522x570-q-85.jpg"
     },
     {
       "id": "place-astana-2",
@@ -2403,7 +2919,8 @@
       "descriptionEn": "The Baiterek Monument is one of the city’s main landmarks and a symbol of independent Kazakhstan.\n\nThe architectural design is by Akmyrza Rustembekov. Construction of the 105-metre monument took 6 years and was completed on 29 August 2002.\n\nBaiterek means “Tree of Life” and is divided into three zones that represent the structure of the universe. The first, underground level houses the entrance hall with ticket office, a café and an information board for tourists. The second level is the tower with high-speed lifts. The third, “heavenly” level is a glass sphere with an observation deck offering a panoramic view of the whole city.\n\nTicket prices:\n\n— Adults — 2,500 KZT\n\n— Children (6 to 15) — 1,250 KZT\n\n— Concession (pensioners with ID) — 2,000 KZT\n\nGroup ticket with a tour for 10 or more people:\n\n— Adults — 2,000 KZT\n\n— Children (6 to 15) — 1,000 KZT\n\n— Concession (pensioners with ID) — 1,700 KZT\n\nFree entry (with supporting documents) for:\n\n• WWII participants and disabled veterans and those equated to them\n\n• Mothers of large families\n\n• People with Group I and II disabilities and disabled children\n\n• Orphans and children without parental care under 18\n\n• Children aged 5 and under.\n\n• Schoolchildren from large families.\n\n• People with Group III disabilities get a 50% discount with supporting documents; one companion of a person with Group I or II disability enters free\n\nConcession tickets are sold only at the ticket office on presentation of supporting documents.",
       "lat": 51.128314,
       "lon": 71.430483,
-      "isPlace": true
+      "isPlace": true,
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/06/17/optimized/4c30d8f3ad64bcaa6d9d2c87c9817039_1522x570-q-85.jpg"
     },
     {
       "id": "place-astana-3",
@@ -2426,7 +2943,8 @@
       "descriptionEn": "Nur Alem is one of Kazakhstan’s most striking landmarks and the largest spherical building in the world, 80 metres in diameter. The sphere was built as the central pavilion of the EXPO-2017 world exhibition “Future Energy”. Its concept is based on the idea of “the last drop of oil before the era of green technology”. It was designed by the American firm Adrian Smith + Gordon Gill Architecture, whose portfolio includes the Burj Khalifa in Dubai and the Kingdom Tower in Jeddah.\n\nAfter the exhibition the building became Kazakhstan’s first technology museum of future energy. The museum not only explains different kinds of energy but also produces it: photovoltaic panels are built into the walls, and silent wind turbines run at the top of the sphere.\n\nThe sphere has 8 floors, each with its own theme:\n\n• Floor 8 — “Future Astana”\n\n• Floor 7 — “Space Energy”\n\n• Floor 6 — “Solar Energy”\n\n• Floor 5 — “Wind Energy”\n\n• Floor 4 — “Biomass Energy”\n\n• Floor 3 — “Kinetic Energy”\n\n• Floor 2 — “Water Energy”\n\n• Floor 1 — “Kazakhstan Pavilion”, split into two zones: an introduction to Kazakhstan and “Creative Energy”\n\nTicket price:\n\n• Adults — 1,500 KZT\n\nFree entry: WWII veterans, people with disabilities of all groups, orphans, children up to 6 (inclusive) accompanied by adults, mothers of large families; children aged 0–2 (inclusive) need no ticket.",
       "lat": 51.089238,
       "lon": 71.416245,
-      "isPlace": true
+      "isPlace": true,
+      "imageUrl": "https://sxodim.com/uploads/posts/2023/03/02/optimized/fa24e426166c9f4994ec698a6ca8ae96_1522x570-q-85.jpg"
     },
     {
       "id": "place-astana-4",
@@ -2495,7 +3013,8 @@
       "descriptionEn": "Together with its park area the Botanical Garden covers 92 hectares, 63 of which are green space. 17.7 hectares are set aside as a research zone for plant introduction studies. In total 34,000 trees and 86,000 shrubs have been planted. The garden lies between Kabanbay Batyr Avenue and Turkestan Street. Parking is easy — there are free car parks along Turkestan, Orynbor and Bukhar Zhyrau streets.\n\nFountains:\n\nThe most beautiful and romantic spot is an artificial pond with fountains. You can enjoy the view from the bridge leading into the garden or from the lawns around the pond, where locals have picnics in the warm season.\n\nAnother beautiful spot in the garden is the largest fountain in Astana, shaped like a “Taikazan” bowl 73 metres in diameter. Around the bowl are more fountains that shoot up from the ground. In the evening they are lit in different colours and “dance” to music. The fountains run from 9:00 to 23:00.\n\nGreenhouses:\n\nUnusual and exotic plants grow in two glass greenhouses: one with tropical plants and the other with more than 3,000 species of cacti. They are open Tuesday to Sunday from 11:00 to 19:00 (ticket office until 18:30). Admission is paid.\n\nActive leisure:\n\nRunning and cycling paths run around and through the garden. There are two bike rental stations, with bikes from 500 KZT, plus a velobike.kz automated bike-share station at the main entrance.\n\nBesides bikes, you can ride JET and OZIM e-scooters, from 30 KZT per minute.\n\nThere is a small playground for children aged 2 to 6, and for older, sporty kids there are football, basketball, tennis and volleyball courts, as well as an outdoor gym. There are plenty of benches, though few with shade canopies, and large ivy-covered gazebos.\n\nAt the moment only two free toilets are open, both near Bukhar Zhyrau Street: at the start and in the middle of the garden.\n\nHow to get there\n\n• Bus routes: 18 (Ayaru kindergarten stop); 60 (Bukhar Zhyrau stop); 10, 12, 37, 51, 53, 60, 301, 302, 303, 308, 309, 802, 804 (Astana Arena stadium stop)",
       "lat": 51.1075465,
       "lon": 71.417092,
-      "isPlace": true
+      "isPlace": true,
+      "imageUrl": "https://sxodim.com/uploads/posts/2023/05/17/optimized/cf0319cbc90516cdff409263ce0e948e_1522x570-q-85.jpg"
     },
     {
       "id": "place-astana-7",
@@ -2518,7 +3037,8 @@
       "descriptionEn": "The park surrounds the Palace of Peace and Reconciliation and covers 830,000 m². It opened in 2007. The entrance is on Baitursynov Street, opposite the Highvill residential complex.\n\nThe Presidential Park is great for walks with children: there is a playground and benches, and you can go running or work out here. The park has many artificial streams, fountains and flower beds. Its centrepiece is a fountain shaped like the mythical bird Samruk.\n\nIn 2021 an observation deck and a lilac garden opened in the park, offering views over the city and the park from above. It suits picnic lovers, long walks and photo shoots.\n\nThe park also has intricate tunnels, little streams and gravel paths that make it cosy. A cycle path runs along the canal; its smooth surface and straight line will appeal to skaters, rollerbladers and cyclists. There is a public toilet, payable by card or cash — 50 KZT.\n\nHow to get there\n\n• Bus routes: 19, 29, 29A, 40 (Highvill stop).",
       "lat": 51.123119,
       "lon": 71.463523,
-      "isPlace": true
+      "isPlace": true,
+      "imageUrl": "https://sxodim.com/uploads/posts/2023/04/03/optimized/9118cd5cc6b911bdd1af31ad342f19af_1522x570-q-85.jpg"
     },
     {
       "id": "place-astana-8",
@@ -2541,7 +3061,8 @@
       "descriptionEn": "This park is a symbol of friendship between the peoples of Kazakhstan and Korea. The garden opened in 2017.\n\nThe Kazakhstan–Korea Friendship Garden is a recreation area bordering Zhetysu Park. Its architectural layout conveys the national character of Korea. The park’s main feature is the “Bell Tower of Friendship”: in Korea the start and end of the year are marked by ringing bells, and the structure symbolises the friendship between the two countries.\n\nVisitors can see a mirror pond, a flower garden, traditional Korean architecture and a forestry garden that symbolically recreates a Korean forest\n\nThe park has long been a favourite with photographers: the Korean gates, arches and huge bell look wonderful in photos together with the autumn colours of the trees and shrubs. The garden flows smoothly into Zhetysu Park, which also has plenty of great photo spots.",
       "lat": 51.138465,
       "lon": 71.436205,
-      "isPlace": true
+      "isPlace": true,
+      "imageUrl": "https://sxodim.com/uploads/posts/2023/04/21/optimized/22ece42ecfd9a5f148fbfb2cc9a87a38_1522x570-q-85.jpg"
     },
     {
       "id": "place-astana-9",
@@ -2564,7 +3085,8 @@
       "descriptionEn": "Kazakhstan’s largest Ferris wheel immediately became a new Astana landmark — people have always wanted to see the earth from a bird’s-eye view. The wheel is 65 metres tall and weighs 270 tonnes. It has 36 panoramic cabins, four of them premium, each seating four to six people.\n\nThe structure was designed specifically for Astana’s climate; identical wheels stand, for example, in tornado zones. It has passed a technical inspection and meets CIS standards and GOST norms. The cabins have air conditioning and heating, so you can ride comfortably in any season.\n\nIn winter the wheel operates down to −15 °C and in winds of up to 20 metres per second.",
       "lat": 51.147857,
       "lon": 71.416721,
-      "isPlace": true
+      "isPlace": true,
+      "imageUrl": "https://sxodim.com/uploads/posts/2023/04/20/optimized/0d62a334f6ecde59c9bf35b76af69aa1_1522x570-q-85.jpg"
     },
     {
       "id": "place-astana-10",
@@ -2587,7 +3109,8 @@
       "descriptionEn": "The triumphal arch was officially unveiled for the 20th anniversary of Kazakhstan’s Independence.\n\nMangilik El is 20 metres tall — each metre stands for one year of Kazakhstan’s independent life. It has an observation deck from which you can admire the city.\n\nThe corners of the arch are decorated with Kazakh ornaments, and it is clad in granite and marble. Its niches hold four figures: a mother, symbolising the family hearth; a batyr, representing the country’s heroic past; an aksakal, embodying wisdom; and a modern soldier.",
       "lat": 51.10433150166402,
       "lon": 71.43014955924588,
-      "isPlace": true
+      "isPlace": true,
+      "imageUrl": "https://sxodim.com/uploads/posts/2022/03/28/optimized/74b1560683c98c34c516d9d202c2026f_1522x570-q-85.jpg"
     },
     {
       "id": "place-almaty-1",
@@ -2610,7 +3133,8 @@
       "descriptionEn": "Almaty Museum of Arts is the first private museum in Central Asia. It was founded by Nurlan Smagulov, patron of the arts and president of Astana Group, and displays his personal collection of more than 700 works gathered over three decades.\n\nThe museum was designed with the British architecture firm Chapman Taylor, and the 12-metre sculpture “Nades” that greets visitors is by the Spanish artist and sculptor Jaume Plensa.\n\nTickets:\n\n— Standard ticket — 2,000 KZT\n\n— Concession — 500 KZT (school pupils, students, pensioners and large families, with supporting documents)\n\nFree admission with valid ID for:\n\n• children aged 6 and under\n\n• people with disabilities and their companions\n\n• WWII veterans and those equated to them, labour veterans\n\n• members of CIMAM, ICOM and UNESCO\n\n• museum staff\n\n• accredited journalists\n\n• members of the museum’s “Dostar” friends programme\n\n• people affected by nuclear tests at the Semipalatinsk Test Site\n\nScheduled group tours are also available:\n\n— Price: 5,000 KZT (includes admission and the guided tour)\n\nGroup: up to 25 people\n\nDuration: 60–70 minutes",
       "lat": 43.22727483844953,
       "lon": 76.94942010929469,
-      "isPlace": true
+      "isPlace": true,
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/06/17/optimized/bf3329e215bfd3869c738d52430be332_1522x570-q-85.jpg"
     },
     {
       "id": "place-almaty-2",
@@ -2633,7 +3157,8 @@
       "descriptionEn": "101 dump gallery is an intimate art space that combines a gallery of independent artists, a venue for film screenings and talks, a vinyl record shop and a coffee-and-bar corner. It is tucked away in the basement of one of the old buildings on Panfilov Street.\n\nLook for the dry cleaner’s — that’s the landmark for the entrance.\n\nYou can see artists’ work and the vinyl collection and buy pieces you like. It attracts both art lovers and tourists wanting to experience a bit of the city’s charm.\n\nThe space can be rented for exhibitions, private events and photo shoots.\n\nRental rates:\n\n• exhibitions — 50,000 KZT/day\n\n120,000 KZT/week\n\n• public events — 15,000 KZT/hour\n\n• creative shoots — 15,000 KZT/hour\n\n• commercial shoots — 30,000 KZT/hour\n\n• private events — 100,000 KZT/day\n\nFree photography is allowed on phones only, as long as it doesn’t disturb staff or visitors.",
       "lat": 43.261000471029824,
       "lon": 76.94350259188856,
-      "isPlace": true
+      "isPlace": true,
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/07/30/optimized/af4e94c5243e34b7cfe843836f99236a_1522x570-q-85.jpg"
     },
     {
       "id": "place-almaty-3",
@@ -2656,7 +3181,8 @@
       "descriptionEn": "Catharsis is Almaty’s first immersive art gallery, which opened in spring 2026.\n\nIt uses a “black box” (dark room) format across more than 800 m², hosting unique exhibitions built with modern technology and artificial intelligence.\n\nHere the viewer is not just an observer but a participant who interacts with the art. Instead of paintings there are laser shows, light projections, AR (augmented reality) and more than 100 projectors that fully immerse visitors.\n\nThanks to its interactive zones it suits both solo visits and family outings with children.\n\nThe current exhibition, “Feeling the Elements”, takes guests on a journey through four elements: water, air, earth and fire.\n\nTickets:\n\n• Adult — 5,000 KZT.\n\n• Concession (students, school pupils, pensioners) — 2,500 KZT.\n\n• Children under 7 and people with disabilities — free.",
       "lat": 43.2436754,
       "lon": 76.9433297,
-      "isPlace": true
+      "isPlace": true,
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/08/22/optimized/a4c52f593e437e82bf1c75047b7022e9_1522x570-q-85.jpg"
     },
     {
       "id": "place-almaty-4",
@@ -2679,7 +3205,8 @@
       "descriptionEn": "A private history museum has been tucked away on the ground floor of the French House for several years. Part of the French Institute, it is a unique space for educational talks, book launches and art exhibitions. It holds more than 6,000 exhibits connected not only with Kazakh but also with French culture.\n\nMost of the collection consists of jewellery made with natural gemstones.\n\nPrices:\n\n• Adult — 750 KZT\n\n• Child — 375 KZT",
       "lat": 43.2413847,
       "lon": 76.9477853,
-      "isPlace": true
+      "isPlace": true,
+      "imageUrl": "https://sxodim.com/uploads/posts/2026/08/21/optimized/57c4db377b502c0f7a2f46f9dffd9bf0_1522x570-q-85.jpg"
     },
     {
       "id": "place-almaty-5",
@@ -2702,7 +3229,8 @@
       "descriptionEn": "Alem Park is a family amusement park with rides, playgrounds and activities for children of all ages. You can wander through a green maze, play a game of tennis or score a goal in some unusual football goals. The park also has the family café Grusha with a varied menu for kids and adults.\n\nActivities for children aged 2 to 16:\n\nPlaygrounds, trampolines and unlimited rides on the attractions and tubing slopes of the family amusement park.\n\nAll rides are included in the entry ticket (the café, toy-car rental and face painting are paid separately).\n\nAlem Park rules:\n\n• No outside food or drinks\n\n• No bicycles, rollerblades, skateboards or animals\n\n• No smoking or strong alcohol on the premises\n\n• No disturbing public order, inappropriate behaviour or endangering yourself or other visitors\n\n• No large, bulky or sharp objects, or items that could cause injury.\n\nOpening hours: daily 11:00–21:00",
       "lat": 43.2050118,
       "lon": 76.7911509,
-      "isPlace": true
+      "isPlace": true,
+      "imageUrl": "https://sxodim.com/uploads/posts/2023/06/30/optimized/ce6fc57232160b82d53b286f70bcb58a_1522x570-q-85.jpg"
     },
     {
       "id": "place-almaty-6",
@@ -2725,7 +3253,8 @@
       "descriptionEn": "Punch StandUp Club is a new spot on the Almaty map for anyone who loves good comedy, tasty food and atmospheric evenings. Stand-up shows run every day — from open mics to sets by experienced comedians and even stage stars.\n\nBesides laughing your heart out, you can eat well here — the menu has some of the best burgers in town, perfect with cocktails and the cosy setting.\n\nThe stage regularly hosts both newcomers and well-known comics, so every visit can turn out unexpectedly bright. Be ready for laughs, sharp jokes and live, unfiltered conversation.\n\nCome for the emotions, stay for the atmosphere and return for another dose of humour!\n\nAge limit: 18+",
       "lat": 43.2602555,
       "lon": 76.9610363,
-      "isPlace": true
+      "isPlace": true,
+      "imageUrl": "https://sxodim.com/uploads/posts/2025/06/10/optimized/75a0fc217ae34b47110d791dc13d9531_1522x570-q-85.jpg"
     },
     {
       "id": "place-almaty-7",
@@ -2748,7 +3277,8 @@
       "descriptionEn": "Medeu is a high-altitude sports complex in the Medeu Valley on the outskirts of Almaty, 1,691 metres above sea level.\n\nIt is the world’s largest high-mountain winter sports complex, with the biggest artificial ice surface — 10,500 m². The altitude and pure mountain water used to make the ice help skaters achieve outstanding results: Medeu still leads all stadiums in the number of world records set here across all distances for men and women (320 records between 1952 and 1988), earning it the nickname “the record factory”. It is a state monument of urban planning and architecture of national significance.",
       "lat": 43.1575,
       "lon": 77.0586,
-      "isPlace": true
+      "isPlace": true,
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Medeobanen1.jpg/1280px-Medeobanen1.jpg"
     },
     {
       "id": "place-almaty-8",
@@ -2817,7 +3347,8 @@
       "descriptionEn": "The Altyn Shanyrak monument is a 30-metre monument to the unity of the people of Kazakhstan, made of 137 metal elements representing the 137 ethnic groups of the Republic.\n\nThe monument can be seen from different parts of the city and makes for a variety of photos.\n\nHow to get there\n\nYou can reach Independence Park and the monument by bus, by car or on foot.\n\nThere is a convenient free car park on the Sapak Datka Street side.\n\nBuses: 6, 12, 16, 23, 75, 64, 84, 103, 169, 191, 158\n\nStop: Ordabasy\n\nCoordinates: 42.306721° 69.599102°\n\nOpen: 24/7\n\nAddress: Shymkent, Aiteke Bi St.",
       "lat": 42.306686,
       "lon": 69.600004,
-      "isPlace": true
+      "isPlace": true,
+      "imageUrl": "https://sxodim.com/uploads/posts/2023/05/10/optimized/7b3602643bc56d590d5c7fbe25d0504d_1522x570-q-85.jpg"
     },
     {
       "id": "place-shymkent-2",
@@ -2840,7 +3371,8 @@
       "descriptionEn": "The Independence Monument is a 24-metre three-sided stele topped by an eight-metre female figure, “Zher-Ana” (“Mother Earth”). The stele symbolises the unity of the country’s peoples. Each face is engraved with sayings of late-medieval figures Tole Bi, Kazybek Bi and Aiteke Bi, and its base is decorated with national ornament.\n\nThe monument was unveiled on 22 September 2009 with performances by creative groups; President Nursultan Nazarbayev attended the ceremony.\n\nHow to get there\n\nYou can reach the monument by bus, by car or on foot.\n\nThere is a convenient free 24-hour car park on the Tole Bi side.\n\nBuses: 6, 12, 16, 23, 64, 84, 102, 103, 169, 191, 158\n\nStop: Ordabasy Square\n\nCoordinates: 42.309524° 69.600224°\n\nOpen: 24/7\n\nAddress: Shymkent, Aiteke Bi St.",
       "lat": 42.30738,
       "lon": 69.611161,
-      "isPlace": true
+      "isPlace": true,
+      "imageUrl": "https://sxodim.com/uploads/posts/2023/05/10/optimized/fe8179d993adf60c756664ff023d07c6_1522x570-q-85.jpg"
     },
     {
       "id": "place-shymkent-3",
@@ -2863,7 +3395,8 @@
       "descriptionEn": "This small museum stands next to the Uzbek Drama Theatre and displays exhibits from different eras. Sayram itself is rich in cultural heritage, so interesting vases, jugs and other objects from the past are often found here. Finds from excavations are studied and sent to the local museum. It is open on weekdays and closed on Saturdays and Sundays. Engaging tours are often held for schoolchildren, who later use what they learn in history lessons.\n\nAddress: Ibragim Ata St., 118/4",
       "lat": 42.30941517235721,
       "lon": 69.75982451719656,
-      "isPlace": true
+      "isPlace": true,
+      "imageUrl": "https://sxodim.com/uploads/posts/2023/05/10/optimized/126aec5e75d2e1397dc471c6daeb3caf_1522x570-q-85.jpg"
     },
     {
       "id": "place-shymkent-4",
@@ -2886,7 +3419,8 @@
       "descriptionEn": "A large park area with playgrounds and sports grounds, gazebos and all kinds of benches has opened in Shymkent’s 11th microdistrict.\n\nThe square has a stage and a musical fountain, and trees and lawns have been planted. City akim Murat Aitenov attended the opening.\n\nIt’s a pleasant place to spend time: you can play games, do sports, or ride a scooter or bike along the cycle path. In the evening the lights come on and walks become even nicer. It’s a great backdrop for photos, TikToks and more.\n\nWhat’s in the square?\n\n• fountain\n\n• stage\n\n• landscaped alleys\n\n• gazebos\n\n• benches\n\n• litter bins\n\n• toilet\n\n• cycle paths\n\n• lawn\n\n• table tennis tables\n\n• sports grounds (football, basketball, workouts)\n\n• playgrounds with various swings\n\nProhibited:\n\n• lighting fires\n\n• cutting down plants\n\n• leaving litter behind\n\n• breaking benches and other facilities\n\nHow to get there\n\nYou can get there by bus, by car or on foot; the square sits among residential buildings. There is free parking in the courtyard of Sh. Ualikhanov St., 219.\n\nBuses: 35, 37, 74, 75, 84, 135, 158, 182\n\nStop: Alatau\n\nSuggested visit: 2 hours\n\nOpen: 24/7\n\nAddress: Sh. Ualikhanov St., 219",
       "lat": 42.324607,
       "lon": 69.642494,
-      "isPlace": true
+      "isPlace": true,
+      "imageUrl": "https://sxodim.com/uploads/posts/2023/05/10/optimized/b59c2a85e371a6b30d5dfa3dd80c034c_1522x570-q-85.jpg"
     },
     {
       "id": "place-shymkent-5",
@@ -2909,7 +3443,8 @@
       "descriptionEn": "The Uzbek Drama Theatre was founded on 14 March 2003.\n\nIn multinational Kazakhstan, Russian, Uyghur, Korean, German and Uzbek theatres work alongside the Kazakh theatre. The opening of an Uzbek drama theatre in Sayram, Shymkent, was a significant event for ethnic Uzbeks living in Kazakhstan. President Nursultan Nazarbayev attended the opening ceremony and wished the company creative success.\n\nAlongside Kazakh works, the theatre stages the best of foreign classics. Its current repertoire includes “The Iron Woman”, “The Magic Apples”, “At Dawn”, “The Heroic Mother”, “The Bride’s Rebellion”, “The Puppy Groom”, “Kyrmyzy Alma”, “Inabatty Kelinshek”, “Poisonous Drops”, “Happiness at the End of Life”, “The Wedding”, “The Uprising” and others.\n\nThe theatre regularly hosts cultural events of regional, national and international level.\n\nAddress: Ibragim Ata St., 118/2",
       "lat": 42.30952,
       "lon": 69.759706,
-      "isPlace": true
+      "isPlace": true,
+      "imageUrl": "https://sxodim.com/uploads/posts/2023/05/24/optimized/5d9d543507f142e166ffc1fedff63d7a_1522x570-q-85.jpg"
     },
     {
       "id": "place-shymkent-6",
@@ -2932,7 +3467,8 @@
       "descriptionEn": "A visit to Akkum Waterfall is an unforgettable experience worth having at least once in your life. Waterfalls are a natural wonder that amaze with their beauty and power. Here are a few reasons to visit Akkum:\n\n1. Beauty. It’s one of the most beautiful natural sights in the Kazygurt District. Water falling from a height creates stunning curtains of spray. Note that it runs full until late spring and becomes calmer by summer.\n\n2. Relaxation. The sound of falling water and the surrounding nature create a calm, peaceful atmosphere that helps relieve stress and fatigue.\n\n3. Adventure. Getting to Akkum is an adventure in itself: the route includes a walk across fields, some elevation gain and crossing water\n\n4. Photos. It’s a great place for photography — you can capture stunning landscapes, and with a drone you’ll get amazing shots.\n\n5. Uniqueness. The waterfall is unique and has its own history; a visit is a chance to learn more about local nature and history.\n\nSometimes Akkum is marked on maps as the Kyrykkyz waterfall, which is also correct. Here you can also see the Kyrykkyz sandstone cliffs, the subject of many legends.\n\nAll in all, this place is an unforgettable experience worth having at least once in your life.",
       "lat": 41.749264468009606,
       "lon": 69.70781516791733,
-      "isPlace": true
+      "isPlace": true,
+      "imageUrl": "https://sxodim.com/uploads/posts/2023/04/24/optimized/7edc4668f53c67ce8d6cd4fa021618b3_1522x570-q-85.jpg"
     },
     {
       "id": "place-shymkent-7",
@@ -2955,7 +3491,8 @@
       "descriptionEn": "A space for book lovers and anyone who enjoys a good time! More than 7,000 books from different publishers, countries and languages will delight even the most discerning reader. Be Better Book café works directly with publishing giants such as Eksmo and AST, Atamura, Steppe/World Publishing and Aruna. There is comfortable seating for reading on site, with premium Italian coffee and hot tea with desserts. On certain days book and film clubs meet, and there are training and language evenings and meetings with writers and interesting people.\n\nOpening hours: daily, 10:00–20:00\n\nAddress: Kunaev Ave., 79",
       "lat": 42.340437,
       "lon": 69.607424,
-      "isPlace": true
+      "isPlace": true,
+      "imageUrl": "https://sxodim.com/uploads/posts/2023/03/03/optimized/ff2db9b56b03dae84e12e293b3174d49_1522x570-q-85.jpg"
     },
     {
       "id": "place-shymkent-8",
@@ -2978,7 +3515,8 @@
       "descriptionEn": "Shymkent Zoo is the state zoo of the city of Shymkent and one of the largest and oldest zoological parks in Kazakhstan. Of its 54 hectares, 34 are given over to exhibits. The zoo keeps 43 species listed in the Red Book of Kazakhstan and grows 25% of the animals’ feed on its own land.\n\nSpecies count:\n\n• 1980: 75 species, 350 animals\n\n• 2017: 239 species, 2,476 animals\n\n• 2020: 276 species",
       "lat": 42.3785,
       "lon": 69.6242,
-      "isPlace": true
+      "isPlace": true,
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Africa-Section-of-Zoo-Shymkent.jpg/1280px-Africa-Section-of-Zoo-Shymkent.jpg"
     }
   ]
 }

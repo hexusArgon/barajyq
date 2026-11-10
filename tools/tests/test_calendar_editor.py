@@ -15,10 +15,10 @@ class CalendarEditorTests(unittest.TestCase):
         self.assertNotIn("permission.WRITE_CALENDAR", manifest)
         self.assertNotIn("permission.READ_CALENDAR", manifest)
     def test_actions_and_centered_header_are_wired(self):
-        feed = (JAVA / "feed/FeedScreen.kt").read_text()
+        feed = (JAVA / "feed/FeedScreen.kt").read_text() + (JAVA / "feed/Cards.kt").read_text()
         detail = (JAVA / "detail/EventDetailScreen.kt").read_text()
         self.assertIn("Modifier.align(Alignment.Center).fillMaxWidth(0.44f)", feed)
-        self.assertIn("TextButton(onClick = onPlan)", feed)
+        self.assertIn("IconButton(onClick = onPlan)", feed)
         for source in [feed, detail]:
             self.assertIn("openCalendarEditor(context,", source)
             self.assertIn("Icons.Filled.VisibilityOff", source)

@@ -23,8 +23,8 @@ android {
         applicationId = "kz.astana.afisha"
         minSdk = 26
         targetSdk = 36
-        versionCode = 6
-        versionName = "0.3.0"
+        versionCode = 7
+        versionName = "0.4.0"
         // Empty = assets/events.json only. Set to https://…/events.json for remote updates.
         buildConfigField("String", "EVENTS_FEED_URL", "\"\"")
                 // Replace with Web client ID from Google Cloud Console
@@ -98,5 +98,7 @@ dependencies {
 
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0")
     implementation("androidx.datastore:datastore-preferences:1.1.1")
+    // Event covers (sxodim / Telegram / museum pages) with memory + disk cache.
+    implementation("io.coil-kt:coil-compose:2.7.0")
     testImplementation("junit:junit:4.13.2")
 }

@@ -73,6 +73,8 @@ data class EventCard(
     val lon: Double? = null,
     /** Structured dates for filtering, sorting and hiding past events (null = unknown, events only). */
     val schedule: EventSchedule? = null,
+    /** Cover image from the source page / post; null → category placeholder. */
+    val imageUrl: String? = null,
 ) {
     fun title(lang: AppLanguage?): String = pick(lang, titleKk, titleRu, titleEn)
     fun place(lang: AppLanguage?): String = pick(lang, placeKk, placeRu, placeEn)

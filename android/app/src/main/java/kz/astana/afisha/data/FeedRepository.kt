@@ -196,6 +196,7 @@ object FeedRepository {
             lat = o.optDoubleOrNull("lat"),
             lon = o.optDoubleOrNull("lon"),
             schedule = scheduleOf(o),
+            imageUrl = o.optStringOrNull("imageUrl")?.takeIf { it.startsWith("https://") },
         )
     }
 
@@ -227,6 +228,7 @@ object FeedRepository {
         put("isPlace", e.isPlace)
         if (e.lat != null) put("lat", e.lat) else put("lat", JSONObject.NULL)
         if (e.lon != null) put("lon", e.lon) else put("lon", JSONObject.NULL)
+        e.imageUrl?.let { put("imageUrl", it) }
         e.schedule?.let { sc ->
             put("dateFrom", sc.from.toString()); put("dateTo", sc.to.toString())
             put("dates", JSONArray(sc.dates.map { it.toString() }))

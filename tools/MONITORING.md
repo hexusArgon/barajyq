@@ -30,7 +30,7 @@ mkdir -p $W/tools/scan_tmp && cd $W && python3 -m unittest discover -s tools/tes
    `request_access` с scope `site`.
 3. Выполни содержимое `tg.js` через `javascript_tool` в этой вкладке без изменений.
 4. Сохрани результат JSON целиком (`posts`, `maxIds`, `errors`) в `$W/tools/scan_tmp/tg.json`
-   (Write или heredoc с `'EOF'`), затем выполни `python3 tools/browser_scan.py tg-import tools/scan_tmp/tg.json`.
+   (Write или heredoc с `'EOF'`; поле `image` у постов — обложка, сохраняй как есть), затем выполни `python3 tools/browser_scan.py tg-import tools/scan_tmp/tg.json`.
 5. Разбор отложенного: посты из этого скана со статусом `*_review` в `tools/tg_review.json`. Настоящее событие
    с ясными датой, площадкой и городом добавь через `add-cards` (шаг 3). Расписание из нескольких событий
    и неясные посты пропусти.
@@ -49,7 +49,7 @@ mkdir -p $W/tools/scan_tmp && cd $W && python3 -m unittest discover -s tools/tes
 ## 3. Ручные карточки и редактура
 - Новые карточки по отложенным постам: `tools/scan_tmp/cards.json` (список; поля `id` = `tg-<handle>-<n>`,
   `cityId`, `interest`, `reference`, `startsAt`, `titleRu/Kk/En`, `placeRu/Kk/En`, `sourceUrl`, `sourceName`,
-  `descriptionRu` = текст поста, `price` если указана), затем
+  `descriptionRu` = текст поста, `price` если указана, `imageUrl` = поле `image` поста из скана, если есть), затем
   `python3 tools/browser_scan.py add-cards tools/scan_tmp/cards.json`.
 - Для каждой карточки, добавленной сегодня импортом, составь `tools/scan_tmp/patch.json`
   (`{id: {titleRu?, titleKk, titleEn, placeRu?, placeKk, placeEn, interest?, price?}}`) и выполни

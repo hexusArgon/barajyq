@@ -52,7 +52,9 @@ TG_JS = r'''await (async () => {
         const text = b.textContent.trim();
         if (!re.test(text)) continue;
         const t = n.querySelector('time[datetime]');
-        out.posts.push({sourceUrl: 'https://t.me/' + n.dataset.post, text,
+        const ph = n.querySelector('.tgme_widget_message_photo_wrap, .tgme_widget_message_video_thumb, .link_preview_image');
+        const img = ph && (ph.getAttribute('style') || '').match(/url\(['"]?([^'")]+)/);
+        out.posts.push({sourceUrl: 'https://t.me/' + n.dataset.post, text, image: img ? img[1] : null,
           publishedAt: t ? t.getAttribute('datetime') : null,
           links: [...b.querySelectorAll('a[href]')].map(a => a.getAttribute('href'))});
       }

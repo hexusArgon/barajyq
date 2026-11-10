@@ -72,6 +72,13 @@ object Localize {
         return if (more > 0) "$withTime · ${moreDays(more, lang)}" else withTime
     }
 
+    /** Day strip chip: "Сегодня", "Завтра", then "Пт 14" / "Жм 14" / "Fri 14". */
+    fun dayChip(d: LocalDate, lang: AppLanguage?, today: LocalDate): String = when (d) {
+        today -> when (lang) { AppLanguage.RU -> "Сегодня"; AppLanguage.KK -> "Бүгін"; else -> "Today" }
+        today.plusDays(1) -> when (lang) { AppLanguage.RU -> "Завтра"; AppLanguage.KK -> "Ертең"; else -> "Tomorrow" }
+        else -> "${weekday(d, lang)} ${d.dayOfMonth}"
+    }
+
     /** Date line of an event card: structured schedule when known, else the source text. */
     fun eventWhen(card: EventCard, lang: AppLanguage?, today: LocalDate = EventSchedule.today()): String {
         val s = card.schedule ?: EventSchedule.fromIso(card.startsAt)

@@ -227,6 +227,7 @@ def classify(post, source, now):
                 cityId=next(iter(cities)), interest=refine_interest(source['interest'], text), startsAt=start.isoformat(),
                 address='', price=None, sourceUrl=url, sourceName='Telegram @'+source['handle'],
                 workingHours='', lat=None, lon=None, isPlace=False)
+    if post.get('image'): card['imageUrl'] = post['image']  # post photo, from the browser scan
     for lang in ('Ru','Kk','En'):
         # Schema requires all three; these are originals, NOT claimed translations.
         card['title'+lang]=title; card['place'+lang]=place; card['description'+lang]=text

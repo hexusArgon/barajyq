@@ -43,6 +43,7 @@ object SessionStore {
         val cityName = stringPreferencesKey("city_name")
         val hidden = stringSetPreferencesKey("hidden_event_ids")
         val language = stringPreferencesKey("language")
+        val saved = stringSetPreferencesKey("saved_event_ids")
     }
 
     private val scope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
@@ -58,6 +59,9 @@ object SessionStore {
     val hidden: StateFlow<Set<String>> = _hidden.asStateFlow()
     private val _language = MutableStateFlow<AppLanguage?>(null)
     val language: StateFlow<AppLanguage?> = _language.asStateFlow()
+    private val _saved = MutableStateFlow<Set<String>>(emptySet())
+    /** Events and places the user bookmarked ("Сохранённые" tab). */
+    val saved: StateFlow<Set<String>> = _saved.asStateFlow()
 
     /** Interests are kept even after sign-out, so re-signing in restores them. */
     private var savedInterests: Set<Interest> = emptySet()
@@ -81,6 +85,7 @@ object SessionStore {
                 }
                 _city.value = p[K.cityId]?.let { id -> KazakhstanCities.byId(id) ?: City(id, p[K.cityName] ?: id) }
                 _hidden.value = p[K.hidden].orEmpty()
+                _saved.value = p[K.saved].orEmpty()
                 _language.value = AppLanguage.fromTag(p[K.language])
             }
             _ready.value = true
@@ -129,6 +134,12 @@ object SessionStore {
         val next = _hidden.value - id
         _hidden.value = next
         persist { it[K.hidden] = next }
+    }
+
+    fun toggleSaved(id: String) {
+        val next = if (id in _saved.value) _saved.value - id else _saved.value + id
+        _saved.value = next
+        persist { it[K.saved] = next }
     }
 
     fun clearHidden() {

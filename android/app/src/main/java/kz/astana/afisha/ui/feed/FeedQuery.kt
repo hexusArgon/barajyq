@@ -20,8 +20,8 @@ enum class PriceFilter { ALL, FREE, PAID, UNKNOWN }
 enum class DateFilter { ANY, TODAY, TOMORROW, WEEKEND, NEXT_7_DAYS, NEXT_30_DAYS }
 enum class FeedSort { ORIGINAL, NEAREST, NAME }
 
-/** Day groups of the events list when it is sorted by date. */
-enum class DaySection { TODAY, TOMORROW, THIS_WEEK, LATER, ONGOING, UNDATED }
+/** Day groups of the events list when it is sorted by date, in display order (ordinal = order). */
+enum class DaySection { ONGOING, UNDATED, TODAY, TOMORROW, THIS_WEEK, LATER }
 
 data class FeedQueryOptions(
     val query: String = "",
@@ -29,19 +29,23 @@ data class FeedQueryOptions(
     val price: PriceFilter = PriceFilter.ALL,
     val date: DateFilter = DateFilter.ANY,
     val sort: FeedSort = FeedSort.ORIGINAL,
+    /** One day picked in the day strip (events only); null = all days. */
+    val day: LocalDate? = null,
 ) {
     val filterCount: Int get() = categories.size + (if (price != PriceFilter.ALL) 1 else 0) + (if (date != DateFilter.ANY) 1 else 0)
-    val isNarrowed: Boolean get() = query.isNotBlank() || filterCount > 0
-    fun resetFilters() = copy(categories = emptySet(), price = PriceFilter.ALL, date = DateFilter.ANY)
+    val isNarrowed: Boolean get() = query.isNotBlank() || filterCount > 0 || day != null
+    fun resetFilters() = copy(categories = emptySet(), price = PriceFilter.ALL, date = DateFilter.ANY, day = null)
     // Only primitive strings: saveable across navigation, rotation and process recreation.
-    fun encode(): List<String> = listOf(query, categories.sortedBy { it.name }.joinToString(",") { it.name }, price.name, date.name, sort.name)
+    fun encode(): List<String> = listOf(query, categories.sortedBy { it.name }.joinToString(",") { it.name }, price.name, date.name, sort.name,
+        day?.toString().orEmpty())
     companion object {
         /** Events open sorted by date; places keep the curated order. */
         val EVENTS_DEFAULT = FeedQueryOptions(sort = FeedSort.NEAREST)
         val PLACES_DEFAULT = FeedQueryOptions()
         fun decode(values: List<String>): FeedQueryOptions = runCatching {
             FeedQueryOptions(values[0], values[1].split(',').mapNotNull { n -> Interest.entries.find { it.name == n } }.toSet(),
-                PriceFilter.valueOf(values[2]), DateFilter.valueOf(values[3]), FeedSort.valueOf(values[4]))
+                PriceFilter.valueOf(values[2]), DateFilter.valueOf(values[3]), FeedSort.valueOf(values[4]),
+                values.getOrNull(5)?.takeIf { it.isNotBlank() }?.let { LocalDate.parse(it) })
         }.getOrDefault(FeedQueryOptions())
     }
 }
@@ -93,6 +97,7 @@ object FeedQuery {
                 (options.categories.isEmpty() || card.interest in options.categories) &&
                 (options.price == PriceFilter.ALL || priceKind(card.price) == options.price) &&
                 (places || matchesDate(card, options.date, today)) &&
+                (places || options.day == null || scheduleOf(card)?.occursBetween(options.day, options.day) == true) &&
                 (tokens.isEmpty() || normalize(listOf(card.title(language), card.description(language), card.place(language), card.address)
                     .joinToString("\n")).let { haystack -> tokens.all(haystack::contains) })
         }
@@ -129,6 +134,14 @@ object FeedQuery {
     private fun sortDay(card: EventCard, today: LocalDate): LocalDate? {
         val schedule = scheduleOf(card) ?: return null
         return if (schedule.isOngoingRun(today)) schedule.to else schedule.nextDay(today)
+    }
+
+    /** Saved tab: bookmarked items of the city that are not over, events by date first, then places. */
+    fun saved(source: List<EventCard>, saved: Set<String>, cityId: String, today: LocalDate = LocalDate.now(zone)): List<EventCard> {
+        val items = EventContentPolicy.clean(source).filter { it.id in saved && it.cityId == cityId && !isExpired(it, today) }
+        val (places, events) = items.partition { it.isPlace }
+        return events.sortedWith(compareBy<EventCard> { section(it, today).ordinal }
+            .thenBy { sortDay(it, today) ?: LocalDate.MAX }.thenBy { scheduleOf(it)?.time ?: LocalTime.MAX }) + places
     }
 
     /** Consecutive groups of an already NEAREST-sorted list, for section headers. */

@@ -9,6 +9,7 @@ import androidx.compose.foundation.selection.selectableGroup
 import androidx.compose.ui.semantics.Role
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.material3.HorizontalDivider
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.statusBarsPadding
@@ -29,6 +30,8 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.Notes
+import androidx.compose.material.icons.filled.Bookmark
+import androidx.compose.material.icons.filled.BookmarkBorder
 import androidx.compose.material.icons.filled.Directions
 import androidx.compose.material.icons.filled.Event
 import androidx.compose.material.icons.filled.Explore
@@ -102,6 +105,8 @@ fun FeedScreen(
     val city by SessionStore.city.collectAsState()
     val lang by SessionStore.language.collectAsState()
     val hidden by SessionStore.hidden.collectAsState()
+    val saved by SessionStore.saved.collectAsState()
+    // 0 = events, 1 = places, 2 = saved
     var tab by rememberSaveable { mutableIntStateOf(0) }
     val context = LocalContext.current
     var feed by remember { mutableStateOf(FeedRepository.peek()) }
@@ -112,20 +117,23 @@ fun FeedScreen(
     var placeOptions by rememberSaveable(stateSaver = QueryOptionsSaver) { mutableStateOf(FeedQueryOptions.PLACES_DEFAULT) }
     // One "today" per screen visit (UTC+5): past events are dropped and day groups are relative to it.
     val today = remember { EventSchedule.today() }
-    val options = if (tab == 0) eventOptions else placeOptions
-    fun updateOptions(next: FeedQueryOptions) { if (tab == 0) eventOptions = next else placeOptions = next }
+    val options = if (tab == 1) placeOptions else eventOptions
+    fun updateOptions(next: FeedQueryOptions) { if (tab == 1) placeOptions = next else eventOptions = next }
     fun resetTools() {
         updateOptions(options.resetFilters().copy(query = ""))
     }
     val baseItems = profile?.let { p ->
         city?.let { c ->
             feed?.let { f ->
-                FeedRepository.forProfile(f, p, c, places = tab != 0, hidden = hidden).filter { it.interest !in p.exclusions }
+                FeedRepository.forProfile(f, p, c, places = tab == 1, hidden = hidden).filter { it.interest !in p.exclusions }
             }.orEmpty()
         }
     }.orEmpty()
-    val items = FeedQuery.apply(baseItems, options, lang, city?.id.orEmpty(),
-        (profile?.interests.orEmpty() - profile?.exclusions.orEmpty()), hidden, places = tab != 0, today = today)
+    val items = if (tab == 2) {
+        val f = feed
+        if (f == null) emptyList() else FeedQuery.saved(f.events + f.places, saved, city?.id.orEmpty(), today)
+    } else FeedQuery.apply(baseItems, options, lang, city?.id.orEmpty(),
+        (profile?.interests.orEmpty() - profile?.exclusions.orEmpty()), hidden, places = tab == 1, today = today)
     val snackbar = remember { SnackbarHostState() }
     val scope = rememberCoroutineScope()
     val hiddenMsg = stringResource(R.string.feed_hidden)
@@ -157,18 +165,20 @@ fun FeedScreen(
             Surface(color = MaterialTheme.colorScheme.surface, tonalElevation = 2.dp) {
                 Column(Modifier.navigationBarsPadding()) {
                     HorizontalDivider()
-                    Row(Modifier.fillMaxWidth().selectableGroup().padding(horizontal = 12.dp),
-                        horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Row(Modifier.fillMaxWidth().selectableGroup().padding(horizontal = 8.dp),
+                        horizontalArrangement = Arrangement.spacedBy(4.dp)) {
                         BottomSection(tab == 0, Icons.Filled.Event, stringResource(R.string.tab_events),
                             Modifier.weight(1f)) { tab = 0 }
                         BottomSection(tab == 1, Icons.Filled.Explore, stringResource(R.string.tab_places),
                             Modifier.weight(1f)) { tab = 1 }
+                        BottomSection(tab == 2, Icons.Filled.Bookmark, stringResource(R.string.tab_saved),
+                            Modifier.weight(1f)) { tab = 2 }
                     }
                 }
             }
         },
         topBar = {
-            Column {
+            Column(Modifier.background(MaterialTheme.colorScheme.surface)) {
                 // Equal side reservations keep the city centered on the SCREEN, not between unequal actions.
                 Box(Modifier.fillMaxWidth().statusBarsPadding().heightIn(min = 48.dp).padding(horizontal = 16.dp)) {
                     Text(stringResource(R.string.app_name), style = MaterialTheme.typography.headlineSmall,
@@ -189,40 +199,35 @@ fun FeedScreen(
                         Icon(Icons.Filled.Settings, stringResource(R.string.settings_title))
                     }
                 }
-                key(tab) {
+                if (tab != 2) key(tab) {
                     FeedTools(options = options, onChange = ::updateOptions, places = tab != 0,
                         categories = baseItems.map { it.interest }.distinct())
                 }
+                if (tab == 0) DayStrip(eventOptions.day, today, lang) { day -> eventOptions = eventOptions.copy(day = day) }
             }
         },
     ) { pad ->
-        if (items.isEmpty()) {
-            Column(Modifier.fillMaxSize().padding(pad)) {
-                EmptyState(
-                    icon = if (tab == 0) Icons.Outlined.CalendarMonth else Icons.Filled.Explore,
-                    title = stringResource(if (options.isNarrowed) R.string.tools_no_results else R.string.empty_title),
-                    body = stringResource(if (options.isNarrowed) R.string.tools_no_results_hint else if (tab == 0) R.string.empty_events else R.string.empty_places),
-                ) {
-                    FilledTonalButton(onClick = { if (options.isNarrowed) resetTools() else onOpenSettings() }) {
-                        Icon(Icons.Filled.Tune, null, Modifier.size(18.dp))
-                        Text(stringResource(if (options.isNarrowed) R.string.tools_reset_all else R.string.empty_action), Modifier.padding(start = 8.dp))
-                    }
-                }
-            }
-        } else {
-            LazyColumn(
+        when {
+            feed == null -> Column(
+                Modifier.fillMaxSize().padding(pad).padding(horizontal = 16.dp, vertical = 8.dp),
+                verticalArrangement = Arrangement.spacedBy(12.dp),
+            ) { repeat(3) { SkeletonCard() } }
+            items.isEmpty() -> Column(Modifier.fillMaxSize().padding(pad)) { FeedEmptyState(tab, options, ::resetTools,
+                onAllDays = { eventOptions = eventOptions.copy(day = null) }, onOpenSettings = onOpenSettings) }
+            else -> LazyColumn(
                 Modifier.fillMaxSize().padding(pad),
                 contentPadding = PaddingValues(16.dp, 0.dp, 16.dp, 32.dp),
             ) {
                 item(key = "count") {
                     Text(
-                        stringResource(if (tab == 0) R.string.feed_count_events else R.string.feed_count_places, items.size),
+                        if (tab == 2) stringResource(R.string.saved_count, items.size)
+                        else stringResource(if (tab == 0) R.string.feed_count_events else R.string.feed_count_places, items.size),
                         style = MaterialTheme.typography.labelLarge,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                         modifier = Modifier.padding(start = 4.dp, bottom = 4.dp),
                     )
                 }
-                // Sorted by date → day groups ("Сегодня", "Завтра", …); other orders → one plain list.
+                // Sorted by date → day groups ("Идут сейчас", "Дата уточняется", "Сегодня", …); else one plain list.
                 val groups: List<Pair<DaySection?, List<EventCard>>> =
                     if (tab == 0 && options.sort == FeedSort.NEAREST) FeedQuery.sections(items, today) else listOf(null to items)
                 groups.forEachIndexed { groupIndex, (section, cards) ->
@@ -230,19 +235,45 @@ fun FeedScreen(
                         SectionHeader(stringResource(sectionLabel(section)), first = groupIndex == 0, modifier = Modifier.animateItem())
                     }
                     itemsIndexed(cards, key = { _, event -> event.id }, contentType = { _, _ -> "card" }) { index, event ->
-                        EventCardView(
+                        CompactEventCard(
                             event = event,
                             lang = lang,
                             whenText = Localize.eventWhen(event, lang, today),
                             soon = FeedQuery.section(event, today).let { it == DaySection.TODAY || it == DaySection.TOMORROW },
-                            modifier = Modifier.animateItem().padding(top = if (index == 0) 0.dp else 16.dp),
+                            saved = event.id in saved,
+                            modifier = Modifier.animateItem().padding(top = if (index == 0) 0.dp else 12.dp),
                             onOpen = { onOpenEvent(event.id) },
+                            onToggleSave = { SessionStore.toggleSaved(event.id) },
                             onHide = { hideWithUndo(event.id) },
                             onPlan = { openCalendarEditor(context, event, lang) },
                             onRoute = { open2Gis(context, event, city?.id, city?.name) },
                         )
                     }
                 }
+            }
+        }
+    }
+}
+
+/** Empty list: explains why and offers the one action that brings items back. */
+@Composable
+private fun FeedEmptyState(tab: Int, options: FeedQueryOptions, onReset: () -> Unit, onAllDays: () -> Unit, onOpenSettings: () -> Unit) {
+    when {
+        tab == 2 -> EmptyState(Icons.Filled.BookmarkBorder, stringResource(R.string.saved_empty_title),
+            stringResource(R.string.saved_empty_body))
+        tab == 0 && options.day != null && options.query.isBlank() && options.filterCount == 0 ->
+            EmptyState(Icons.Outlined.CalendarMonth, stringResource(R.string.empty_day_title), stringResource(R.string.empty_day_body)) {
+                FilledTonalButton(onClick = onAllDays) { Text(stringResource(R.string.show_all_days)) }
+            }
+        options.isNarrowed -> EmptyState(Icons.Filled.Tune, stringResource(R.string.tools_no_results),
+            stringResource(R.string.tools_no_results_hint)) {
+            FilledTonalButton(onClick = onReset) { Text(stringResource(R.string.tools_reset_all)) }
+        }
+        else -> EmptyState(if (tab == 0) Icons.Outlined.CalendarMonth else Icons.Filled.Explore, stringResource(R.string.empty_title),
+            stringResource(if (tab == 0) R.string.empty_events else R.string.empty_places)) {
+            FilledTonalButton(onClick = onOpenSettings) {
+                Icon(Icons.Filled.Tune, null, Modifier.size(18.dp))
+                Text(stringResource(R.string.empty_action), Modifier.padding(start = 8.dp))
             }
         }
     }
@@ -270,90 +301,12 @@ private fun BottomSection(selected: Boolean, icon: ImageVector, label: String, m
         contentColor = if (selected) MaterialTheme.colorScheme.onSecondaryContainer else MaterialTheme.colorScheme.onSurfaceVariant) {
         Row(Modifier.fillMaxWidth().heightIn(min = 48.dp)
             .selectable(selected = selected, role = Role.Tab, onClick = onClick)
-            .padding(horizontal = 12.dp, vertical = 4.dp),
+            .padding(horizontal = 8.dp, vertical = 4.dp),
             verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.Center) {
-            Icon(icon, null, Modifier.size(22.dp))
-            Spacer(Modifier.width(8.dp))
-            Text(label, modifier = Modifier.weight(1f, fill = false), maxLines = 2,
+            Icon(icon, null, Modifier.size(20.dp))
+            Spacer(Modifier.width(6.dp))
+            Text(label, modifier = Modifier.weight(1f, fill = false), maxLines = 1, overflow = TextOverflow.Ellipsis,
                 style = MaterialTheme.typography.labelLarge)
-        }
-    }
-}
-
-@OptIn(ExperimentalLayoutApi::class)
-@Composable
-private fun EventCardView(
-    event: EventCard,
-    lang: AppLanguage?,
-    whenText: String,
-    soon: Boolean,
-    modifier: Modifier = Modifier,
-    onOpen: () -> Unit,
-    onHide: () -> Unit,
-    onPlan: () -> Unit,
-    onRoute: () -> Unit,
-) {
-    // Tap anywhere on the card → in-app detail screen (the browser opens only from there).
-    ElevatedCard(onClick = onOpen, modifier = modifier.fillMaxWidth(), shape = MaterialTheme.shapes.large) {
-        Column(Modifier.padding(20.dp)) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Surface(shape = MaterialTheme.shapes.small, color = MaterialTheme.colorScheme.secondaryContainer) {
-                    Row(Modifier.padding(horizontal = 10.dp, vertical = 5.dp), verticalAlignment = Alignment.CenterVertically) {
-                        Icon(event.interest.icon, null, Modifier.size(14.dp), tint = MaterialTheme.colorScheme.onSecondaryContainer)
-                        Spacer(Modifier.width(6.dp))
-                        Text(stringResource(event.interest.labelRes), style = MaterialTheme.typography.labelMedium,
-                            color = MaterialTheme.colorScheme.onSecondaryContainer)
-                    }
-                }
-                Spacer(Modifier.weight(1f))
-                IconButton(onClick = onHide, modifier = Modifier.size(36.dp)) {
-                    Icon(Icons.Filled.VisibilityOff, stringResource(R.string.not_interested), Modifier.size(20.dp),
-                        tint = MaterialTheme.colorScheme.onSurfaceVariant)
-                }
-            }
-            Spacer(Modifier.height(12.dp))
-            Text(event.title(lang), style = MaterialTheme.typography.titleLarge, maxLines = 3, overflow = TextOverflow.Ellipsis)
-            Spacer(Modifier.height(12.dp))
-
-            Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                if (!event.isPlace && whenText.isNotBlank()) {
-                    InfoLine(Icons.Filled.Event, whenText, emphasize = true, highlight = soon)
-                }
-                InfoLine(Icons.Filled.Place, event.place(lang), secondary = event.address.takeIf { it.isNotBlank() && it != event.placeRu })
-            }
-
-            val description = previewText(event.description(lang), event.title(lang))
-            if (description.isNotBlank()) {
-                Spacer(Modifier.height(12.dp))
-                Text(description, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    maxLines = 2, overflow = TextOverflow.Ellipsis)
-            }
-
-            Spacer(Modifier.height(12.dp))
-            FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                if (event.workingHours.isNotBlank()) Pill(Icons.Filled.Schedule, Localize.hours(event.workingHours, lang))
-                event.price?.let { Pill(Icons.Filled.Payments, Localize.price(it, lang)) }
-            }
-
-            Spacer(Modifier.height(16.dp))
-            Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                Button(onClick = onRoute, modifier = Modifier.weight(1f).height(48.dp), shape = MaterialTheme.shapes.medium) {
-                    Icon(Icons.Filled.Directions, null, Modifier.size(18.dp))
-                    Text(stringResource(R.string.route_2gis), Modifier.padding(start = 6.dp), maxLines = 1,
-                        overflow = TextOverflow.Ellipsis)
-                }
-                FilledTonalButton(onClick = onOpen, modifier = Modifier.weight(1f).height(48.dp),
-                    shape = MaterialTheme.shapes.medium) {
-                    Icon(Icons.AutoMirrored.Filled.Notes, null, Modifier.size(18.dp))
-                    Text(stringResource(R.string.details),
-                        Modifier.padding(start = 6.dp), maxLines = 1, overflow = TextOverflow.Ellipsis)
-                }
-            }
-            Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(top = 4.dp)) {
-                Text(stringResource(R.string.source, event.sourceName), style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.weight(1f))
-                TextButton(onClick = onPlan) { Text(stringResource(R.string.plan_event)) }
-            }
         }
     }
 }

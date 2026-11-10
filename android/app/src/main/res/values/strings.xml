@@ -134,4 +134,16 @@
     <string name="section_later">Later</string>
     <string name="section_ongoing">On now</string>
     <string name="section_undated">Date to be announced</string>
+
+    <!-- 0.4.0: saved tab, day strip -->
+    <string name="tab_saved">Saved</string>
+    <string name="save">Save</string>
+    <string name="unsave">Remove from saved</string>
+    <string name="day_all">All days</string>
+    <string name="saved_count">Saved: %1$d</string>
+    <string name="saved_empty_title">Nothing saved yet</string>
+    <string name="saved_empty_body">Tap the bookmark on an event or a place to keep it here.</string>
+    <string name="empty_day_title">Nothing on this day</string>
+    <string name="empty_day_body">No events match this day yet. Try another day or show all.</string>
+    <string name="show_all_days">Show all days</string>
 </resources>

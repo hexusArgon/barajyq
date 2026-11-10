@@ -133,4 +133,16 @@
     <string name="section_later">Позже</string>
     <string name="section_ongoing">Идут сейчас</string>
     <string name="section_undated">Дата уточняется</string>
+
+    <!-- 0.4.0: saved tab, day strip -->
+    <string name="tab_saved">Сохранённые</string>
+    <string name="save">Сохранить</string>
+    <string name="unsave">Убрать из сохранённых</string>
+    <string name="day_all">Все дни</string>
+    <string name="saved_count">Сохранено: %1$d</string>
+    <string name="saved_empty_title">Пока ничего не сохранено</string>
+    <string name="saved_empty_body">Нажмите на закладку у события или места — оно появится здесь.</string>
+    <string name="empty_day_title">На этот день ничего нет</string>
+    <string name="empty_day_body">Событий на выбранный день пока нет. Выберите другой день или покажите все.</string>
+    <string name="show_all_days">Показать все дни</string>
 </resources>

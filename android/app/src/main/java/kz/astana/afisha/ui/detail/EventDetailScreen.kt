@@ -1,6 +1,13 @@
 package kz.astana.afisha.ui.detail
 
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.ui.draw.clip
+import androidx.compose.material3.FilledTonalIconButton
+import androidx.compose.material.icons.filled.Bookmark
+import androidx.compose.material.icons.filled.BookmarkBorder
+import kz.astana.afisha.ui.feed.CategoryBadge
+import kz.astana.afisha.ui.feed.EventCover
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
@@ -82,6 +89,7 @@ fun EventDetailScreen(eventId: String, onBack: () -> Unit, onHidden: (String) ->
         event = city?.let { c -> FeedRepository.findById(feed, c, eventId) }
     }
     val scrollBehavior = TopAppBarDefaults.pinnedScrollBehavior()
+    val saved by SessionStore.saved.collectAsState()
 
     Scaffold(
         modifier = Modifier.nestedScroll(scrollBehavior.nestedScrollConnection),
@@ -108,6 +116,37 @@ fun EventDetailScreen(eventId: String, onBack: () -> Unit, onHidden: (String) ->
                 },
             )
         },
+        // Actions stay pinned at the bottom while the description scrolls.
+        bottomBar = {
+            event?.let { e ->
+                Surface(tonalElevation = 3.dp, color = MaterialTheme.colorScheme.surface) {
+                    Column(Modifier.navigationBarsPadding()) {
+                        HorizontalDivider()
+                        Row(Modifier.fillMaxWidth().padding(horizontal = 12.dp, vertical = 8.dp),
+                            verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(4.dp)) {
+                            Button(onClick = { openUrl(context, e.sourceUrl) }, modifier = Modifier.weight(1f).height(48.dp),
+                                shape = MaterialTheme.shapes.medium) {
+                                Icon(Icons.AutoMirrored.Filled.OpenInNew, null, Modifier.size(18.dp))
+                                Text(stringResource(if (e.isPlace) R.string.open_source else R.string.open_tickets_source),
+                                    Modifier.padding(start = 6.dp), maxLines = 1, overflow = TextOverflow.Ellipsis)
+                            }
+                            FilledTonalIconButton(onClick = { open2Gis(context, e, city?.id, city?.name) }, modifier = Modifier.size(48.dp)) {
+                                Icon(Icons.Filled.Directions, stringResource(R.string.route_2gis))
+                            }
+                            if (!e.isPlace) FilledTonalIconButton(onClick = { openCalendarEditor(context, e, lang) },
+                                modifier = Modifier.size(48.dp)) {
+                                Icon(Icons.Filled.Event, stringResource(R.string.plan_event))
+                            }
+                            val isSaved = e.id in saved
+                            FilledTonalIconButton(onClick = { SessionStore.toggleSaved(e.id) }, modifier = Modifier.size(48.dp)) {
+                                Icon(if (isSaved) Icons.Filled.Bookmark else Icons.Filled.BookmarkBorder,
+                                    stringResource(if (isSaved) R.string.unsave else R.string.save))
+                            }
+                        }
+                    }
+                }
+            }
+        },
     ) { pad ->
         val e = event
         if (e == null) {
@@ -125,37 +164,27 @@ fun EventDetailScreen(eventId: String, onBack: () -> Unit, onHidden: (String) ->
                 .fillMaxSize()
                 .padding(pad)
                 .verticalScroll(rememberScrollState())
-                .padding(horizontal = 16.dp, vertical = 16.dp)
-                .navigationBarsPadding(),
+                .padding(horizontal = 16.dp, vertical = 8.dp),
             verticalArrangement = Arrangement.spacedBy(16.dp),
         ) {
-            // Header: interest chip + title
-            Column {
-                Surface(shape = MaterialTheme.shapes.small, color = MaterialTheme.colorScheme.secondaryContainer) {
-                    Row(Modifier.padding(horizontal = 10.dp, vertical = 5.dp), verticalAlignment = Alignment.CenterVertically) {
-                        Icon(e.interest.icon, null, Modifier.size(14.dp), tint = MaterialTheme.colorScheme.onSecondaryContainer)
-                        Spacer(Modifier.width(6.dp))
-                        Text(stringResource(e.interest.labelRes), style = MaterialTheme.typography.labelMedium,
-                            color = MaterialTheme.colorScheme.onSecondaryContainer)
-                    }
-                }
-                Spacer(Modifier.height(12.dp))
-                Text(e.title(lang), style = MaterialTheme.typography.headlineSmall)
+            // Cover with the category badge
+            Box(Modifier.clip(MaterialTheme.shapes.large)) {
+                EventCover(e, 210.dp)
+                CategoryBadge(e.interest, Modifier.align(Alignment.BottomStart).padding(12.dp))
             }
+            Text(e.title(lang), style = MaterialTheme.typography.headlineSmall)
 
-            // Facts: when / where / hours / price
+            // Facts: when / where / hours / price / source
             ElevatedCard(Modifier.fillMaxWidth(), shape = MaterialTheme.shapes.large) {
-                Column(Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+                Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
                     val whenText = if (e.isPlace) "" else Localize.eventWhen(e, lang)
-                    if (whenText.isNotBlank()) {
-                        InfoLine(Icons.Filled.Event, whenText, emphasize = true)
-                    }
+                    if (whenText.isNotBlank()) InfoLine(Icons.Filled.Event, whenText, emphasize = true)
                     InfoLine(Icons.Filled.Place, e.place(lang),
                         secondary = e.address.takeIf { it.isNotBlank() && it != e.placeRu })
-                    FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                        if (e.workingHours.isNotBlank()) Pill(Icons.Filled.Schedule, Localize.hours(e.workingHours, lang))
-                        e.price?.let { Pill(Icons.Filled.Payments, Localize.price(it, lang)) }
-                    }
+                    if (e.workingHours.isNotBlank()) InfoLine(Icons.Filled.Schedule, Localize.hours(e.workingHours, lang))
+                    e.price?.let { InfoLine(Icons.Filled.Payments, Localize.price(it, lang)) }
+                    Text(stringResource(R.string.opens_in_browser, e.sourceName), style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant)
                 }
             }
 
@@ -170,37 +199,6 @@ fun EventDetailScreen(eventId: String, onBack: () -> Unit, onHidden: (String) ->
                     Spacer(Modifier.height(8.dp))
                     Text(description, style = MaterialTheme.typography.bodyLarge)
                 }
-            }
-
-            HorizontalDivider()
-
-            // Actions
-            Button(
-                onClick = { open2Gis(context, e, city?.id, city?.name) },
-                modifier = Modifier.fillMaxWidth().height(48.dp), shape = MaterialTheme.shapes.medium,
-            ) {
-                Icon(Icons.Filled.Directions, null, Modifier.size(18.dp))
-                Text(stringResource(R.string.route_2gis) + " 2GIS", Modifier.padding(start = 6.dp))
-            }
-            FilledTonalButton(
-                onClick = { openUrl(context, e.sourceUrl) },
-                modifier = Modifier.fillMaxWidth().height(48.dp), shape = MaterialTheme.shapes.medium,
-            ) {
-                Icon(Icons.AutoMirrored.Filled.OpenInNew, null, Modifier.size(18.dp))
-                Text(stringResource(if (e.isPlace) R.string.open_source else R.string.open_tickets_source),
-                    Modifier.padding(start = 6.dp), maxLines = 1, overflow = TextOverflow.Ellipsis)
-            }
-            Text(
-                stringResource(R.string.opens_in_browser, e.sourceName),
-                style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant,
-                modifier = Modifier.padding(start = 4.dp),
-            )
-            OutlinedButton(
-                onClick = { openCalendarEditor(context, e, lang) },
-                modifier = Modifier.fillMaxWidth().height(48.dp), shape = MaterialTheme.shapes.medium,
-            ) {
-                Icon(Icons.Filled.Event, null, Modifier.size(18.dp))
-                Text(stringResource(R.string.plan_event), Modifier.padding(start = 6.dp))
             }
             Spacer(Modifier.height(8.dp))
         }
