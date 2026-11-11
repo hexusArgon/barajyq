@@ -11,7 +11,7 @@ Kotlin + Jetpack Compose. MVP flow:
 
 1. [Google Cloud Console](https://console.cloud.google.com/) → APIs & Services → Credentials
 2. Создай **OAuth client ID → Web application** — его client id вставь в `GOOGLE_WEB_CLIENT_ID` в `app/build.gradle.kts` (`setServerClientId` ждёт именно Web client)
-3. Создай **OAuth client ID → Android**: package `kz.astana.afisha`, SHA-1 debug-ключа:
+3. Создай **OAuth client ID → Android**: package `kz.barajyq.app`, SHA-1 debug-ключа:
    `keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android`
 4. На устройстве должен быть Google-аккаунт; Play Services актуальны
 5. `idToken` после входа готов к проверке на бэкенде (пока только в памяти)

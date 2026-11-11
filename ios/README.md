@@ -1,6 +1,6 @@
 # Barajyq — iOS (App Store)
 
-iOS-копия Android-приложения **Barajyq** (`kz.astana.afisha`): SwiftUI, iOS 16+, iPhone и iPad.
+iOS-копия Android-приложения **Barajyq** (`kz.barajyq.app`): SwiftUI, iOS 16+, iPhone и iPad.
 Те же экраны, данные, переводы и логика, что в `../android`. Android-проект не изменялся.
 
 ## Что сделано
@@ -38,7 +38,7 @@ iOS-копия Android-приложения **Barajyq** (`kz.astana.afisha`): Sw
 3. Выберите симулятор iPhone и нажмите ▶︎ Run. Без настройки Google вход через Apple работает только с командой разработчика (шаг 5). На экране входа будет предупреждение «Google не настроен».
 4. **Настройка Google Sign-In:**
    1. Откройте [Google Cloud Console](https://console.cloud.google.com/), **тот же проект, что у Android**, затем *APIs & Services → Credentials → Create credentials → OAuth client ID*.
-   2. Тип **iOS**, Bundle ID `kz.astana.afisha`.
+   2. Тип **iOS**, Bundle ID `kz.barajyq.app`.
    3. Скопируйте **Client ID** и **iOS URL scheme** в `Barajyq/Config/Google.xcconfig`:
       ```
       GOOGLE_IOS_CLIENT_ID = 1234567890-xxxx.apps.googleusercontent.com
@@ -46,7 +46,7 @@ iOS-копия Android-приложения **Barajyq** (`kz.astana.afisha`): Sw
       ```
    4. Web Client ID и `applicationId` Android **не трогайте**: iOS-клиент отдельный. Экран согласия OAuth общий, он уже настроен для Android.
 5. **Подпись:** *Target Barajyq → Signing & Capabilities → Team* (ваш Apple Developer аккаунт). Там же должна быть capability **Sign in with Apple**. Она уже указана в entitlements, Xcode включит её для App ID автоматически.
-6. Если `kz.astana.afisha` уже занят в вашем аккаунте или вы хотите другой ID, поменяйте `PRODUCT_BUNDLE_IDENTIFIER` в `Google.xcconfig` (например, `kz.astana.afisha.ios`) и создайте iOS OAuth client под новый ID.
+6. Если `kz.barajyq.app` уже занят в вашем аккаунте или вы хотите другой ID, поменяйте `PRODUCT_BUNDLE_IDENTIFIER` в `Google.xcconfig` (например, `kz.barajyq.app.ios`) и создайте iOS OAuth client под новый ID.
 
 Проект можно пересоздать: `python3 tools/gen_xcodeproj.py` или `xcodegen generate` (по `project.yml`).
 
@@ -60,7 +60,7 @@ iOS-копия Android-приложения **Barajyq** (`kz.astana.afisha`): Sw
    - Для Казахстана оплата картой проходит обычно, проверка длится от 1 до 2 дней.
 2. **Mac с Xcode.** Без Mac можно собрать через облачные сервисы (Codemagic, Xcode Cloud, GitHub Actions macOS), но Mac сильно проще.
 3. В **App Store Connect** (<https://appstoreconnect.apple.com>) нажмите *My Apps → + New App*.
-   - Название **Barajyq**, основной язык русский, Bundle ID `kz.astana.afisha`, SKU любой.
+   - Название **Barajyq**, основной язык русский, Bundle ID `kz.barajyq.app`, SKU любой.
    - Категория *Lifestyle* или *Entertainment*.
 4. **Скриншоты** обязательны:
    - iPhone 6.9″ (1320×2868) или 6.7″ (1290×2796), от 1 до 10 штук;

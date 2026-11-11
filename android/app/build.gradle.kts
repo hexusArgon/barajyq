@@ -20,7 +20,7 @@ android {
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "kz.astana.afisha"
+        applicationId = "kz.barajyq.app"
         minSdk = 26
         targetSdk = 36
         versionCode = 7
@@ -52,7 +52,7 @@ android {
             )
             if (hasReleaseKeystore) signingConfig = signingConfigs.getByName("release")
             // Local smoke test of the minified build next to the installed debug app:
-            // ./gradlew assembleRelease -PreleaseSmoke  -> kz.astana.afisha.smoke (never upload this one)
+            // ./gradlew assembleRelease -PreleaseSmoke  -> kz.barajyq.app.smoke (never upload this one)
             if (project.hasProperty("releaseSmoke")) applicationIdSuffix = ".smoke"
         }
     }

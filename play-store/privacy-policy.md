@@ -2,7 +2,7 @@
 
 *Редакция от 5 ноября 2026 г.*
 
-Настоящая политика описывает, какие данные обрабатывает мобильное приложение **Barajyq** (Android, идентификатор `kz.astana.afisha`, далее — «Приложение»), разработчик — **[ИМЯ / НАЗВАНИЕ РАЗРАБОТЧИКА]** (далее — «мы»). Контакт: **[EMAIL]**.
+Настоящая политика описывает, какие данные обрабатывает мобильное приложение **Barajyq** (Android, идентификатор `kz.barajyq.app`, далее — «Приложение»), разработчик — **[ИМЯ / НАЗВАНИЕ РАЗРАБОТЧИКА]** (далее — «мы»). Контакт: **[EMAIL]**.
 
 ## 1. Кратко
 - У Приложения **нет собственного сервера**. Мы не получаем ваши данные.
@@ -46,7 +46,7 @@
 
 *Effective November 5, 2026*
 
-This policy explains how the **Barajyq** mobile app (Android, package `kz.astana.afisha`, the "App") developed by **[DEVELOPER NAME]** ("we") handles data. Contact: **[EMAIL]**.
+This policy explains how the **Barajyq** mobile app (Android, package `kz.barajyq.app`, the "App") developed by **[DEVELOPER NAME]** ("we") handles data. Contact: **[EMAIL]**.
 
 ## 1. Summary
 - The App has **no backend server**. We do not receive your data.

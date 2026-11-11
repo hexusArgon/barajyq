@@ -15,7 +15,7 @@ GOOGLE_REVERSED_CLIENT_ID = com.googleusercontent.apps.REPLACE-ME
 GOOGLE_SERVER_CLIENT_ID = REPLACE-ME-OPTIONAL
 
 // App identity
-PRODUCT_BUNDLE_IDENTIFIER = kz.astana.afisha
+PRODUCT_BUNDLE_IDENTIFIER = kz.barajyq.app
 MARKETING_VERSION = 1.0.0
 CURRENT_PROJECT_VERSION = 1
 // Your Apple Developer Team ID (10 chars), or pick the team in Xcode → Signing & Capabilities.

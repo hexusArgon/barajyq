@@ -1,4 +1,4 @@
-# Data safety — черновик ответов (Barajyq 0.2.0, kz.astana.afisha)
+# Data safety — черновик ответов (Barajyq 0.2.0, kz.barajyq.app)
 
 Основано на **реальном коде** на 05.11.2026 (Asia/Qyzylorda). Если появится сервер, пуши или Google Calendar — анкету надо обновить.
 

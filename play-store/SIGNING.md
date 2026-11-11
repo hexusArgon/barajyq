@@ -1,4 +1,4 @@
-# Подпись релиза Barajyq (kz.astana.afisha)
+# Подпись релиза Barajyq (kz.barajyq.app)
 
 > Приложение переименовано в **Barajyq**. Upload-ключ прежний: файл `kettik-upload.jks` и alias `kettik-upload` оставлены как есть намеренно — менять нельзя, иначе сломается подпись / SHA-1 в Google Cloud.
 
@@ -27,7 +27,7 @@
 Пользователи из Play получают APK, подписанный **ключом Google**, а не нашим. Чтобы вход через Google работал:
 1. Play Console → Test and release → **App integrity → App signing** → скопировать **SHA-1 App signing key certificate**.
 2. Google Cloud Console (проект с Web Client ID `384742056673-…`) → APIs & Services → Credentials → **Create OAuth client ID → Android**:
-   - package `kz.astana.afisha`, SHA-1 = ключ из шага 1.
+   - package `kz.barajyq.app`, SHA-1 = ключ из шага 1.
    - (опционально второй Android-клиент с upload SHA-1 выше — для локальной проверки release-сборки.)
 3. Debug-клиент (SHA-1 debug.keystore) оставь как есть.
 4. Если OAuth consent screen в режиме *Testing* — добавь тестеров в Test users или переведи в *In production* (для scopes email/profile проверка Google не нужна).
@@ -47,5 +47,5 @@ $env:JAVA_HOME="C:\Users\eseid\.jdks\jdk-17.0.21+9"   # Gradle 8.9 не рабо
 
 Smoke-проверка минифицированной сборки рядом с debug (отдельный пакет, НЕ загружать в Play):
 ```powershell
-.\gradlew.bat assembleRelease -PreleaseSmoke   # -> kz.astana.afisha.smoke
+.\gradlew.bat assembleRelease -PreleaseSmoke   # -> kz.barajyq.app.smoke
 ```

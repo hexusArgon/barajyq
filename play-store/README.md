@@ -1,4 +1,4 @@
-# play-store/ — материалы для Google Play (Barajyq, kz.astana.afisha)
+# play-store/ — материалы для Google Play (Barajyq, kz.barajyq.app)
 
 | Файл | Что |
 |---|---|

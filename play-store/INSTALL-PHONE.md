@@ -14,7 +14,7 @@
 Release и debug имеют разные подписи — перед сменой одной на другую удали установленную версию.
 
 ## Важно: Google Sign-In
-- **Release**: вход может не работать, пока в Google Cloud не создан Android OAuth клиент (`kz.astana.afisha`) с SHA-1 upload-ключа
+- **Release**: вход может не работать, пока в Google Cloud не создан Android OAuth клиент (`kz.barajyq.app`) с SHA-1 upload-ключа
   `E5:4B:8C:38:74:16:F5:44:7D:EC:D1:B0:6A:47:77:7A:ED:2F:6F:C0`.
 - **Debug**: SHA-1 `49:56:B2:F9:69:85:F2:A6:E8:79:25:78:7B:38:83:75:8D:2C:53:93` уже зарегистрирован — для проверки входа ставь `barajyq-0.2.0-debug.apk`.
 - После загрузки в Play добавь ещё SHA-1 ключа Play App Signing (Play Console → Целостность приложения).
