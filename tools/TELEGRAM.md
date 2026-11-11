@@ -1,6 +1,6 @@
 # Telegram → Barajyq
 
-Run from `/workspace/astana-afisha` (box only):
+Run from `/workspace/barajyq` (box only):
 
 ```sh
 python3 -m pip install -r tools/requirements-telegram.txt

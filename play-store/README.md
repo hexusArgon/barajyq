@@ -2,7 +2,6 @@
 
 | Файл | Что |
 |---|---|
-| `barajyq-0.2.0.aab` | Подписанный upload-ключом release bundle (versionCode 2, targetSdk 36) |
 | `checklist.md` | Что готово и что осталось сделать тебе |
 | `SIGNING.md` | Ключи, Play App Signing, SHA-1 для Google Sign-In, команда сборки |
 | `listing-ru.md`, `listing-kk.md`, `listing-en.md` | Название, краткое/полное описание, «Что нового» |

@@ -62,7 +62,6 @@ venv/
 /tools/ig_scan_batch*.json
 /tools/ig_merge_result.json
 # Historical distributable archive, not maintained source
-/astana-afisha-android-skeleton.tgz
 
 # Monitoring scratch (scans live in _claude/monitoring on the PC)
 /tools/scan_tmp/

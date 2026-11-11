@@ -1,7 +1,7 @@
 # Утренний мониторинг Barajyq (runbook)
 
 Каждое утро запускается задача Claude, которая работает на ПК Keranis и выполняет этот файл по шагам.
-Проект лежит в `C:\Users\eseid\astana-afisha`, в `device_bash` это `$HOME/mnt/astana-afisha`.
+Проект лежит в `C:\Users\eseid\barajyq`, в `device_bash` это `$HOME/mnt/barajyq`.
 Shell на ПК (Linux VM) не открывает t.me и instagram.com, а встроенный браузер Claude на том же ПК открывает.
 Поэтому страницы читает браузер, а импорт делает Python. Коммит и push делает не Claude, а Windows-задача
 `Barajyq\Publish feed` в 10:07 (`tools/windows/publish.bat`).
@@ -17,7 +17,7 @@ Shell на ПК (Linux VM) не открывает t.me и instagram.com, а в�
 
 ## 0. Рабочая копия (чтобы не удалять файлы в папке пользователя)
 ```sh
-P=$HOME/mnt/astana-afisha; W=$HOME/work/barajyq; D=$(TZ=Asia/Qyzylorda date +%F)
+P=$HOME/mnt/barajyq; W=$HOME/work/barajyq; D=$(TZ=Asia/Qyzylorda date +%F)
 rm -rf $W && mkdir -p $W/android/app $W/ios/Barajyq && cp -r $P/tools $P/feed $W/ && cp -r $P/android/app/src $W/android/app/ \
   && cp -r $P/ios/Barajyq/Data $W/ios/Barajyq/
 mkdir -p $W/tools/scan_tmp && cd $W && python3 -m unittest discover -s tools/tests 2>&1 | tail -1

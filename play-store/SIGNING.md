@@ -5,9 +5,9 @@
 ## Что где лежит (секреты НЕ в git)
 | Файл | Box | PC |
 |---|---|---|
-| Upload keystore | `android/keystore/barajyq-upload.jks` | `C:\Users\eseid\astana-afisha\android\keystore\barajyq-upload.jks` |
-| Пароли + отпечатки | `android/keystore/credentials.txt` | `C:\Users\eseid\astana-afisha\android\keystore\credentials.txt` |
-| Gradle-конфиг подписи | `android/keystore.properties` | `C:\Users\eseid\astana-afisha\android\keystore.properties` |
+| Upload keystore | `android/keystore/barajyq-upload.jks` | `C:\Users\eseid\barajyq\android\keystore\barajyq-upload.jks` |
+| Пароли + отпечатки | `android/keystore/credentials.txt` | `C:\Users\eseid\barajyq\android\keystore\credentials.txt` |
+| Gradle-конфиг подписи | `android/keystore.properties` | `C:\Users\eseid\barajyq\android\keystore.properties` |
 | Шаблон (можно в git) | `android/keystore.properties.example` | то же |
 
 `keystore/`, `keystore.properties`, `*.jks` — в `android/.gitignore`.
@@ -36,7 +36,7 @@
 
 ## Сборка
 ```powershell
-cd C:\Users\eseid\astana-afisha\android
+cd C:\Users\eseid\barajyq\android
 $env:JAVA_HOME="C:\Users\eseid\.jdks\jdk-17.0.21+9"   # Gradle 8.9 не работает на JBR 25 из Android Studio
 .\gradlew.bat bundleRelease
 # -> app\build\outputs\bundle\release\app-release.aab
