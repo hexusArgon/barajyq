@@ -22,7 +22,7 @@
 }
 
 # Enum names are persisted in DataStore (Interest.valueOf / AppLanguage tags).
--keepclassmembers enum kz.astana.afisha.** {
+-keepclassmembers enum kz.barajyq.app.** {
     public static **[] values();
     public static ** valueOf(java.lang.String);
     <fields>;

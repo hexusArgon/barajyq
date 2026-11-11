@@ -2,7 +2,7 @@ from pathlib import Path
 import unittest
 import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parents[2]
-JAVA = ROOT / "android/app/src/main/java/kz/astana/afisha/ui"
+JAVA = ROOT / "android/app/src/main/java/kz/barajyq/app/ui"
 
 class CalendarEditorTests(unittest.TestCase):
     def test_native_editor_never_writes_or_fakes_success(self):

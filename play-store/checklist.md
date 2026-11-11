@@ -19,7 +19,7 @@
 6. **Closed testing** (обязательно для личных аккаунтов): создать трек, загрузить `barajyq-0.2.0.aab`, добавить **≥12 тестеров** (Google-группа или список email) — они должны принять приглашение и оставаться в тесте **14 дней подряд**.
 7. **После первой загрузки AAB**: App integrity → App signing → SHA-1 → добавить Android OAuth client в Google Cloud (см. `SIGNING.md`). Иначе вход через Google в сборке из Play не заработает. Проверить на тестерах.
 8. Через 14 дней → **Apply for production** (ответить на вопросы о тесте) → ревью (обычно 1–7 дней).
-9. Сохранить бэкап `android/keystore/kettik-upload.jks` + `credentials.txt`.
+9. Сохранить бэкап `android/keystore/barajyq-upload.jks` + `credentials.txt`.
 
 ## 💡 Рекомендации до релиза
 - Убрать `POST_NOTIFICATIONS` из `AndroidManifest.xml`, пока пушей нет (меньше вопросов на ревью).

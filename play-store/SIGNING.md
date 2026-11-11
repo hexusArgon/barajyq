@@ -1,25 +1,25 @@
 # Подпись релиза Barajyq (kz.barajyq.app)
 
-> Приложение переименовано в **Barajyq**. Upload-ключ прежний: файл `kettik-upload.jks` и alias `kettik-upload` оставлены как есть намеренно — менять нельзя, иначе сломается подпись / SHA-1 в Google Cloud.
+> Upload-ключ создан заново 2026-11-11 под именем Barajyq, до первой загрузки в Play (старый ключ с прежним названием в Play не загружался).
 
 ## Что где лежит (секреты НЕ в git)
 | Файл | Box | PC |
 |---|---|---|
-| Upload keystore | `android/keystore/kettik-upload.jks` | `C:\Users\eseid\astana-afisha\android\keystore\kettik-upload.jks` |
+| Upload keystore | `android/keystore/barajyq-upload.jks` | `C:\Users\eseid\astana-afisha\android\keystore\barajyq-upload.jks` |
 | Пароли + отпечатки | `android/keystore/credentials.txt` | `C:\Users\eseid\astana-afisha\android\keystore\credentials.txt` |
 | Gradle-конфиг подписи | `android/keystore.properties` | `C:\Users\eseid\astana-afisha\android\keystore.properties` |
 | Шаблон (можно в git) | `android/keystore.properties.example` | то же |
 
 `keystore/`, `keystore.properties`, `*.jks` — в `android/.gitignore`.
 
-- Alias: `kettik-upload` · PKCS12 · RSA 4096 · срок 10000 дней
-- Upload cert **SHA-1**: `E5:4B:8C:38:74:16:F5:44:7D:EC:D1:B0:6A:47:77:7A:ED:2F:6F:C0`
-- Upload cert **SHA-256**: `59:B8:E0:66:7F:59:ED:2B:10:56:C4:BF:75:F5:BC:81:2A:6C:3E:9B:12:CA:B5:9E:27:95:35:D5:7E:86:BF:51`
+- Alias: `barajyq-upload` · PKCS12 · RSA 4096 · срок 10000 дней
+- Upload cert **SHA-1**: `76:EB:1B:A5:78:EB:6F:35:A9:81:E9:E8:4F:20:40:F6:2F:38:09:E4`
+- Upload cert **SHA-256**: `70:F0:56:A4:80:0E:46:BB:71:40:B6:4A:F5:24:B4:E9:EF:3E:FE:40:3F:02:77:36:52:37:7E:C2:52:BA:B9:29`
 
-**Сделай бэкап** `kettik-upload.jks` + `credentials.txt` (менеджер паролей + флешка/облако). Потеря upload key не фатальна при Play App Signing (можно сбросить через поддержку Play), но это недели ожидания.
+**Сделай бэкап** `barajyq-upload.jks` + `credentials.txt` (менеджер паролей + флешка/облако). Потеря upload key не фатальна при Play App Signing (можно сбросить через поддержку Play), но это недели ожидания.
 
 ## Play App Signing (как это работает)
-1. Мы подписываем AAB **upload key** (`kettik-upload`).
+1. Мы подписываем AAB **upload key** (`barajyq-upload`).
 2. При первой загрузке в Play Console соглашаешься на **Play App Signing** (по умолчанию для новых приложений). Google создаёт и хранит **app signing key** и переподписывает им APK для пользователей.
 3. Upload key Google только проверяет. Его можно сбросить, app signing key — нет (он у Google).
 

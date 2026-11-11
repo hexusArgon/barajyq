@@ -82,12 +82,12 @@ class PolicyTests(unittest.TestCase):
         self.assertTrue(all(not ep.rejected(c) for c in feed['events']))
         self.assertEqual((ROOT/'feed/events.json').read_bytes(),(ROOT/'android/app/src/main/assets/events.json').read_bytes())
         self.assertTrue(all(ep.keep_canonical(r) for r in json.loads((ROOT/'tools/feed_data.json').read_text())))
-        for file in ['tools/descriptions_data.py','android/app/src/main/java/kz/astana/afisha/data/FakeEventsRepository.kt','android/app/src/main/java/kz/astana/afisha/data/Descriptions.kt','ios/Barajyq/Data/FakeEventsRepository.swift']:
+        for file in ['tools/descriptions_data.py','android/app/src/main/java/kz/barajyq/app/data/FakeEventsRepository.kt','android/app/src/main/java/kz/barajyq/app/data/Descriptions.kt','ios/Barajyq/Data/FakeEventsRepository.swift']:
             raw=(ROOT/file).read_text()
             self.assertTrue(all(i not in raw for i in ep.POLICY['rejectedIds']),file)
     def test_runtime_policy_is_generated_and_all_cache_paths_guarded(self):
-        self.assertEqual((ROOT/'android/app/src/main/java/kz/astana/afisha/data/EventContentPolicy.kt').read_text(),gen_event_policy.render())
-        runtime=(ROOT/'android/app/src/main/java/kz/astana/afisha/data/FeedRepository.kt').read_text()
+        self.assertEqual((ROOT/'android/app/src/main/java/kz/barajyq/app/data/EventContentPolicy.kt').read_text(),gen_event_policy.render())
+        runtime=(ROOT/'android/app/src/main/java/kz/barajyq/app/data/FeedRepository.kt').read_text()
         for guard in ['cache.get()?.let(::sanitize)','return sanitize(it)','return EventContentPolicy.clean(out)',
                       'events = EventContentPolicy.clean(ev.values.toList())',
                       'EventContentPolicy.clean(if (places) FakePlacesRepository.forCity(city) else FakeEventsRepository.forCity(city))',

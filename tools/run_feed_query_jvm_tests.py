@@ -20,16 +20,16 @@ def main():
     # os.pathsep keeps the harness portable when Python is run on Windows.
     import os
     classpath=os.pathsep.join(str(p) for p in sorted(jars.glob('*.jar')))
-    sources=[ROOT/'android/app/src/main/java/kz/astana/afisha/domain/Models.kt',
-        ROOT/'android/app/src/main/java/kz/astana/afisha/data/EventContentPolicy.kt',
-        ROOT/'android/app/src/main/java/kz/astana/afisha/ui/feed/FeedQuery.kt',
-        ROOT/'android/app/src/test/java/kz/astana/afisha/ui/feed/FeedQueryTest.kt']
+    sources=[ROOT/'android/app/src/main/java/kz/barajyq/app/domain/Models.kt',
+        ROOT/'android/app/src/main/java/kz/barajyq/app/data/EventContentPolicy.kt',
+        ROOT/'android/app/src/main/java/kz/barajyq/app/ui/feed/FeedQuery.kt',
+        ROOT/'android/app/src/test/java/kz/barajyq/app/ui/feed/FeedQueryTest.kt']
     with tempfile.TemporaryDirectory(prefix='barajyq-query-tests-') as temp:
         work=Path(temp)
         names=sorted(set(re.findall(r'R\.string\.([a-zA-Z0-9_]+)',sources[0].read_text())))
-        (work/'R.kt').write_text('package kz.astana.afisha\nobject R { object string {\n'+''.join(f'const val {n}: Int = {i}\n' for i,n in enumerate(names))+'} }\n')
+        (work/'R.kt').write_text('package kz.barajyq.app\nobject R { object string {\n'+''.join(f'const val {n}: Int = {i}\n' for i,n in enumerate(names))+'} }\n')
         (work/'StringRes.kt').write_text('package androidx.annotation\nannotation class StringRes\n')
         subprocess.run([a.java,'-cp',classpath,'org.jetbrains.kotlin.cli.jvm.K2JVMCompiler','-no-stdlib','-no-reflect','-jvm-target','17','-classpath',classpath,'-d',str(work/'classes'),*[str(s) for s in sources],str(work/'R.kt'),str(work/'StringRes.kt')],check=True)
-        subprocess.run([a.java,'-cp',str(work/'classes')+os.pathsep+classpath,'org.junit.runner.JUnitCore','kz.astana.afisha.ui.feed.FeedQueryTest'],check=True)
+        subprocess.run([a.java,'-cp',str(work/'classes')+os.pathsep+classpath,'org.junit.runner.JUnitCore','kz.barajyq.app.ui.feed.FeedQueryTest'],check=True)
 
 if __name__=='__main__': main()

@@ -16,7 +16,7 @@ val keystoreProps = Properties().apply {
 val hasReleaseKeystore = keystorePropsFile.exists()
 
 android {
-    namespace = "kz.astana.afisha"
+    namespace = "kz.barajyq.app"
     compileSdk = 36
 
     defaultConfig {

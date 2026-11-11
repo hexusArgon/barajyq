@@ -5,7 +5,7 @@
 GitHub/remote и публикация не настроены.
 
 ## Структура
-- `android/` — приложение `kz.barajyq.app` (пакет кода `kz.astana.afisha`), SDK 36, min SDK 26.
+- `android/` — приложение `kz.barajyq.app`, SDK 36, min SDK 26.
 - `ios/` — Xcode-проект; нужен Mac с Xcode 15+ (см. `ios/README.md`).
   iOS использует собственные статические Swift-данные, не Android JSON-feed.
 - `feed/events.json` — лента; `android/app/src/main/assets/events.json` — её

@@ -4,7 +4,7 @@ import re
 import unittest
 import xml.etree.ElementTree as ET
 ROOT=Path(__file__).resolve().parents[2]
-UI=ROOT/'android/app/src/main/java/kz/astana/afisha/ui/feed'
+UI=ROOT/'android/app/src/main/java/kz/barajyq/app/ui/feed'
 
 class FeedControlsResourceTests(unittest.TestCase):
     def test_toolbar_is_single_compact_row_with_permanent_input(self):
