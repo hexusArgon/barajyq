@@ -20,6 +20,7 @@ import androidx.compose.material.icons.filled.Directions
 import androidx.compose.material.icons.filled.Explore
 import androidx.compose.material.icons.filled.Museum
 import androidx.compose.material3.Button
+import androidx.compose.material3.TextButton
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -47,6 +48,9 @@ import kz.barajyq.app.data.GoogleAuth
 import kz.barajyq.app.data.GoogleSignInError
 import kz.barajyq.app.data.SessionStore
 import kz.barajyq.app.ui.common.IconBadge
+
+/** Profile id of a user who continued without signing in. */
+const val GUEST_ID = "guest"
 
 @Composable
 fun SignInScreen(onSignedIn: () -> Unit) {
@@ -96,13 +100,16 @@ fun SignInScreen(onSignedIn: () -> Unit) {
                 }
             }
             Spacer(Modifier.weight(1f).height(32.dp))
+            // Guest mode: the app works fully without an account (Play "App access": no login needed).
+            // The Google button is shown only when a client id is configured in the build.
             if (!configured) {
-                Text(stringResource(R.string.signin_not_configured), style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.error, textAlign = TextAlign.Center)
-                Spacer(Modifier.height(12.dp))
-            }
-            Button(
-                enabled = configured && !loading,
+                Button(
+                    onClick = { SessionStore.signIn(GUEST_ID, null, null); onSignedIn() },
+                    shape = MaterialTheme.shapes.large,
+                    modifier = Modifier.fillMaxWidth().height(56.dp),
+                ) { Text(stringResource(R.string.signin_guest), style = MaterialTheme.typography.titleMedium) }
+            } else Button(
+                enabled = !loading,
                 onClick = {
                     error = null
                     loading = true
@@ -133,6 +140,14 @@ fun SignInScreen(onSignedIn: () -> Unit) {
                     Spacer(Modifier.size(12.dp))
                     Text(stringResource(R.string.signin_google), style = MaterialTheme.typography.titleMedium)
                 }
+            }
+            if (configured) {
+                Spacer(Modifier.height(8.dp))
+                TextButton(
+                    onClick = { SessionStore.signIn(GUEST_ID, null, null); onSignedIn() },
+                    enabled = !loading,
+                    modifier = Modifier.fillMaxWidth().height(48.dp),
+                ) { Text(stringResource(R.string.signin_guest)) }
             }
             error?.let {
                 Spacer(Modifier.height(12.dp))

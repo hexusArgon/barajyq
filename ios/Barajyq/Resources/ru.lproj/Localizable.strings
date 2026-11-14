@@ -75,3 +75,5 @@
 "open_tickets_source" = "Билеты и источник";
 "opens_in_browser" = "Откроется %1$@ в браузере";
 "detail_not_found" = "Карточка больше недоступна.";
+"signin_guest" = "Продолжить без входа";
+"account_guest" = "Гость";

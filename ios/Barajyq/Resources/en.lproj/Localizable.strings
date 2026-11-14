@@ -75,3 +75,5 @@
 "open_tickets_source" = "Tickets & source";
 "opens_in_browser" = "Opens %1$@ in the browser";
 "detail_not_found" = "This item is no longer available.";
+"signin_guest" = "Continue without signing in";
+"account_guest" = "Guest";

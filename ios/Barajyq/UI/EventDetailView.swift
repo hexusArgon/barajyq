@@ -16,7 +16,7 @@ struct EventDetailView: View {
 
     private var event: EventCard? {
         guard let c = session.city else { return nil }
-        return (FakeEventsRepository.forCity(c) + FakePlacesRepository.forCity(c)).first { $0.id == eventId }
+        return FeedStore.shared.find(eventId, city: c)
     }
 
     var body: some View {

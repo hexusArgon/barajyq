@@ -64,6 +64,419 @@
       "handle": "gorkytheatre.kz",
       "city": "astana",
       "kind": "venue"
+    },
+    {
+      "handle": "afastana",
+      "city": "astana",
+      "kind": "cultural",
+      "name": "Французский альянс Астаны",
+      "via": "keen.events"
+    },
+    {
+      "handle": "mambetov_theatre",
+      "city": "astana",
+      "kind": "venue",
+      "name": "Театр драмы и комедии им. Мамбетова",
+      "via": "keen.events"
+    },
+    {
+      "handle": "kaztheatre",
+      "city": "astana",
+      "kind": "venue",
+      "name": "Театр им. К. Куанышбаева",
+      "via": "keen.events"
+    },
+    {
+      "handle": "kuyrshak_teatry_astana",
+      "city": "astana",
+      "kind": "venue",
+      "name": "Театр кукол Астаны",
+      "via": "keen.events"
+    },
+    {
+      "handle": "astana_filarmoniasy",
+      "city": "astana",
+      "kind": "concert",
+      "name": "Филармония им. Е. Рахмадиева",
+      "via": "keen.events"
+    },
+    {
+      "handle": "overhead.club",
+      "city": "astana",
+      "kind": "concert",
+      "name": "Overhead Club",
+      "via": "keen.events"
+    },
+    {
+      "handle": "bar_garage_ak",
+      "city": "astana",
+      "kind": "bar",
+      "name": "Garage Music Bar",
+      "via": "keen.events"
+    },
+    {
+      "handle": "pozitiv.standup.bar",
+      "city": "astana",
+      "kind": "standup",
+      "name": "Стендап-бар Pozitiv",
+      "via": "keen.events"
+    },
+    {
+      "handle": "bar.carlin",
+      "city": "astana",
+      "kind": "standup",
+      "name": "Carlin Comedy Bar",
+      "via": "keen.events"
+    },
+    {
+      "handle": "art_gallery_has_sanat",
+      "city": "astana",
+      "kind": "museum",
+      "name": "Галерея Has Sanat",
+      "via": "keen.events"
+    },
+    {
+      "handle": "astana.hub",
+      "city": "astana",
+      "kind": "it",
+      "name": "Astana Hub",
+      "via": "keen.events"
+    },
+    {
+      "handle": "abay.kaz.ntob",
+      "city": "almaty",
+      "kind": "venue",
+      "name": "Театр оперы и балета им. Абая",
+      "via": "keen.events"
+    },
+    {
+      "handle": "lermontov.theatre",
+      "city": "almaty",
+      "kind": "venue",
+      "name": "Театр им. Лермонтова",
+      "via": "keen.events"
+    },
+    {
+      "handle": "artishock_theatre",
+      "city": "almaty",
+      "kind": "venue",
+      "name": "Театр ARTиШОК",
+      "via": "keen.events"
+    },
+    {
+      "handle": "alatau.teatry",
+      "city": "almaty",
+      "kind": "venue",
+      "name": "Театр «Алатау»",
+      "via": "keen.events"
+    },
+    {
+      "handle": "nemetski.kz",
+      "city": "almaty",
+      "kind": "venue",
+      "name": "Немецкий драмтеатр",
+      "via": "keen.events"
+    },
+    {
+      "handle": "total_theater",
+      "city": "almaty",
+      "kind": "venue",
+      "name": "Тотальный театр",
+      "via": "keen.events"
+    },
+    {
+      "handle": "zhassahna_theatre",
+      "city": "almaty",
+      "kind": "venue",
+      "name": "Театр «Жас Сахна»",
+      "via": "keen.events"
+    },
+    {
+      "handle": "2act_theatre",
+      "city": "almaty",
+      "kind": "venue",
+      "name": "Театр 2act",
+      "via": "keen.events"
+    },
+    {
+      "handle": "domq.almaty",
+      "city": "almaty",
+      "kind": "venue",
+      "name": "Театр-студия «Дом Культуры»",
+      "via": "keen.events"
+    },
+    {
+      "handle": "kuyrshak_teatry",
+      "city": "almaty",
+      "kind": "venue",
+      "name": "Государственный театр кукол",
+      "via": "keen.events"
+    },
+    {
+      "handle": "qazaq_philharmonic",
+      "city": "almaty",
+      "kind": "concert",
+      "name": "Филармония им. Жамбыла",
+      "via": "keen.events"
+    },
+    {
+      "handle": "muzcafealmaty",
+      "city": "almaty",
+      "kind": "concert",
+      "name": "Музкафе",
+      "via": "keen.events"
+    },
+    {
+      "handle": "zhest.club",
+      "city": "almaty",
+      "kind": "concert",
+      "name": "Рок-клуб «Жесть»",
+      "via": "keen.events"
+    },
+    {
+      "handle": "almatymuseumofarts",
+      "city": "almaty",
+      "kind": "museum",
+      "name": "Almaty Museum of Arts",
+      "via": "keen.events"
+    },
+    {
+      "handle": "kasteyev_museum",
+      "city": "almaty",
+      "kind": "museum",
+      "name": "Музей им. Кастеева",
+      "via": "keen.events"
+    },
+    {
+      "handle": "esentaigallery",
+      "city": "almaty",
+      "kind": "museum",
+      "name": "Esentai Gallery",
+      "via": "keen.events"
+    },
+    {
+      "handle": "aspangallery",
+      "city": "almaty",
+      "kind": "museum",
+      "name": "Aspan Gallery",
+      "via": "keen.events"
+    },
+    {
+      "handle": "catharsis.artgallery",
+      "city": "almaty",
+      "kind": "museum",
+      "name": "Catharsis",
+      "via": "keen.events"
+    },
+    {
+      "handle": "central.standup.almaty",
+      "city": "almaty",
+      "kind": "standup",
+      "name": "Almaty Central Stand Up Club",
+      "via": "keen.events"
+    },
+    {
+      "handle": "punch.standupclub",
+      "city": "almaty",
+      "kind": "standup",
+      "name": "Punch Stand-Up Club",
+      "via": "keen.events"
+    },
+    {
+      "handle": "latenightshowbar",
+      "city": "almaty",
+      "kind": "standup",
+      "name": "Late Night Show Bar",
+      "via": "keen.events"
+    },
+    {
+      "handle": "transforma.kz",
+      "city": "almaty",
+      "kind": "cultural",
+      "name": "Трансформа",
+      "via": "keen.events"
+    },
+    {
+      "handle": "kerege.ca",
+      "city": "almaty",
+      "kind": "cultural",
+      "name": "Кереге",
+      "via": "keen.events"
+    },
+    {
+      "handle": "dom36kz",
+      "city": "almaty",
+      "kind": "cultural",
+      "name": "Дом на Барибаева",
+      "via": "keen.events"
+    },
+    {
+      "handle": "domilinedom",
+      "city": "almaty",
+      "kind": "cultural",
+      "name": "Дом или не Дом",
+      "via": "keen.events"
+    },
+    {
+      "handle": "colossus.space",
+      "city": "almaty",
+      "kind": "cultural",
+      "name": "Colossus",
+      "via": "keen.events"
+    },
+    {
+      "handle": "nekvartira_almaty",
+      "city": "almaty",
+      "kind": "cultural",
+      "name": "Неквартира",
+      "via": "keen.events"
+    },
+    {
+      "handle": "afalmaty",
+      "city": "almaty",
+      "kind": "cultural",
+      "name": "Alliance Française Алматы",
+      "via": "keen.events"
+    },
+    {
+      "handle": "goetheinstitut_kasachstan",
+      "city": "almaty",
+      "kind": "cultural",
+      "name": "Гёте-Институт",
+      "via": "keen.events"
+    },
+    {
+      "handle": "almau_library",
+      "city": "almaty",
+      "kind": "cultural",
+      "name": "AlmaU Open Library",
+      "via": "keen.events"
+    },
+    {
+      "handle": "tea.dragon.art",
+      "city": "almaty",
+      "kind": "cultural",
+      "name": "Чайный театр Пурпурного дракона",
+      "via": "keen.events"
+    },
+    {
+      "handle": "artsociety.alm",
+      "city": "almaty",
+      "kind": "cultural",
+      "name": "Art Society (лекции)",
+      "via": "keen.events"
+    },
+    {
+      "handle": "iwinekz",
+      "city": "almaty",
+      "kind": "cultural",
+      "name": "Школа сомелье IWINE",
+      "via": "keen.events"
+    },
+    {
+      "handle": "one.flick_bachata_almaty",
+      "city": "almaty",
+      "kind": "dance",
+      "name": "One Flick Bachata",
+      "via": "keen.events"
+    },
+    {
+      "handle": "almaty_hub",
+      "city": "almaty",
+      "kind": "it",
+      "name": "Almaty Hub",
+      "via": "keen.events"
+    },
+    {
+      "handle": "banka_bar",
+      "city": "almaty",
+      "kind": "bar",
+      "name": "The Банка Bar",
+      "via": "keen.events"
+    },
+    {
+      "handle": "lenore_pub_almaty",
+      "city": "almaty",
+      "kind": "bar",
+      "name": "Lenore Pub",
+      "via": "keen.events"
+    },
+    {
+      "handle": "asylum.almaty",
+      "city": "almaty",
+      "kind": "bar",
+      "name": "Asylum",
+      "via": "keen.events"
+    },
+    {
+      "handle": "allsaintsbaralmaty",
+      "city": "almaty",
+      "kind": "bar",
+      "name": "All Saints",
+      "via": "keen.events"
+    },
+    {
+      "handle": "motor_club_almaty",
+      "city": "almaty",
+      "kind": "bar",
+      "name": "Motor Club",
+      "via": "keen.events"
+    },
+    {
+      "handle": "bhb.almaty.official",
+      "city": "almaty",
+      "kind": "bar",
+      "name": "BHB",
+      "via": "keen.events"
+    },
+    {
+      "handle": "bar.bolsyn",
+      "city": "almaty",
+      "kind": "bar",
+      "name": "Barbolsyn",
+      "via": "keen.events"
+    },
+    {
+      "handle": "harveys_almaty",
+      "city": "almaty",
+      "kind": "bar",
+      "name": "Harvey's",
+      "via": "keen.events"
+    },
+    {
+      "handle": "bar_tancy",
+      "city": "almaty",
+      "kind": "bar",
+      "name": "Танцы Бар",
+      "via": "keen.events"
+    },
+    {
+      "handle": "adept.cocktail.bar",
+      "city": "almaty",
+      "kind": "bar",
+      "name": "Adept",
+      "via": "keen.events"
+    },
+    {
+      "handle": "inigo.bar",
+      "city": "almaty",
+      "kind": "bar",
+      "name": "INIGO",
+      "via": "keen.events"
+    },
+    {
+      "handle": "blablabar.almaty",
+      "city": "almaty",
+      "kind": "bar",
+      "name": "Bla Bla Bar",
+      "via": "keen.events"
+    },
+    {
+      "handle": "kumanobar",
+      "city": "almaty",
+      "kind": "bar",
+      "name": "KUMÄNO",
+      "via": "keen.events"
     }
   ]
 }

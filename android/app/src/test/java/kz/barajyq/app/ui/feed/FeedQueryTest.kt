@@ -96,6 +96,9 @@ class FeedQueryTest {
             card("undated", date = "по расписанию"))
         assertEquals(listOf("run-last-day", "multi-one-left", "undated"), run(source).map { it.id })
         assertTrue(run(source, FeedQueryOptions(query = "Полное")).none { it.id == "yesterday" })
+        // Started this morning (no end time known): stays until the day is over, never dropped mid-event.
+        assertEquals(listOf("started-today"), run(listOf(card("started-today", date = "2026-11-08T10:00:00+05:00"))).map { it.id })
+        assertTrue(FeedQuery.isExpired(card("x", date = "2026-11-08T10:00:00+05:00"), today.plusDays(1)))
     }
 
     @Test fun dayFiltersUseScheduleAndWeekend() {

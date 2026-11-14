@@ -44,6 +44,7 @@ def plain_file(rel, ftype, resource=True):
 
 plain_file('Resources/Assets.xcassets', 'folder.assetcatalog')
 plain_file('Resources/PrivacyInfo.xcprivacy', 'text.xml')
+plain_file('Resources/events.json', 'text.json')  # bundled feed copy (offline / first start)
 plain_file('Resources/Info.plist', 'text.plist.xml', resource=False)
 plain_file('Resources/Barajyq.entitlements', 'text.plist.entitlements', resource=False)
 xcconfig = plain_file('Config/Google.xcconfig', 'text.xcconfig', resource=False)

@@ -51,6 +51,10 @@
 			isa = PBXBuildFile;
 			fileRef = 7C0054871D802F96BAED4B1E;
 		};
+		913F876CCA6D776793DFDA57 = {
+			isa = PBXBuildFile;
+			fileRef = 54D9040682DDEC461E5129C3;
+		};
 		91CE3B260C907934AE3DFED9 = {
 			isa = PBXBuildFile;
 			fileRef = 57AD206D84A52B4E467BBC49;
@@ -70,6 +74,10 @@
 		B6A6FF1342254863492B0BFC = {
 			isa = PBXBuildFile;
 			fileRef = E98FDFDCF7D4F20265A6983E;
+		};
+		B6DC259E1B1A5A23BF51EC77 = {
+			isa = PBXBuildFile;
+			fileRef = 253B5A279D9149E44E3AAB6F;
 		};
 		BFAE41071611DDD08D514FEB = {
 			isa = PBXBuildFile;
@@ -140,6 +148,12 @@
 			path = ru.lproj/InfoPlist.strings;
 			sourceTree = "<group>";
 		};
+		253B5A279D9149E44E3AAB6F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = FeedRepository.swift;
+			sourceTree = "<group>";
+		};
 		26070C7215C9674E3AC238D4 = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.swift;
@@ -170,6 +184,12 @@
 			lastKnownFileType = text.plist.strings;
 			name = kk;
 			path = kk.lproj/InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		54D9040682DDEC461E5129C3 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.json;
+			path = events.json;
 			sourceTree = "<group>";
 		};
 		57AD206D84A52B4E467BBC49 = {
@@ -338,6 +358,7 @@
 			children = (
 				3C71F2861381430A0A651537,
 				C86606757C26802B34A4B689,
+				54D9040682DDEC461E5129C3,
 				D74F355CF15F09A8480510A4,
 				AF35899CC6ABE2E399A8DC83,
 				1799300455A70B7A7B969386,
@@ -361,6 +382,7 @@
 				93604226E202B068D4DB0FC2,
 				713BA8E7E04ADE4D02ED00C4,
 				11FF1F8513C06C378DCDE3EB,
+				253B5A279D9149E44E3AAB6F,
 				E98FDFDCF7D4F20265A6983E,
 				26070C7215C9674E3AC238D4,
 				D573B2356E325FB13F17A927,
@@ -500,6 +522,7 @@
 			files = (
 				89680AB20F8FE6A257BB5206,
 				A11A09B623D2B3CCD076EBA0,
+				913F876CCA6D776793DFDA57,
 				52F7FD130936104C1250A653,
 				B47580969390B9AB59D57D20,
 			);
@@ -517,6 +540,7 @@
 				26579D8734CC62574404DE0A,
 				DA807050D261819C515B30F2,
 				2A52C35FE8E93F68455E7B2B,
+				B6DC259E1B1A5A23BF51EC77,
 				B6A6FF1342254863492B0BFC,
 				BFAE41071611DDD08D514FEB,
 				F9D60CF2BCF689E7E4DAFEE4,

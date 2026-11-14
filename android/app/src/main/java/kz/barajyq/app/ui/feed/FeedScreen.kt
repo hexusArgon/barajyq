@@ -80,6 +80,10 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.delay
+import androidx.lifecycle.compose.LifecycleResumeEffect
+import java.time.Duration
+import java.time.ZonedDateTime
 import kz.barajyq.app.ui.calendar.openCalendarEditor
 import kz.barajyq.app.R
 import kz.barajyq.app.data.FeedRepository
@@ -113,10 +117,27 @@ fun FeedScreen(
     LaunchedEffect(Unit) {
         feed = FeedRepository.ensureLoaded(context)
     }
+    // "Today" (UTC+5) decides which events are over: an event stays while any of its days is today or later,
+    // so a started event is never dropped, and it disappears once its last day has ended. It is refreshed on
+    // every return to the app and at midnight, and the remote feed is re-fetched when it is older than 15 min.
+    var today by remember { mutableStateOf(EventSchedule.today()) }
+    var resumes by remember { mutableIntStateOf(0) }
+    LifecycleResumeEffect(Unit) {
+        resumes++
+        onPauseOrDispose { }
+    }
+    LaunchedEffect(resumes) {
+        today = EventSchedule.today()
+        FeedRepository.refreshIfStale(context)?.let { feed = it }
+    }
+    LaunchedEffect(today) {
+        val now = ZonedDateTime.now(EventSchedule.ZONE)
+        val midnight = now.toLocalDate().plusDays(1).atStartOfDay(EventSchedule.ZONE)
+        delay(Duration.between(now, midnight).toMillis() + 1_000)
+        today = EventSchedule.today()
+    }
     var eventOptions by rememberSaveable(stateSaver = QueryOptionsSaver) { mutableStateOf(FeedQueryOptions.EVENTS_DEFAULT) }
     var placeOptions by rememberSaveable(stateSaver = QueryOptionsSaver) { mutableStateOf(FeedQueryOptions.PLACES_DEFAULT) }
-    // One "today" per screen visit (UTC+5): past events are dropped and day groups are relative to it.
-    val today = remember { EventSchedule.today() }
     val options = if (tab == 1) placeOptions else eventOptions
     fun updateOptions(next: FeedQueryOptions) { if (tab == 1) placeOptions = next else eventOptions = next }
     fun resetTools() {

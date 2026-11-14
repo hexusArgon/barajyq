@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 enum Route: Hashable { case settings, city, language, event(String) }
 
@@ -10,12 +11,13 @@ struct FeedView: View {
     @Binding var hiddenFromDetail: String?
     @AppStorage("feed_tab") private var tab = 0
     @State private var toast: Toast?
+    /// Remote feed (updated without an App Store release); ended events are dropped against `feed.today`.
+    @ObservedObject private var feed = FeedStore.shared
+    @Environment(\.scenePhase) private var scenePhase
 
     private var items: [EventCard] {
         guard let p = session.profile, let c = session.city else { return [] }
-        return tab == 0
-            ? FakeEventsRepository.forProfile(p, city: c, hidden: session.hidden)
-            : FakePlacesRepository.forProfile(p, city: c, hidden: session.hidden)
+        return feed.forProfile(p, city: c, places: tab != 0, hidden: session.hidden)
     }
 
     var body: some View {
@@ -43,6 +45,13 @@ struct FeedView: View {
         }
         .onAppear {
             if let id = hiddenFromDetail { hiddenFromDetail = nil; showHiddenToast(id) }
+            feed.refreshIfNeeded()
+        }
+        .onChange(of: scenePhase) { phase in
+            if phase == .active { feed.refreshIfNeeded() }
+        }
+        .onReceive(NotificationCenter.default.publisher(for: UIApplication.significantTimeChangeNotification)) { _ in
+            feed.dayChanged()
         }
     }
 

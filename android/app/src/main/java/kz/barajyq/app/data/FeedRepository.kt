@@ -20,8 +20,11 @@ import java.time.OffsetDateTime
 import java.util.concurrent.atomic.AtomicReference
 
 /**
- * Loads events/places from bundled assets/events.json and the optional remote JSON feed
- * (BuildConfig.EVENTS_FEED_URL). Remote items override bundled ones by id.
+ * Loads events/places from bundled assets/events.json and the remote JSON feed (BuildConfig.EVENTS_FEED_URL,
+ * GitHub Pages of hexusArgon/barajyq-feed). The newest complete feed wins AS A WHOLE: an event removed on the
+ * server disappears from the app too, the bundled copy is only the offline/first-start fallback.
+ * The remote feed is re-fetched when the app comes back to the foreground and the last fetch is older than
+ * [STALE_AFTER_MS], so a feed update reaches every installed app without a new release.
  *
  * The disk cache stores only the last successful REMOTE payload (offline start). It is ignored when
  * the bundled feed of a newer app version is fresher, so an app update always shows its own data
@@ -30,6 +33,9 @@ import java.util.concurrent.atomic.AtomicReference
 object FeedRepository {
     private val mutex = Mutex()
     private val cache = AtomicReference<ParsedFeed?>(null)
+    /** Wall-clock time of the last remote fetch attempt (successful or not); 0 = never. */
+    @Volatile private var lastFetchAt = 0L
+    private const val STALE_AFTER_MS = 15 * 60 * 1000L
 
     data class ParsedFeed(
         val events: List<EventCard>,
@@ -47,22 +53,25 @@ object FeedRepository {
 
     suspend fun ensureLoaded(context: Context): ParsedFeed = mutex.withLock {
         cache.get()?.let { return sanitize(it) }
-        val app = context.applicationContext
+        load(context.applicationContext)
+    }
+
+    suspend fun refresh(context: Context): ParsedFeed = mutex.withLock { load(context.applicationContext) }
+
+    /** Foreground refresh: re-fetches only when the last fetch is older than 15 min; null = nothing new to show. */
+    suspend fun refreshIfStale(context: Context): ParsedFeed? = mutex.withLock {
+        if (cache.get() != null && System.currentTimeMillis() - lastFetchAt < STALE_AFTER_MS) return null
+        load(context.applicationContext)
+    }
+
+    // JSON parsing of ~2000 events is too heavy for the main thread, so loading always runs on Default/IO.
+    private suspend fun load(app: Context): ParsedFeed = withContext(Dispatchers.Default) {
         val bundled = readAsset(app) ?: ParsedFeed(emptyList(), emptyList(), null, "empty")
-        val remote = fetchRemote()
+        lastFetchAt = System.currentTimeMillis()
+        val remote = fetchRemote()?.takeIf { it.events.isNotEmpty() && !isNewer(bundled, it) }
         if (remote != null) writeDisk(app, remote)
         val cachedRemote = if (remote == null) readDisk(app)?.takeIf { isNewer(it, bundled) } else null
         val merged = merge(bundled, cachedRemote, remote)
-        cache.set(merged)
-        merged
-    }
-
-    suspend fun refresh(context: Context): ParsedFeed = mutex.withLock {
-        val app = context.applicationContext
-        val bundled = readAsset(app) ?: ParsedFeed(emptyList(), emptyList(), null, "empty")
-        val remote = fetchRemote()
-        if (remote != null) writeDisk(app, remote)
-        val merged = merge(bundled, if (remote == null) readDisk(app)?.takeIf { isNewer(it, bundled) } else null, remote)
         cache.set(merged)
         merged
     }
@@ -89,14 +98,12 @@ object FeedRepository {
     fun findById(feed: ParsedFeed, city: City, id: String): EventCard? =
         (forCity(feed, city, places = false) + forCity(feed, city, places = true)).firstOrNull { it.id == id }
 
+    /** The newest complete feed replaces the bundled one entirely (places fall back to bundled if it has none). */
     private fun merge(bundled: ParsedFeed, disk: ParsedFeed?, remote: ParsedFeed?): ParsedFeed {
         fun byId(items: List<EventCard>) = items.associateBy { it.id }.toMutableMap()
-        val ev = byId(bundled.events)
-        val pl = byId(bundled.places)
-        disk?.events?.forEach { ev[it.id] = it }
-        disk?.places?.forEach { pl[it.id] = it }
-        remote?.events?.forEach { ev[it.id] = it }
-        remote?.places?.forEach { pl[it.id] = it }
+        val base = remote ?: disk ?: bundled
+        val ev = byId(base.events)
+        val pl = byId(base.places.ifEmpty { bundled.places })
         val source = when {
             remote != null -> "remote"
             disk != null -> "disk"

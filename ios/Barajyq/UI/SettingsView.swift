@@ -45,7 +45,7 @@ struct SettingsView: View {
                             .font(.title2).foregroundColor(Palette.primary).frame(width: 24)
                         VStack(alignment: .leading, spacing: 2) {
                             Text(session.profile?.displayName ?? session.profile?.email
-                                 ?? (session.profile?.provider == .apple ? "Apple ID" : "Google")).font(.body)
+                                 ?? (session.profile?.provider == .apple ? "Apple ID" : session.profile?.provider == .guest ? session.t("account_guest") : "Google")).font(.body)
                             if let mail = session.profile?.email { Text(mail).font(.subheadline).foregroundColor(Palette.onSurfaceVariant) }
                         }
                         Spacer()

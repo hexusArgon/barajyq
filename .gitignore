@@ -68,3 +68,11 @@ venv/
 
 # Claude working folder: build script, logs, transfer archives
 /_claude/
+feed-site/
+
+# Local scratch files and old archives
+/backup-before-*.tar
+/barajyq-feed-*.tgz
+/s1.*
+/s2.*
+/docs/

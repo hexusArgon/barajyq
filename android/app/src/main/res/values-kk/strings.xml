@@ -16,6 +16,8 @@
     <string name="signin_feature_2">Мұражайлар, галереялар және табиғат</string>
     <string name="signin_feature_3">2ГИС-те бір басуда маршрут</string>
     <string name="signin_google">Google арқылы кіру</string>
+    <string name="signin_guest">Кірусіз жалғастыру</string>
+    <string name="account_guest">Қонақ</string>
     <string name="signin_not_configured">Google арқылы кіру бапталмаған (GOOGLE_WEB_CLIENT_ID).</string>
     <string name="signin_cancelled">Кіру тоқтатылды.</string>
     <string name="signin_no_account">Құрылғыда Google аккаунты жоқ.</string>

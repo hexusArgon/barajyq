@@ -8,11 +8,13 @@ import schedule
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 FEED = ROOT / 'feed' / 'events.json'
 SOURCES = ROOT / 'tools' / 'ig_sources.json'
+CITY_NAMES = {'astana': 'Астана', 'almaty': 'Алматы', 'shymkent': 'Шымкент', 'karaganda': 'Караганда'}
 ASSETS = ROOT / 'android' / 'app' / 'src' / 'main' / 'assets' / 'events.json'
 
 KIND_INTEREST = {
     'standup': 'STANDUP', 'quiz': 'STANDUP', 'sport': 'SPORT',
     'venue': 'THEATER', 'afisha': 'FESTIVALS',
+        'bar': 'BARS', 'museum': 'EXHIBITIONS', 'concert': 'CONCERTS', 'it': 'IT', 'cultural': 'FESTIVALS', 'dance': 'FESTIVALS',
 }
 
 def slug(s: str) -> str:
@@ -72,7 +74,7 @@ def main(scan_path: str):
                 'placeRu': place,
                 'placeKk': place,
                 'placeEn': place,
-                'address': 'Астана' if meta.get('city') == 'astana' else meta.get('city', ''),
+                'address': CITY_NAMES.get(meta.get('city', 'astana'), ''),
                 'price': None,
                 'sourceUrl': post_url,
                 'sourceName': f'Instagram @{handle}',

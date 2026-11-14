@@ -127,7 +127,7 @@ fun SettingsScreen(
                 ElevatedCard(shape = MaterialTheme.shapes.large) {
                     ListItem(
                         leadingContent = { Icon(Icons.Filled.AccountCircle, null, tint = MaterialTheme.colorScheme.primary) },
-                        headlineContent = { Text(profile?.displayName ?: profile?.email ?: "Google") },
+                        headlineContent = { Text(if (profile?.googleId == kz.barajyq.app.ui.signin.GUEST_ID) stringResource(R.string.account_guest) else profile?.displayName ?: profile?.email ?: "Google") },
                         supportingContent = { profile?.email?.let { Text(it) } },
                         colors = ListItemDefaults.colors(containerColor = Color.Transparent),
                     )

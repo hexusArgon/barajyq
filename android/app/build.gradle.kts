@@ -23,10 +23,11 @@ android {
         applicationId = "kz.barajyq.app"
         minSdk = 26
         targetSdk = 36
-        versionCode = 7
-        versionName = "0.4.0"
+        versionCode = 8
+        versionName = "0.5.0"
         // Empty = assets/events.json only. Set to https://…/events.json for remote updates.
-        buildConfigField("String", "EVENTS_FEED_URL", "\"\"")
+        // Remote feed: public GitHub Pages of hexusArgon/barajyq-feed, updated by tools/windows/publish.bat.
+        buildConfigField("String", "EVENTS_FEED_URL", "\"https://hexusargon.github.io/barajyq-feed/events.json\"")
                 // Replace with Web client ID from Google Cloud Console
         buildConfigField("String", "GOOGLE_WEB_CLIENT_ID", "\"REPLACE_ME.apps.googleusercontent.com\"")
     }
@@ -83,6 +84,7 @@ dependencies {
     implementation("androidx.activity:activity-compose:1.9.3")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.7")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.8.7")
     implementation("androidx.navigation:navigation-compose:2.9.0")
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.ui:ui-tooling-preview")

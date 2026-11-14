@@ -15,6 +15,7 @@ from event_policy import import_reason
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 FEED = ROOT / 'feed' / 'events.json'
 SOURCES = ROOT / 'tools' / 'ig_sources.json'
+CITY_NAMES = {'astana': 'Астана', 'almaty': 'Алматы', 'shymkent': 'Шымкент', 'karaganda': 'Караганда'}
 ASSETS = ROOT / 'android' / 'app' / 'src' / 'main' / 'assets' / 'events.json'
 UA = {'User-Agent': 'Mozilla/5.0 (compatible; BarajyqBot/0.2; +https://github.com/hexusArgon)'}
 
@@ -31,6 +32,7 @@ def interest_for(kind: str) -> str:
     return {
         'standup': 'STANDUP', 'quiz': 'STANDUP', 'sport': 'SPORT',
         'venue': 'THEATER', 'afisha': 'FESTIVALS',
+        'bar': 'BARS', 'museum': 'EXHIBITIONS', 'concert': 'CONCERTS', 'it': 'IT', 'cultural': 'FESTIVALS', 'dance': 'FESTIVALS',
     }.get(kind, 'FREE')
 
 def parse_imginn(handle: str) -> list[dict]:
@@ -82,7 +84,7 @@ def main():
                 'placeRu': handle,
                 'placeKk': handle,
                 'placeEn': handle,
-                'address': 'Астана' if acc.get('city') == 'astana' else acc.get('city', ''),
+                'address': CITY_NAMES.get(acc.get('city', 'astana'), ''),
                 'price': None,
                 'sourceUrl': ig_url + '#' + eid,
                 'sourceName': f'Instagram @{handle}',

@@ -65,6 +65,16 @@ struct SignInView: View {
                 .clipShape(RoundedRectangle(cornerRadius: 16))
                 .disabled(loading)
 
+                Button {
+                    session.signIn(userId: "guest", provider: .guest, email: nil, displayName: nil)
+                } label: {
+                    Text(session.t("signin_guest")).font(.body.weight(.medium)).frame(maxWidth: .infinity, minHeight: 48)
+                }
+                .buttonStyle(.plain)
+                .foregroundColor(Palette.primary)
+                .padding(.top, 8)
+                .disabled(loading)
+
                 if let error {
                     Text(error).font(.footnote).foregroundColor(Palette.error).multilineTextAlignment(.center).padding(.top, 12)
                 }

@@ -98,7 +98,8 @@ struct UserProfile: Equatable {
 }
 
 enum AuthProvider: String {
-    case google, apple
+    /// guest = continued without signing in (the app works fully without an account).
+    case google, apple, guest
 }
 
 /// One afisha item (event or place). Titles / venues in all three UI languages.
@@ -128,6 +129,9 @@ struct EventCard: Identifiable, Hashable {
     /// Venue coordinates for the 2GIS route deep link (nil → search by address/name).
     var lat: Double? = nil
     var lon: Double? = nil
+    /// Structured dates from the remote/bundled feed (nil for demo items and places): drives auto-hiding of ended events.
+    var schedule: EventSchedule? = nil
+    var imageUrl: String? = nil
 
     func title(_ lang: AppLanguage?) -> String { pick(lang, kk: titleKk, ru: titleRu, en: titleEn) }
     func place(_ lang: AppLanguage?) -> String { pick(lang, kk: placeKk, ru: placeRu, en: placeEn) }

@@ -75,3 +75,5 @@
 "open_tickets_source" = "Билеттер мен дереккөз";
 "opens_in_browser" = "%1$@ браузерде ашылады";
 "detail_not_found" = "Бұл карточка енді қолжетімсіз.";
+"signin_guest" = "Кірусіз жалғастыру";
+"account_guest" = "Қонақ";
